@@ -216,3 +216,31 @@ UI.renderLearningLoop = function renderLearningLoop(container) {
       <div class="learning-loop__step learning-loop__step--highlight"><span class="learning-loop__num">5</span> Improve</div>
     </div>`;
 };
+
+UI.CategoryTile = function CategoryTile(category, { href, questionCount, postCount }) {
+  const a = document.createElement('a');
+  a.className = 'category-tile';
+  a.href = href;
+  const icon = typeof categoryIconLabel === 'function'
+    ? categoryIconLabel(category.icon)
+    : (category.icon || '').slice(0, 3);
+  a.innerHTML = `
+    <span class="category-tile__icon" aria-hidden="true">${escapeHtml(icon)}</span>
+    <h3 class="category-tile__title">${escapeHtml(category.name)}</h3>
+    <p class="category-tile__meta">${postCount} post${postCount === 1 ? '' : 's'} · ${questionCount} questions</p>`;
+  return a;
+};
+
+UI.PostItem = function PostItem(post, { href, loadedCount }) {
+  const a = document.createElement('a');
+  a.className = 'post-item';
+  a.href = href;
+  const count = loadedCount != null ? loadedCount : post.question_count;
+  a.innerHTML = `
+    <div>
+      <p class="post-item__name">${escapeHtml(post.name)}</p>
+      <p class="post-item__meta">${escapeHtml(post.categoryName || '')}</p>
+    </div>
+    <span class="post-item__count">${count} Qs</span>`;
+  return a;
+};

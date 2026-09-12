@@ -22,23 +22,42 @@ async function initMockPage() {
 }
 
 function renderMockSetup(main) {
-  const exam = DataStore.exams?.exams?.[0];
-  if (!exam) {
+  const exam = getExamConfigForPost();
+  const selected = getSelectedPostMeta();
+  const active = getActiveQuestions().filter(
+    (q) => q.verification_status === 'verified' && q.correct_option,
+  );
+
+  if (!selected && !DataStore.allQuestions.length) {
+    main.innerHTML = `
+      <section class="page-header">
+        <h1>Mock Tests</h1>
+        <p class="page-header__sub">Timed practice under exam conditions.</p>
+      </section>`;
     main.appendChild(UI.EmptyState({
-      title: 'No exams configured',
-      message: 'Exam configuration is missing from data/exams.json.',
+      title: 'No questions available',
+      message: 'Browse a post and load a question bank before starting a mock test.',
+      actionLabel: 'Browse posts',
+      actionUrl: pagesHref('browse.html'),
     }));
     return;
   }
 
-  const counts = exam.allowed_counts || [10, 20, 30, 50, 100];
+  const counts = (exam.allowed_counts || [10, 20, 30, 50, 100]).filter(
+    (c) => c <= Math.max(active.length, 10) || active.length === 0,
+  );
+  const usableCounts = active.length
+    ? counts.filter((c) => c <= active.length)
+    : counts;
+
   main.innerHTML = `
     <section class="page-header">
       <h1>Mock Tests</h1>
       <p class="page-header__sub">${escapeHtml(exam.name)}</p>
     </section>
+    <div id="post-context-slot"></div>
     <div class="card mock-rules">
-      <h2>Test Rules</h2>
+      <h2 class="section-title" style="margin-top:0;">Test Rules</h2>
       <ul class="rules-list">
         <li>Duration: ${exam.duration_minutes} minutes (scaled by question count)</li>
         <li>Marks per question: ${exam.marks_per_question}</li>
@@ -48,21 +67,36 @@ function renderMockSetup(main) {
         <li>Progress is saved — you can resume after refresh</li>
       </ul>
     </div>
+    ${!active.length ? `
+      <div class="card" style="margin:1rem 0;">
+        <p class="empty-inline" style="margin:0;">No verified questions for this selection yet.</p>
+        <div class="cta-row">
+          <a href="${pagesHref('browse.html')}" class="btn btn--secondary btn--sm">Browse posts</a>
+        </div>
+      </div>` : `
     <form id="mock-form" class="filter-form card">
       <div class="form-row">
         <label for="mock-count">Number of questions</label>
         <select id="mock-count" name="count">
-          ${counts.map((c) => `<option value="${c}"${c === exam.default_question_count ? ' selected' : ''}>${c}</option>`).join('')}
+          ${(usableCounts.length ? usableCounts : [Math.min(10, active.length || 10)]).map((c) => `<option value="${c}"${c === exam.default_question_count ? ' selected' : ''}>${c}</option>`).join('')}
         </select>
       </div>
       <button type="submit" class="btn btn--primary btn--block">Start Mock Test</button>
-    </form>`;
+    </form>`}`;
 
-  document.getElementById('mock-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const count = parseInt(document.getElementById('mock-count').value, 10);
-    startMockTest(main, exam, count);
+  renderPostContext(document.getElementById('post-context-slot'), {
+    allowClear: true,
+    onClear: () => renderMockSetup(main),
   });
+
+  const form = document.getElementById('mock-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const count = parseInt(document.getElementById('mock-count').value, 10);
+      startMockTest(main, exam, count);
+    });
+  }
 }
 
 function startMockTest(main, exam, count) {
@@ -209,7 +243,7 @@ function renderActiveTest(main, testState) {
 
 function submitMockTest(main, testState, autoSubmitted) {
   if (mockTimer) mockTimer.stop();
-  const exam = testState.examConfig || DataStore.exams?.exams?.find((e) => e.id === testState.examId);
+  const exam = testState.examConfig || getExamConfigForPost(testState.examId);
   const timeUsed = testState.durationSeconds - (mockTimer ? mockTimer.getRemaining() : 0);
   const scored = scoreTest({
     questionIds: testState.questionIds,

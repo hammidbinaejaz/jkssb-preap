@@ -10,6 +10,7 @@ const STORAGE_KEYS = {
   testHistory: 'jkssb_test_history',
   activeTest: 'jkssb_active_test',
   settings: 'jkssb_settings',
+  selectedPost: 'jkssb_selected_post',
 };
 
 /** @param {string} raw @param {*} fallback */
@@ -168,6 +169,29 @@ function getLatestTestResult() {
   return history.length ? history[0] : null;
 }
 
+/** @returns {{ postId: string, categoryId?: string, name?: string } | null} */
+function loadSelectedPost() {
+  const raw = readKey(STORAGE_KEYS.selectedPost, null);
+  if (!raw) return null;
+  if (typeof raw === 'string') return { postId: raw };
+  return raw.postId ? raw : null;
+}
+
+/** @param {string} postId @param {{ categoryId?: string, name?: string }} [meta] */
+function saveSelectedPost(postId, meta = {}) {
+  return writeKey(STORAGE_KEYS.selectedPost, {
+    postId,
+    categoryId: meta.categoryId || null,
+    name: meta.name || postId,
+  });
+}
+
+function clearSelectedPostStorage() {
+  const store = getStorage();
+  if (!store) return;
+  store.removeItem(STORAGE_KEYS.selectedPost);
+}
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     STORAGE_KEYS,
@@ -190,6 +214,9 @@ if (typeof module !== 'undefined' && module.exports) {
     loadSettings,
     saveSettings,
     getLatestTestResult,
+    loadSelectedPost,
+    saveSelectedPost,
+    clearSelectedPostStorage,
     _bindStorage: (mock) => { globalThis.localStorage = mock; },
   };
 }

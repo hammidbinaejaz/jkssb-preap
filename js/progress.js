@@ -166,47 +166,8 @@ function renderBookmarks(main) {
 }
 
 async function initPyqsPage() {
-  const main = initPage({ pageTitle: 'PYQs', currentNav: 'PYQs' });
-  const dataResult = await initAppData();
-  if (!dataResult.ok) {
-    showDataError(main, dataResult.error);
-    return;
-  }
-  renderPyqs(main);
-}
-
-function renderPyqs(main) {
-  const datasets = DataStore.index?.datasets || [];
-  const base = getBasePath();
-  main.innerHTML = `
-    <section class="page-header">
-      <h1>Past Year / Pattern Questions</h1>
-      <p class="page-header__sub">Available question datasets for JKSSB preparation.</p>
-    </section>
-    <div id="pyqs-list" class="card-list"></div>`;
-
-  const list = document.getElementById('pyqs-list');
-  if (!datasets.length) {
-    list.appendChild(UI.EmptyState({
-      title: 'No datasets available',
-      message: 'Question datasets will appear here once configured in data/index.json.',
-    }));
-    return;
-  }
-
-  datasets.forEach((ds) => {
-    const card = document.createElement('article');
-    card.className = 'dataset-card card';
-    card.innerHTML = `
-      <h3 class="dataset-card__title">${escapeHtml(ds.name)}</h3>
-      <p class="dataset-card__meta">${escapeHtml(ds.subject)} · ${escapeHtml(ds.exam)}</p>
-      <p class="dataset-card__count">${ds.question_count} questions</p>
-      <div class="dataset-card__actions">
-        <a href="${base}pages/practice.html" class="btn btn--primary btn--sm">Practice</a>
-        <a href="${base}pages/mock.html" class="btn btn--secondary btn--sm">Mock Test</a>
-      </div>`;
-    list.appendChild(card);
-  });
+  // PYQs page replaced by Browse — soft redirect
+  window.location.replace(pagesHref('browse.html'));
 }
 
 async function initAdminPage() {
@@ -225,10 +186,16 @@ function renderAdmin(main) {
   main.innerHTML = `
     <section class="page-header">
       <h1>Dataset Health</h1>
-      <p class="page-header__sub">Content validation overview</p>
+      <p class="page-header__sub">Catalog and question-bank validation overview</p>
     </section>
     <div class="stats-grid">
-      <div class="stat-card card"><span class="stat-card__label">Total</span><span class="stat-card__value">${health.total}</span></div>
+      <div class="stat-card card"><span class="stat-card__label">Categories</span><span class="stat-card__value">${health.categories}</span></div>
+      <div class="stat-card card"><span class="stat-card__label">Posts</span><span class="stat-card__value">${health.postsTotal}</span></div>
+      <div class="stat-card card"><span class="stat-card__label">Empty banks</span><span class="stat-card__value">${health.postsEmpty}</span></div>
+      <div class="stat-card card"><span class="stat-card__label">Missing files</span><span class="stat-card__value">${health.postsMissing}</span></div>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card card"><span class="stat-card__label">Total Qs</span><span class="stat-card__value">${health.total}</span></div>
       <div class="stat-card card"><span class="stat-card__label">Verified</span><span class="stat-card__value text-success">${health.statusCounts.verified || 0}</span></div>
       <div class="stat-card card"><span class="stat-card__label">Needs Review</span><span class="stat-card__value">${health.statusCounts.needs_review || 0}</span></div>
       <div class="stat-card card"><span class="stat-card__label">Invalid</span><span class="stat-card__value text-danger">${health.statusCounts.invalid || 0}</span></div>

@@ -27,10 +27,10 @@ function navLink(href, label, current) {
 
 const NAV_ITEMS = [
   { label: 'Home', href: (b) => `${b}index.html`, key: 'Home' },
-  { label: 'Practice', href: (b) => `${b}pages/practice.html`, key: 'Practice' },
+  { label: 'Browse', href: (b) => `${b}pages/browse.html`, key: 'Browse' },
   { label: 'Search', href: (b) => `${b}pages/search.html`, key: 'Search' },
+  { label: 'Practice', href: (b) => `${b}pages/practice.html`, key: 'Practice' },
   { label: 'Mock Tests', href: (b) => `${b}pages/mock.html`, key: 'Mock Tests' },
-  { label: 'PYQs', href: (b) => `${b}pages/pyqs.html`, key: 'PYQs' },
   { label: 'Progress', href: (b) => `${b}pages/progress.html`, key: 'Progress' },
 ];
 
@@ -41,7 +41,7 @@ function renderNav(currentPage) {
     const isActive = currentPage === item.label;
     return `<a href="${item.href(base)}" class="bottom-nav__item${isActive ? ' bottom-nav__item--active' : ''}" aria-label="${item.label}"${isActive ? ' aria-current="page"' : ''}>
       <span class="bottom-nav__icon" aria-hidden="true">${navIcon(item.key)}</span>
-      <span class="bottom-nav__label">${item.label}</span>
+      <span class="bottom-nav__label">${item.key === 'Mock Tests' ? 'Mock' : item.label}</span>
     </a>`;
   }).join('');
 
@@ -61,11 +61,11 @@ function renderNav(currentPage) {
 function navIcon(key) {
   const icons = {
     Home: '⌂',
+    Browse: '☰',
     Practice: '✎',
     Search: '⌕',
     'Mock Tests': '⏱',
-    PYQs: '📄',
-    Progress: '📊',
+    Progress: '◈',
   };
   return icons[key] || '•';
 }
@@ -75,7 +75,7 @@ function renderFooter() {
   return `
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p class="site-footer__text">JKSSB PREP — Exam preparation tool</p>
+        <p class="site-footer__text">JKSSB PREP — Focused exam preparation</p>
         <a href="${base}admin.html" class="site-footer__admin">Admin</a>
       </div>
     </footer>`;
@@ -110,6 +110,58 @@ function showDataError(container, message) {
   }));
 }
 
+/**
+ * Compact strip showing the currently selected post.
+ * @param {HTMLElement} container
+ * @param {{ allowClear?: boolean }} [opts]
+ */
+function renderPostContext(container, opts = {}) {
+  if (!container) return;
+  const meta = typeof getSelectedPostMeta === 'function' ? getSelectedPostMeta() : null;
+  if (!meta) {
+    container.innerHTML = `
+      <div class="post-context">
+        <span class="post-context__label">Post</span>
+        <span class="post-context__name">All posts</span>
+        <a href="${pagesHref('browse.html')}" class="btn btn--ghost btn--sm">Choose a post</a>
+      </div>`;
+    return;
+  }
+  container.innerHTML = `
+    <div class="post-context">
+      <span class="post-context__label">Preparing for</span>
+      <span class="post-context__name">${escapeHtml(meta.name)}</span>
+      <a href="${pagesHref('post.html', { id: meta.id })}" class="btn btn--ghost btn--sm">Post hub</a>
+      <a href="${pagesHref('browse.html')}" class="btn btn--ghost btn--sm">Change</a>
+      ${opts.allowClear ? '<button type="button" class="btn btn--ghost btn--sm" id="clear-post-filter">Clear filter</button>' : ''}
+    </div>`;
+  const clearBtn = container.querySelector('#clear-post-filter');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      clearSelectedPost();
+      renderPostContext(container, opts);
+      if (opts.onClear) opts.onClear();
+    });
+  }
+}
+
+function categoryIconLabel(icon) {
+  const map = {
+    finance: 'Fin',
+    clerical: 'Clr',
+    revenue: 'Rev',
+  };
+  return map[icon] || (icon || 'Cat').slice(0, 3);
+}
+
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { getBasePath, getPagesPath, pagesHref, initPage, initAppData };
+  module.exports = {
+    getBasePath,
+    getPagesPath,
+    pagesHref,
+    initPage,
+    initAppData,
+    renderPostContext,
+    categoryIconLabel,
+  };
 }

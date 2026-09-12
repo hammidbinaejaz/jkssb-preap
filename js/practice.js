@@ -32,12 +32,26 @@ function renderPracticeSetup(main) {
   const difficulties = getDifficulties();
   const params = new URLSearchParams(window.location.search);
   const presetTopic = params.get('topic') || '';
+  const active = getActiveQuestions();
+  const selected = getSelectedPostMeta();
 
   main.innerHTML = `
     <section class="page-header">
       <h1>Practice Mode</h1>
       <p class="page-header__sub">Learning-focused practice with immediate feedback.</p>
     </section>
+    <div id="post-context-slot"></div>
+    ${!active.length ? `
+      <div class="card" style="margin-bottom:1.25rem;">
+        <p class="empty-inline" style="margin:0;">
+          ${selected
+            ? 'No questions loaded for this post yet. Choose another post or wait for the question bank.'
+            : 'No questions available. Browse a post to select your exam focus.'}
+        </p>
+        <div class="cta-row">
+          <a href="${pagesHref('browse.html')}" class="btn btn--secondary btn--sm">Browse posts</a>
+        </div>
+      </div>` : ''}
     <form id="practice-form" class="filter-form card">
       <div class="form-row">
         <label for="filter-subject">Subject</label>
@@ -68,8 +82,13 @@ function renderPracticeSetup(main) {
           <option value="30">30</option>
         </select>
       </div>
-      <button type="submit" class="btn btn--primary btn--block">Start Practice</button>
+      <button type="submit" class="btn btn--primary btn--block"${active.length ? '' : ' disabled'}>Start Practice</button>
     </form>`;
+
+  renderPostContext(document.getElementById('post-context-slot'), {
+    allowClear: true,
+    onClear: () => renderPracticeSetup(main),
+  });
 
   const subjectSelect = document.getElementById('filter-subject');
   subjectSelect.addEventListener('change', () => {
@@ -87,6 +106,7 @@ function renderPracticeSetup(main) {
       topic: fd.get('topic') || undefined,
       difficulty: fd.get('difficulty') || undefined,
       count: parseInt(fd.get('count'), 10) || 10,
+      postId: getSelectedPostId() || undefined,
     };
     const questions = getPracticeQuestions(filters);
     if (!questions.length) {

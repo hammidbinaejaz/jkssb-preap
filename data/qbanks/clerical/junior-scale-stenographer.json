@@ -1,0 +1,4121 @@
+{
+  "post_id": "junior-scale-stenographer",
+  "post_name": "Junior Scale Stenographer",
+  "category": "Clerical",
+  "category_id": "clerical",
+  "question_count": 100,
+  "schema": [
+    "question",
+    "option_a",
+    "option_b",
+    "option_c",
+    "option_d",
+    "correct",
+    "subject",
+    "topic",
+    "year",
+    "source"
+  ],
+  "questions": [
+    {
+      "question_id": "JUNI-001",
+      "question": "If 2=4, 3=9, 4=16 then 5=",
+      "options": [
+        {
+          "id": "A",
+          "text": "25"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Analogy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Analogy"
+      ],
+      "option_a": "25",
+      "option_b": "20",
+      "option_c": "15",
+      "option_d": "10",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-002",
+      "question": "Correct article: ___ honest man",
+      "options": [
+        {
+          "id": "A",
+          "text": "An"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "The"
+        },
+        {
+          "id": "D",
+          "text": "No article"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Articles"
+      ],
+      "option_a": "An",
+      "option_b": "A",
+      "option_c": "The",
+      "option_d": "No article",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-003",
+      "question": "Idiom “Once in a blue moon” means",
+      "options": [
+        {
+          "id": "A",
+          "text": "Very rarely"
+        },
+        {
+          "id": "B",
+          "text": "Very often"
+        },
+        {
+          "id": "C",
+          "text": "Never"
+        },
+        {
+          "id": "D",
+          "text": "Always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Idioms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Idioms"
+      ],
+      "option_a": "Very rarely",
+      "option_b": "Very often",
+      "option_c": "Never",
+      "option_d": "Always",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-004",
+      "question": "Cash book records",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cash transactions"
+        },
+        {
+          "id": "B",
+          "text": "Only credit sales"
+        },
+        {
+          "id": "C",
+          "text": "Only depreciation"
+        },
+        {
+          "id": "D",
+          "text": "Only capital"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Cash Book"
+      ],
+      "option_a": "Cash transactions",
+      "option_b": "Only credit sales",
+      "option_c": "Only depreciation",
+      "option_d": "Only capital",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-005",
+      "question": "Which is an example of system software?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operating System"
+        },
+        {
+          "id": "B",
+          "text": "MS Word"
+        },
+        {
+          "id": "C",
+          "text": "Photoshop"
+        },
+        {
+          "id": "D",
+          "text": "Chrome browser only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "OS",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "OS"
+      ],
+      "option_a": "Operating System",
+      "option_b": "MS Word",
+      "option_c": "Photoshop",
+      "option_d": "Chrome browser only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-006",
+      "question": "Unemployment means",
+      "options": [
+        {
+          "id": "A",
+          "text": "Willing and able persons without jobs"
+        },
+        {
+          "id": "B",
+          "text": "All people without luxury cars"
+        },
+        {
+          "id": "C",
+          "text": "Only seasonal farming"
+        },
+        {
+          "id": "D",
+          "text": "Only student holidays"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Economics",
+      "topic": "Employment",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Economics",
+        "Employment"
+      ],
+      "option_a": "Willing and able persons without jobs",
+      "option_b": "All people without luxury cars",
+      "option_c": "Only seasonal farming",
+      "option_d": "Only student holidays",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-007",
+      "question": "Double entry means",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every debit has a corresponding credit"
+        },
+        {
+          "id": "B",
+          "text": "Single sided entry only"
+        },
+        {
+          "id": "C",
+          "text": "Cash only accounting"
+        },
+        {
+          "id": "D",
+          "text": "No ledgers"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Basics"
+      ],
+      "option_a": "Every debit has a corresponding credit",
+      "option_b": "Single sided entry only",
+      "option_c": "Cash only accounting",
+      "option_d": "No ledgers",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-008",
+      "question": "The Indus river enters India in which region historically linked to J&K?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "Jammu plains"
+        },
+        {
+          "id": "C",
+          "text": "Kathua"
+        },
+        {
+          "id": "D",
+          "text": "Samba"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Ladakh",
+      "option_b": "Jammu plains",
+      "option_c": "Kathua",
+      "option_d": "Samba",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-009",
+      "question": "Article 370 was related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Special status of J&K"
+        },
+        {
+          "id": "B",
+          "text": "GST"
+        },
+        {
+          "id": "C",
+          "text": "Fundamental duties"
+        },
+        {
+          "id": "D",
+          "text": "Emergency provisions only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Polity",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Polity"
+      ],
+      "option_a": "Special status of J&K",
+      "option_b": "GST",
+      "option_c": "Fundamental duties",
+      "option_d": "Emergency provisions only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-010",
+      "question": "Ctrl + S is commonly used to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Save"
+        },
+        {
+          "id": "B",
+          "text": "Copy"
+        },
+        {
+          "id": "C",
+          "text": "Paste"
+        },
+        {
+          "id": "D",
+          "text": "Undo"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Shortcuts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Shortcuts"
+      ],
+      "option_a": "Save",
+      "option_b": "Copy",
+      "option_c": "Paste",
+      "option_d": "Undo",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-011",
+      "question": "She ___ to school every day.",
+      "options": [
+        {
+          "id": "A",
+          "text": "goes"
+        },
+        {
+          "id": "B",
+          "text": "go"
+        },
+        {
+          "id": "C",
+          "text": "going"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Grammar"
+      ],
+      "option_a": "goes",
+      "option_b": "go",
+      "option_c": "going",
+      "option_d": "gone",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-012",
+      "question": "Depreciation is charged on",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixed assets"
+        },
+        {
+          "id": "B",
+          "text": "Current liabilities"
+        },
+        {
+          "id": "C",
+          "text": "Cash only"
+        },
+        {
+          "id": "D",
+          "text": "Stock of stationery only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Depreciation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Depreciation"
+      ],
+      "option_a": "Fixed assets",
+      "option_b": "Current liabilities",
+      "option_c": "Cash only",
+      "option_d": "Stock of stationery only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-013",
+      "question": "Which is an output device?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Printer"
+        },
+        {
+          "id": "B",
+          "text": "Keyboard"
+        },
+        {
+          "id": "C",
+          "text": "Scanner"
+        },
+        {
+          "id": "D",
+          "text": "Microphone"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Hardware"
+      ],
+      "option_a": "Printer",
+      "option_b": "Keyboard",
+      "option_c": "Scanner",
+      "option_d": "Microphone",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-014",
+      "question": "Plural of “mouse” (animal)",
+      "options": [
+        {
+          "id": "A",
+          "text": "mice"
+        },
+        {
+          "id": "B",
+          "text": "mouses"
+        },
+        {
+          "id": "C",
+          "text": "mouse"
+        },
+        {
+          "id": "D",
+          "text": "meese"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Grammar"
+      ],
+      "option_a": "mice",
+      "option_b": "mouses",
+      "option_c": "mouse",
+      "option_d": "meese",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-015",
+      "question": "Journal is a book of",
+      "options": [
+        {
+          "id": "A",
+          "text": "Original entry"
+        },
+        {
+          "id": "B",
+          "text": "Final accounts only"
+        },
+        {
+          "id": "C",
+          "text": "Cost sheet only"
+        },
+        {
+          "id": "D",
+          "text": "Inventory only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Journal"
+      ],
+      "option_a": "Original entry",
+      "option_b": "Final accounts only",
+      "option_c": "Cost sheet only",
+      "option_d": "Inventory only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-016",
+      "question": "Dachigam National Park is known for",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hangul (Kashmir stag)"
+        },
+        {
+          "id": "B",
+          "text": "Asiatic lion"
+        },
+        {
+          "id": "C",
+          "text": "One-horned rhino"
+        },
+        {
+          "id": "D",
+          "text": "Snow leopard only in Rajasthan"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Environment"
+      ],
+      "option_a": "Hangul (Kashmir stag)",
+      "option_b": "Asiatic lion",
+      "option_c": "One-horned rhino",
+      "option_d": "Snow leopard only in Rajasthan",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-017",
+      "question": "Capital is shown on",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liability side of balance sheet (in traditional form)"
+        },
+        {
+          "id": "B",
+          "text": "Asset side only"
+        },
+        {
+          "id": "C",
+          "text": "P&L only"
+        },
+        {
+          "id": "D",
+          "text": "Cash book only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Balance Sheet"
+      ],
+      "option_a": "Liability side of balance sheet (in traditional form)",
+      "option_b": "Asset side only",
+      "option_c": "P&L only",
+      "option_d": "Cash book only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-018",
+      "question": "Calendar: If 1st is Monday, 8th is",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monday"
+        },
+        {
+          "id": "B",
+          "text": "Sunday"
+        },
+        {
+          "id": "C",
+          "text": "Tuesday"
+        },
+        {
+          "id": "D",
+          "text": "Friday"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Calendar",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Calendar"
+      ],
+      "option_a": "Monday",
+      "option_b": "Sunday",
+      "option_c": "Tuesday",
+      "option_d": "Friday",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-019",
+      "question": "Tehsildar is an officer mainly in",
+      "options": [
+        {
+          "id": "A",
+          "text": "Revenue administration"
+        },
+        {
+          "id": "B",
+          "text": "Forest logging only"
+        },
+        {
+          "id": "C",
+          "text": "Postal sorting"
+        },
+        {
+          "id": "D",
+          "text": "Airport security only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Revenue",
+      "topic": "Administration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Revenue",
+        "Administration"
+      ],
+      "option_a": "Revenue administration",
+      "option_b": "Forest logging only",
+      "option_c": "Postal sorting",
+      "option_d": "Airport security only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-020",
+      "question": "Simple interest formula is",
+      "options": [
+        {
+          "id": "A",
+          "text": "(P×R×T)/100"
+        },
+        {
+          "id": "B",
+          "text": "P×R×T"
+        },
+        {
+          "id": "C",
+          "text": "P+R+T"
+        },
+        {
+          "id": "D",
+          "text": "PRT/10"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "SI",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "SI"
+      ],
+      "option_a": "(P×R×T)/100",
+      "option_b": "P×R×T",
+      "option_c": "P+R+T",
+      "option_d": "PRT/10",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-021",
+      "question": "Audit aims to examine",
+      "options": [
+        {
+          "id": "A",
+          "text": "Financial statements and controls"
+        },
+        {
+          "id": "B",
+          "text": "Only HR policies"
+        },
+        {
+          "id": "C",
+          "text": "Only marketing plans"
+        },
+        {
+          "id": "D",
+          "text": "Only production schedules"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Audit",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Audit"
+      ],
+      "option_a": "Financial statements and controls",
+      "option_b": "Only HR policies",
+      "option_c": "Only marketing plans",
+      "option_d": "Only production schedules",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-022",
+      "question": "Panchayat election is conducted under",
+      "options": [
+        {
+          "id": "A",
+          "text": "State election framework for local bodies"
+        },
+        {
+          "id": "B",
+          "text": "Lok Sabha rules only"
+        },
+        {
+          "id": "C",
+          "text": "Rajya Sabha rules only"
+        },
+        {
+          "id": "D",
+          "text": "RBI guidelines"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Rural Development",
+      "topic": "Panchayati Raj",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Rural Development",
+        "Panchayati Raj"
+      ],
+      "option_a": "State election framework for local bodies",
+      "option_b": "Lok Sabha rules only",
+      "option_c": "Rajya Sabha rules only",
+      "option_d": "RBI guidelines",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-023",
+      "question": "Which extension is common for Excel files?",
+      "options": [
+        {
+          "id": "A",
+          "text": "xlsx"
+        },
+        {
+          "id": "B",
+          "text": "docx"
+        },
+        {
+          "id": "C",
+          "text": "pptx"
+        },
+        {
+          "id": "D",
+          "text": "pdf only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "MS Office",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "MS Office"
+      ],
+      "option_a": "xlsx",
+      "option_b": "docx",
+      "option_c": "pptx",
+      "option_d": "pdf only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-024",
+      "question": "Inflation means",
+      "options": [
+        {
+          "id": "A",
+          "text": "General rise in price level"
+        },
+        {
+          "id": "B",
+          "text": "Fall in prices only"
+        },
+        {
+          "id": "C",
+          "text": "Increase in employment only"
+        },
+        {
+          "id": "D",
+          "text": "Increase in exports only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Economics",
+      "topic": "Inflation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Economics",
+        "Inflation"
+      ],
+      "option_a": "General rise in price level",
+      "option_b": "Fall in prices only",
+      "option_c": "Increase in employment only",
+      "option_d": "Increase in exports only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-025",
+      "question": "IP address identifies a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Device on a network"
+        },
+        {
+          "id": "B",
+          "text": "Hard disk brand"
+        },
+        {
+          "id": "C",
+          "text": "Printer ink type"
+        },
+        {
+          "id": "D",
+          "text": "Monitor size"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Internet"
+      ],
+      "option_a": "Device on a network",
+      "option_b": "Hard disk brand",
+      "option_c": "Printer ink type",
+      "option_d": "Monitor size",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-026",
+      "question": "The language Dogri is primarily associated with",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu region"
+        },
+        {
+          "id": "B",
+          "text": "Kerala"
+        },
+        {
+          "id": "C",
+          "text": "Assam"
+        },
+        {
+          "id": "D",
+          "text": "Goa"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Jammu region",
+      "option_b": "Kerala",
+      "option_c": "Assam",
+      "option_d": "Goa",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-027",
+      "question": "Indirect tax example",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST"
+        },
+        {
+          "id": "B",
+          "text": "Income tax"
+        },
+        {
+          "id": "C",
+          "text": "Corporate tax on profits only"
+        },
+        {
+          "id": "D",
+          "text": "Wealth tax only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Taxation"
+      ],
+      "option_a": "GST",
+      "option_b": "Income tax",
+      "option_c": "Corporate tax on profits only",
+      "option_d": "Wealth tax only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-028",
+      "question": "A firewall is used for",
+      "options": [
+        {
+          "id": "A",
+          "text": "Network security"
+        },
+        {
+          "id": "B",
+          "text": "Printing"
+        },
+        {
+          "id": "C",
+          "text": "Word processing"
+        },
+        {
+          "id": "D",
+          "text": "Scanning photos"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Security",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Security"
+      ],
+      "option_a": "Network security",
+      "option_b": "Printing",
+      "option_c": "Word processing",
+      "option_d": "Scanning photos",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-029",
+      "question": "Shankaracharya Temple is located in",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Anantnag"
+        },
+        {
+          "id": "D",
+          "text": "Baramulla"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Srinagar",
+      "option_b": "Jammu",
+      "option_c": "Anantnag",
+      "option_d": "Baramulla",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-030",
+      "question": "If all books are pens and some pens are pencils, then",
+      "options": [
+        {
+          "id": "A",
+          "text": "Some books may be pencils"
+        },
+        {
+          "id": "B",
+          "text": "All pencils are books"
+        },
+        {
+          "id": "C",
+          "text": "No pen is a book"
+        },
+        {
+          "id": "D",
+          "text": "All books are pencils"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Syllogism",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Syllogism"
+      ],
+      "option_a": "Some books may be pencils",
+      "option_b": "All pencils are books",
+      "option_c": "No pen is a book",
+      "option_d": "All books are pencils",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-031",
+      "question": "Anganwadi is associated with",
+      "options": [
+        {
+          "id": "A",
+          "text": "ICDS / child & mother welfare services"
+        },
+        {
+          "id": "B",
+          "text": "Highway construction"
+        },
+        {
+          "id": "C",
+          "text": "Stock markets"
+        },
+        {
+          "id": "D",
+          "text": "Defence production"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Rural Development",
+      "topic": "Schemes",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Rural Development",
+        "Schemes"
+      ],
+      "option_a": "ICDS / child & mother welfare services",
+      "option_b": "Highway construction",
+      "option_c": "Stock markets",
+      "option_d": "Defence production",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-032",
+      "question": "CC in email means",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carbon Copy"
+        },
+        {
+          "id": "B",
+          "text": "Computer Copy"
+        },
+        {
+          "id": "C",
+          "text": "Central Copy"
+        },
+        {
+          "id": "D",
+          "text": "Cached Copy"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Internet"
+      ],
+      "option_a": "Carbon Copy",
+      "option_b": "Computer Copy",
+      "option_c": "Central Copy",
+      "option_d": "Cached Copy",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-033",
+      "question": "Settlement operations in revenue relate to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survey and assessment of land"
+        },
+        {
+          "id": "B",
+          "text": "Fixing railway fares"
+        },
+        {
+          "id": "C",
+          "text": "Setting GST rates only"
+        },
+        {
+          "id": "D",
+          "text": "Issuing PAN cards"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Revenue",
+      "topic": "Settlement",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Revenue",
+        "Settlement"
+      ],
+      "option_a": "Survey and assessment of land",
+      "option_b": "Fixing railway fares",
+      "option_c": "Setting GST rates only",
+      "option_d": "Issuing PAN cards",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-034",
+      "question": "Ladakh became a separate UT in",
+      "options": [
+        {
+          "id": "A",
+          "text": "2019"
+        },
+        {
+          "id": "B",
+          "text": "2014"
+        },
+        {
+          "id": "C",
+          "text": "2002"
+        },
+        {
+          "id": "D",
+          "text": "2021"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Polity",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Polity"
+      ],
+      "option_a": "2019",
+      "option_b": "2014",
+      "option_c": "2002",
+      "option_d": "2021",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-035",
+      "question": "Which storage is typically non-volatile?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ROM"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "Cache only"
+        },
+        {
+          "id": "D",
+          "text": "Registers only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Memory",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Memory"
+      ],
+      "option_a": "ROM",
+      "option_b": "RAM",
+      "option_c": "Cache only",
+      "option_d": "Registers only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-036",
+      "question": "Average of first 5 natural numbers",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "2.5"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Average",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Average"
+      ],
+      "option_a": "3",
+      "option_b": "2.5",
+      "option_c": "4",
+      "option_d": "5",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-037",
+      "question": "Mausoleum of Sheikh Noor-ud-din Noorani is at",
+      "options": [
+        {
+          "id": "A",
+          "text": "Charar-e-Sharief"
+        },
+        {
+          "id": "B",
+          "text": "Hazratbal"
+        },
+        {
+          "id": "C",
+          "text": "Jammu"
+        },
+        {
+          "id": "D",
+          "text": "Leh"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Charar-e-Sharief",
+      "option_b": "Hazratbal",
+      "option_c": "Jammu",
+      "option_d": "Leh",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-038",
+      "question": "Phishing is related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyber fraud / fake emails"
+        },
+        {
+          "id": "B",
+          "text": "Printer failure"
+        },
+        {
+          "id": "C",
+          "text": "CPU overheating"
+        },
+        {
+          "id": "D",
+          "text": "Disk formatting"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Security",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Security"
+      ],
+      "option_a": "Cyber fraud / fake emails",
+      "option_b": "Printer failure",
+      "option_c": "CPU overheating",
+      "option_d": "Disk formatting",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-039",
+      "question": "Series: 7, 14, 28, 56, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "112"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "98"
+        },
+        {
+          "id": "D",
+          "text": "84"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Series",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Series"
+      ],
+      "option_a": "112",
+      "option_b": "100",
+      "option_c": "98",
+      "option_d": "84",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-040",
+      "question": "Tawi river flows through",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Kupwara"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Jammu",
+      "option_b": "Srinagar",
+      "option_c": "Leh",
+      "option_d": "Kupwara",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-041",
+      "question": "Opposite of North-East is",
+      "options": [
+        {
+          "id": "A",
+          "text": "South-West"
+        },
+        {
+          "id": "B",
+          "text": "North-West"
+        },
+        {
+          "id": "C",
+          "text": "South-East"
+        },
+        {
+          "id": "D",
+          "text": "East"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Direction",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Direction"
+      ],
+      "option_a": "South-West",
+      "option_b": "North-West",
+      "option_c": "South-East",
+      "option_d": "East",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-042",
+      "question": "15% of 200 =",
+      "options": [
+        {
+          "id": "A",
+          "text": "30"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Percentage",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Percentage"
+      ],
+      "option_a": "30",
+      "option_b": "20",
+      "option_c": "25",
+      "option_d": "35",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-043",
+      "question": "Discount of 10% on 500 is",
+      "options": [
+        {
+          "id": "A",
+          "text": "50"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Percentage",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Percentage"
+      ],
+      "option_a": "50",
+      "option_b": "40",
+      "option_c": "60",
+      "option_d": "100",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-044",
+      "question": "Odd one out: pen, pencil, eraser, apple",
+      "options": [
+        {
+          "id": "A",
+          "text": "apple"
+        },
+        {
+          "id": "B",
+          "text": "pen"
+        },
+        {
+          "id": "C",
+          "text": "pencil"
+        },
+        {
+          "id": "D",
+          "text": "eraser"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Classification",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Classification"
+      ],
+      "option_a": "apple",
+      "option_b": "pen",
+      "option_c": "pencil",
+      "option_d": "eraser",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-045",
+      "question": "Money is anything that",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acts as medium of exchange"
+        },
+        {
+          "id": "B",
+          "text": "Is only gold"
+        },
+        {
+          "id": "C",
+          "text": "Is only paper"
+        },
+        {
+          "id": "D",
+          "text": "Cannot store value"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Economics",
+      "topic": "Money",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Economics",
+        "Money"
+      ],
+      "option_a": "Acts as medium of exchange",
+      "option_b": "Is only gold",
+      "option_c": "Is only paper",
+      "option_d": "Cannot store value",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-046",
+      "question": "Choose correct spelling",
+      "options": [
+        {
+          "id": "A",
+          "text": "Necessary"
+        },
+        {
+          "id": "B",
+          "text": "Neccessary"
+        },
+        {
+          "id": "C",
+          "text": "Necesary"
+        },
+        {
+          "id": "D",
+          "text": "Neceserry"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Spelling",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Spelling"
+      ],
+      "option_a": "Necessary",
+      "option_b": "Neccessary",
+      "option_c": "Necesary",
+      "option_d": "Neceserry",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-047",
+      "question": "MS Access is mainly a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Database management system"
+        },
+        {
+          "id": "B",
+          "text": "Video editor"
+        },
+        {
+          "id": "C",
+          "text": "Web browser"
+        },
+        {
+          "id": "D",
+          "text": "Antivirus"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "MS Office",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "MS Office"
+      ],
+      "option_a": "Database management system",
+      "option_b": "Video editor",
+      "option_c": "Web browser",
+      "option_d": "Antivirus",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-048",
+      "question": "Hari Parbat fort is associated with",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Poonch"
+        },
+        {
+          "id": "D",
+          "text": "Kargil"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "History",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "History"
+      ],
+      "option_a": "Srinagar",
+      "option_b": "Jammu",
+      "option_c": "Poonch",
+      "option_d": "Kargil",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-049",
+      "question": "Direct materials + Direct labour + Direct expenses =",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prime cost"
+        },
+        {
+          "id": "B",
+          "text": "Factory cost"
+        },
+        {
+          "id": "C",
+          "text": "Cost of sales"
+        },
+        {
+          "id": "D",
+          "text": "Overheads"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accounts",
+      "topic": "Costing",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Accounts",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Accounts",
+        "Costing"
+      ],
+      "option_a": "Prime cost",
+      "option_b": "Factory cost",
+      "option_c": "Cost of sales",
+      "option_d": "Overheads",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-050",
+      "question": "The brain of the computer is",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "Monitor"
+        },
+        {
+          "id": "C",
+          "text": "Keyboard"
+        },
+        {
+          "id": "D",
+          "text": "Mouse"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Hardware"
+      ],
+      "option_a": "CPU",
+      "option_b": "Monitor",
+      "option_c": "Keyboard",
+      "option_d": "Mouse",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-051",
+      "question": "Mutation fee is related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Updating land ownership records"
+        },
+        {
+          "id": "B",
+          "text": "Buying stamps for letters"
+        },
+        {
+          "id": "C",
+          "text": "Passport renewal"
+        },
+        {
+          "id": "D",
+          "text": "Driving licence only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Revenue",
+      "topic": "Land Records",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Revenue",
+        "Land Records"
+      ],
+      "option_a": "Updating land ownership records",
+      "option_b": "Buying stamps for letters",
+      "option_c": "Passport renewal",
+      "option_d": "Driving licence only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-052",
+      "question": "He is ___ than his brother.",
+      "options": [
+        {
+          "id": "A",
+          "text": "taller"
+        },
+        {
+          "id": "B",
+          "text": "tallest"
+        },
+        {
+          "id": "C",
+          "text": "more taller"
+        },
+        {
+          "id": "D",
+          "text": "tall"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Grammar"
+      ],
+      "option_a": "taller",
+      "option_b": "tallest",
+      "option_c": "more taller",
+      "option_d": "tall",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-053",
+      "question": "Antonym of “Ancient”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Modern"
+        },
+        {
+          "id": "B",
+          "text": "Old"
+        },
+        {
+          "id": "C",
+          "text": "Historic"
+        },
+        {
+          "id": "D",
+          "text": "Antique"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Vocabulary"
+      ],
+      "option_a": "Modern",
+      "option_b": "Old",
+      "option_c": "Historic",
+      "option_d": "Antique",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-054",
+      "question": "USB stands for",
+      "options": [
+        {
+          "id": "A",
+          "text": "Universal Serial Bus"
+        },
+        {
+          "id": "B",
+          "text": "United Serial Bus"
+        },
+        {
+          "id": "C",
+          "text": "Ultra Speed Bus"
+        },
+        {
+          "id": "D",
+          "text": "Universal System Board"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Basics"
+      ],
+      "option_a": "Universal Serial Bus",
+      "option_b": "United Serial Bus",
+      "option_c": "Ultra Speed Bus",
+      "option_d": "Universal System Board",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-055",
+      "question": "Ratio 3:5 means",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 parts to 5 parts"
+        },
+        {
+          "id": "B",
+          "text": "3×5"
+        },
+        {
+          "id": "C",
+          "text": "3+5"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Ratio",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Ratio"
+      ],
+      "option_a": "3 parts to 5 parts",
+      "option_b": "3×5",
+      "option_c": "3+5",
+      "option_d": "35",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-056",
+      "question": "Village Chowkidar traditionally assisted in",
+      "options": [
+        {
+          "id": "A",
+          "text": "Village watch and ward / local reporting"
+        },
+        {
+          "id": "B",
+          "text": "Income tax raids only"
+        },
+        {
+          "id": "C",
+          "text": "Bank audits"
+        },
+        {
+          "id": "D",
+          "text": "Court stenography"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Revenue",
+      "topic": "Village Administration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Revenue",
+        "Village Administration"
+      ],
+      "option_a": "Village watch and ward / local reporting",
+      "option_b": "Income tax raids only",
+      "option_c": "Bank audits",
+      "option_d": "Court stenography",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-057",
+      "question": "Booting means",
+      "options": [
+        {
+          "id": "A",
+          "text": "Starting the computer"
+        },
+        {
+          "id": "B",
+          "text": "Shutting down only"
+        },
+        {
+          "id": "C",
+          "text": "Deleting files"
+        },
+        {
+          "id": "D",
+          "text": "Installing antivirus only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "OS",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "OS"
+      ],
+      "option_a": "Starting the computer",
+      "option_b": "Shutting down only",
+      "option_c": "Deleting files",
+      "option_d": "Installing antivirus only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-058",
+      "question": "A is taller than B but shorter than C. Who is tallest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "B"
+        },
+        {
+          "id": "D",
+          "text": "Cannot say"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Ordering",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Ordering"
+      ],
+      "option_a": "C",
+      "option_b": "A",
+      "option_c": "B",
+      "option_d": "Cannot say",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-059",
+      "question": "If SP = CP, profit is",
+      "options": [
+        {
+          "id": "A",
+          "text": "0%"
+        },
+        {
+          "id": "B",
+          "text": "10%"
+        },
+        {
+          "id": "C",
+          "text": "100%"
+        },
+        {
+          "id": "D",
+          "text": "50%"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Profit & Loss",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Profit & Loss"
+      ],
+      "option_a": "0%",
+      "option_b": "10%",
+      "option_c": "100%",
+      "option_d": "50%",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-060",
+      "question": "Fiscal policy is related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Government taxation and expenditure"
+        },
+        {
+          "id": "B",
+          "text": "Only bank rates"
+        },
+        {
+          "id": "C",
+          "text": "Only foreign exchange"
+        },
+        {
+          "id": "D",
+          "text": "Only population"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Economics",
+      "topic": "Fiscal Policy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Economics",
+        "Fiscal Policy"
+      ],
+      "option_a": "Government taxation and expenditure",
+      "option_b": "Only bank rates",
+      "option_c": "Only foreign exchange",
+      "option_d": "Only population",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-061",
+      "question": "Which lake is Asia’s largest freshwater lake (often cited for Kashmir)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wular Lake"
+        },
+        {
+          "id": "B",
+          "text": "Dal Lake"
+        },
+        {
+          "id": "C",
+          "text": "Pangong"
+        },
+        {
+          "id": "D",
+          "text": "Chilika"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Wular Lake",
+      "option_b": "Dal Lake",
+      "option_c": "Pangong",
+      "option_d": "Chilika",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-062",
+      "question": "Cube of 4 is",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Numbers"
+      ],
+      "option_a": "64",
+      "option_b": "16",
+      "option_c": "12",
+      "option_d": "8",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-063",
+      "question": "2/5 of 100 =",
+      "options": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Fractions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Fractions"
+      ],
+      "option_a": "40",
+      "option_b": "20",
+      "option_c": "50",
+      "option_d": "60",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-064",
+      "question": "Choose synonym of “Rapid”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quick"
+        },
+        {
+          "id": "B",
+          "text": "Slow"
+        },
+        {
+          "id": "C",
+          "text": "Late"
+        },
+        {
+          "id": "D",
+          "text": "Dull"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Vocabulary"
+      ],
+      "option_a": "Quick",
+      "option_b": "Slow",
+      "option_c": "Late",
+      "option_d": "Dull",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-065",
+      "question": "Lidder river is a tributary of",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jhelum"
+        },
+        {
+          "id": "B",
+          "text": "Chenab"
+        },
+        {
+          "id": "C",
+          "text": "Ravi"
+        },
+        {
+          "id": "D",
+          "text": "Indus"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Jhelum",
+      "option_b": "Chenab",
+      "option_c": "Ravi",
+      "option_d": "Indus",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-066",
+      "question": "Which pass connects Srinagar with Leh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zoji La"
+        },
+        {
+          "id": "B",
+          "text": "Banihal"
+        },
+        {
+          "id": "C",
+          "text": "Pir Panjal"
+        },
+        {
+          "id": "D",
+          "text": "Nathu La"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Zoji La",
+      "option_b": "Banihal",
+      "option_c": "Pir Panjal",
+      "option_d": "Nathu La",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-067",
+      "question": "Perimeter of square side 5 cm",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 cm"
+        },
+        {
+          "id": "B",
+          "text": "10 cm"
+        },
+        {
+          "id": "C",
+          "text": "25 cm"
+        },
+        {
+          "id": "D",
+          "text": "15 cm"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Mensuration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Mensuration"
+      ],
+      "option_a": "20 cm",
+      "option_b": "10 cm",
+      "option_c": "25 cm",
+      "option_d": "15 cm",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-068",
+      "question": "Speed 60 km/h for 2 hours covers",
+      "options": [
+        {
+          "id": "A",
+          "text": "120 km"
+        },
+        {
+          "id": "B",
+          "text": "60 km"
+        },
+        {
+          "id": "C",
+          "text": "90 km"
+        },
+        {
+          "id": "D",
+          "text": "100 km"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "TSD",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "TSD"
+      ],
+      "option_a": "120 km",
+      "option_b": "60 km",
+      "option_c": "90 km",
+      "option_d": "100 km",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-069",
+      "question": "Google Chrome is a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Web browser"
+        },
+        {
+          "id": "B",
+          "text": "Spreadsheet"
+        },
+        {
+          "id": "C",
+          "text": "Database"
+        },
+        {
+          "id": "D",
+          "text": "Compiler"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Internet"
+      ],
+      "option_a": "Web browser",
+      "option_b": "Spreadsheet",
+      "option_c": "Database",
+      "option_d": "Compiler",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-070",
+      "question": "Jamabandi is related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Land record / record of rights"
+        },
+        {
+          "id": "B",
+          "text": "Railway timetable"
+        },
+        {
+          "id": "C",
+          "text": "Weather forecast"
+        },
+        {
+          "id": "D",
+          "text": "Election manifesto"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Revenue",
+      "topic": "Land Records",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Revenue",
+        "Land Records"
+      ],
+      "option_a": "Land record / record of rights",
+      "option_b": "Railway timetable",
+      "option_c": "Weather forecast",
+      "option_d": "Election manifesto",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-071",
+      "question": "If TODAY is coded as UPEBZ, then LATER is coded as",
+      "options": [
+        {
+          "id": "A",
+          "text": "MBUFS"
+        },
+        {
+          "id": "B",
+          "text": "KZSDQ"
+        },
+        {
+          "id": "C",
+          "text": "MBUES"
+        },
+        {
+          "id": "D",
+          "text": "LAUES"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Coding",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Coding"
+      ],
+      "option_a": "MBUFS",
+      "option_b": "KZSDQ",
+      "option_c": "MBUES",
+      "option_d": "LAUES",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-072",
+      "question": "“Look down upon” means",
+      "options": [
+        {
+          "id": "A",
+          "text": "To despise / consider inferior"
+        },
+        {
+          "id": "B",
+          "text": "To search"
+        },
+        {
+          "id": "C",
+          "text": "To admire"
+        },
+        {
+          "id": "D",
+          "text": "To climb"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Idioms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Idioms"
+      ],
+      "option_a": "To despise / consider inferior",
+      "option_b": "To search",
+      "option_c": "To admire",
+      "option_d": "To climb",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-073",
+      "question": "Vaishno Devi shrine is in which district?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reasi"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Udhampur"
+        },
+        {
+          "id": "D",
+          "text": "Kathua"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Reasi",
+      "option_b": "Jammu",
+      "option_c": "Udhampur",
+      "option_d": "Kathua",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-074",
+      "question": "The winter capital of J&K UT administration traditionally shifts to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Katra"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Jammu",
+      "option_b": "Srinagar",
+      "option_c": "Leh",
+      "option_d": "Katra",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-075",
+      "question": "LAN stands for",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local Area Network"
+        },
+        {
+          "id": "B",
+          "text": "Large Area Network"
+        },
+        {
+          "id": "C",
+          "text": "Long Access Node"
+        },
+        {
+          "id": "D",
+          "text": "Logical Area Net"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Networking",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Networking"
+      ],
+      "option_a": "Local Area Network",
+      "option_b": "Large Area Network",
+      "option_c": "Long Access Node",
+      "option_d": "Logical Area Net",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-076",
+      "question": "Find missing: 8, 27, 64, 125, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "216"
+        },
+        {
+          "id": "B",
+          "text": "200"
+        },
+        {
+          "id": "C",
+          "text": "180"
+        },
+        {
+          "id": "D",
+          "text": "243"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Series",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Series"
+      ],
+      "option_a": "216",
+      "option_b": "200",
+      "option_c": "180",
+      "option_d": "243",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-077",
+      "question": "Karakoram Range lies to the",
+      "options": [
+        {
+          "id": "A",
+          "text": "North of Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "South of Kerala"
+        },
+        {
+          "id": "C",
+          "text": "East of Odisha"
+        },
+        {
+          "id": "D",
+          "text": "West of Gujarat"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / J&K GK",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "North of Ladakh",
+      "option_b": "South of Kerala",
+      "option_c": "East of Odisha",
+      "option_d": "West of Gujarat",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-078",
+      "question": "14th Finance Commission is related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devolution of finances"
+        },
+        {
+          "id": "B",
+          "text": "Land mutation only"
+        },
+        {
+          "id": "C",
+          "text": "Forest rights only"
+        },
+        {
+          "id": "D",
+          "text": "Police reforms only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Rural Development",
+      "topic": "Finance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Rural Development",
+        "Finance"
+      ],
+      "option_a": "Devolution of finances",
+      "option_b": "Land mutation only",
+      "option_c": "Forest rights only",
+      "option_d": "Police reforms only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-079",
+      "question": "One who loves books is a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bibliophile"
+        },
+        {
+          "id": "B",
+          "text": "Philanthropist"
+        },
+        {
+          "id": "C",
+          "text": "Optimist"
+        },
+        {
+          "id": "D",
+          "text": "Atheist"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Vocabulary"
+      ],
+      "option_a": "Bibliophile",
+      "option_b": "Philanthropist",
+      "option_c": "Optimist",
+      "option_d": "Atheist",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-080",
+      "question": "Demand curve generally slopes",
+      "options": [
+        {
+          "id": "A",
+          "text": "Downwards from left to right"
+        },
+        {
+          "id": "B",
+          "text": "Upwards always"
+        },
+        {
+          "id": "C",
+          "text": "Horizontally always"
+        },
+        {
+          "id": "D",
+          "text": "Vertically always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Economics",
+      "topic": "Demand",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Economics",
+        "Demand"
+      ],
+      "option_a": "Downwards from left to right",
+      "option_b": "Upwards always",
+      "option_c": "Horizontally always",
+      "option_d": "Vertically always",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-081",
+      "question": "A byte consists of how many bits?",
+      "options": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "32"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Computer",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Basics"
+      ],
+      "option_a": "8",
+      "option_b": "4",
+      "option_c": "16",
+      "option_d": "32",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-082",
+      "question": "HCF of 12 and 18 is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "LCM-HCF",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Arithmetic",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "LCM-HCF"
+      ],
+      "option_a": "6",
+      "option_b": "3",
+      "option_c": "9",
+      "option_d": "12",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-083",
+      "question": "“The Sun rises in the east and sets in ___ west.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "the"
+        },
+        {
+          "id": "B",
+          "text": "a"
+        },
+        {
+          "id": "C",
+          "text": "an"
+        },
+        {
+          "id": "D",
+          "text": "no article"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB FAA 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Articles"
+      ],
+      "option_a": "the",
+      "option_b": "a",
+      "option_c": "an",
+      "option_d": "no article",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-084",
+      "question": "Geography 1. Odisha 2. Kerala 3. Gujarat 4. Andhra Pradesh 5. Tamil Nadu Choose the correct option:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2, 5, 4, 3"
+        },
+        {
+          "id": "B",
+          "text": "2, 1, 5, 4, 3"
+        },
+        {
+          "id": "C",
+          "text": "3, 5, 4, 1, 2"
+        },
+        {
+          "id": "D",
+          "text": "3, 4, 1, 2, 5 To arrange these states in ascending order (from the shortest coastline to the longest), we look at the official maritime data for mainland India: 1. Odisha (1): Has a coastline of approximately 480 km. 2. Kerala (2): Has a coastline of approximately 590 km. 3. Tamil Nadu (5): Has a coastline of approximately 907 km. 4. Andhra Pradesh (4): Has a coastline of approximately 974 km (the second-longest in India). 5. Gujarat (3): Has the longest coastline in India, stretching approximately 1,215 km (excluding islands). 1. The Sundarbans are mangrove forest, on the delta of the Ganges, Brahmaputra and Meghna rivers on the Bay of Bengal. 2. The Sundarban National Park is listed under the World Heritage Marine Programme. Which of the statements given above is/are correct? A 1 only B 2 only C Both 1 and 2 D Neither 1 nor 2"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Awareness",
+      "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "General Awareness",
+        "General Awareness"
+      ],
+      "option_a": "1, 2, 5, 4, 3",
+      "option_b": "2, 1, 5, 4, 3",
+      "option_c": "3, 5, 4, 1, 2",
+      "option_d": "3, 4, 1, 2, 5 To arrange these states in ascending order (from the shortest coastline to the longest), we look at the official maritime data for mainland India: 1. Odisha (1): Has a coastline of approximately 480 km. 2. Kerala (2): Has a coastline of approximately 590 km. 3. Tamil Nadu (5): Has a coastline of approximately 907 km. 4. Andhra Pradesh (4): Has a coastline of approximately 974 km (the second-longest in India). 5. Gujarat (3): Has the longest coastline in India, stretching approximately 1,215 km (excluding islands). 1. The Sundarbans are mangrove forest, on the delta of the Ganges, Brahmaputra and Meghna rivers on the Bay of Bengal. 2. The Sundarban National Park is listed under the World Heritage Marine Programme. Which of the statements given above is/are correct? A 1 only B 2 only C Both 1 and 2 D Neither 1 nor 2",
+      "correct": "C"
+    },
+    {
+      "question_id": "JUNI-085",
+      "question": "MICR is mostly used in banks to process cheques by reading:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Magnetic encoding on cheques"
+        },
+        {
+          "id": "B",
+          "text": "Barcodes on cheques"
+        },
+        {
+          "id": "C",
+          "text": "QR codes on cheques"
+        },
+        {
+          "id": "D",
+          "text": "RFID chips on cheques"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Hardware"
+      ],
+      "option_a": "Magnetic encoding on cheques",
+      "option_b": "Barcodes on cheques",
+      "option_c": "QR codes on cheques",
+      "option_d": "RFID chips on cheques",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-086",
+      "question": "Statement 2 (Incorrect): The Bodo (Boro) people are an ethnolinguistic group primarily inhabiting the state of Assam. They are the largest minority group in Assam and have a dedicated autonomous region known as the Bodoland Territorial Region (BTR). They are not a primary indigenous group of Manipur. Which of the following was NOT considered by Milankovitch in his mathematical model of climate change?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Change in the angle of inclination of the earth"
+        },
+        {
+          "id": "B",
+          "text": "Change in the eccentricity of the earth's orbit"
+        },
+        {
+          "id": "C",
+          "text": "Precession of equinoxes"
+        },
+        {
+          "id": "D",
+          "text": "Changes in the rate of rotation of earth on its axis"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Awareness",
+      "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "General Awareness",
+        "General Awareness"
+      ],
+      "option_a": "Change in the angle of inclination of the earth",
+      "option_b": "Change in the eccentricity of the earth's orbit",
+      "option_c": "Precession of equinoxes",
+      "option_d": "Changes in the rate of rotation of earth on its axis",
+      "correct": "D"
+    },
+    {
+      "question_id": "JUNI-087",
+      "question": "He hinted ___ some loss of treasure.",
+      "options": [
+        {
+          "id": "A",
+          "text": "at"
+        },
+        {
+          "id": "B",
+          "text": "of"
+        },
+        {
+          "id": "C",
+          "text": "for"
+        },
+        {
+          "id": "D",
+          "text": "with"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB FAA 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Prepositions"
+      ],
+      "option_a": "at",
+      "option_b": "of",
+      "option_c": "for",
+      "option_d": "with",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-088",
+      "question": "Simple Interest on Rs. 1000 at 10% per annum for 2 years is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rs. 200"
+        },
+        {
+          "id": "B",
+          "text": "Rs. 100"
+        },
+        {
+          "id": "C",
+          "text": "Rs. 150"
+        },
+        {
+          "id": "D",
+          "text": "Rs. 250"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Simple Interest",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Arithmetic",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Simple Interest"
+      ],
+      "option_a": "Rs. 200",
+      "option_b": "Rs. 100",
+      "option_c": "Rs. 150",
+      "option_d": "Rs. 250",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-089",
+      "question": "LCM of 4 and 6 is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "12"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "LCM-HCF",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Arithmetic",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "LCM-HCF"
+      ],
+      "option_a": "12",
+      "option_b": "24",
+      "option_c": "8",
+      "option_d": "10",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-090",
+      "question": "J&K Art & Culture The Subar Dhar Mela takes place in which of the following locations of Jammu and Kashmir?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Doda"
+        },
+        {
+          "id": "B",
+          "text": "Kishtwar"
+        },
+        {
+          "id": "C",
+          "text": "Srinagar"
+        },
+        {
+          "id": "D",
+          "text": "Jammu"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Awareness",
+      "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "General Awareness",
+        "General Awareness"
+      ],
+      "option_a": "Doda",
+      "option_b": "Kishtwar",
+      "option_c": "Srinagar",
+      "option_d": "Jammu",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-091",
+      "question": "The shrine of Baba Chamliyal is located in which district?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Samba"
+        },
+        {
+          "id": "B",
+          "text": "Kathua"
+        },
+        {
+          "id": "C",
+          "text": "Rajouri"
+        },
+        {
+          "id": "D",
+          "text": "Poonch"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Junior Assistant PYQ (reported)",
+      "year": "2022",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Samba",
+      "option_b": "Kathua",
+      "option_c": "Rajouri",
+      "option_d": "Poonch",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-092",
+      "question": "Choose the correctly spelled word:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accommodation"
+        },
+        {
+          "id": "B",
+          "text": "Acommodation"
+        },
+        {
+          "id": "C",
+          "text": "Acomodation"
+        },
+        {
+          "id": "D",
+          "text": "Accomodation"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "English",
+      "topic": "Spelling",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / English",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "English",
+        "Spelling"
+      ],
+      "option_a": "Accommodation",
+      "option_b": "Acommodation",
+      "option_c": "Acomodation",
+      "option_d": "Accomodation",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-093",
+      "question": "Dal Lake is situated in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Anantnag"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Geography",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Geography"
+      ],
+      "option_a": "Srinagar",
+      "option_b": "Jammu",
+      "option_c": "Leh",
+      "option_d": "Anantnag",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-094",
+      "question": "The Mughal Gardens in Kashmir are famous examples of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persian-style garden architecture"
+        },
+        {
+          "id": "B",
+          "text": "Greek architecture"
+        },
+        {
+          "id": "C",
+          "text": "Dravidian architecture"
+        },
+        {
+          "id": "D",
+          "text": "Gothic architecture"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "J&K GK",
+      "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Culture",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "J&K GK",
+        "Culture"
+      ],
+      "option_a": "Persian-style garden architecture",
+      "option_b": "Greek architecture",
+      "option_c": "Dravidian architecture",
+      "option_d": "Gothic architecture",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-095",
+      "question": "Which of the following is an input device?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keyboard"
+        },
+        {
+          "id": "B",
+          "text": "Monitor"
+        },
+        {
+          "id": "C",
+          "text": "Speaker"
+        },
+        {
+          "id": "D",
+          "text": "Printer"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Computer",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "Hardware"
+      ],
+      "option_a": "Keyboard",
+      "option_b": "Monitor",
+      "option_c": "Speaker",
+      "option_d": "Printer",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-096",
+      "question": "Key Distinction: While the NPCI creates the technology and rules for its own products (like UPI protocols), it remains an implementing body that must comply with the regulations set by the RBI. ## Art & Culture 2 questions Kalyana Mandapas was a notable feature in the temple construction of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chalukya Kingdom"
+        },
+        {
+          "id": "B",
+          "text": "Chandela Kingdom"
+        },
+        {
+          "id": "C",
+          "text": "Rashtrakuta Kingdom"
+        },
+        {
+          "id": "D",
+          "text": "Vijayanagara Kingdom"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Awareness",
+      "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "year": "2024",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "General Awareness",
+        "General Awareness"
+      ],
+      "option_a": "Chalukya Kingdom",
+      "option_b": "Chandela Kingdom",
+      "option_c": "Rashtrakuta Kingdom",
+      "option_d": "Vijayanagara Kingdom",
+      "correct": "D"
+    },
+    {
+      "question_id": "JUNI-097",
+      "question": "The next term in 1, 4, 9, 16, 25, ? is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "36"
+        },
+        {
+          "id": "B",
+          "text": "30"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "49"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Reasoning",
+      "topic": "Series",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Reasoning",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Reasoning",
+        "Series"
+      ],
+      "option_a": "36",
+      "option_b": "30",
+      "option_c": "32",
+      "option_d": "49",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-098",
+      "question": "0.75 expressed as a percentage is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "75%"
+        },
+        {
+          "id": "B",
+          "text": "7.5%"
+        },
+        {
+          "id": "C",
+          "text": "0.75%"
+        },
+        {
+          "id": "D",
+          "text": "750%"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Percentage",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Arithmetic",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Percentage"
+      ],
+      "option_a": "75%",
+      "option_b": "7.5%",
+      "option_c": "0.75%",
+      "option_d": "750%",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-099",
+      "question": "MS Excel is primarily used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Spreadsheet calculations"
+        },
+        {
+          "id": "B",
+          "text": "Desktop publishing"
+        },
+        {
+          "id": "C",
+          "text": "Video editing"
+        },
+        {
+          "id": "D",
+          "text": "Database administration only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Computer",
+      "topic": "MS Office",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Computer",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Computer",
+        "MS Office"
+      ],
+      "option_a": "Spreadsheet calculations",
+      "option_b": "Desktop publishing",
+      "option_c": "Video editing",
+      "option_d": "Database administration only",
+      "correct": "A"
+    },
+    {
+      "question_id": "JUNI-100",
+      "question": "Compound interest on Rs. 5000 at 10% p.a. for 2 years (annual compounding) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rs. 1050"
+        },
+        {
+          "id": "B",
+          "text": "Rs. 1000"
+        },
+        {
+          "id": "C",
+          "text": "Rs. 1100"
+        },
+        {
+          "id": "D",
+          "text": "Rs. 950"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Arithmetic",
+      "topic": "Compound Interest",
+      "subtopic": "",
+      "difficulty": "medium",
+      "source": "JKSSB pattern / Arithmetic",
+      "year": "",
+      "exam": "",
+      "explanation": "",
+      "verification_status": "verified",
+      "tags": [
+        "Arithmetic",
+        "Compound Interest"
+      ],
+      "option_a": "Rs. 1050",
+      "option_b": "Rs. 1000",
+      "option_c": "Rs. 1100",
+      "option_d": "Rs. 950",
+      "correct": "A"
+    }
+  ]
+}

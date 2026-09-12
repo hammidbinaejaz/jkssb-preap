@@ -16,6 +16,9 @@ const {
   clearActiveTest,
   saveTestResult,
   loadTestHistory,
+  saveSelectedPost,
+  loadSelectedPost,
+  clearSelectedPostStorage,
   _bindStorage,
 } = require('../js/storage.js');
 
@@ -100,6 +103,15 @@ function runTests() {
     const history = loadTestHistory();
     assertEqual(history[0].id, 'r1');
     assertEqual(history[0].score, 20);
+  });
+
+  test('selected post save, load, clear', () => {
+    saveSelectedPost('junior-assistant', { categoryId: 'clerical', name: 'Junior Assistant' });
+    const selected = loadSelectedPost();
+    assertEqual(selected.postId, 'junior-assistant');
+    assertEqual(selected.categoryId, 'clerical');
+    clearSelectedPostStorage();
+    assertEqual(loadSelectedPost(), null);
   });
 
   console.log(`\n${passed} passed`);

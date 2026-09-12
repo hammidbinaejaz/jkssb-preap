@@ -1,13 +1,473 @@
 {
   "exams": [
     {
-      "id": "faa-finance",
-      "name": "Finance Accounts Assistant (FAA)",
-      "dataset_id": "finance",
+      "id": "accounts-assistant-finance",
+      "name": "Accounts Assistant (Finance)",
+      "dataset_id": "accounts-assistant-finance",
+      "category_id": "finance",
       "duration_minutes": 30,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "sub-inspector-finance",
+      "name": "Sub-Inspector (Finance)",
+      "dataset_id": "sub-inspector-finance",
+      "category_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "inspector-finance",
+      "name": "Inspector (Finance)",
+      "dataset_id": "inspector-finance",
+      "category_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "assistant-compiler-finance",
+      "name": "Assistant Compiler (Finance)",
+      "dataset_id": "assistant-compiler-finance",
+      "category_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "sub-inspector-commercial-taxes",
+      "name": "Sub-Inspector Commercial Taxes",
+      "dataset_id": "sub-inspector-commercial-taxes",
+      "category_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "junior-statistical-assistant-finance",
+      "name": "Junior Statistical Assistant (Finance)",
+      "dataset_id": "junior-statistical-assistant-finance",
+      "category_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "junior-assistant",
+      "name": "Junior Assistant",
+      "dataset_id": "junior-assistant",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "junior-assistant-cum-computer-operator",
+      "name": "Junior Assistant-cum-Computer Operator",
+      "dataset_id": "junior-assistant-cum-computer-operator",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "data-entry-operator",
+      "name": "Data Entry Operator",
+      "dataset_id": "data-entry-operator",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "junior-stenographer",
+      "name": "Junior Stenographer",
+      "dataset_id": "junior-stenographer",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "junior-scale-stenographer",
+      "name": "Junior Scale Stenographer",
+      "dataset_id": "junior-scale-stenographer",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "steno-typist",
+      "name": "Steno Typist",
+      "dataset_id": "steno-typist",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "urdu-typist",
+      "name": "Urdu Typist",
+      "dataset_id": "urdu-typist",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "assistant-secretary-head-assistant",
+      "name": "Assistant Secretary / Head Assistant",
+      "dataset_id": "assistant-secretary-head-assistant",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "cashier-clerk",
+      "name": "Cashier Clerk",
+      "dataset_id": "cashier-clerk",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "store-attendant",
+      "name": "Store Attendant",
+      "dataset_id": "store-attendant",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "cadrex-clerk",
+      "name": "Cadrex Clerk",
+      "dataset_id": "cadrex-clerk",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "computer-cum-junior-assistant",
+      "name": "Computer-cum-Junior Assistant",
+      "dataset_id": "computer-cum-junior-assistant",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "welfare-organizer",
+      "name": "Welfare Organizer",
+      "dataset_id": "welfare-organizer",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "computer-assistant",
+      "name": "Computer Assistant",
+      "dataset_id": "computer-assistant",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "record-keeper",
+      "name": "Record Keeper",
+      "dataset_id": "record-keeper",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "sub-editor",
+      "name": "Sub-Editor",
+      "dataset_id": "sub-editor",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "copy-holder",
+      "name": "Copy Holder",
+      "dataset_id": "copy-holder",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "proof-reader",
+      "name": "Proof Reader",
+      "dataset_id": "proof-reader",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "v-copy-holder",
+      "name": "V-Copy Holder",
+      "dataset_id": "v-copy-holder",
+      "category_id": "clerical",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "patwari",
+      "name": "Patwari",
+      "dataset_id": "patwari",
+      "category_id": "revenue-rural-development",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "panchayat-secretary",
+      "name": "Panchayat Secretary",
+      "dataset_id": "panchayat-secretary",
+      "category_id": "revenue-rural-development",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "accounts-assistant-panchayat",
+      "name": "Accounts Assistant (Panchayat)",
+      "dataset_id": "accounts-assistant-panchayat",
+      "category_id": "revenue-rural-development",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0.25,
       "allowed_counts": [
         10,
         20,

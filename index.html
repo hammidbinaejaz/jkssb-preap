@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="JKSSB PREP — Prepare smarter for JKSSB exams with practice questions, mock tests, and progress tracking." />
+  <meta name="description" content="JKSSB PREP — Focused practice, mock tests, and progress tracking for JKSSB exams." />
   <title>JKSSB PREP</title>
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./css/components.css" />
@@ -13,33 +13,34 @@
   <div id="site-nav"></div>
   <main class="container" id="main-content">
     <section class="hero">
-      <h1 class="hero__title">Prepare smarter for JKSSB.</h1>
-      <p class="hero__sub">Practice questions. Take realistic tests. Understand your mistakes. Improve where it matters.</p>
+      <p class="hero__brand">JKSSB PREP</p>
+      <h1 class="hero__title">Serious preparation for serious exams.</h1>
+      <p class="hero__sub">Practice by post, learn from mistakes, and improve where it counts — without the coaching-ad noise.</p>
       <div class="hero__actions">
-        <a href="./pages/practice.html" class="btn btn--primary">Start Practicing</a>
-        <a href="./pages/mock.html" class="btn btn--secondary">Take a Mock Test</a>
-        <a href="./pages/search.html" class="btn btn--ghost">Search Questions</a>
+        <a href="./pages/browse.html" class="btn btn--primary">Browse posts</a>
+        <a href="./pages/practice.html" class="btn btn--secondary">Start practicing</a>
+        <a href="./pages/mock.html" class="btn btn--ghost">Take a mock</a>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">How it works</h2>
+      <h2 class="section-title">How preparation works</h2>
       <div id="learning-loop-home"></div>
     </section>
 
-    <section class="section continue-card card" id="continue-section" hidden>
-      <div class="continue-card__inner">
+    <section class="section" id="continue-section">
+      <div class="continue-strip">
         <div>
-          <p class="continue-card__label">Continue Preparation</p>
-          <p class="continue-card__title" id="continue-label">Resume where you left off</p>
+          <p class="continue-strip__label">Continue prep</p>
+          <p class="continue-strip__title" id="continue-label">Start your first practice session</p>
         </div>
-        <a href="#" id="continue-link" class="btn btn--primary">Continue</a>
+        <a href="./pages/practice.html" id="continue-link" class="btn btn--primary">Continue</a>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Available Content</h2>
-      <div id="home-datasets" class="card-list"></div>
+      <h2 class="section-title">Featured categories</h2>
+      <div id="home-categories" class="category-grid"></div>
     </section>
   </main>
   <div id="site-footer"></div>
@@ -55,43 +56,38 @@
       UI.renderLearningLoop(document.getElementById('learning-loop-home'));
 
       const progress = loadProgress();
-      const section = document.getElementById('continue-section');
-      section.hidden = false;
       if (progress.continueUrl) {
         document.getElementById('continue-link').href = progress.continueUrl;
         document.getElementById('continue-label').textContent = progress.continueLabel || 'Continue where you left off';
       } else {
-        document.getElementById('continue-link').href = './pages/practice.html';
-        document.getElementById('continue-label').textContent = 'Start your first practice session';
+        document.getElementById('continue-link').href = './pages/browse.html';
+        document.getElementById('continue-label').textContent = 'Choose a post and begin';
       }
 
-      const datasetsEl = document.getElementById('home-datasets');
+      const categoriesEl = document.getElementById('home-categories');
       try {
         await loadAllData();
-        const datasets = DataStore.index?.datasets || [];
-        if (!datasets.length) {
-          datasetsEl.appendChild(UI.EmptyState({
-            title: 'No datasets loaded',
-            message: 'Question datasets will appear here once available.',
+        const categories = getCategories();
+        if (!categories.length) {
+          categoriesEl.appendChild(UI.EmptyState({
+            title: 'Catalog not loaded',
+            message: 'Categories will appear here once data/catalog.json is available.',
           }));
         } else {
-          datasets.forEach((ds) => {
-            const card = document.createElement('article');
-            card.className = 'dataset-card card';
-            card.innerHTML = `
-              <h3 class="dataset-card__title">${escapeHtml(ds.name)}</h3>
-              <p class="dataset-card__meta">${escapeHtml(ds.subject)} · ${ds.question_count} questions</p>
-              <div class="dataset-card__actions">
-                <a href="./pages/practice.html" class="btn btn--primary btn--sm">Practice</a>
-                <a href="./pages/mock.html" class="btn btn--secondary btn--sm">Mock Test</a>
-              </div>`;
-            datasetsEl.appendChild(card);
+          categories.forEach((cat) => {
+            const postCount = (cat.posts || []).length;
+            const questionCount = getCategoryQuestionCount(cat.id);
+            categoriesEl.appendChild(UI.CategoryTile(cat, {
+              href: pagesHref('browse.html', { category: cat.id }),
+              postCount,
+              questionCount,
+            }));
           });
         }
       } catch (err) {
-        datasetsEl.appendChild(UI.EmptyState({
+        categoriesEl.appendChild(UI.EmptyState({
           icon: '⚠️',
-          title: 'Unable to load data',
+          title: 'Unable to load catalog',
           message: DataStore.loadError || 'Please try again later.',
         }));
       }

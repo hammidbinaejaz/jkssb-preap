@@ -63,18 +63,61 @@ async function initSearchPage() {
 
   const params = new URLSearchParams(window.location.search);
   const initialQuery = params.get('q') || '';
+  const selectedMeta = getSelectedPostMeta();
+  let scope = selectedMeta ? 'post' : 'all';
 
   main.innerHTML = `
     <section class="page-header">
       <h1>Search Questions</h1>
       <p class="page-header__sub">Find questions by keyword, topic, or subject.</p>
     </section>
+    <div id="post-context-slot"></div>
     <div id="search-container"></div>
+    <div id="search-scope" class="search-scope" role="group" aria-label="Search scope"></div>
     <div id="search-results" class="search-results" aria-live="polite"></div>`;
 
   const searchContainer = document.getElementById('search-container');
+  const scopeEl = document.getElementById('search-scope');
   const resultsEl = document.getElementById('search-results');
-  const base = getBasePath();
+
+  renderPostContext(document.getElementById('post-context-slot'), {
+    allowClear: true,
+    onClear: () => {
+      scope = 'all';
+      renderScope();
+      renderResults(document.getElementById('search-input')?.value || '');
+    },
+  });
+
+  function getSearchPool() {
+    const meta = getSelectedPostMeta();
+    if (scope === 'post' && meta) return getActiveQuestions();
+    return DataStore.allQuestions;
+  }
+
+  function renderScope() {
+    const meta = getSelectedPostMeta();
+    if (!meta) {
+      scope = 'all';
+      scopeEl.innerHTML = `
+        <span class="search-scope__label">Searching:</span>
+        <button type="button" class="filter-chip filter-chip--active" disabled>All posts</button>`;
+      return;
+    }
+
+    scopeEl.innerHTML = `
+      <span class="search-scope__label">Searching:</span>
+      <button type="button" class="filter-chip${scope === 'post' ? ' filter-chip--active' : ''}" data-scope="post">${escapeHtml(meta.name)}</button>
+      <button type="button" class="filter-chip${scope === 'all' ? ' filter-chip--active' : ''}" data-scope="all">All posts</button>`;
+
+    scopeEl.querySelectorAll('[data-scope]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        scope = btn.dataset.scope;
+        renderScope();
+        renderResults(document.getElementById('search-input')?.value || '');
+      });
+    });
+  }
 
   const bar = UI.SearchBar({
     placeholder: 'Search questions, topics or keywords...',
@@ -90,25 +133,32 @@ async function initSearchPage() {
   searchContainer.appendChild(bar);
 
   function renderResults(query) {
+    const meta = getSelectedPostMeta();
     resultsEl.innerHTML = '';
     if (!query.trim()) {
       resultsEl.appendChild(UI.EmptyState({
         title: 'Start searching',
-        message: 'Enter a keyword, topic name, or subject to find matching questions.',
+        message: meta && scope === 'post'
+          ? `Enter a keyword to search within ${meta.name}.`
+          : 'Enter a keyword, topic name, or subject to find matching questions.',
       }));
       return;
     }
-    const results = searchQuestions(DataStore.allQuestions, query);
+    const pool = getSearchPool();
+    const results = searchQuestions(pool, query);
     if (!results.length) {
       resultsEl.appendChild(UI.EmptyState({
         title: 'No results found',
-        message: `No questions match "${query}". Try different keywords or check spelling.`,
+        message: scope === 'post' && meta
+          ? `No questions match "${query}" in ${meta.name}. Try "All posts" or different keywords.`
+          : `No questions match "${query}". Try different keywords or check spelling.`,
       }));
       return;
     }
+    const scopeNote = scope === 'post' && meta ? ` in ${meta.name}` : '';
     const heading = document.createElement('p');
     heading.className = 'results-count';
-    heading.textContent = `${results.length} question${results.length !== 1 ? 's' : ''} found`;
+    heading.textContent = `${results.length} question${results.length !== 1 ? 's' : ''} found${scopeNote}`;
     resultsEl.appendChild(heading);
     const list = document.createElement('div');
     list.className = 'card-list';
@@ -120,6 +170,7 @@ async function initSearchPage() {
     resultsEl.appendChild(list);
   }
 
+  renderScope();
   if (initialQuery) renderResults(initialQuery);
   else renderResults('');
 }
