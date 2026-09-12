@@ -106,6 +106,8 @@ UI.OptionButton = function OptionButton(option, { selected, correct, revealed, d
   btn.type = 'button';
   btn.className = 'option-btn';
   btn.dataset.optionId = option.id;
+  const lang = typeof detectTextLang === 'function' ? detectTextLang(option.text) : 'en';
+  btn.lang = lang;
   btn.setAttribute('aria-label', `Option ${option.id}: ${option.text}`);
   if (disabled) btn.disabled = true;
   if (selected) btn.classList.add('option-btn--selected');
@@ -115,46 +117,56 @@ UI.OptionButton = function OptionButton(option, { selected, correct, revealed, d
   }
   btn.innerHTML = `
     <span class="option-btn__id" aria-hidden="true">${escapeHtml(option.id)}</span>
-    <span class="option-btn__text">${escapeHtml(option.text)}</span>
+    <span class="option-btn__text" lang="${lang}">${escapeHtml(option.text)}</span>
     ${revealed && option.id === correct ? '<span class="option-btn__mark" aria-label="Correct">✓</span>' : ''}
     ${revealed && option.id === selected && selected !== correct ? '<span class="option-btn__mark" aria-label="Incorrect">✗</span>' : ''}`;
   return btn;
 };
 
 UI.Timer = function Timer(container, { seconds, onExpire, onTick }) {
-  let remaining = seconds;
+  const total = Math.max(0, Number(seconds) || 0);
+  const endsAt = Date.now() + total * 1000;
   let intervalId = null;
+  let stopped = false;
   const el = document.createElement('div');
   el.className = 'timer';
   el.setAttribute('role', 'timer');
   el.setAttribute('aria-live', 'polite');
 
+  function getRemaining() {
+    return Math.max(0, Math.ceil((endsAt - Date.now()) / 1000));
+  }
+
   function render() {
+    const remaining = getRemaining();
     el.textContent = formatTime(remaining);
     el.classList.toggle('timer--warning', remaining <= 300 && remaining > 60);
     el.classList.toggle('timer--danger', remaining <= 60);
+    return remaining;
+  }
+
+  function tick() {
+    if (stopped) return;
+    const remaining = render();
+    if (onTick) onTick(remaining);
+    if (remaining <= 0) {
+      stop();
+      if (onExpire) onExpire();
+    }
   }
 
   function start() {
+    stopped = false;
     render();
-    intervalId = setInterval(() => {
-      remaining -= 1;
-      if (onTick) onTick(remaining);
-      render();
-      if (remaining <= 0) {
-        stop();
-        if (onExpire) onExpire();
-      }
-    }, 1000);
+    intervalId = setInterval(tick, 250);
+    document.addEventListener('visibilitychange', tick);
   }
 
   function stop() {
+    stopped = true;
     if (intervalId) clearInterval(intervalId);
     intervalId = null;
-  }
-
-  function getRemaining() {
-    return remaining;
+    document.removeEventListener('visibilitychange', tick);
   }
 
   container.appendChild(el);

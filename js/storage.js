@@ -192,6 +192,66 @@ function clearSelectedPostStorage() {
   store.removeItem(STORAGE_KEYS.selectedPost);
 }
 
+/** Export all local progress for backup / multi-device restore. */
+function exportUserData() {
+  return {
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    progress: loadProgress(),
+    bookmarks: loadBookmarks(),
+    testHistory: loadTestHistory(),
+    settings: loadSettings(),
+    selectedPost: loadSelectedPost(),
+  };
+}
+
+/** @param {object} payload */
+function importUserData(payload) {
+  if (!payload || typeof payload !== 'object') throw new Error('Invalid backup file');
+  if (payload.progress) saveProgress(payload.progress);
+  if (Array.isArray(payload.bookmarks)) writeKey(STORAGE_KEYS.bookmarks, payload.bookmarks);
+  if (Array.isArray(payload.testHistory)) writeKey(STORAGE_KEYS.testHistory, payload.testHistory);
+  if (payload.settings) saveSettings(payload.settings);
+  if (payload.selectedPost?.postId) {
+    saveSelectedPost(payload.selectedPost.postId, payload.selectedPost);
+  }
+  return true;
+}
+
+/** Compute practice streak from attempt timestamps (local days). */
+function getPracticeStreak(progress = loadProgress()) {
+  const days = new Set(
+    (progress.attempts || [])
+      .map((a) => {
+        const d = new Date(a.timestamp || a.at || 0);
+        if (Number.isNaN(d.getTime())) return null;
+        return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+      })
+      .filter(Boolean),
+  );
+  let streak = 0;
+  const cursor = new Date();
+  for (;;) {
+    const key = `${cursor.getFullYear()}-${cursor.getMonth()}-${cursor.getDate()}`;
+    if (!days.has(key)) break;
+    streak += 1;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+}
+
+function getWeakTopicQueue(progress = loadProgress(), limit = 5) {
+  return Object.entries(progress.topicStats || {})
+    .map(([topic, s]) => ({
+      topic,
+      accuracy: s.total ? (s.correct / s.total) * 100 : 0,
+      total: s.total,
+    }))
+    .filter((t) => t.total >= 2 && t.accuracy < 65)
+    .sort((a, b) => a.accuracy - b.accuracy)
+    .slice(0, limit);
+}
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     STORAGE_KEYS,
@@ -217,6 +277,10 @@ if (typeof module !== 'undefined' && module.exports) {
     loadSelectedPost,
     saveSelectedPost,
     clearSelectedPostStorage,
+    exportUserData,
+    importUserData,
+    getPracticeStreak,
+    getWeakTopicQueue,
     _bindStorage: (mock) => { globalThis.localStorage = mock; },
   };
 }

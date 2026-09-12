@@ -1,9 +1,6 @@
 # Copy Holder
 
 Category: Clerical
-
 Questions: 100
 
-Schema: question | option_a | option_b | option_c | option_d | correct | subject | topic | year | source
-
-File: `qbank.json`
+Note: Includes syllabus-aligned shared questions where post-specific PYQs are limited.

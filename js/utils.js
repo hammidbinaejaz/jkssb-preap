@@ -217,6 +217,11 @@ function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
+/** Detect Arabic/Urdu script for RTL rendering. */
+function detectTextLang(text) {
+  return /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/.test(String(text || '')) ? 'ur' : 'en';
+}
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     shuffle,
@@ -232,5 +237,6 @@ if (typeof module !== 'undefined' && module.exports) {
     getRecommendations,
     generateId,
     getQueryParam,
+    detectTextLang,
   };
 }

@@ -1956,3 +1956,58 @@
   background: var(--lake-soft) !important;
   border-color: rgba(15, 118, 110, 0.4) !important;
 }
+
+/* Typing drill */
+.typing-input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  resize: vertical;
+  background: #fff;
+  color: var(--text);
+}
+.typing-input:focus {
+  outline: none;
+  border-color: var(--lake);
+  box-shadow: 0 0 0 4px var(--lake-soft);
+}
+
+/* Urdu / RTL support */
+:lang(ur),
+.question-panel__text:lang(ur),
+.option-btn__text:lang(ur) {
+  font-family: 'Noto Nastaliq Urdu', 'Urdu Typesetting', 'Geeza Pro', 'Segoe UI', sans-serif;
+  line-height: 2;
+  direction: rtl;
+  text-align: right;
+}
+
+.option-btn[lang="ur"] {
+  direction: rtl;
+  text-align: right;
+}
+
+.week-plan {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.week-plan__item {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 0.65rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.week-plan__item strong {
+  color: var(--ink);
+  font-family: var(--font-display);
+}

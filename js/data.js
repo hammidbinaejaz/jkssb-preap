@@ -5,6 +5,7 @@
 
 const DataStore = {
   catalog: null,
+  exams: null,
   /** @type {Record<string, object>} postId → loaded qbank */
   datasets: {},
   allQuestions: [],
@@ -12,6 +13,7 @@ const DataStore = {
   postsById: new Map(),
   loadError: null,
   loading: null,
+  searchIndex: null,
 };
 
 const SELECTED_POST_KEY = 'jkssb_selected_post';
@@ -50,8 +52,14 @@ function normalizeQuestion(raw, context = {}) {
     source = { label: 'JKSSB' };
   }
 
+  const postId = raw.post_id || context.post_id || '';
+  const localId = raw.question_id || '';
+  const question_id = localId.includes('-') && localId.startsWith(postId)
+    ? localId
+    : (postId && localId ? `${postId}-${localId.replace(/^.*-/, '')}` : localId || `${postId}-unknown`);
+
   return {
-    question_id: raw.question_id || '',
+    question_id,
     question: raw.question || '',
     options,
     correct_option,
@@ -65,7 +73,8 @@ function normalizeQuestion(raw, context = {}) {
     verification_status: raw.verification_status || 'needs_review',
     tags: Array.isArray(raw.tags) ? raw.tags : [],
     duplicate_status: raw.duplicate_status || 'unique',
-    post_id: raw.post_id || context.post_id || '',
+    pool_type: raw.pool_type || 'post_primary',
+    post_id: postId,
     category: raw.category || context.category || '',
     source,
   };
@@ -110,6 +119,21 @@ async function loadCatalog() {
   DataStore.catalog = await fetchJson(`${base}data/catalog.json`);
   indexCatalog(DataStore.catalog);
   return DataStore.catalog;
+}
+
+async function loadExams() {
+  if (DataStore.exams) return DataStore.exams;
+  const base = getDataBasePath();
+  try {
+    DataStore.exams = await fetchJson(`${base}data/exams.json`);
+  } catch {
+    DataStore.exams = { exams: [] };
+  }
+  return DataStore.exams;
+}
+
+function getExamById(examId) {
+  return (DataStore.exams?.exams || []).find((e) => e.id === examId) || null;
 }
 
 /**
@@ -163,12 +187,34 @@ async function loadPostDataset(postId) {
 function rebuildQuestionIndex() {
   DataStore.allQuestions = [];
   DataStore.questionsById.clear();
+  DataStore.searchIndex = null;
   Object.values(DataStore.datasets).forEach((ds) => {
     (ds?.questions || []).forEach((q) => {
       DataStore.allQuestions.push(q);
-      if (q.question_id) DataStore.questionsById.set(q.question_id, q);
+      if (q.question_id) {
+        if (DataStore.questionsById.has(q.question_id)) {
+          console.warn('Duplicate question_id skipped:', q.question_id);
+        } else {
+          DataStore.questionsById.set(q.question_id, q);
+        }
+      }
     });
   });
+}
+
+/**
+ * Lightweight boot: catalog + exams + currently selected post only.
+ */
+async function loadAppShell() {
+  DataStore.loadError = null;
+  await loadCatalog();
+  await loadExams();
+  const selected = getSelectedPostId();
+  if (selected) {
+    await loadPostDataset(selected);
+    rebuildQuestionIndex();
+  }
+  return DataStore;
 }
 
 async function loadAllData() {
@@ -177,6 +223,7 @@ async function loadAllData() {
     try {
       DataStore.loadError = null;
       await loadCatalog();
+      await loadExams();
       const postIds = [...DataStore.postsById.keys()];
       await Promise.all(postIds.map((id) => loadPostDataset(id)));
       rebuildQuestionIndex();
@@ -185,9 +232,31 @@ async function loadAllData() {
       console.error('Data load failed:', err);
       DataStore.loadError = err.message || 'Failed to load question data';
       throw err;
+    } finally {
+      DataStore.loading = null;
     }
   })();
   return DataStore.loading;
+}
+
+/** Ensure a post is selected; returns false and renders empty state if not. */
+function requireSelectedPost(container, { title, message } = {}) {
+  const meta = getSelectedPostMeta();
+  if (meta) return meta;
+  if (container) {
+    container.innerHTML = '';
+    const header = document.createElement('section');
+    header.className = 'page-header';
+    header.innerHTML = `<h1>${escapeHtml(title || 'Choose a post')}</h1>`;
+    container.appendChild(header);
+    container.appendChild(UI.EmptyState({
+      title: title || 'Select a post first',
+      message: message || 'Pick your target exam post so practice and mocks stay syllabus-accurate.',
+      actionLabel: 'Browse posts',
+      actionUrl: pagesHref('browse.html'),
+    }));
+  }
+  return null;
 }
 
 function getCategories() {
@@ -239,12 +308,12 @@ function clearSelectedPost() {
 }
 
 /**
- * Questions scoped to the selected post (or all if none selected).
+ * Questions for the selected post only (empty if none selected).
  * @returns {object[]}
  */
 function getActiveQuestions() {
   const postId = getSelectedPostId();
-  if (!postId) return DataStore.allQuestions;
+  if (!postId) return [];
   const ds = DataStore.datasets[postId];
   return ds?.questions || [];
 }
@@ -273,34 +342,50 @@ function getPracticeQuestions(filters = {}) {
 }
 
 /**
- * Build a mock exam config for a post (or defaults).
+ * Build a mock exam config from exams.json for a post.
  * @param {string} [postId]
  */
 function getExamConfigForPost(postId) {
   const id = postId || getSelectedPostId();
   const meta = id ? getPost(id) : null;
   const ds = id ? DataStore.datasets[id] : null;
+  const fromFile = id ? getExamById(id) : null;
   const available = (ds?.questions || []).filter(
     (q) => q.verification_status === 'verified' && q.correct_option,
   ).length;
-  const defaultCount = Math.min(30, available || 30);
+  const defaultCount = Math.min(
+    fromFile?.default_question_count || 30,
+    available || fromFile?.default_question_count || 30,
+  );
+  const allowed = (fromFile?.allowed_counts || [10, 20, 30, 50, 100])
+    .filter((c) => c <= Math.max(available, 10) || available === 0);
 
   return {
     id: id || 'general-mock',
-    name: meta?.name ? `${meta.name} Mock` : 'General Mock Test',
+    name: meta?.name ? `${meta.name} Mock` : (fromFile?.name || 'General Mock Test'),
     dataset_id: id || null,
-    duration_minutes: 30,
+    duration_minutes: fromFile?.duration_minutes ?? 30,
     default_question_count: defaultCount || 30,
-    marks_per_question: 1,
-    negative_marking: 0,
-    allowed_counts: [10, 20, 30, 50, 100].filter((c) => c <= Math.max(available, 10) || c <= 30),
+    marks_per_question: fromFile?.marks_per_question ?? 1,
+    negative_marking: fromFile?.negative_marking ?? 0,
+    allowed_counts: allowed.length ? allowed : [10, 20, 30],
+    sections: fromFile?.sections || [],
+    pattern: fromFile?.pattern || '',
+    syllabus_summary: fromFile?.syllabus_summary || '',
   };
 }
 
-function getMockQuestions(count, examConfig) {
+function getMockQuestions(count, examConfig, { sectionId } = {}) {
   const datasetId = examConfig?.dataset_id || getSelectedPostId();
   const ds = datasetId ? DataStore.datasets[datasetId] : null;
-  const source = ds?.questions || getActiveQuestions();
+  let source = ds?.questions || getActiveQuestions();
+  if (sectionId && examConfig?.sections?.length) {
+    const section = examConfig.sections.find((s) => s.id === sectionId);
+    if (section?.subjects?.length) {
+      const set = new Set(section.subjects.map((s) => s.toLowerCase()));
+      source = source.filter((q) => set.has((q.subject || '').toLowerCase()));
+    }
+  }
   const verified = source.filter(
     (q) => q.verification_status === 'verified' && q.correct_option,
   );
@@ -397,6 +482,27 @@ function getCategoryQuestionCount(categoryId) {
   }, 0);
 }
 
+/**
+ * Resolve a question by ID, loading only its post bank when possible.
+ * @param {string} questionId
+ * @returns {Promise<object|null>}
+ */
+async function ensureQuestionLoaded(questionId) {
+  if (!questionId) return null;
+  const existing = getQuestionById(questionId);
+  if (existing) return existing;
+  await loadCatalog();
+  const posts = [...DataStore.postsById.keys()].sort((a, b) => b.length - a.length);
+  const postId = posts.find((p) => questionId === p || questionId.startsWith(`${p}-`));
+  if (postId) {
+    await loadPostDataset(postId);
+    rebuildQuestionIndex();
+    return getQuestionById(questionId);
+  }
+  await loadAllData();
+  return getQuestionById(questionId);
+}
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     DataStore,
@@ -404,8 +510,13 @@ if (typeof module !== 'undefined' && module.exports) {
     normalizeQuestion,
     getDataBasePath,
     loadCatalog,
+    loadExams,
+    getExamById,
     loadPostDataset,
+    loadAppShell,
     loadAllData,
+    rebuildQuestionIndex,
+    requireSelectedPost,
     getCategories,
     getPost,
     getSelectedPostId,
@@ -414,6 +525,7 @@ if (typeof module !== 'undefined' && module.exports) {
     clearSelectedPost,
     getActiveQuestions,
     getQuestionById,
+    ensureQuestionLoaded,
     getPracticeQuestions,
     getExamConfigForPost,
     getMockQuestions,

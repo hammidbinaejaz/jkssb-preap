@@ -6,7 +6,7 @@ let mockTimer = null;
 
 async function initMockPage() {
   const main = initPage({ pageTitle: 'Mock Tests', currentNav: 'Mock Tests' });
-  const dataResult = await initAppData();
+  const dataResult = await initAppData({ mode: 'shell' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;
@@ -14,9 +14,19 @@ async function initMockPage() {
 
   const active = loadTest();
   if (active && !active.submitted) {
+    if (active.examId) {
+      setSelectedPost(active.examId);
+      await loadPostDataset(active.examId);
+      rebuildQuestionIndex();
+    }
     renderActiveTest(main, active);
     return;
   }
+
+  if (!requireSelectedPost(main, {
+    title: 'Mock Tests',
+    message: 'Select a post first. Mocks use that post’s marking scheme, duration, and question bank.',
+  })) return;
 
   renderMockSetup(main);
 }
@@ -57,13 +67,15 @@ function renderMockSetup(main) {
     </section>
     <div id="post-context-slot"></div>
     <div class="card mock-rules">
-      <h2 class="section-title" style="margin-top:0;">Test Rules</h2>
+      <h2 class="section-title" style="margin-top:0;">Exam pattern</h2>
+      <p class="empty-inline">${escapeHtml(exam.pattern || 'Follow the latest JKSSB notification for official pattern.')}</p>
+      ${exam.syllabus_summary ? `<p class="empty-inline"><strong>Sections:</strong> ${escapeHtml(exam.syllabus_summary)}</p>` : ''}
       <ul class="rules-list">
-        <li>Duration: ${exam.duration_minutes} minutes (scaled by question count)</li>
+        <li>Base duration: ${exam.duration_minutes} minutes for ${exam.default_question_count} questions (scaled to your count)</li>
         <li>Marks per question: ${exam.marks_per_question}</li>
         <li>Negative marking: ${exam.negative_marking} mark(s) per wrong answer</li>
         <li>Only verified questions are included</li>
-        <li>Timer auto-submits when time runs out</li>
+        <li>Timer uses wall-clock time and auto-submits at zero</li>
         <li>Progress is saved — you can resume after refresh</li>
       </ul>
     </div>
@@ -75,6 +87,14 @@ function renderMockSetup(main) {
         </div>
       </div>` : `
     <form id="mock-form" class="filter-form card">
+      ${(exam.sections || []).length ? `
+      <div class="form-row">
+        <label for="mock-section">Section focus</label>
+        <select id="mock-section" name="section">
+          <option value="">Full mix (all sections)</option>
+          ${exam.sections.map((s) => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('')}
+        </select>
+      </div>` : ''}
       <div class="form-row">
         <label for="mock-count">Number of questions</label>
         <select id="mock-count" name="count">
@@ -85,8 +105,7 @@ function renderMockSetup(main) {
     </form>`}`;
 
   renderPostContext(document.getElementById('post-context-slot'), {
-    allowClear: true,
-    onClear: () => renderMockSetup(main),
+    allowClear: false,
   });
 
   const form = document.getElementById('mock-form');
@@ -94,15 +113,16 @@ function renderMockSetup(main) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const count = parseInt(document.getElementById('mock-count').value, 10);
-      startMockTest(main, exam, count);
+      const sectionId = document.getElementById('mock-section')?.value || '';
+      startMockTest(main, exam, count, sectionId);
     });
   }
 }
 
-function startMockTest(main, exam, count) {
-  const questions = getMockQuestions(count, exam);
+function startMockTest(main, exam, count, sectionId = '') {
+  const questions = getMockQuestions(count, exam, { sectionId: sectionId || undefined });
   if (!questions.length) {
-    UI.Toast.show('Not enough verified questions available.', 'warning');
+    UI.Toast.show('Not enough verified questions for this section.', 'warning');
     return;
   }
   const questionIds = questions.map((q) => q.question_id);
@@ -111,10 +131,12 @@ function startMockTest(main, exam, count) {
     id: generateId(),
     examId: exam.id,
     examConfig: exam,
+    sectionId: sectionId || null,
     questionIds,
     answers: {},
     currentIndex: 0,
     startedAt: Date.now(),
+    endsAt: Date.now() + Math.round(durationMinutes * 60) * 1000,
     durationSeconds: Math.round(durationMinutes * 60),
     count: questionIds.length,
     submitted: false,
@@ -141,8 +163,9 @@ function renderActiveTest(main, testState) {
       <button type="button" id="mock-submit" class="btn btn--primary">Submit Test</button>
     </div>`;
 
-  const elapsed = Math.floor((Date.now() - testState.startedAt) / 1000);
-  let remaining = Math.max(0, testState.durationSeconds - elapsed);
+  const remaining = testState.endsAt
+    ? Math.max(0, Math.ceil((testState.endsAt - Date.now()) / 1000))
+    : Math.max(0, testState.durationSeconds - Math.floor((Date.now() - testState.startedAt) / 1000));
 
   mockTimer = UI.Timer(document.getElementById('mock-timer-slot'), {
     seconds: remaining,
@@ -191,7 +214,7 @@ function renderActiveTest(main, testState) {
       <div class="question-panel__header">
         <span class="question-panel__id">Q${testState.currentIndex + 1} · ${escapeHtml(q.question_id)}</span>
       </div>
-      <div class="question-panel__text">${escapeHtml(q.question).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>')}</div>
+      <div class="question-panel__text" lang="${detectTextLang(q.question)}">${escapeHtml(q.question).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>')}</div>
       <div class="options-grid" role="radiogroup" aria-label="Select your answer"></div>`;
 
     const grid = panel.querySelector('.options-grid');

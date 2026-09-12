@@ -4,7 +4,7 @@
 
 async function initResultsPage() {
   const main = initPage({ pageTitle: 'Results', currentNav: 'Mock Tests' });
-  await initAppData();
+  await initAppData({ mode: 'shell' });
 
   const resultId = getQueryParam('id');
   let result = loadTestHistory().find((r) => r.id === resultId);
@@ -19,6 +19,11 @@ async function initResultsPage() {
       actionUrl: `${getBasePath()}pages/mock.html`,
     }));
     return;
+  }
+
+  if (result.examId) {
+    await loadPostDataset(result.examId);
+    rebuildQuestionIndex();
   }
 
   renderResults(main, result);
@@ -138,7 +143,10 @@ function renderMistakes(container, mistakes, base) {
     const card = document.createElement('article');
     card.className = 'mistake-card card';
     card.innerHTML = `
-      <p class="mistake-card__text">${escapeHtml((q.question || '').slice(0, 200))}…</p>
+      <p class="mistake-card__text">${escapeHtml((() => {
+        const text = q.question || '';
+        return text.length > 200 ? `${text.slice(0, 200)}…` : text;
+      })())}</p>
       <div class="mistake-card__answers">
         <span class="text-danger">Your answer: ${escapeHtml(m.selected)}</span>
         <span class="text-success">Correct: ${escapeHtml(m.correct)}</span>

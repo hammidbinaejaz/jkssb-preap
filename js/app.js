@@ -86,16 +86,27 @@ function renderFooter() {
 
 function initPage({ pageTitle, currentNav, mainId = 'main-content' }) {
   document.title = `${pageTitle} | JKSSB PREP`;
+  const base = getBasePath();
+  if (!document.querySelector('link[rel="manifest"]')) {
+    const manifest = document.createElement('link');
+    manifest.rel = 'manifest';
+    manifest.href = `${base}manifest.webmanifest`;
+    document.head.appendChild(manifest);
+  }
   const navSlot = document.getElementById('site-nav');
   if (navSlot) navSlot.innerHTML = renderNav(currentNav);
   const footerSlot = document.getElementById('site-footer');
   if (footerSlot) footerSlot.innerHTML = renderFooter();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register(`${base}sw.js`).catch(() => {});
+  }
   return document.getElementById(mainId);
 }
 
-async function initAppData() {
+async function initAppData({ mode = 'shell' } = {}) {
   try {
-    await loadAllData();
+    if (mode === 'all') await loadAllData();
+    else await loadAppShell();
     return { ok: true };
   } catch (err) {
     return { ok: false, error: DataStore.loadError || err.message };

@@ -4,21 +4,23 @@
   "category": "Clerical",
   "category_id": "clerical",
   "question_count": 100,
+  "pool_note": "Includes syllabus-aligned shared questions where post-specific PYQs are limited.",
   "schema": [
+    "question_id",
     "question",
-    "option_a",
-    "option_b",
-    "option_c",
-    "option_d",
-    "correct",
+    "options",
+    "correct_option",
     "subject",
     "topic",
     "year",
-    "source"
+    "source",
+    "explanation",
+    "verification_status",
+    "pool_type"
   ],
   "questions": [
     {
-      "question_id": "RECO-001",
+      "question_id": "record-keeper-001",
       "question": "Plural of “mouse” (animal)",
       "options": [
         {
@@ -43,23 +45,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
       ],
-      "option_a": "mice",
-      "option_b": "mouses",
-      "option_c": "mouse",
-      "option_d": "meese",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-002",
+      "question_id": "record-keeper-002",
       "question": "Indirect tax example",
       "options": [
         {
@@ -84,23 +84,21 @@
       "topic": "Taxation",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Taxation"
+        "shared_syllabus_pool",
+        "Taxation",
+        "Accounts"
       ],
-      "option_a": "GST",
-      "option_b": "Income tax",
-      "option_c": "Corporate tax on profits only",
-      "option_d": "Wealth tax only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-003",
+      "question_id": "record-keeper-003",
       "question": "Cube of 4 is",
       "options": [
         {
@@ -125,23 +123,21 @@
       "topic": "Numbers",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "Numbers",
         "Arithmetic",
-        "Numbers"
+        "shared_syllabus_pool"
       ],
-      "option_a": "64",
-      "option_b": "16",
-      "option_c": "12",
-      "option_d": "8",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-004",
+      "question_id": "record-keeper-004",
       "question": "Capital is shown on",
       "options": [
         {
@@ -166,23 +162,21 @@
       "topic": "Balance Sheet",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Balance Sheet"
+        "Balance Sheet",
+        "shared_syllabus_pool",
+        "Accounts"
       ],
-      "option_a": "Liability side of balance sheet (in traditional form)",
-      "option_b": "Asset side only",
-      "option_c": "P&L only",
-      "option_d": "Cash book only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-005",
+      "question_id": "record-keeper-005",
       "question": "Karakoram Range lies to the",
       "options": [
         {
@@ -207,23 +201,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "RAM is volatile memory used for temporary working storage while the computer is on.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "North of Ladakh",
-      "option_b": "South of Kerala",
-      "option_c": "East of Odisha",
-      "option_d": "West of Gujarat",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-006",
+      "question_id": "record-keeper-006",
       "question": "Discount of 10% on 500 is",
       "options": [
         {
@@ -248,23 +240,21 @@
       "topic": "Percentage",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
-        "Percentage"
+        "Percentage",
+        "shared_syllabus_pool"
       ],
-      "option_a": "50",
-      "option_b": "40",
-      "option_c": "60",
-      "option_d": "100",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-007",
+      "question_id": "record-keeper-007",
       "question": "IP address identifies a",
       "options": [
         {
@@ -289,23 +279,21 @@
       "topic": "Internet",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Internet"
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Device on a network",
-      "option_b": "Hard disk brand",
-      "option_c": "Printer ink type",
-      "option_d": "Monitor size",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-008",
+      "question_id": "record-keeper-008",
       "question": "Panchayat election is conducted under",
       "options": [
         {
@@ -330,23 +318,21 @@
       "topic": "Panchayati Raj",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Rural Development",
+        "shared_syllabus_pool",
         "Panchayati Raj"
       ],
-      "option_a": "State election framework for local bodies",
-      "option_b": "Lok Sabha rules only",
-      "option_c": "Rajya Sabha rules only",
-      "option_d": "RBI guidelines",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-009",
+      "question_id": "record-keeper-009",
       "question": "LAN stands for",
       "options": [
         {
@@ -371,23 +357,21 @@
       "topic": "Networking",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Networking"
+        "shared_syllabus_pool",
+        "Networking",
+        "Computer"
       ],
-      "option_a": "Local Area Network",
-      "option_b": "Large Area Network",
-      "option_c": "Long Access Node",
-      "option_d": "Logical Area Net",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-010",
+      "question_id": "record-keeper-010",
       "question": "If SP = CP, profit is",
       "options": [
         {
@@ -412,23 +396,21 @@
       "topic": "Profit & Loss",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "Profit & Loss"
       ],
-      "option_a": "0%",
-      "option_b": "10%",
-      "option_c": "100%",
-      "option_d": "50%",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-011",
+      "question_id": "record-keeper-011",
       "question": "Correct article: ___ honest man",
       "options": [
         {
@@ -453,23 +435,21 @@
       "topic": "Articles",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Articles"
       ],
-      "option_a": "An",
-      "option_b": "A",
-      "option_c": "The",
-      "option_d": "No article",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-012",
+      "question_id": "record-keeper-012",
       "question": "Speed 60 km/h for 2 hours covers",
       "options": [
         {
@@ -494,23 +474,21 @@
       "topic": "TSD",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "TSD"
       ],
-      "option_a": "120 km",
-      "option_b": "60 km",
-      "option_c": "90 km",
-      "option_d": "100 km",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-013",
+      "question_id": "record-keeper-013",
       "question": "Fiscal policy is related to",
       "options": [
         {
@@ -535,23 +513,21 @@
       "topic": "Fiscal Policy",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Economics",
-        "Fiscal Policy"
+        "Fiscal Policy",
+        "shared_syllabus_pool"
       ],
-      "option_a": "Government taxation and expenditure",
-      "option_b": "Only bank rates",
-      "option_c": "Only foreign exchange",
-      "option_d": "Only population",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-014",
+      "question_id": "record-keeper-014",
       "question": "If TODAY is coded as UPEBZ, then LATER is coded as",
       "options": [
         {
@@ -576,23 +552,21 @@
       "topic": "Coding",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
-        "Coding"
+        "Coding",
+        "shared_syllabus_pool"
       ],
-      "option_a": "MBUFS",
-      "option_b": "KZSDQ",
-      "option_c": "MBUES",
-      "option_d": "LAUES",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-015",
+      "question_id": "record-keeper-015",
       "question": "Booting means",
       "options": [
         {
@@ -617,23 +591,21 @@
       "topic": "OS",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "OS"
       ],
-      "option_a": "Starting the computer",
-      "option_b": "Shutting down only",
-      "option_c": "Deleting files",
-      "option_d": "Installing antivirus only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-016",
+      "question_id": "record-keeper-016",
       "question": "Find missing: 8, 27, 64, 125, ?",
       "options": [
         {
@@ -658,23 +630,21 @@
       "topic": "Series",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Series"
       ],
-      "option_a": "216",
-      "option_b": "200",
-      "option_c": "180",
-      "option_d": "243",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-017",
+      "question_id": "record-keeper-017",
       "question": "The winter capital of J&K UT administration traditionally shifts to",
       "options": [
         {
@@ -699,23 +669,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Jammu",
-      "option_b": "Srinagar",
-      "option_c": "Leh",
-      "option_d": "Katra",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-018",
+      "question_id": "record-keeper-018",
       "question": "He is ___ than his brother.",
       "options": [
         {
@@ -740,23 +708,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
       ],
-      "option_a": "taller",
-      "option_b": "tallest",
-      "option_c": "more taller",
-      "option_d": "tall",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-019",
+      "question_id": "record-keeper-019",
       "question": "Tawi river flows through",
       "options": [
         {
@@ -781,23 +747,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Jammu",
-      "option_b": "Srinagar",
-      "option_c": "Leh",
-      "option_d": "Kupwara",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-020",
+      "question_id": "record-keeper-020",
       "question": "Which lake is Asia’s largest freshwater lake (often cited for Kashmir)?",
       "options": [
         {
@@ -822,23 +786,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Wular Lake",
-      "option_b": "Dal Lake",
-      "option_c": "Pangong",
-      "option_d": "Chilika",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-021",
+      "question_id": "record-keeper-021",
       "question": "Journal is a book of",
       "options": [
         {
@@ -863,23 +825,21 @@
       "topic": "Journal",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Journal"
+        "Journal",
+        "shared_syllabus_pool",
+        "Accounts"
       ],
-      "option_a": "Original entry",
-      "option_b": "Final accounts only",
-      "option_c": "Cost sheet only",
-      "option_d": "Inventory only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-022",
+      "question_id": "record-keeper-022",
       "question": "Series: 7, 14, 28, 56, ?",
       "options": [
         {
@@ -904,23 +864,21 @@
       "topic": "Series",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Series"
       ],
-      "option_a": "112",
-      "option_b": "100",
-      "option_c": "98",
-      "option_d": "84",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-023",
+      "question_id": "record-keeper-023",
       "question": "Opposite of North-East is",
       "options": [
         {
@@ -945,23 +903,21 @@
       "topic": "Direction",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "Direction",
         "Reasoning",
-        "Direction"
+        "shared_syllabus_pool"
       ],
-      "option_a": "South-West",
-      "option_b": "North-West",
-      "option_c": "South-East",
-      "option_d": "East",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-024",
+      "question_id": "record-keeper-024",
       "question": "Audit aims to examine",
       "options": [
         {
@@ -986,23 +942,21 @@
       "topic": "Audit",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Audit"
+        "Audit",
+        "shared_syllabus_pool",
+        "Accounts"
       ],
-      "option_a": "Financial statements and controls",
-      "option_b": "Only HR policies",
-      "option_c": "Only marketing plans",
-      "option_d": "Only production schedules",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-025",
+      "question_id": "record-keeper-025",
       "question": "A firewall is used for",
       "options": [
         {
@@ -1027,23 +981,21 @@
       "topic": "Security",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "Security"
       ],
-      "option_a": "Network security",
-      "option_b": "Printing",
-      "option_c": "Word processing",
-      "option_d": "Scanning photos",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-026",
+      "question_id": "record-keeper-026",
       "question": "The Indus river enters India in which region historically linked to J&K?",
       "options": [
         {
@@ -1068,23 +1020,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Ladakh",
-      "option_b": "Jammu plains",
-      "option_c": "Kathua",
-      "option_d": "Samba",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-027",
+      "question_id": "record-keeper-027",
       "question": "Tehsildar is an officer mainly in",
       "options": [
         {
@@ -1109,23 +1059,21 @@
       "topic": "Administration",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Revenue",
-        "Administration"
+        "shared_syllabus_pool",
+        "Administration",
+        "Revenue"
       ],
-      "option_a": "Revenue administration",
-      "option_b": "Forest logging only",
-      "option_c": "Postal sorting",
-      "option_d": "Airport security only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-028",
+      "question_id": "record-keeper-028",
       "question": "Lidder river is a tributary of",
       "options": [
         {
@@ -1150,23 +1098,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Jhelum",
-      "option_b": "Chenab",
-      "option_c": "Ravi",
-      "option_d": "Indus",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-029",
+      "question_id": "record-keeper-029",
       "question": "Hari Parbat fort is associated with",
       "options": [
         {
@@ -1191,23 +1137,21 @@
       "topic": "History",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "History"
+        "History",
+        "shared_syllabus_pool",
+        "J&K GK"
       ],
-      "option_a": "Srinagar",
-      "option_b": "Jammu",
-      "option_c": "Poonch",
-      "option_d": "Kargil",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-030",
+      "question_id": "record-keeper-030",
       "question": "Article 370 was related to",
       "options": [
         {
@@ -1232,23 +1176,21 @@
       "topic": "Polity",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Polity"
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
       ],
-      "option_a": "Special status of J&K",
-      "option_b": "GST",
-      "option_c": "Fundamental duties",
-      "option_d": "Emergency provisions only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-031",
+      "question_id": "record-keeper-031",
       "question": "15% of 200 =",
       "options": [
         {
@@ -1273,23 +1215,21 @@
       "topic": "Percentage",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
-        "Percentage"
+        "Percentage",
+        "shared_syllabus_pool"
       ],
-      "option_a": "30",
-      "option_b": "20",
-      "option_c": "25",
-      "option_d": "35",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-032",
+      "question_id": "record-keeper-032",
       "question": "“Look down upon” means",
       "options": [
         {
@@ -1314,23 +1254,21 @@
       "topic": "Idioms",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Idioms"
       ],
-      "option_a": "To despise / consider inferior",
-      "option_b": "To search",
-      "option_c": "To admire",
-      "option_d": "To climb",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-033",
+      "question_id": "record-keeper-033",
       "question": "The brain of the computer is",
       "options": [
         {
@@ -1355,23 +1293,21 @@
       "topic": "Hardware",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Hardware"
+        "Hardware",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "CPU",
-      "option_b": "Monitor",
-      "option_c": "Keyboard",
-      "option_d": "Mouse",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-034",
+      "question_id": "record-keeper-034",
       "question": "Odd one out: pen, pencil, eraser, apple",
       "options": [
         {
@@ -1396,23 +1332,21 @@
       "topic": "Classification",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "Classification",
         "Reasoning",
-        "Classification"
+        "shared_syllabus_pool"
       ],
-      "option_a": "apple",
-      "option_b": "pen",
-      "option_c": "pencil",
-      "option_d": "eraser",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-035",
+      "question_id": "record-keeper-035",
       "question": "Which pass connects Srinagar with Leh?",
       "options": [
         {
@@ -1437,23 +1371,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Zoji La",
-      "option_b": "Banihal",
-      "option_c": "Pir Panjal",
-      "option_d": "Nathu La",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-036",
+      "question_id": "record-keeper-036",
       "question": "The language Dogri is primarily associated with",
       "options": [
         {
@@ -1478,23 +1410,21 @@
       "topic": "Culture",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Culture"
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
       ],
-      "option_a": "Jammu region",
-      "option_b": "Kerala",
-      "option_c": "Assam",
-      "option_d": "Goa",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-037",
+      "question_id": "record-keeper-037",
       "question": "Phishing is related to",
       "options": [
         {
@@ -1519,23 +1449,21 @@
       "topic": "Security",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "Security"
       ],
-      "option_a": "Cyber fraud / fake emails",
-      "option_b": "Printer failure",
-      "option_c": "CPU overheating",
-      "option_d": "Disk formatting",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-038",
+      "question_id": "record-keeper-038",
       "question": "Perimeter of square side 5 cm",
       "options": [
         {
@@ -1560,23 +1488,21 @@
       "topic": "Mensuration",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "Mensuration"
       ],
-      "option_a": "20 cm",
-      "option_b": "10 cm",
-      "option_c": "25 cm",
-      "option_d": "15 cm",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-039",
+      "question_id": "record-keeper-039",
       "question": "USB stands for",
       "options": [
         {
@@ -1601,23 +1527,21 @@
       "topic": "Basics",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "Basics"
       ],
-      "option_a": "Universal Serial Bus",
-      "option_b": "United Serial Bus",
-      "option_c": "Ultra Speed Bus",
-      "option_d": "Universal System Board",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-040",
+      "question_id": "record-keeper-040",
       "question": "Idiom “Once in a blue moon” means",
       "options": [
         {
@@ -1642,23 +1566,21 @@
       "topic": "Idioms",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Idioms"
       ],
-      "option_a": "Very rarely",
-      "option_b": "Very often",
-      "option_c": "Never",
-      "option_d": "Always",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-041",
+      "question_id": "record-keeper-041",
       "question": "One who loves books is a",
       "options": [
         {
@@ -1683,23 +1605,21 @@
       "topic": "Vocabulary",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Vocabulary"
       ],
-      "option_a": "Bibliophile",
-      "option_b": "Philanthropist",
-      "option_c": "Optimist",
-      "option_d": "Atheist",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-042",
+      "question_id": "record-keeper-042",
       "question": "Antonym of “Ancient”",
       "options": [
         {
@@ -1724,23 +1644,21 @@
       "topic": "Vocabulary",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Vocabulary"
       ],
-      "option_a": "Modern",
-      "option_b": "Old",
-      "option_c": "Historic",
-      "option_d": "Antique",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-043",
+      "question_id": "record-keeper-043",
       "question": "Shankaracharya Temple is located in",
       "options": [
         {
@@ -1765,23 +1683,21 @@
       "topic": "Culture",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Culture"
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
       ],
-      "option_a": "Srinagar",
-      "option_b": "Jammu",
-      "option_c": "Anantnag",
-      "option_d": "Baramulla",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-044",
+      "question_id": "record-keeper-044",
       "question": "Double entry means",
       "options": [
         {
@@ -1806,23 +1722,21 @@
       "topic": "Basics",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
+        "shared_syllabus_pool",
         "Accounts",
         "Basics"
       ],
-      "option_a": "Every debit has a corresponding credit",
-      "option_b": "Single sided entry only",
-      "option_c": "Cash only accounting",
-      "option_d": "No ledgers",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-045",
+      "question_id": "record-keeper-045",
       "question": "Google Chrome is a",
       "options": [
         {
@@ -1847,23 +1761,21 @@
       "topic": "Internet",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Internet"
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Web browser",
-      "option_b": "Spreadsheet",
-      "option_c": "Database",
-      "option_d": "Compiler",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-046",
+      "question_id": "record-keeper-046",
       "question": "Average of first 5 natural numbers",
       "options": [
         {
@@ -1888,23 +1800,21 @@
       "topic": "Average",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "Average"
       ],
-      "option_a": "3",
-      "option_b": "2.5",
-      "option_c": "4",
-      "option_d": "5",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-047",
+      "question_id": "record-keeper-047",
       "question": "2/5 of 100 =",
       "options": [
         {
@@ -1929,23 +1839,21 @@
       "topic": "Fractions",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
-        "Fractions"
+        "Fractions",
+        "shared_syllabus_pool"
       ],
-      "option_a": "40",
-      "option_b": "20",
-      "option_c": "50",
-      "option_d": "60",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-048",
+      "question_id": "record-keeper-048",
       "question": "Mausoleum of Sheikh Noor-ud-din Noorani is at",
       "options": [
         {
@@ -1970,23 +1878,21 @@
       "topic": "Culture",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Culture"
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
       ],
-      "option_a": "Charar-e-Sharief",
-      "option_b": "Hazratbal",
-      "option_c": "Jammu",
-      "option_d": "Leh",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-049",
+      "question_id": "record-keeper-049",
       "question": "Dachigam National Park is known for",
       "options": [
         {
@@ -2011,23 +1917,21 @@
       "topic": "Environment",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Environment"
+        "shared_syllabus_pool",
+        "Environment",
+        "J&K GK"
       ],
-      "option_a": "Hangul (Kashmir stag)",
-      "option_b": "Asiatic lion",
-      "option_c": "One-horned rhino",
-      "option_d": "Snow leopard only in Rajasthan",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-050",
+      "question_id": "record-keeper-050",
       "question": "CC in email means",
       "options": [
         {
@@ -2052,23 +1956,21 @@
       "topic": "Internet",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Internet"
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Carbon Copy",
-      "option_b": "Computer Copy",
-      "option_c": "Central Copy",
-      "option_d": "Cached Copy",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-051",
+      "question_id": "record-keeper-051",
       "question": "Ctrl + S is commonly used to",
       "options": [
         {
@@ -2093,23 +1995,21 @@
       "topic": "Shortcuts",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Shortcuts"
+        "Shortcuts",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Save",
-      "option_b": "Copy",
-      "option_c": "Paste",
-      "option_d": "Undo",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-052",
+      "question_id": "record-keeper-052",
       "question": "Settlement operations in revenue relate to",
       "options": [
         {
@@ -2134,23 +2034,21 @@
       "topic": "Settlement",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Revenue",
-        "Settlement"
+        "shared_syllabus_pool",
+        "Settlement",
+        "Revenue"
       ],
-      "option_a": "Survey and assessment of land",
-      "option_b": "Fixing railway fares",
-      "option_c": "Setting GST rates only",
-      "option_d": "Issuing PAN cards",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-053",
+      "question_id": "record-keeper-053",
       "question": "Anganwadi is associated with",
       "options": [
         {
@@ -2175,23 +2073,21 @@
       "topic": "Schemes",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Rural Development",
+        "shared_syllabus_pool",
         "Schemes"
       ],
-      "option_a": "ICDS / child & mother welfare services",
-      "option_b": "Highway construction",
-      "option_c": "Stock markets",
-      "option_d": "Defence production",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-054",
+      "question_id": "record-keeper-054",
       "question": "Direct materials + Direct labour + Direct expenses =",
       "options": [
         {
@@ -2216,23 +2112,21 @@
       "topic": "Costing",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Costing"
+        "Costing",
+        "shared_syllabus_pool",
+        "Accounts"
       ],
-      "option_a": "Prime cost",
-      "option_b": "Factory cost",
-      "option_c": "Cost of sales",
-      "option_d": "Overheads",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-055",
+      "question_id": "record-keeper-055",
       "question": "Which is an output device?",
       "options": [
         {
@@ -2257,23 +2151,21 @@
       "topic": "Hardware",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "Hardware"
+        "Hardware",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Printer",
-      "option_b": "Keyboard",
-      "option_c": "Scanner",
-      "option_d": "Microphone",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-056",
+      "question_id": "record-keeper-056",
       "question": "Inflation means",
       "options": [
         {
@@ -2298,23 +2190,21 @@
       "topic": "Inflation",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Economics",
+        "shared_syllabus_pool",
         "Inflation"
       ],
-      "option_a": "General rise in price level",
-      "option_b": "Fall in prices only",
-      "option_c": "Increase in employment only",
-      "option_d": "Increase in exports only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-057",
+      "question_id": "record-keeper-057",
       "question": "MS Access is mainly a",
       "options": [
         {
@@ -2339,23 +2229,21 @@
       "topic": "MS Office",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "MS Office"
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Database management system",
-      "option_b": "Video editor",
-      "option_c": "Web browser",
-      "option_d": "Antivirus",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-058",
+      "question_id": "record-keeper-058",
       "question": "Unemployment means",
       "options": [
         {
@@ -2380,23 +2268,21 @@
       "topic": "Employment",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Economics",
+        "shared_syllabus_pool",
         "Employment"
       ],
-      "option_a": "Willing and able persons without jobs",
-      "option_b": "All people without luxury cars",
-      "option_c": "Only seasonal farming",
-      "option_d": "Only student holidays",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-059",
+      "question_id": "record-keeper-059",
       "question": "Which extension is common for Excel files?",
       "options": [
         {
@@ -2421,23 +2307,21 @@
       "topic": "MS Office",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Computer",
-        "MS Office"
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "xlsx",
-      "option_b": "docx",
-      "option_c": "pptx",
-      "option_d": "pdf only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-060",
+      "question_id": "record-keeper-060",
       "question": "A is taller than B but shorter than C. Who is tallest?",
       "options": [
         {
@@ -2462,23 +2346,21 @@
       "topic": "Ordering",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "Ordering",
         "Reasoning",
-        "Ordering"
+        "shared_syllabus_pool"
       ],
-      "option_a": "C",
-      "option_b": "A",
-      "option_c": "B",
-      "option_d": "Cannot say",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-061",
+      "question_id": "record-keeper-061",
       "question": "Jamabandi is related to",
       "options": [
         {
@@ -2503,23 +2385,21 @@
       "topic": "Land Records",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Revenue",
-        "Land Records"
+        "Land Records",
+        "shared_syllabus_pool",
+        "Revenue"
       ],
-      "option_a": "Land record / record of rights",
-      "option_b": "Railway timetable",
-      "option_c": "Weather forecast",
-      "option_d": "Election manifesto",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-062",
+      "question_id": "record-keeper-062",
       "question": "Cash book records",
       "options": [
         {
@@ -2544,23 +2424,21 @@
       "topic": "Cash Book",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
-        "Accounts",
-        "Cash Book"
+        "shared_syllabus_pool",
+        "Cash Book",
+        "Accounts"
       ],
-      "option_a": "Cash transactions",
-      "option_b": "Only credit sales",
-      "option_c": "Only depreciation",
-      "option_d": "Only capital",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-063",
+      "question_id": "record-keeper-063",
       "question": "Calendar: If 1st is Monday, 8th is",
       "options": [
         {
@@ -2585,23 +2463,21 @@
       "topic": "Calendar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Calendar"
       ],
-      "option_a": "Monday",
-      "option_b": "Sunday",
-      "option_c": "Tuesday",
-      "option_d": "Friday",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-064",
+      "question_id": "record-keeper-064",
       "question": "Choose synonym of “Rapid”",
       "options": [
         {
@@ -2626,23 +2502,21 @@
       "topic": "Vocabulary",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Vocabulary"
       ],
-      "option_a": "Quick",
-      "option_b": "Slow",
-      "option_c": "Late",
-      "option_d": "Dull",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-065",
+      "question_id": "record-keeper-065",
       "question": "Mutation fee is related to",
       "options": [
         {
@@ -2667,23 +2541,21 @@
       "topic": "Land Records",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Revenue",
-        "Land Records"
+        "Land Records",
+        "shared_syllabus_pool",
+        "Revenue"
       ],
-      "option_a": "Updating land ownership records",
-      "option_b": "Buying stamps for letters",
-      "option_c": "Passport renewal",
-      "option_d": "Driving licence only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-066",
+      "question_id": "record-keeper-066",
       "question": "Which is an example of system software?",
       "options": [
         {
@@ -2708,23 +2580,21 @@
       "topic": "OS",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "OS"
       ],
-      "option_a": "Operating System",
-      "option_b": "MS Word",
-      "option_c": "Photoshop",
-      "option_d": "Chrome browser only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-067",
+      "question_id": "record-keeper-067",
       "question": "If 2=4, 3=9, 4=16 then 5=",
       "options": [
         {
@@ -2749,23 +2619,21 @@
       "topic": "Analogy",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
-        "Analogy"
+        "Analogy",
+        "shared_syllabus_pool"
       ],
-      "option_a": "25",
-      "option_b": "20",
-      "option_c": "15",
-      "option_d": "10",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-068",
+      "question_id": "record-keeper-068",
       "question": "Depreciation is charged on",
       "options": [
         {
@@ -2790,23 +2658,21 @@
       "topic": "Depreciation",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Accounts",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
       "tags": [
+        "shared_syllabus_pool",
         "Accounts",
         "Depreciation"
       ],
-      "option_a": "Fixed assets",
-      "option_b": "Current liabilities",
-      "option_c": "Cash only",
-      "option_d": "Stock of stationery only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-069",
+      "question_id": "record-keeper-069",
       "question": "If all books are pens and some pens are pencils, then",
       "options": [
         {
@@ -2831,23 +2697,21 @@
       "topic": "Syllogism",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Syllogism"
       ],
-      "option_a": "Some books may be pencils",
-      "option_b": "All pencils are books",
-      "option_c": "No pen is a book",
-      "option_d": "All books are pencils",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-070",
+      "question_id": "record-keeper-070",
       "question": "She ___ to school every day.",
       "options": [
         {
@@ -2872,23 +2736,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
       ],
-      "option_a": "goes",
-      "option_b": "go",
-      "option_c": "going",
-      "option_d": "gone",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-071",
+      "question_id": "record-keeper-071",
       "question": "14th Finance Commission is related to",
       "options": [
         {
@@ -2913,23 +2775,21 @@
       "topic": "Finance",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Rural Development",
+        "shared_syllabus_pool",
         "Finance"
       ],
-      "option_a": "Devolution of finances",
-      "option_b": "Land mutation only",
-      "option_c": "Forest rights only",
-      "option_d": "Police reforms only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-072",
+      "question_id": "record-keeper-072",
       "question": "Choose correct spelling",
       "options": [
         {
@@ -2954,23 +2814,21 @@
       "topic": "Spelling",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Spelling"
       ],
-      "option_a": "Necessary",
-      "option_b": "Neccessary",
-      "option_c": "Necesary",
-      "option_d": "Neceserry",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-073",
+      "question_id": "record-keeper-073",
       "question": "Money is anything that",
       "options": [
         {
@@ -2995,23 +2853,21 @@
       "topic": "Money",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Economics",
+        "shared_syllabus_pool",
         "Money"
       ],
-      "option_a": "Acts as medium of exchange",
-      "option_b": "Is only gold",
-      "option_c": "Is only paper",
-      "option_d": "Cannot store value",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-074",
+      "question_id": "record-keeper-074",
       "question": "Simple interest formula is",
       "options": [
         {
@@ -3036,23 +2892,21 @@
       "topic": "SI",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "SI"
       ],
-      "option_a": "(P×R×T)/100",
-      "option_b": "P×R×T",
-      "option_c": "P+R+T",
-      "option_d": "PRT/10",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-075",
+      "question_id": "record-keeper-075",
       "question": "Which storage is typically non-volatile?",
       "options": [
         {
@@ -3077,23 +2931,21 @@
       "topic": "Memory",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
+        "shared_syllabus_pool",
         "Computer",
         "Memory"
       ],
-      "option_a": "ROM",
-      "option_b": "RAM",
-      "option_c": "Cache only",
-      "option_d": "Registers only",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-076",
+      "question_id": "record-keeper-076",
       "question": "Demand curve generally slopes",
       "options": [
         {
@@ -3118,23 +2970,21 @@
       "topic": "Demand",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Economics",
+        "shared_syllabus_pool",
         "Demand"
       ],
-      "option_a": "Downwards from left to right",
-      "option_b": "Upwards always",
-      "option_c": "Horizontally always",
-      "option_d": "Vertically always",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-077",
+      "question_id": "record-keeper-077",
       "question": "Ladakh became a separate UT in",
       "options": [
         {
@@ -3159,23 +3009,21 @@
       "topic": "Polity",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Polity"
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
       ],
-      "option_a": "2019",
-      "option_b": "2014",
-      "option_c": "2002",
-      "option_d": "2021",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-078",
+      "question_id": "record-keeper-078",
       "question": "Ratio 3:5 means",
       "options": [
         {
@@ -3200,23 +3048,21 @@
       "topic": "Ratio",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
         "Arithmetic",
-        "Ratio"
+        "Ratio",
+        "shared_syllabus_pool"
       ],
-      "option_a": "3 parts to 5 parts",
-      "option_b": "3×5",
-      "option_c": "3+5",
-      "option_d": "35",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-079",
+      "question_id": "record-keeper-079",
       "question": "Village Chowkidar traditionally assisted in",
       "options": [
         {
@@ -3241,23 +3087,21 @@
       "topic": "Village Administration",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern",
       "tags": [
-        "Revenue",
-        "Village Administration"
+        "shared_syllabus_pool",
+        "Village Administration",
+        "Revenue"
       ],
-      "option_a": "Village watch and ward / local reporting",
-      "option_b": "Income tax raids only",
-      "option_c": "Bank audits",
-      "option_d": "Court stenography",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-080",
+      "question_id": "record-keeper-080",
       "question": "Vaishno Devi shrine is in which district?",
       "options": [
         {
@@ -3282,23 +3126,21 @@
       "topic": "Culture",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / J&K GK",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
       "tags": [
-        "J&K GK",
-        "Culture"
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
       ],
-      "option_a": "Reasi",
-      "option_b": "Jammu",
-      "option_c": "Udhampur",
-      "option_d": "Kathua",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-081",
+      "question_id": "record-keeper-081",
       "question": "In reasoning, if all roses are flowers and some flowers fade quickly, which is definitely true?",
       "options": [
         {
@@ -3323,23 +3165,21 @@
       "topic": "Syllogism",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Reasoning",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Reasoning",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Syllogism"
       ],
-      "option_a": "Some roses may fade quickly",
-      "option_b": "No rose fades",
-      "option_c": "All flowers are roses",
-      "option_d": "Roses are not flowers",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-082",
+      "question_id": "record-keeper-082",
       "question": "Which software is used for word processing?",
       "options": [
         {
@@ -3364,23 +3204,21 @@
       "topic": "MS Office",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Computer",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Computer",
       "tags": [
-        "Computer",
-        "MS Office"
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "MS Word",
-      "option_b": "MS Excel",
-      "option_c": "MS Access",
-      "option_d": "MS PowerPoint",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-083",
+      "question_id": "record-keeper-083",
       "question": "A train 100 m long running at 36 km/h crosses a pole in:",
       "options": [
         {
@@ -3405,23 +3243,21 @@
       "topic": "Time Speed Distance",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Arithmetic",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
       "tags": [
         "Arithmetic",
+        "shared_syllabus_pool",
         "Time Speed Distance"
       ],
-      "option_a": "10 seconds",
-      "option_b": "12 seconds",
-      "option_c": "15 seconds",
-      "option_d": "18 seconds",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-084",
+      "question_id": "record-keeper-084",
       "question": "Choose the correct passive form: “The boys were playing cricket.”",
       "options": [
         {
@@ -3446,23 +3282,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB FAA 2024 PYQ",
       "year": "2024",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB FAA 2024 PYQ",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
       ],
-      "option_a": "Cricket was being played by the boys.",
-      "option_b": "Cricket has been played by the boys.",
-      "option_c": "Cricket had been played by the boys.",
-      "option_d": "Cricket was played by the boys.",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-085",
+      "question_id": "record-keeper-085",
       "question": "The square of 25 is:",
       "options": [
         {
@@ -3487,23 +3321,21 @@
       "topic": "Numbers",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Arithmetic",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
       "tags": [
+        "Numbers",
         "Arithmetic",
-        "Numbers"
+        "shared_syllabus_pool"
       ],
-      "option_a": "625",
-      "option_b": "525",
-      "option_c": "725",
-      "option_d": "600",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-086",
+      "question_id": "record-keeper-086",
       "question": "A person walks 5 km east then 5 km north. Distance from start is:",
       "options": [
         {
@@ -3528,23 +3360,21 @@
       "topic": "Direction",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Reasoning",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Reasoning",
       "tags": [
+        "Direction",
         "Reasoning",
-        "Direction"
+        "shared_syllabus_pool"
       ],
-      "option_a": "5√2 km",
-      "option_b": "10 km",
-      "option_c": "5 km",
-      "option_d": "0 km",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-087",
+      "question_id": "record-keeper-087",
       "question": "ess duty, correctness, or a strong recommendation. While \"will\" could indicate a future certainty, \"ought to\" specifically captures the sense of requirement and responsibility expected of employees regarding company policy. Select the most appropriate option to change the sentence from indirect speech to direct speech. Surender asked Prashant whether he had watched the cricket match on television the previous night",
       "options": [
         {
@@ -3569,23 +3399,20 @@
       "topic": "General Awareness",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB Patwari 2024 PYQ",
       "year": "2024",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
       "tags": [
-        "General Awareness",
+        "shared_syllabus_pool",
         "General Awareness"
       ],
-      "option_a": "Surender asked Prashant, \"Have he watched the cricket match on television last night?\"",
-      "option_b": "Surender said to Prashant, \"Was he watching the cricket match on television last night?\"",
-      "option_c": "Surender said to Prashant, \"Did you watch the cricket match on television last night?\"",
-      "option_d": "Surender asked Prashant, \"Had you watch the cricket match on television the previous night?\"",
-      "correct": "C"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-088",
+      "question_id": "record-keeper-088",
       "question": "Jammu and Kashmir was reorganised into Union Territories in the year:",
       "options": [
         {
@@ -3610,23 +3437,21 @@
       "topic": "Polity",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Polity PYQ",
       "year": "2019",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Polity PYQ",
       "tags": [
-        "J&K GK",
-        "Polity"
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
       ],
-      "option_a": "2019",
-      "option_b": "2018",
-      "option_c": "2020",
-      "option_d": "2017",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-089",
+      "question_id": "record-keeper-089",
       "question": "Choose correct spelling:",
       "options": [
         {
@@ -3651,23 +3476,21 @@
       "topic": "Spelling",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / English",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / English",
       "tags": [
+        "shared_syllabus_pool",
         "English",
         "Spelling"
       ],
-      "option_a": "Separate",
-      "option_b": "Seperate",
-      "option_c": "Seperete",
-      "option_d": "Saparate",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-090",
+      "question_id": "record-keeper-090",
       "question": "The plural of “criterion” is:",
       "options": [
         {
@@ -3692,23 +3515,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / English",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / English",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
       ],
-      "option_a": "Criteria",
-      "option_b": "Criterions",
-      "option_c": "Criterion",
-      "option_d": "Criterias",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-091",
+      "question_id": "record-keeper-091",
       "question": "If A:B = 2:3 and B:C = 4:5, then A:C =",
       "options": [
         {
@@ -3733,23 +3554,21 @@
       "topic": "Ratio",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Arithmetic",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
       "tags": [
         "Arithmetic",
-        "Ratio"
+        "Ratio",
+        "shared_syllabus_pool"
       ],
-      "option_a": "8:15",
-      "option_b": "2:5",
-      "option_c": "3:5",
-      "option_d": "4:5",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-092",
+      "question_id": "record-keeper-092",
       "question": "In Microsoft Word, a table must contain at least one cell",
       "options": [
         {
@@ -3774,23 +3593,20 @@
       "topic": "General Awareness",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB Patwari 2024 PYQ",
       "year": "2024",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
       "tags": [
-        "General Awareness",
+        "shared_syllabus_pool",
         "General Awareness"
       ],
-      "option_a": "single cell is formed by the intersection of one row and one column. You cannot create a table with \"zero\" rows or columns because, by definition, the table would not exist. When you go to the \"Insert Table\" menu, the smallest grid selection possible is a $1 \\times 1$ square. In MS Word, which of the following shortcut key is used to check spelling? A F1",
-      "option_b": "F2",
-      "option_c": "F7",
-      "option_d": "F9",
-      "correct": "C"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-093",
+      "question_id": "record-keeper-093",
       "question": "Identify the part of speech of “quickly” in “He ran quickly.”",
       "options": [
         {
@@ -3815,23 +3631,21 @@
       "topic": "Grammar",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / English",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / English",
       "tags": [
-        "English",
-        "Grammar"
+        "Grammar",
+        "post_primary",
+        "English"
       ],
-      "option_a": "Adverb",
-      "option_b": "Adjective",
-      "option_c": "Noun",
-      "option_d": "Verb",
-      "correct": "A"
+      "pool_type": "post_primary",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-094",
+      "question_id": "record-keeper-094",
       "question": "Amarnath Cave is located in which district of J&K?",
       "options": [
         {
@@ -3856,23 +3670,21 @@
       "topic": "Geography",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Geography",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Geography",
       "tags": [
-        "J&K GK",
-        "Geography"
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
       ],
-      "option_a": "Anantnag",
-      "option_b": "Budgam",
-      "option_c": "Kupwara",
-      "option_d": "Rajouri",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-095",
+      "question_id": "record-keeper-095",
       "question": "\"Accomplishments\" and \"virtues\" are positive; \"compliance\" and \"benefits\" do not logically connect to the negative connotation of drug-related activity. Choose the pair of words that will make the sentence grammatically correct and meaningful. The mournful _____ of the grieving widow _____ through the empty halls of the old mansion",
       "options": [
         {
@@ -3897,23 +3709,20 @@
       "topic": "General Awareness",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB Patwari 2024 PYQ",
       "year": "2024",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "RAM is volatile memory used for temporary working storage while the computer is on.",
       "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
       "tags": [
-        "General Awareness",
+        "shared_syllabus_pool",
         "General Awareness"
       ],
-      "option_a": "wail, echoed",
-      "option_b": "cries, filled",
-      "option_c": "sobs, resounded",
-      "option_d": "whispers, echoed",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-096",
+      "question_id": "record-keeper-096",
       "question": "Complete the series: 2, 6, 12, 20, 30, ?",
       "options": [
         {
@@ -3938,23 +3747,21 @@
       "topic": "Series",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Reasoning",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Reasoning",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Series"
       ],
-      "option_a": "42",
-      "option_b": "40",
-      "option_c": "36",
-      "option_d": "44",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-097",
+      "question_id": "record-keeper-097",
       "question": "Which number should come next: 5, 10, 20, 40, ?",
       "options": [
         {
@@ -3979,23 +3786,21 @@
       "topic": "Series",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Reasoning",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Reasoning",
       "tags": [
         "Reasoning",
+        "shared_syllabus_pool",
         "Series"
       ],
-      "option_a": "80",
-      "option_b": "60",
-      "option_c": "70",
-      "option_d": "90",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-098",
+      "question_id": "record-keeper-098",
       "question": "The function of Format Painter is:",
       "options": [
         {
@@ -4020,23 +3825,21 @@
       "topic": "MS Office",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB Patwari 2024 PYQ",
       "year": "2024",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
       "tags": [
-        "Computer",
-        "MS Office"
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "To paint pictures on slides",
-      "option_b": "To copy formatting and apply elsewhere",
-      "option_c": "To change slide background colour",
-      "option_d": "To insert SmartArt",
-      "correct": "B"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-099",
+      "question_id": "record-keeper-099",
       "question": "The shrine of Baba Chamliyal is located in which district?",
       "options": [
         {
@@ -4061,23 +3864,21 @@
       "topic": "Culture",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB Junior Assistant PYQ (reported)",
       "year": "2022",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB Junior Assistant PYQ (reported)",
       "tags": [
-        "J&K GK",
-        "Culture"
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
       ],
-      "option_a": "Samba",
-      "option_b": "Kathua",
-      "option_c": "Rajouri",
-      "option_d": "Poonch",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     },
     {
-      "question_id": "RECO-100",
+      "question_id": "record-keeper-100",
       "question": "Which of the following is NOT an input device?",
       "options": [
         {
@@ -4102,20 +3903,18 @@
       "topic": "Hardware",
       "subtopic": "",
       "difficulty": "medium",
-      "source": "JKSSB pattern / Computer",
       "year": "",
-      "exam": "",
-      "explanation": "",
+      "exam": "Record Keeper",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
       "verification_status": "verified",
+      "source": "JKSSB pattern / Computer",
       "tags": [
-        "Computer",
-        "Hardware"
+        "Hardware",
+        "shared_syllabus_pool",
+        "Computer"
       ],
-      "option_a": "Monitor",
-      "option_b": "Mouse",
-      "option_c": "Scanner",
-      "option_d": "Microphone",
-      "correct": "A"
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "record-keeper"
     }
   ]
 }

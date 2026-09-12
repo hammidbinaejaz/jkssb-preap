@@ -1,1207 +1,3915 @@
 {
-  "post": "Cadrex Clerk",
+  "post_id": "cadrex-clerk",
+  "post_name": "Cadre Clerk",
   "category": "Clerical",
+  "category_id": "clerical",
   "question_count": 100,
+  "pool_note": "Includes syllabus-aligned shared questions where post-specific PYQs are limited.",
+  "schema": [
+    "question_id",
+    "question",
+    "options",
+    "correct_option",
+    "subject",
+    "topic",
+    "year",
+    "source",
+    "explanation",
+    "verification_status",
+    "pool_type"
+  ],
   "questions": [
     {
+      "question_id": "cadrex-clerk-001",
       "question": "A firewall is used for",
-      "option_a": "Network security",
-      "option_b": "Printing",
-      "option_c": "Word processing",
-      "option_d": "Scanning photos",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Network security"
+        },
+        {
+          "id": "B",
+          "text": "Printing"
+        },
+        {
+          "id": "C",
+          "text": "Word processing"
+        },
+        {
+          "id": "D",
+          "text": "Scanning photos"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Security",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "Security"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-002",
       "question": "Series: 7, 14, 28, 56, ?",
-      "option_a": "112",
-      "option_b": "100",
-      "option_c": "98",
-      "option_d": "84",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "112"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "98"
+        },
+        {
+          "id": "D",
+          "text": "84"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Series",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "shared_syllabus_pool",
+        "Series"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-003",
       "question": "Google Chrome is a",
-      "option_a": "Web browser",
-      "option_b": "Spreadsheet",
-      "option_c": "Database",
-      "option_d": "Compiler",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Web browser"
+        },
+        {
+          "id": "B",
+          "text": "Spreadsheet"
+        },
+        {
+          "id": "C",
+          "text": "Database"
+        },
+        {
+          "id": "D",
+          "text": "Compiler"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-004",
       "question": "Anganwadi is associated with",
-      "option_a": "ICDS / child & mother welfare services",
-      "option_b": "Highway construction",
-      "option_c": "Stock markets",
-      "option_d": "Defence production",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "ICDS / child & mother welfare services"
+        },
+        {
+          "id": "B",
+          "text": "Highway construction"
+        },
+        {
+          "id": "C",
+          "text": "Stock markets"
+        },
+        {
+          "id": "D",
+          "text": "Defence production"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Rural Development",
       "topic": "Schemes",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Rural Development",
+        "shared_syllabus_pool",
+        "Schemes"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-005",
       "question": "Perimeter of square side 5 cm",
-      "option_a": "20 cm",
-      "option_b": "10 cm",
-      "option_c": "25 cm",
-      "option_d": "15 cm",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 cm"
+        },
+        {
+          "id": "B",
+          "text": "10 cm"
+        },
+        {
+          "id": "C",
+          "text": "25 cm"
+        },
+        {
+          "id": "D",
+          "text": "15 cm"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Mensuration",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "Mensuration"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-006",
       "question": "Which lake is Asia’s largest freshwater lake (often cited for Kashmir)?",
-      "option_a": "Wular Lake",
-      "option_b": "Dal Lake",
-      "option_c": "Pangong",
-      "option_d": "Chilika",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wular Lake"
+        },
+        {
+          "id": "B",
+          "text": "Dal Lake"
+        },
+        {
+          "id": "C",
+          "text": "Pangong"
+        },
+        {
+          "id": "D",
+          "text": "Chilika"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-007",
       "question": "Jamabandi is related to",
-      "option_a": "Land record / record of rights",
-      "option_b": "Railway timetable",
-      "option_c": "Weather forecast",
-      "option_d": "Election manifesto",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Land record / record of rights"
+        },
+        {
+          "id": "B",
+          "text": "Railway timetable"
+        },
+        {
+          "id": "C",
+          "text": "Weather forecast"
+        },
+        {
+          "id": "D",
+          "text": "Election manifesto"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Revenue",
       "topic": "Land Records",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Land Records",
+        "shared_syllabus_pool",
+        "Revenue"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-008",
       "question": "Depreciation is charged on",
-      "option_a": "Fixed assets",
-      "option_b": "Current liabilities",
-      "option_c": "Cash only",
-      "option_d": "Stock of stationery only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixed assets"
+        },
+        {
+          "id": "B",
+          "text": "Current liabilities"
+        },
+        {
+          "id": "C",
+          "text": "Cash only"
+        },
+        {
+          "id": "D",
+          "text": "Stock of stationery only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Depreciation",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "shared_syllabus_pool",
+        "Accounts",
+        "Depreciation"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-009",
       "question": "Settlement operations in revenue relate to",
-      "option_a": "Survey and assessment of land",
-      "option_b": "Fixing railway fares",
-      "option_c": "Setting GST rates only",
-      "option_d": "Issuing PAN cards",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survey and assessment of land"
+        },
+        {
+          "id": "B",
+          "text": "Fixing railway fares"
+        },
+        {
+          "id": "C",
+          "text": "Setting GST rates only"
+        },
+        {
+          "id": "D",
+          "text": "Issuing PAN cards"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Revenue",
       "topic": "Settlement",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Settlement",
+        "Revenue"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-010",
       "question": "Article 370 was related to",
-      "option_a": "Special status of J&K",
-      "option_b": "GST",
-      "option_c": "Fundamental duties",
-      "option_d": "Emergency provisions only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Special status of J&K"
+        },
+        {
+          "id": "B",
+          "text": "GST"
+        },
+        {
+          "id": "C",
+          "text": "Fundamental duties"
+        },
+        {
+          "id": "D",
+          "text": "Emergency provisions only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Polity",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-011",
       "question": "Correct article: ___ honest man",
-      "option_a": "An",
-      "option_b": "A",
-      "option_c": "The",
-      "option_d": "No article",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "An"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "The"
+        },
+        {
+          "id": "D",
+          "text": "No article"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Articles"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-012",
       "question": "Tehsildar is an officer mainly in",
-      "option_a": "Revenue administration",
-      "option_b": "Forest logging only",
-      "option_c": "Postal sorting",
-      "option_d": "Airport security only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Revenue administration"
+        },
+        {
+          "id": "B",
+          "text": "Forest logging only"
+        },
+        {
+          "id": "C",
+          "text": "Postal sorting"
+        },
+        {
+          "id": "D",
+          "text": "Airport security only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Revenue",
       "topic": "Administration",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Administration",
+        "Revenue"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-013",
       "question": "Demand curve generally slopes",
-      "option_a": "Downwards from left to right",
-      "option_b": "Upwards always",
-      "option_c": "Horizontally always",
-      "option_d": "Vertically always",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Downwards from left to right"
+        },
+        {
+          "id": "B",
+          "text": "Upwards always"
+        },
+        {
+          "id": "C",
+          "text": "Horizontally always"
+        },
+        {
+          "id": "D",
+          "text": "Vertically always"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Economics",
       "topic": "Demand",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Economics",
+        "shared_syllabus_pool",
+        "Demand"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-014",
       "question": "A is taller than B but shorter than C. Who is tallest?",
-      "option_a": "C",
-      "option_b": "A",
-      "option_c": "B",
-      "option_d": "Cannot say",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "B"
+        },
+        {
+          "id": "D",
+          "text": "Cannot say"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Ordering",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Ordering",
+        "Reasoning",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-015",
       "question": "Which is an output device?",
-      "option_a": "Printer",
-      "option_b": "Keyboard",
-      "option_c": "Scanner",
-      "option_d": "Microphone",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Printer"
+        },
+        {
+          "id": "B",
+          "text": "Keyboard"
+        },
+        {
+          "id": "C",
+          "text": "Scanner"
+        },
+        {
+          "id": "D",
+          "text": "Microphone"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Hardware",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-016",
       "question": "Audit aims to examine",
-      "option_a": "Financial statements and controls",
-      "option_b": "Only HR policies",
-      "option_c": "Only marketing plans",
-      "option_d": "Only production schedules",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Financial statements and controls"
+        },
+        {
+          "id": "B",
+          "text": "Only HR policies"
+        },
+        {
+          "id": "C",
+          "text": "Only marketing plans"
+        },
+        {
+          "id": "D",
+          "text": "Only production schedules"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Audit",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "Audit",
+        "shared_syllabus_pool",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-017",
       "question": "Capital is shown on",
-      "option_a": "Liability side of balance sheet (in traditional form)",
-      "option_b": "Asset side only",
-      "option_c": "P&L only",
-      "option_d": "Cash book only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liability side of balance sheet (in traditional form)"
+        },
+        {
+          "id": "B",
+          "text": "Asset side only"
+        },
+        {
+          "id": "C",
+          "text": "P&L only"
+        },
+        {
+          "id": "D",
+          "text": "Cash book only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "Balance Sheet",
+        "shared_syllabus_pool",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-018",
       "question": "Phishing is related to",
-      "option_a": "Cyber fraud / fake emails",
-      "option_b": "Printer failure",
-      "option_c": "CPU overheating",
-      "option_d": "Disk formatting",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyber fraud / fake emails"
+        },
+        {
+          "id": "B",
+          "text": "Printer failure"
+        },
+        {
+          "id": "C",
+          "text": "CPU overheating"
+        },
+        {
+          "id": "D",
+          "text": "Disk formatting"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Security",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "Security"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-019",
       "question": "If 2=4, 3=9, 4=16 then 5=",
-      "option_a": "25",
-      "option_b": "20",
-      "option_c": "15",
-      "option_d": "10",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "25"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Analogy",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "Analogy",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-020",
       "question": "Calendar: If 1st is Monday, 8th is",
-      "option_a": "Monday",
-      "option_b": "Sunday",
-      "option_c": "Tuesday",
-      "option_d": "Friday",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monday"
+        },
+        {
+          "id": "B",
+          "text": "Sunday"
+        },
+        {
+          "id": "C",
+          "text": "Tuesday"
+        },
+        {
+          "id": "D",
+          "text": "Friday"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Calendar",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "shared_syllabus_pool",
+        "Calendar"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-021",
       "question": "Fiscal policy is related to",
-      "option_a": "Government taxation and expenditure",
-      "option_b": "Only bank rates",
-      "option_c": "Only foreign exchange",
-      "option_d": "Only population",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Government taxation and expenditure"
+        },
+        {
+          "id": "B",
+          "text": "Only bank rates"
+        },
+        {
+          "id": "C",
+          "text": "Only foreign exchange"
+        },
+        {
+          "id": "D",
+          "text": "Only population"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Economics",
       "topic": "Fiscal Policy",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Economics",
+        "Fiscal Policy",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-022",
       "question": "Karakoram Range lies to the",
-      "option_a": "North of Ladakh",
-      "option_b": "South of Kerala",
-      "option_c": "East of Odisha",
-      "option_d": "West of Gujarat",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "North of Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "South of Kerala"
+        },
+        {
+          "id": "C",
+          "text": "East of Odisha"
+        },
+        {
+          "id": "D",
+          "text": "West of Gujarat"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "RAM is volatile memory used for temporary working storage while the computer is on.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-023",
       "question": "Unemployment means",
-      "option_a": "Willing and able persons without jobs",
-      "option_b": "All people without luxury cars",
-      "option_c": "Only seasonal farming",
-      "option_d": "Only student holidays",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Willing and able persons without jobs"
+        },
+        {
+          "id": "B",
+          "text": "All people without luxury cars"
+        },
+        {
+          "id": "C",
+          "text": "Only seasonal farming"
+        },
+        {
+          "id": "D",
+          "text": "Only student holidays"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Economics",
       "topic": "Employment",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Economics",
+        "shared_syllabus_pool",
+        "Employment"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-024",
       "question": "MS Access is mainly a",
-      "option_a": "Database management system",
-      "option_b": "Video editor",
-      "option_c": "Web browser",
-      "option_d": "Antivirus",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Database management system"
+        },
+        {
+          "id": "B",
+          "text": "Video editor"
+        },
+        {
+          "id": "C",
+          "text": "Web browser"
+        },
+        {
+          "id": "D",
+          "text": "Antivirus"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "MS Office",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-025",
       "question": "Vaishno Devi shrine is in which district?",
-      "option_a": "Reasi",
-      "option_b": "Jammu",
-      "option_c": "Udhampur",
-      "option_d": "Kathua",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reasi"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Udhampur"
+        },
+        {
+          "id": "D",
+          "text": "Kathua"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-026",
       "question": "Speed 60 km/h for 2 hours covers",
-      "option_a": "120 km",
-      "option_b": "60 km",
-      "option_c": "90 km",
-      "option_d": "100 km",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "120 km"
+        },
+        {
+          "id": "B",
+          "text": "60 km"
+        },
+        {
+          "id": "C",
+          "text": "90 km"
+        },
+        {
+          "id": "D",
+          "text": "100 km"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "TSD",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "TSD"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-027",
       "question": "Tawi river flows through",
-      "option_a": "Jammu",
-      "option_b": "Srinagar",
-      "option_c": "Leh",
-      "option_d": "Kupwara",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Kupwara"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-028",
       "question": "If SP = CP, profit is",
-      "option_a": "0%",
-      "option_b": "10%",
-      "option_c": "100%",
-      "option_d": "50%",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "0%"
+        },
+        {
+          "id": "B",
+          "text": "10%"
+        },
+        {
+          "id": "C",
+          "text": "100%"
+        },
+        {
+          "id": "D",
+          "text": "50%"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Profit & Loss",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "Profit & Loss"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-029",
       "question": "2/5 of 100 =",
-      "option_a": "40",
-      "option_b": "20",
-      "option_c": "50",
-      "option_d": "60",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Fractions",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "Fractions",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-030",
       "question": "Which pass connects Srinagar with Leh?",
-      "option_a": "Zoji La",
-      "option_b": "Banihal",
-      "option_c": "Pir Panjal",
-      "option_d": "Nathu La",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zoji La"
+        },
+        {
+          "id": "B",
+          "text": "Banihal"
+        },
+        {
+          "id": "C",
+          "text": "Pir Panjal"
+        },
+        {
+          "id": "D",
+          "text": "Nathu La"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-031",
       "question": "Odd one out: pen, pencil, eraser, apple",
-      "option_a": "apple",
-      "option_b": "pen",
-      "option_c": "pencil",
-      "option_d": "eraser",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "apple"
+        },
+        {
+          "id": "B",
+          "text": "pen"
+        },
+        {
+          "id": "C",
+          "text": "pencil"
+        },
+        {
+          "id": "D",
+          "text": "eraser"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Classification",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Classification",
+        "Reasoning",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-032",
       "question": "Hari Parbat fort is associated with",
-      "option_a": "Srinagar",
-      "option_b": "Jammu",
-      "option_c": "Poonch",
-      "option_d": "Kargil",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Poonch"
+        },
+        {
+          "id": "D",
+          "text": "Kargil"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "History",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "History",
+        "shared_syllabus_pool",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-033",
       "question": "The language Dogri is primarily associated with",
-      "option_a": "Jammu region",
-      "option_b": "Kerala",
-      "option_c": "Assam",
-      "option_d": "Goa",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu region"
+        },
+        {
+          "id": "B",
+          "text": "Kerala"
+        },
+        {
+          "id": "C",
+          "text": "Assam"
+        },
+        {
+          "id": "D",
+          "text": "Goa"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-034",
       "question": "LAN stands for",
-      "option_a": "Local Area Network",
-      "option_b": "Large Area Network",
-      "option_c": "Long Access Node",
-      "option_d": "Logical Area Net",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local Area Network"
+        },
+        {
+          "id": "B",
+          "text": "Large Area Network"
+        },
+        {
+          "id": "C",
+          "text": "Long Access Node"
+        },
+        {
+          "id": "D",
+          "text": "Logical Area Net"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Networking",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Networking",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-035",
       "question": "Direct materials + Direct labour + Direct expenses =",
-      "option_a": "Prime cost",
-      "option_b": "Factory cost",
-      "option_c": "Cost of sales",
-      "option_d": "Overheads",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prime cost"
+        },
+        {
+          "id": "B",
+          "text": "Factory cost"
+        },
+        {
+          "id": "C",
+          "text": "Cost of sales"
+        },
+        {
+          "id": "D",
+          "text": "Overheads"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Costing",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "Costing",
+        "shared_syllabus_pool",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-036",
       "question": "Which storage is typically non-volatile?",
-      "option_a": "ROM",
-      "option_b": "RAM",
-      "option_c": "Cache only",
-      "option_d": "Registers only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "ROM"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "Cache only"
+        },
+        {
+          "id": "D",
+          "text": "Registers only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Memory",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "Memory"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-037",
       "question": "Mausoleum of Sheikh Noor-ud-din Noorani is at",
-      "option_a": "Charar-e-Sharief",
-      "option_b": "Hazratbal",
-      "option_c": "Jammu",
-      "option_d": "Leh",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Charar-e-Sharief"
+        },
+        {
+          "id": "B",
+          "text": "Hazratbal"
+        },
+        {
+          "id": "C",
+          "text": "Jammu"
+        },
+        {
+          "id": "D",
+          "text": "Leh"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-038",
       "question": "Money is anything that",
-      "option_a": "Acts as medium of exchange",
-      "option_b": "Is only gold",
-      "option_c": "Is only paper",
-      "option_d": "Cannot store value",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acts as medium of exchange"
+        },
+        {
+          "id": "B",
+          "text": "Is only gold"
+        },
+        {
+          "id": "C",
+          "text": "Is only paper"
+        },
+        {
+          "id": "D",
+          "text": "Cannot store value"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Economics",
       "topic": "Money",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Economics",
+        "shared_syllabus_pool",
+        "Money"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-039",
       "question": "Opposite of North-East is",
-      "option_a": "South-West",
-      "option_b": "North-West",
-      "option_c": "South-East",
-      "option_d": "East",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "South-West"
+        },
+        {
+          "id": "B",
+          "text": "North-West"
+        },
+        {
+          "id": "C",
+          "text": "South-East"
+        },
+        {
+          "id": "D",
+          "text": "East"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Direction",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Direction",
+        "Reasoning",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-040",
       "question": "Choose correct spelling",
-      "option_a": "Necessary",
-      "option_b": "Neccessary",
-      "option_c": "Necesary",
-      "option_d": "Neceserry",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Necessary"
+        },
+        {
+          "id": "B",
+          "text": "Neccessary"
+        },
+        {
+          "id": "C",
+          "text": "Necesary"
+        },
+        {
+          "id": "D",
+          "text": "Neceserry"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Spelling",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Spelling"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-041",
       "question": "Double entry means",
-      "option_a": "Every debit has a corresponding credit",
-      "option_b": "Single sided entry only",
-      "option_c": "Cash only accounting",
-      "option_d": "No ledgers",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every debit has a corresponding credit"
+        },
+        {
+          "id": "B",
+          "text": "Single sided entry only"
+        },
+        {
+          "id": "C",
+          "text": "Cash only accounting"
+        },
+        {
+          "id": "D",
+          "text": "No ledgers"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "shared_syllabus_pool",
+        "Accounts",
+        "Basics"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-042",
       "question": "Which extension is common for Excel files?",
-      "option_a": "xlsx",
-      "option_b": "docx",
-      "option_c": "pptx",
-      "option_d": "pdf only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "xlsx"
+        },
+        {
+          "id": "B",
+          "text": "docx"
+        },
+        {
+          "id": "C",
+          "text": "pptx"
+        },
+        {
+          "id": "D",
+          "text": "pdf only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "MS Office",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "MS Office",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-043",
       "question": "One who loves books is a",
-      "option_a": "Bibliophile",
-      "option_b": "Philanthropist",
-      "option_c": "Optimist",
-      "option_d": "Atheist",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bibliophile"
+        },
+        {
+          "id": "B",
+          "text": "Philanthropist"
+        },
+        {
+          "id": "C",
+          "text": "Optimist"
+        },
+        {
+          "id": "D",
+          "text": "Atheist"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Vocabulary"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-044",
       "question": "Ratio 3:5 means",
-      "option_a": "3 parts to 5 parts",
-      "option_b": "3×5",
-      "option_c": "3+5",
-      "option_d": "35",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 parts to 5 parts"
+        },
+        {
+          "id": "B",
+          "text": "3×5"
+        },
+        {
+          "id": "C",
+          "text": "3+5"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Ratio",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "Ratio",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-045",
       "question": "Discount of 10% on 500 is",
-      "option_a": "50",
-      "option_b": "40",
-      "option_c": "60",
-      "option_d": "100",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "50"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Percentage",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "Percentage",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-046",
       "question": "Antonym of “Ancient”",
-      "option_a": "Modern",
-      "option_b": "Old",
-      "option_c": "Historic",
-      "option_d": "Antique",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Modern"
+        },
+        {
+          "id": "B",
+          "text": "Old"
+        },
+        {
+          "id": "C",
+          "text": "Historic"
+        },
+        {
+          "id": "D",
+          "text": "Antique"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Vocabulary"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-047",
       "question": "Dachigam National Park is known for",
-      "option_a": "Hangul (Kashmir stag)",
-      "option_b": "Asiatic lion",
-      "option_c": "One-horned rhino",
-      "option_d": "Snow leopard only in Rajasthan",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hangul (Kashmir stag)"
+        },
+        {
+          "id": "B",
+          "text": "Asiatic lion"
+        },
+        {
+          "id": "C",
+          "text": "One-horned rhino"
+        },
+        {
+          "id": "D",
+          "text": "Snow leopard only in Rajasthan"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Environment",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-048",
       "question": "Ladakh became a separate UT in",
-      "option_a": "2019",
-      "option_b": "2014",
-      "option_c": "2002",
-      "option_d": "2021",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "2019"
+        },
+        {
+          "id": "B",
+          "text": "2014"
+        },
+        {
+          "id": "C",
+          "text": "2002"
+        },
+        {
+          "id": "D",
+          "text": "2021"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Polity",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-049",
       "question": "If TODAY is coded as UPEBZ, then LATER is coded as",
-      "option_a": "MBUFS",
-      "option_b": "KZSDQ",
-      "option_c": "MBUES",
-      "option_d": "LAUES",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "MBUFS"
+        },
+        {
+          "id": "B",
+          "text": "KZSDQ"
+        },
+        {
+          "id": "C",
+          "text": "MBUES"
+        },
+        {
+          "id": "D",
+          "text": "LAUES"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Coding",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "Coding",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-050",
       "question": "Cash book records",
-      "option_a": "Cash transactions",
-      "option_b": "Only credit sales",
-      "option_c": "Only depreciation",
-      "option_d": "Only capital",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cash transactions"
+        },
+        {
+          "id": "B",
+          "text": "Only credit sales"
+        },
+        {
+          "id": "C",
+          "text": "Only depreciation"
+        },
+        {
+          "id": "D",
+          "text": "Only capital"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "shared_syllabus_pool",
+        "Cash Book",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-051",
       "question": "USB stands for",
-      "option_a": "Universal Serial Bus",
-      "option_b": "United Serial Bus",
-      "option_c": "Ultra Speed Bus",
-      "option_d": "Universal System Board",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Universal Serial Bus"
+        },
+        {
+          "id": "B",
+          "text": "United Serial Bus"
+        },
+        {
+          "id": "C",
+          "text": "Ultra Speed Bus"
+        },
+        {
+          "id": "D",
+          "text": "Universal System Board"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "Basics"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-052",
       "question": "The Indus river enters India in which region historically linked to J&K?",
-      "option_a": "Ladakh",
-      "option_b": "Jammu plains",
-      "option_c": "Kathua",
-      "option_d": "Samba",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "Jammu plains"
+        },
+        {
+          "id": "C",
+          "text": "Kathua"
+        },
+        {
+          "id": "D",
+          "text": "Samba"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-053",
       "question": "“Look down upon” means",
-      "option_a": "To despise / consider inferior",
-      "option_b": "To search",
-      "option_c": "To admire",
-      "option_d": "To climb",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "To despise / consider inferior"
+        },
+        {
+          "id": "B",
+          "text": "To search"
+        },
+        {
+          "id": "C",
+          "text": "To admire"
+        },
+        {
+          "id": "D",
+          "text": "To climb"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Idioms",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Idioms"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-054",
       "question": "Choose synonym of “Rapid”",
-      "option_a": "Quick",
-      "option_b": "Slow",
-      "option_c": "Late",
-      "option_d": "Dull",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quick"
+        },
+        {
+          "id": "B",
+          "text": "Slow"
+        },
+        {
+          "id": "C",
+          "text": "Late"
+        },
+        {
+          "id": "D",
+          "text": "Dull"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Vocabulary"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-055",
       "question": "Find missing: 8, 27, 64, 125, ?",
-      "option_a": "216",
-      "option_b": "200",
-      "option_c": "180",
-      "option_d": "243",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "216"
+        },
+        {
+          "id": "B",
+          "text": "200"
+        },
+        {
+          "id": "C",
+          "text": "180"
+        },
+        {
+          "id": "D",
+          "text": "243"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Series",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "shared_syllabus_pool",
+        "Series"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-056",
       "question": "CC in email means",
-      "option_a": "Carbon Copy",
-      "option_b": "Computer Copy",
-      "option_c": "Central Copy",
-      "option_d": "Cached Copy",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carbon Copy"
+        },
+        {
+          "id": "B",
+          "text": "Computer Copy"
+        },
+        {
+          "id": "C",
+          "text": "Central Copy"
+        },
+        {
+          "id": "D",
+          "text": "Cached Copy"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-057",
       "question": "Cube of 4 is",
-      "option_a": "64",
-      "option_b": "16",
-      "option_c": "12",
-      "option_d": "8",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Numbers",
+        "Arithmetic",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-058",
       "question": "The winter capital of J&K UT administration traditionally shifts to",
-      "option_a": "Jammu",
-      "option_b": "Srinagar",
-      "option_c": "Leh",
-      "option_d": "Katra",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Katra"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-059",
       "question": "Mutation fee is related to",
-      "option_a": "Updating land ownership records",
-      "option_b": "Buying stamps for letters",
-      "option_c": "Passport renewal",
-      "option_d": "Driving licence only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Updating land ownership records"
+        },
+        {
+          "id": "B",
+          "text": "Buying stamps for letters"
+        },
+        {
+          "id": "C",
+          "text": "Passport renewal"
+        },
+        {
+          "id": "D",
+          "text": "Driving licence only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Revenue",
       "topic": "Land Records",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Land Records",
+        "shared_syllabus_pool",
+        "Revenue"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-060",
       "question": "Booting means",
-      "option_a": "Starting the computer",
-      "option_b": "Shutting down only",
-      "option_c": "Deleting files",
-      "option_d": "Installing antivirus only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Starting the computer"
+        },
+        {
+          "id": "B",
+          "text": "Shutting down only"
+        },
+        {
+          "id": "C",
+          "text": "Deleting files"
+        },
+        {
+          "id": "D",
+          "text": "Installing antivirus only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "OS",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "OS"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-061",
       "question": "IP address identifies a",
-      "option_a": "Device on a network",
-      "option_b": "Hard disk brand",
-      "option_c": "Printer ink type",
-      "option_d": "Monitor size",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Device on a network"
+        },
+        {
+          "id": "B",
+          "text": "Hard disk brand"
+        },
+        {
+          "id": "C",
+          "text": "Printer ink type"
+        },
+        {
+          "id": "D",
+          "text": "Monitor size"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-062",
       "question": "Which is an example of system software?",
-      "option_a": "Operating System",
-      "option_b": "MS Word",
-      "option_c": "Photoshop",
-      "option_d": "Chrome browser only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operating System"
+        },
+        {
+          "id": "B",
+          "text": "MS Word"
+        },
+        {
+          "id": "C",
+          "text": "Photoshop"
+        },
+        {
+          "id": "D",
+          "text": "Chrome browser only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "OS",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "OS"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-063",
       "question": "Shankaracharya Temple is located in",
-      "option_a": "Srinagar",
-      "option_b": "Jammu",
-      "option_c": "Anantnag",
-      "option_d": "Baramulla",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar"
+        },
+        {
+          "id": "B",
+          "text": "Jammu"
+        },
+        {
+          "id": "C",
+          "text": "Anantnag"
+        },
+        {
+          "id": "D",
+          "text": "Baramulla"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Culture",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Culture",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-064",
       "question": "If all books are pens and some pens are pencils, then",
-      "option_a": "Some books may be pencils",
-      "option_b": "All pencils are books",
-      "option_c": "No pen is a book",
-      "option_d": "All books are pencils",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Some books may be pencils"
+        },
+        {
+          "id": "B",
+          "text": "All pencils are books"
+        },
+        {
+          "id": "C",
+          "text": "No pen is a book"
+        },
+        {
+          "id": "D",
+          "text": "All books are pencils"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Reasoning",
       "topic": "Syllogism",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Reasoning",
+        "shared_syllabus_pool",
+        "Syllogism"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-065",
       "question": "Indirect tax example",
-      "option_a": "GST",
-      "option_b": "Income tax",
-      "option_c": "Corporate tax on profits only",
-      "option_d": "Wealth tax only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST"
+        },
+        {
+          "id": "B",
+          "text": "Income tax"
+        },
+        {
+          "id": "C",
+          "text": "Corporate tax on profits only"
+        },
+        {
+          "id": "D",
+          "text": "Wealth tax only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "shared_syllabus_pool",
+        "Taxation",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-066",
       "question": "14th Finance Commission is related to",
-      "option_a": "Devolution of finances",
-      "option_b": "Land mutation only",
-      "option_c": "Forest rights only",
-      "option_d": "Police reforms only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devolution of finances"
+        },
+        {
+          "id": "B",
+          "text": "Land mutation only"
+        },
+        {
+          "id": "C",
+          "text": "Forest rights only"
+        },
+        {
+          "id": "D",
+          "text": "Police reforms only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Rural Development",
       "topic": "Finance",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Rural Development",
+        "shared_syllabus_pool",
+        "Finance"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-067",
       "question": "Lidder river is a tributary of",
-      "option_a": "Jhelum",
-      "option_b": "Chenab",
-      "option_c": "Ravi",
-      "option_d": "Indus",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jhelum"
+        },
+        {
+          "id": "B",
+          "text": "Chenab"
+        },
+        {
+          "id": "C",
+          "text": "Ravi"
+        },
+        {
+          "id": "D",
+          "text": "Indus"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / J&K GK"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / J&K GK",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-068",
       "question": "Village Chowkidar traditionally assisted in",
-      "option_a": "Village watch and ward / local reporting",
-      "option_b": "Income tax raids only",
-      "option_c": "Bank audits",
-      "option_d": "Court stenography",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Village watch and ward / local reporting"
+        },
+        {
+          "id": "B",
+          "text": "Income tax raids only"
+        },
+        {
+          "id": "C",
+          "text": "Bank audits"
+        },
+        {
+          "id": "D",
+          "text": "Court stenography"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Revenue",
       "topic": "Village Administration",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "Village Administration",
+        "Revenue"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-069",
       "question": "Journal is a book of",
-      "option_a": "Original entry",
-      "option_b": "Final accounts only",
-      "option_c": "Cost sheet only",
-      "option_d": "Inventory only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Original entry"
+        },
+        {
+          "id": "B",
+          "text": "Final accounts only"
+        },
+        {
+          "id": "C",
+          "text": "Cost sheet only"
+        },
+        {
+          "id": "D",
+          "text": "Inventory only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Accounts",
       "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Accounts"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Accounts",
+      "tags": [
+        "Journal",
+        "shared_syllabus_pool",
+        "Accounts"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-070",
       "question": "Average of first 5 natural numbers",
-      "option_a": "3",
-      "option_b": "2.5",
-      "option_c": "4",
-      "option_d": "5",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "2.5"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Average",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "Average"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-071",
       "question": "Ctrl + S is commonly used to",
-      "option_a": "Save",
-      "option_b": "Copy",
-      "option_c": "Paste",
-      "option_d": "Undo",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Save"
+        },
+        {
+          "id": "B",
+          "text": "Copy"
+        },
+        {
+          "id": "C",
+          "text": "Paste"
+        },
+        {
+          "id": "D",
+          "text": "Undo"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Shortcuts",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Shortcuts",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-072",
       "question": "Idiom “Once in a blue moon” means",
-      "option_a": "Very rarely",
-      "option_b": "Very often",
-      "option_c": "Never",
-      "option_d": "Always",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Very rarely"
+        },
+        {
+          "id": "B",
+          "text": "Very often"
+        },
+        {
+          "id": "C",
+          "text": "Never"
+        },
+        {
+          "id": "D",
+          "text": "Always"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Idioms",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Idioms"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-073",
       "question": "Inflation means",
-      "option_a": "General rise in price level",
-      "option_b": "Fall in prices only",
-      "option_c": "Increase in employment only",
-      "option_d": "Increase in exports only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "General rise in price level"
+        },
+        {
+          "id": "B",
+          "text": "Fall in prices only"
+        },
+        {
+          "id": "C",
+          "text": "Increase in employment only"
+        },
+        {
+          "id": "D",
+          "text": "Increase in exports only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Economics",
       "topic": "Inflation",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Economics",
+        "shared_syllabus_pool",
+        "Inflation"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-074",
       "question": "Plural of “mouse” (animal)",
-      "option_a": "mice",
-      "option_b": "mouses",
-      "option_c": "mouse",
-      "option_d": "meese",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "mice"
+        },
+        {
+          "id": "B",
+          "text": "mouses"
+        },
+        {
+          "id": "C",
+          "text": "mouse"
+        },
+        {
+          "id": "D",
+          "text": "meese"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-075",
       "question": "The brain of the computer is",
-      "option_a": "CPU",
-      "option_b": "Monitor",
-      "option_c": "Keyboard",
-      "option_d": "Mouse",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "Monitor"
+        },
+        {
+          "id": "C",
+          "text": "Keyboard"
+        },
+        {
+          "id": "D",
+          "text": "Mouse"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Hardware",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Hardware",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-076",
       "question": "She ___ to school every day.",
-      "option_a": "goes",
-      "option_b": "go",
-      "option_c": "going",
-      "option_d": "gone",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "goes"
+        },
+        {
+          "id": "B",
+          "text": "go"
+        },
+        {
+          "id": "C",
+          "text": "going"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-077",
       "question": "15% of 200 =",
-      "option_a": "30",
-      "option_b": "20",
-      "option_c": "25",
-      "option_d": "35",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "30"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Percentage",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "Percentage",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-078",
       "question": "Simple interest formula is",
-      "option_a": "(P×R×T)/100",
-      "option_b": "P×R×T",
-      "option_c": "P+R+T",
-      "option_d": "PRT/10",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "(P×R×T)/100"
+        },
+        {
+          "id": "B",
+          "text": "P×R×T"
+        },
+        {
+          "id": "C",
+          "text": "P+R+T"
+        },
+        {
+          "id": "D",
+          "text": "PRT/10"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "SI",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "SI"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-079",
       "question": "He is ___ than his brother.",
-      "option_a": "taller",
-      "option_b": "tallest",
-      "option_c": "more taller",
-      "option_d": "tall",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "taller"
+        },
+        {
+          "id": "B",
+          "text": "tallest"
+        },
+        {
+          "id": "C",
+          "text": "more taller"
+        },
+        {
+          "id": "D",
+          "text": "tall"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-080",
       "question": "Panchayat election is conducted under",
-      "option_a": "State election framework for local bodies",
-      "option_b": "Lok Sabha rules only",
-      "option_c": "Rajya Sabha rules only",
-      "option_d": "RBI guidelines",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "State election framework for local bodies"
+        },
+        {
+          "id": "B",
+          "text": "Lok Sabha rules only"
+        },
+        {
+          "id": "C",
+          "text": "Rajya Sabha rules only"
+        },
+        {
+          "id": "D",
+          "text": "RBI guidelines"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Rural Development",
       "topic": "Panchayati Raj",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern",
+      "tags": [
+        "Rural Development",
+        "shared_syllabus_pool",
+        "Panchayati Raj"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-081",
       "question": "\"Accomplishments\" and \"virtues\" are positive; \"compliance\" and \"benefits\" do not logically connect to the negative connotation of drug-related activity. Choose the pair of words that will make the sentence grammatically correct and meaningful. The mournful _____ of the grieving widow _____ through the empty halls of the old mansion",
-      "option_a": "wail, echoed",
-      "option_b": "cries, filled",
-      "option_c": "sobs, resounded",
-      "option_d": "whispers, echoed",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "wail, echoed"
+        },
+        {
+          "id": "B",
+          "text": "cries, filled"
+        },
+        {
+          "id": "C",
+          "text": "sobs, resounded"
+        },
+        {
+          "id": "D",
+          "text": "whispers, echoed"
+        }
+      ],
+      "correct_option": "A",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "RAM is volatile memory used for temporary working storage while the computer is on.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "General Awareness"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-082",
       "question": "If A:B = 2:3 and B:C = 4:5, then A:C =",
-      "option_a": "8:15",
-      "option_b": "2:5",
-      "option_c": "3:5",
-      "option_d": "4:5",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "8:15"
+        },
+        {
+          "id": "B",
+          "text": "2:5"
+        },
+        {
+          "id": "C",
+          "text": "3:5"
+        },
+        {
+          "id": "D",
+          "text": "4:5"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Ratio",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Arithmetic"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
+      "tags": [
+        "Arithmetic",
+        "Ratio",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-083",
       "question": "Which protocol is commonly used for sending emails?",
-      "option_a": "SMTP",
-      "option_b": "FTP",
-      "option_c": "HTTP only",
-      "option_d": "SSH only",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "SMTP"
+        },
+        {
+          "id": "B",
+          "text": "FTP"
+        },
+        {
+          "id": "C",
+          "text": "HTTP only"
+        },
+        {
+          "id": "D",
+          "text": "SSH only"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Internet",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Computer"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Computer",
+      "tags": [
+        "Internet",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-084",
       "question": "Application Software: Unlike system software, Microsoft Office is designed to help the user perform specific tasks—such as word processing (Word), data analysis (Excel), or presentations (PowerPoint). Therefore, it belongs to the category of Application Software. ## English 21 questions Change the below sentence into passive voice. Please help the needy and poor people",
-      "option_a": "You are advised to help the needy and poor people",
-      "option_b": "You are requested to help the needy and poor people",
-      "option_c": "Let the needy and the poor people be helped",
-      "option_d": "The needy and poor people must be helped",
-      "correct": "B",
+      "options": [
+        {
+          "id": "A",
+          "text": "You are advised to help the needy and poor people"
+        },
+        {
+          "id": "B",
+          "text": "You are requested to help the needy and poor people"
+        },
+        {
+          "id": "C",
+          "text": "Let the needy and the poor people be helped"
+        },
+        {
+          "id": "D",
+          "text": "The needy and poor people must be helped"
+        }
+      ],
+      "correct_option": "B",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "General Awareness"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-085",
       "question": "Pro Tip: Single-clicking the Format Painter allows you to apply formatting once. Double-clicking the Format Painter button keeps the tool \"active,\" allowing you to apply the same formatting to multiple different areas until you press the Esc key. Which of the following devices converts computer output data into an analog form that can be transmitted over a telephone line?",
-      "option_a": "Multiplexer",
-      "option_b": "Modulator",
-      "option_c": "Teleport",
-      "option_d": "Modem",
-      "correct": "D",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiplexer"
+        },
+        {
+          "id": "B",
+          "text": "Modulator"
+        },
+        {
+          "id": "C",
+          "text": "Teleport"
+        },
+        {
+          "id": "D",
+          "text": "Modem"
+        }
+      ],
+      "correct_option": "D",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "General Awareness"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-086",
       "question": "Who built the Gadadhar temple in Jammu district?",
-      "option_a": "Maharaja Gulab Singh",
-      "option_b": "Maharaja Ranbir Singh",
-      "option_c": "Maharaja Pratap Singh",
-      "option_d": "Maharaja Hari Singh",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maharaja Gulab Singh"
+        },
+        {
+          "id": "B",
+          "text": "Maharaja Ranbir Singh"
+        },
+        {
+          "id": "C",
+          "text": "Maharaja Pratap Singh"
+        },
+        {
+          "id": "D",
+          "text": "Maharaja Hari Singh"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "History",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2022",
-      "source": "JKSSB Junior Assistant PYQ (reported)"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Junior Assistant PYQ (reported)",
+      "tags": [
+        "History",
+        "shared_syllabus_pool",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-087",
       "question": "Antonym of “Transparent” is:",
-      "option_a": "Opaque",
-      "option_b": "Clear",
-      "option_c": "Bright",
-      "option_d": "Open",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opaque"
+        },
+        {
+          "id": "B",
+          "text": "Clear"
+        },
+        {
+          "id": "C",
+          "text": "Bright"
+        },
+        {
+          "id": "D",
+          "text": "Open"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Vocabulary",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / English"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / English",
+      "tags": [
+        "shared_syllabus_pool",
+        "English",
+        "Vocabulary"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-088",
       "question": "Which river is often called the lifeline of the Kashmir Valley?",
-      "option_a": "Jhelum",
-      "option_b": "Chenab",
-      "option_c": "Ravi",
-      "option_d": "Tawi",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jhelum"
+        },
+        {
+          "id": "B",
+          "text": "Chenab"
+        },
+        {
+          "id": "C",
+          "text": "Ravi"
+        },
+        {
+          "id": "D",
+          "text": "Tawi"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Geography",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Geography"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Geography",
+      "tags": [
+        "shared_syllabus_pool",
+        "Geography",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-089",
       "question": "Area of a square with side 8 cm is:",
-      "option_a": "64 cm²",
-      "option_b": "32 cm²",
-      "option_c": "16 cm²",
-      "option_d": "48 cm²",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "64 cm²"
+        },
+        {
+          "id": "B",
+          "text": "32 cm²"
+        },
+        {
+          "id": "C",
+          "text": "16 cm²"
+        },
+        {
+          "id": "D",
+          "text": "48 cm²"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Mensuration",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Arithmetic"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
+      "tags": [
+        "Arithmetic",
+        "shared_syllabus_pool",
+        "Mensuration"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-090",
       "question": "General Science Consider the following pairs: Which of the below pairs are correctly matched? | Column I | | Column II | | | --- | --- | --- | --- | | 1. | Chocolate | a. | Phenylethylamine | | 2. | Oysters | b. | Aspartic acid | | 3. | Spanish Fly | c. | Formic acid | | 4. | Nutmeg | d. | Myristicin |",
-      "option_a": "2, 3 and 4",
-      "option_b": "1, 3 and 4",
-      "option_c": "1, 2 and 3",
-      "option_d": "1, 2 and 4",
-      "correct": "D",
+      "options": [
+        {
+          "id": "A",
+          "text": "2, 3 and 4"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 4"
+        }
+      ],
+      "correct_option": "D",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "post_primary",
+        "General Awareness"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-091",
       "question": "CPU stands for:",
-      "option_a": "Central Processing Unit",
-      "option_b": "Central Programming Unit",
-      "option_c": "Computer Personal Unit",
-      "option_d": "Control Processing Unit",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Central Processing Unit"
+        },
+        {
+          "id": "B",
+          "text": "Central Programming Unit"
+        },
+        {
+          "id": "C",
+          "text": "Computer Personal Unit"
+        },
+        {
+          "id": "D",
+          "text": "Control Processing Unit"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Basics",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Computer"
+      "exam": "Cadre Clerk",
+      "explanation": "CPU (Central Processing Unit) is the primary component that executes instructions.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Computer",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer",
+        "Basics"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-092",
       "question": "Simple Interest on Rs. 1000 at 10% per annum for 2 years is:",
-      "option_a": "Rs. 200",
-      "option_b": "Rs. 100",
-      "option_c": "Rs. 150",
-      "option_d": "Rs. 250",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rs. 200"
+        },
+        {
+          "id": "B",
+          "text": "Rs. 100"
+        },
+        {
+          "id": "C",
+          "text": "Rs. 150"
+        },
+        {
+          "id": "D",
+          "text": "Rs. 250"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Arithmetic",
       "topic": "Simple Interest",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Arithmetic"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Arithmetic",
+      "tags": [
+        "Arithmetic",
+        "Simple Interest",
+        "shared_syllabus_pool"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-093",
       "question": "Which of the following is an official language of the UT of Jammu and Kashmir (Official Languages Act, 2020)?",
-      "option_a": "Dogri",
-      "option_b": "Sanskrit",
-      "option_c": "Punjabi only",
-      "option_d": "Arabic",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dogri"
+        },
+        {
+          "id": "B",
+          "text": "Sanskrit"
+        },
+        {
+          "id": "C",
+          "text": "Punjabi only"
+        },
+        {
+          "id": "D",
+          "text": "Arabic"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Polity",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2020",
-      "source": "JKSSB pattern / Polity"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Polity",
+      "tags": [
+        "shared_syllabus_pool",
+        "Polity",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-094",
       "question": "Option D: Deleting files is the behavior of \"wiper\" malware, which aims to destroy data rather than profit from it. In MS Word, using CTRL+SHIFT with any of the arrow keys",
-      "option_a": "Highlights a block of text",
-      "option_b": "Deletes something",
-      "option_c": "Pastes something",
-      "option_d": "None of the above",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Highlights a block of text"
+        },
+        {
+          "id": "B",
+          "text": "Deletes something"
+        },
+        {
+          "id": "C",
+          "text": "Pastes something"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Computer",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-095",
       "question": "Statement 2 (Incorrect): The Bodo (Boro) people are an ethnolinguistic group primarily inhabiting the state of Assam. They are the largest minority group in Assam and have a dedicated autonomous region known as the Bodoland Territorial Region (BTR). They are not a primary indigenous group of Manipur. Which of the following was NOT considered by Milankovitch in his mathematical model of climate change?",
-      "option_a": "Change in the angle of inclination of the earth",
-      "option_b": "Change in the eccentricity of the earth's orbit",
-      "option_c": "Precession of equinoxes",
-      "option_d": "Changes in the rate of rotation of earth on its axis",
-      "correct": "D",
+      "options": [
+        {
+          "id": "A",
+          "text": "Change in the angle of inclination of the earth"
+        },
+        {
+          "id": "B",
+          "text": "Change in the eccentricity of the earth's orbit"
+        },
+        {
+          "id": "C",
+          "text": "Precession of equinoxes"
+        },
+        {
+          "id": "D",
+          "text": "Changes in the rate of rotation of earth on its axis"
+        }
+      ],
+      "correct_option": "D",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "General Awareness"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-096",
       "question": "Who is known as the “Lion of Kashmir”?",
-      "option_a": "Sheikh Mohammad Abdullah",
-      "option_b": "Hari Singh",
-      "option_c": "Gulab Singh",
-      "option_d": "Bakshi Ghulam Mohammad",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sheikh Mohammad Abdullah"
+        },
+        {
+          "id": "B",
+          "text": "Hari Singh"
+        },
+        {
+          "id": "C",
+          "text": "Gulab Singh"
+        },
+        {
+          "id": "D",
+          "text": "Bakshi Ghulam Mohammad"
+        }
+      ],
+      "correct_option": "A",
       "subject": "J&K GK",
       "topic": "Modern History",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / History"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / History",
+      "tags": [
+        "shared_syllabus_pool",
+        "Modern History",
+        "J&K GK"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-097",
       "question": "Fill in the blank: He is good ___ mathematics.",
-      "option_a": "at",
-      "option_b": "in",
-      "option_c": "on",
-      "option_d": "with",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "at"
+        },
+        {
+          "id": "B",
+          "text": "in"
+        },
+        {
+          "id": "C",
+          "text": "on"
+        },
+        {
+          "id": "D",
+          "text": "with"
+        }
+      ],
+      "correct_option": "A",
       "subject": "English",
       "topic": "Grammar",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / English"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / English",
+      "tags": [
+        "Grammar",
+        "shared_syllabus_pool",
+        "English"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-098",
       "question": "Which key combination is commonly used to copy selected text in Windows?",
-      "option_a": "Ctrl + C",
-      "option_b": "Ctrl + V",
-      "option_c": "Ctrl + X",
-      "option_d": "Ctrl + Z",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl + C"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl + V"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl + X"
+        },
+        {
+          "id": "D",
+          "text": "Ctrl + Z"
+        }
+      ],
+      "correct_option": "A",
       "subject": "Computer",
       "topic": "Shortcuts",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "",
-      "source": "JKSSB pattern / Computer"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB pattern / Computer",
+      "tags": [
+        "Shortcuts",
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-099",
       "question": "D: Uses \"Had you watch,\" which is ungrammatical (it should be \"had watched\"), and fails to change \"the previous night\" back to \"last night.\" Select the most appropriate option to change the sentence from direct speech to indirect speech. My nephew said, \"I have decided to take coaching in badminton\"",
-      "option_a": "My nephew said that he had decided to take coaching in badminton",
-      "option_b": "My nephew said that I have decided to take coaching in badminton",
-      "option_c": "My nephew told that he is deciding to take coaching in badminton",
-      "option_d": "My nephew told that he was deciding to take coaching in badminton",
-      "correct": "A",
+      "options": [
+        {
+          "id": "A",
+          "text": "My nephew said that he had decided to take coaching in badminton"
+        },
+        {
+          "id": "B",
+          "text": "My nephew said that I have decided to take coaching in badminton"
+        },
+        {
+          "id": "C",
+          "text": "My nephew told that he is deciding to take coaching in badminton"
+        },
+        {
+          "id": "D",
+          "text": "My nephew told that he was deciding to take coaching in badminton"
+        }
+      ],
+      "correct_option": "A",
       "subject": "General Awareness",
       "topic": "General Awareness",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "RAM is volatile memory used for temporary working storage while the computer is on.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "General Awareness"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     },
     {
+      "question_id": "cadrex-clerk-100",
       "question": "JKSSB Patwari 2024 Previous Year Questions | Quintessence Classes +91-7006356779 +91-7006442202 contact@qcrias.com # JKSSB Patwari 2024 Previous Year Questions Practice authentic exam questions with answers and explanations 2024 Year ## Computer 16 questions The term gigabyte refers to",
-      "option_a": "1024 bytes",
-      "option_b": "1024 kilobytes",
-      "option_c": "1024 megabytes",
-      "option_d": "1024 GB",
-      "correct": "C",
+      "options": [
+        {
+          "id": "A",
+          "text": "1024 bytes"
+        },
+        {
+          "id": "B",
+          "text": "1024 kilobytes"
+        },
+        {
+          "id": "C",
+          "text": "1024 megabytes"
+        },
+        {
+          "id": "D",
+          "text": "1024 GB"
+        }
+      ],
+      "correct_option": "C",
       "subject": "Computer",
       "topic": "Computer",
+      "subtopic": "",
+      "difficulty": "medium",
       "year": "2024",
-      "source": "JKSSB Patwari 2024 PYQ"
+      "exam": "Cadre Clerk",
+      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
+      "verification_status": "verified",
+      "source": "JKSSB Patwari 2024 PYQ",
+      "tags": [
+        "shared_syllabus_pool",
+        "Computer"
+      ],
+      "pool_type": "shared_syllabus_pool",
+      "post_id": "cadrex-clerk"
     }
   ]
 }

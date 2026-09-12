@@ -1,6 +1,9 @@
 /**
- * Search page logic with ranked, typo-tolerant matching.
+ * Search with subject/year filters and cached index.
  */
+
+let cachedIndex = null;
+let cachedPoolKey = '';
 
 function buildSearchIndex(questions) {
   return questions.map((q) => {
@@ -11,8 +14,9 @@ function buildSearchIndex(questions) {
       q.topic,
       q.subtopic,
       ...(q.tags || []),
-      q.source?.label,
-      q.source?.file,
+      typeof q.source === 'string' ? q.source : q.source?.label,
+      q.year,
+      q.pool_type,
     ].filter(Boolean);
     return {
       question: q,
@@ -41,12 +45,22 @@ function scoreSearchResult(entry, queryTokens) {
   return score;
 }
 
-function searchQuestions(questions, query) {
+function searchQuestions(questions, query, { subject, year } = {}) {
+  let pool = questions;
+  if (subject) pool = pool.filter((q) => q.subject === subject);
+  if (year) pool = pool.filter((q) => String(q.year) === String(year));
+
   const q = normalize(query);
-  if (!q) return [];
+  if (!q) return pool.slice(0, 50);
+
+  const poolKey = `${pool.length}:${subject || ''}:${year || ''}:${pool[0]?.question_id || ''}`;
+  if (!cachedIndex || cachedPoolKey !== poolKey) {
+    cachedIndex = buildSearchIndex(pool);
+    cachedPoolKey = poolKey;
+  }
+
   const queryTokens = q.split(' ').filter(Boolean);
-  const index = buildSearchIndex(questions);
-  return index
+  return cachedIndex
     .map((entry) => ({ entry, score: scoreSearchResult(entry, queryTokens) }))
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score)
@@ -55,7 +69,7 @@ function searchQuestions(questions, query) {
 
 async function initSearchPage() {
   const main = initPage({ pageTitle: 'Search', currentNav: 'Search' });
-  const dataResult = await initAppData();
+  const dataResult = await initAppData({ mode: 'shell' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;
@@ -63,28 +77,38 @@ async function initSearchPage() {
 
   const params = new URLSearchParams(window.location.search);
   const initialQuery = params.get('q') || '';
-  const selectedMeta = getSelectedPostMeta();
-  let scope = selectedMeta ? 'post' : 'all';
+  let scope = getSelectedPostMeta() ? 'post' : 'all';
+  let subjectFilter = params.get('subject') || '';
+  let yearFilter = params.get('year') || '';
+
+  if (scope === 'all' && !DataStore.allQuestions.length) {
+    await loadAllData();
+  }
 
   main.innerHTML = `
     <section class="page-header">
       <h1>Search Questions</h1>
-      <p class="page-header__sub">Find questions by keyword, topic, or subject.</p>
+      <p class="page-header__sub">Find questions by keyword, topic, subject, or year.</p>
     </section>
     <div id="post-context-slot"></div>
     <div id="search-container"></div>
     <div id="search-scope" class="search-scope" role="group" aria-label="Search scope"></div>
+    <div class="filter-form card" id="search-filters" style="margin:1rem 0;"></div>
     <div id="search-results" class="search-results" aria-live="polite"></div>`;
 
   const searchContainer = document.getElementById('search-container');
   const scopeEl = document.getElementById('search-scope');
+  const filtersEl = document.getElementById('search-filters');
   const resultsEl = document.getElementById('search-results');
 
   renderPostContext(document.getElementById('post-context-slot'), {
     allowClear: true,
-    onClear: () => {
+    onClear: async () => {
       scope = 'all';
+      if (!DataStore.allQuestions.length) await loadAllData();
+      cachedIndex = null;
       renderScope();
+      renderFilters();
       renderResults(document.getElementById('search-input')?.value || '');
     },
   });
@@ -104,18 +128,50 @@ async function initSearchPage() {
         <button type="button" class="filter-chip filter-chip--active" disabled>All posts</button>`;
       return;
     }
-
     scopeEl.innerHTML = `
       <span class="search-scope__label">Searching:</span>
       <button type="button" class="filter-chip${scope === 'post' ? ' filter-chip--active' : ''}" data-scope="post">${escapeHtml(meta.name)}</button>
       <button type="button" class="filter-chip${scope === 'all' ? ' filter-chip--active' : ''}" data-scope="all">All posts</button>`;
-
     scopeEl.querySelectorAll('[data-scope]').forEach((btn) => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
         scope = btn.dataset.scope;
+        if (scope === 'all' && !DataStore.allQuestions.length) await loadAllData();
+        cachedIndex = null;
         renderScope();
+        renderFilters();
         renderResults(document.getElementById('search-input')?.value || '');
       });
+    });
+  }
+
+  function renderFilters() {
+    const pool = getSearchPool();
+    const subjects = [...new Set(pool.map((q) => q.subject).filter(Boolean))].sort();
+    const years = [...new Set(pool.map((q) => q.year).filter(Boolean))].sort();
+    filtersEl.innerHTML = `
+      <div class="form-row">
+        <label for="filter-subject">Subject</label>
+        <select id="filter-subject">
+          <option value="">Any subject</option>
+          ${subjects.map((s) => `<option value="${escapeHtml(s)}"${s === subjectFilter ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="filter-year">Year</label>
+        <select id="filter-year">
+          <option value="">Any year</option>
+          ${years.map((y) => `<option value="${escapeHtml(String(y))}"${String(y) === String(yearFilter) ? ' selected' : ''}>${escapeHtml(String(y))}</option>`).join('')}
+        </select>
+      </div>`;
+    filtersEl.querySelector('#filter-subject').addEventListener('change', (e) => {
+      subjectFilter = e.target.value;
+      cachedIndex = null;
+      renderResults(document.getElementById('search-input')?.value || '');
+    });
+    filtersEl.querySelector('#filter-year').addEventListener('change', (e) => {
+      yearFilter = e.target.value;
+      cachedIndex = null;
+      renderResults(document.getElementById('search-input')?.value || '');
     });
   }
 
@@ -135,34 +191,29 @@ async function initSearchPage() {
   function renderResults(query) {
     const meta = getSelectedPostMeta();
     resultsEl.innerHTML = '';
-    if (!query.trim()) {
+    const pool = getSearchPool();
+    const results = searchQuestions(pool, query, { subject: subjectFilter, year: yearFilter });
+    if (!query.trim() && !subjectFilter && !yearFilter) {
       resultsEl.appendChild(UI.EmptyState({
         title: 'Start searching',
-        message: meta && scope === 'post'
-          ? `Enter a keyword to search within ${meta.name}.`
-          : 'Enter a keyword, topic name, or subject to find matching questions.',
+        message: 'Try banking, Jhelum, computer, or filter by subject/year.',
       }));
       return;
     }
-    const pool = getSearchPool();
-    const results = searchQuestions(pool, query);
     if (!results.length) {
       resultsEl.appendChild(UI.EmptyState({
         title: 'No results found',
-        message: scope === 'post' && meta
-          ? `No questions match "${query}" in ${meta.name}. Try "All posts" or different keywords.`
-          : `No questions match "${query}". Try different keywords or check spelling.`,
+        message: 'Try different keywords, clear filters, or switch search scope.',
       }));
       return;
     }
-    const scopeNote = scope === 'post' && meta ? ` in ${meta.name}` : '';
     const heading = document.createElement('p');
     heading.className = 'results-count';
-    heading.textContent = `${results.length} question${results.length !== 1 ? 's' : ''} found${scopeNote}`;
+    heading.textContent = `${results.length} question${results.length !== 1 ? 's' : ''} found${meta && scope === 'post' ? ` in ${meta.name}` : ''}`;
     resultsEl.appendChild(heading);
     const list = document.createElement('div');
     list.className = 'card-list';
-    results.forEach((q) => {
+    results.slice(0, 100).forEach((q) => {
       list.appendChild(UI.QuestionCard(q, {
         href: pagesHref('practice.html', { q: q.question_id }),
       }));
@@ -171,8 +222,8 @@ async function initSearchPage() {
   }
 
   renderScope();
-  if (initialQuery) renderResults(initialQuery);
-  else renderResults('');
+  renderFilters();
+  renderResults(initialQuery);
 }
 
 document.addEventListener('DOMContentLoaded', initSearchPage);

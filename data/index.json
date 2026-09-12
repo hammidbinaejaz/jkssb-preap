@@ -3,8 +3,8 @@
     {
       "id": "accounts-assistant-finance",
       "name": "Accounts Assistant (Finance)",
-      "file": "qbanks/finance/accounts-assistant-finance.json",
       "path": "qbanks/finance/accounts-assistant-finance.json",
+      "file": "qbanks/finance/accounts-assistant-finance.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -12,8 +12,8 @@
     {
       "id": "sub-inspector-finance",
       "name": "Sub-Inspector (Finance)",
-      "file": "qbanks/finance/sub-inspector-finance.json",
       "path": "qbanks/finance/sub-inspector-finance.json",
+      "file": "qbanks/finance/sub-inspector-finance.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -21,8 +21,8 @@
     {
       "id": "inspector-finance",
       "name": "Inspector (Finance)",
-      "file": "qbanks/finance/inspector-finance.json",
       "path": "qbanks/finance/inspector-finance.json",
+      "file": "qbanks/finance/inspector-finance.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -30,8 +30,8 @@
     {
       "id": "assistant-compiler-finance",
       "name": "Assistant Compiler (Finance)",
-      "file": "qbanks/finance/assistant-compiler-finance.json",
       "path": "qbanks/finance/assistant-compiler-finance.json",
+      "file": "qbanks/finance/assistant-compiler-finance.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -39,8 +39,8 @@
     {
       "id": "sub-inspector-commercial-taxes",
       "name": "Sub-Inspector Commercial Taxes",
-      "file": "qbanks/finance/sub-inspector-commercial-taxes.json",
       "path": "qbanks/finance/sub-inspector-commercial-taxes.json",
+      "file": "qbanks/finance/sub-inspector-commercial-taxes.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -48,8 +48,8 @@
     {
       "id": "junior-statistical-assistant-finance",
       "name": "Junior Statistical Assistant (Finance)",
-      "file": "qbanks/finance/junior-statistical-assistant-finance.json",
       "path": "qbanks/finance/junior-statistical-assistant-finance.json",
+      "file": "qbanks/finance/junior-statistical-assistant-finance.json",
       "question_count": 100,
       "subject": "Finance",
       "category_id": "finance"
@@ -57,8 +57,8 @@
     {
       "id": "junior-assistant",
       "name": "Junior Assistant",
-      "file": "qbanks/clerical/junior-assistant.json",
       "path": "qbanks/clerical/junior-assistant.json",
+      "file": "qbanks/clerical/junior-assistant.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -66,8 +66,8 @@
     {
       "id": "junior-assistant-cum-computer-operator",
       "name": "Junior Assistant-cum-Computer Operator",
-      "file": "qbanks/clerical/junior-assistant-cum-computer-operator.json",
       "path": "qbanks/clerical/junior-assistant-cum-computer-operator.json",
+      "file": "qbanks/clerical/junior-assistant-cum-computer-operator.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -75,8 +75,8 @@
     {
       "id": "data-entry-operator",
       "name": "Data Entry Operator",
-      "file": "qbanks/clerical/data-entry-operator.json",
       "path": "qbanks/clerical/data-entry-operator.json",
+      "file": "qbanks/clerical/data-entry-operator.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -84,8 +84,8 @@
     {
       "id": "junior-stenographer",
       "name": "Junior Stenographer",
-      "file": "qbanks/clerical/junior-stenographer.json",
       "path": "qbanks/clerical/junior-stenographer.json",
+      "file": "qbanks/clerical/junior-stenographer.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -93,8 +93,8 @@
     {
       "id": "junior-scale-stenographer",
       "name": "Junior Scale Stenographer",
-      "file": "qbanks/clerical/junior-scale-stenographer.json",
       "path": "qbanks/clerical/junior-scale-stenographer.json",
+      "file": "qbanks/clerical/junior-scale-stenographer.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -102,8 +102,8 @@
     {
       "id": "steno-typist",
       "name": "Steno Typist",
-      "file": "qbanks/clerical/steno-typist.json",
       "path": "qbanks/clerical/steno-typist.json",
+      "file": "qbanks/clerical/steno-typist.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -111,8 +111,8 @@
     {
       "id": "urdu-typist",
       "name": "Urdu Typist",
-      "file": "qbanks/clerical/urdu-typist.json",
       "path": "qbanks/clerical/urdu-typist.json",
+      "file": "qbanks/clerical/urdu-typist.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -120,8 +120,8 @@
     {
       "id": "assistant-secretary-head-assistant",
       "name": "Assistant Secretary / Head Assistant",
-      "file": "qbanks/clerical/assistant-secretary-head-assistant.json",
       "path": "qbanks/clerical/assistant-secretary-head-assistant.json",
+      "file": "qbanks/clerical/assistant-secretary-head-assistant.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -129,8 +129,8 @@
     {
       "id": "cashier-clerk",
       "name": "Cashier Clerk",
-      "file": "qbanks/clerical/cashier-clerk.json",
       "path": "qbanks/clerical/cashier-clerk.json",
+      "file": "qbanks/clerical/cashier-clerk.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -138,17 +138,17 @@
     {
       "id": "store-attendant",
       "name": "Store Attendant",
-      "file": "qbanks/clerical/store-attendant.json",
       "path": "qbanks/clerical/store-attendant.json",
+      "file": "qbanks/clerical/store-attendant.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
     },
     {
       "id": "cadrex-clerk",
-      "name": "Cadrex Clerk",
-      "file": "qbanks/clerical/cadrex-clerk.json",
+      "name": "Cadre Clerk",
       "path": "qbanks/clerical/cadrex-clerk.json",
+      "file": "qbanks/clerical/cadrex-clerk.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -156,8 +156,8 @@
     {
       "id": "computer-cum-junior-assistant",
       "name": "Computer-cum-Junior Assistant",
-      "file": "qbanks/clerical/computer-cum-junior-assistant.json",
       "path": "qbanks/clerical/computer-cum-junior-assistant.json",
+      "file": "qbanks/clerical/computer-cum-junior-assistant.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -165,8 +165,8 @@
     {
       "id": "welfare-organizer",
       "name": "Welfare Organizer",
-      "file": "qbanks/clerical/welfare-organizer.json",
       "path": "qbanks/clerical/welfare-organizer.json",
+      "file": "qbanks/clerical/welfare-organizer.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -174,8 +174,8 @@
     {
       "id": "computer-assistant",
       "name": "Computer Assistant",
-      "file": "qbanks/clerical/computer-assistant.json",
       "path": "qbanks/clerical/computer-assistant.json",
+      "file": "qbanks/clerical/computer-assistant.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -183,8 +183,8 @@
     {
       "id": "record-keeper",
       "name": "Record Keeper",
-      "file": "qbanks/clerical/record-keeper.json",
       "path": "qbanks/clerical/record-keeper.json",
+      "file": "qbanks/clerical/record-keeper.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -192,8 +192,8 @@
     {
       "id": "sub-editor",
       "name": "Sub-Editor",
-      "file": "qbanks/clerical/sub-editor.json",
       "path": "qbanks/clerical/sub-editor.json",
+      "file": "qbanks/clerical/sub-editor.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -201,8 +201,8 @@
     {
       "id": "copy-holder",
       "name": "Copy Holder",
-      "file": "qbanks/clerical/copy-holder.json",
       "path": "qbanks/clerical/copy-holder.json",
+      "file": "qbanks/clerical/copy-holder.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -210,8 +210,8 @@
     {
       "id": "proof-reader",
       "name": "Proof Reader",
-      "file": "qbanks/clerical/proof-reader.json",
       "path": "qbanks/clerical/proof-reader.json",
+      "file": "qbanks/clerical/proof-reader.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -219,8 +219,8 @@
     {
       "id": "v-copy-holder",
       "name": "V-Copy Holder",
-      "file": "qbanks/clerical/v-copy-holder.json",
       "path": "qbanks/clerical/v-copy-holder.json",
+      "file": "qbanks/clerical/v-copy-holder.json",
       "question_count": 100,
       "subject": "Clerical",
       "category_id": "clerical"
@@ -228,8 +228,8 @@
     {
       "id": "patwari",
       "name": "Patwari",
-      "file": "qbanks/revenue-rural-development/patwari.json",
       "path": "qbanks/revenue-rural-development/patwari.json",
+      "file": "qbanks/revenue-rural-development/patwari.json",
       "question_count": 100,
       "subject": "Revenue / Rural Development",
       "category_id": "revenue-rural-development"
@@ -237,8 +237,8 @@
     {
       "id": "panchayat-secretary",
       "name": "Panchayat Secretary",
-      "file": "qbanks/revenue-rural-development/panchayat-secretary.json",
       "path": "qbanks/revenue-rural-development/panchayat-secretary.json",
+      "file": "qbanks/revenue-rural-development/panchayat-secretary.json",
       "question_count": 100,
       "subject": "Revenue / Rural Development",
       "category_id": "revenue-rural-development"
@@ -246,8 +246,8 @@
     {
       "id": "accounts-assistant-panchayat",
       "name": "Accounts Assistant (Panchayat)",
-      "file": "qbanks/revenue-rural-development/accounts-assistant-panchayat.json",
       "path": "qbanks/revenue-rural-development/accounts-assistant-panchayat.json",
+      "file": "qbanks/revenue-rural-development/accounts-assistant-panchayat.json",
       "question_count": 100,
       "subject": "Revenue / Rural Development",
       "category_id": "revenue-rural-development"

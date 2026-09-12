@@ -4,7 +4,7 @@
 
 async function initBrowsePage() {
   const main = initPage({ pageTitle: 'Browse', currentNav: 'Browse' });
-  const dataResult = await initAppData();
+  const dataResult = await initAppData({ mode: 'shell' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;

@@ -4,7 +4,7 @@
 
 async function initProgressPage() {
   const main = initPage({ pageTitle: 'Progress', currentNav: 'Progress' });
-  await initAppData();
+  await initAppData({ mode: 'shell' });
   renderProgress(main);
 }
 
@@ -13,6 +13,8 @@ function renderProgress(main) {
   const history = loadTestHistory();
   const bookmarks = loadBookmarks();
   const base = getBasePath();
+  const streak = getPracticeStreak(progress);
+  const weakQueue = getWeakTopicQueue(progress);
 
   const topicEntries = Object.entries(progress.topicStats || {})
     .map(([topic, s]) => ({
@@ -30,10 +32,14 @@ function renderProgress(main) {
   main.innerHTML = `
     <section class="page-header">
       <h1>Your Progress</h1>
-      <p class="page-header__sub">Track performance across topics and tests.</p>
+      <p class="page-header__sub">Track performance, streaks, and weak-topic drills.</p>
     </section>
 
     <div class="stats-grid">
+      <div class="stat-card card">
+        <span class="stat-card__label">Day streak</span>
+        <span class="stat-card__value">${streak}</span>
+      </div>
       <div class="stat-card card">
         <span class="stat-card__label">Questions Attempted</span>
         <span class="stat-card__value">${(progress.attempts || []).length}</span>
@@ -43,14 +49,20 @@ function renderProgress(main) {
         <span class="stat-card__value">${history.length}</span>
       </div>
       <div class="stat-card card">
-        <span class="stat-card__label">Bookmarks</span>
-        <span class="stat-card__value">${bookmarks.length}</span>
-      </div>
-      <div class="stat-card card">
-        <span class="stat-card__label">Topics Covered</span>
-        <span class="stat-card__value">${topicEntries.length}</span>
+        <span class="stat-card__label">Best typing WPM</span>
+        <span class="stat-card__value">${progress.typingBestWpm || 0}</span>
       </div>
     </div>
+
+    <section class="section card">
+      <h2 class="section-title">This week’s plan</h2>
+      <ol class="week-plan" id="week-plan"></ol>
+    </section>
+
+    <section class="section card">
+      <h2 class="section-title">Weak-topic drill queue</h2>
+      <div id="weak-queue"></div>
+    </section>
 
     <div class="progress-columns">
       <section class="card">
@@ -68,14 +80,79 @@ function renderProgress(main) {
       <div id="recent-tests"></div>
     </section>
 
+    <section class="section card">
+      <h2 class="section-title">Backup & restore</h2>
+      <p class="empty-inline">Export your progress to move across browsers, or import a backup JSON file.</p>
+      <div class="cta-row">
+        <button type="button" class="btn btn--secondary" id="export-data">Export progress</button>
+        <label class="btn btn--ghost" for="import-data">Import progress<input type="file" id="import-data" accept="application/json,.json" hidden /></label>
+      </div>
+    </section>
+
     <div class="cta-row">
       <a href="${base}pages/bookmarks.html" class="btn btn--secondary">View Bookmarks (${bookmarks.length})</a>
       <a href="${base}pages/practice.html" class="btn btn--primary">Continue Practicing</a>
+      <a href="${base}pages/typing.html" class="btn btn--ghost">Typing drill</a>
     </div>`;
+
+  const queueEl = document.getElementById('weak-queue');
+  if (!weakQueue.length) {
+    queueEl.innerHTML = '<p class="empty-inline">No weak topics yet — complete a few practice sets first.</p>';
+  } else {
+    const ul = document.createElement('ul');
+    ul.className = 'topic-list';
+    weakQueue.forEach((t) => {
+      const li = document.createElement('li');
+      li.className = 'topic-list__item';
+      li.innerHTML = `
+        <span>${escapeHtml(t.topic)} <span class="badge badge--muted">${Math.round(t.accuracy)}%</span></span>
+        <a class="btn btn--sm btn--secondary" href="${pagesHref('practice.html', { topic: t.topic })}">Drill</a>`;
+      ul.appendChild(li);
+    });
+    queueEl.appendChild(ul);
+  }
+
+  const weekPlan = document.getElementById('week-plan');
+  const planItems = [
+    { day: 'Mon', text: 'General Awareness warm-up (20 Q)' },
+    { day: 'Tue', text: weakQueue[0] ? `Drill ${weakQueue[0].topic}` : 'Reasoning set (20 Q)' },
+    { day: 'Wed', text: 'Section-wise mock (one section)' },
+    { day: 'Thu', text: weakQueue[1] ? `Drill ${weakQueue[1].topic}` : 'Computer / Accounts set' },
+    { day: 'Fri', text: 'Full mix practice (30 Q)' },
+    { day: 'Sat', text: 'Timed mock under exam pattern' },
+    { day: 'Sun', text: 'Mistake review + typing / steno drill' },
+  ];
+  weekPlan.innerHTML = planItems.map((item) => `
+    <li class="week-plan__item"><strong>${item.day}</strong> <span>${escapeHtml(item.text)}</span></li>
+  `).join('');
 
   renderTopicList(document.getElementById('strong-topics'), strongest, 'No strong topics yet — keep practicing!');
   renderTopicList(document.getElementById('weak-topics'), needsAttention, 'No weak areas detected yet.');
   renderRecentTests(document.getElementById('recent-tests'), history, base);
+
+  document.getElementById('export-data').addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(exportUserData(), null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `jkssb-prep-backup-${Date.now()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    UI.Toast.show('Progress exported', 'success');
+  });
+
+  document.getElementById('import-data').addEventListener('change', async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      importUserData(JSON.parse(text));
+      UI.Toast.show('Progress imported', 'success');
+      renderProgress(main);
+    } catch {
+      UI.Toast.show('Could not import that file', 'warning');
+    }
+  });
 }
 
 function renderTopicList(container, topics, emptyMsg) {
@@ -127,7 +204,17 @@ function renderRecentTests(container, history, base) {
 
 async function initBookmarksPage() {
   const main = initPage({ pageTitle: 'Bookmarks', currentNav: 'Progress' });
-  await initAppData();
+  await initAppData({ mode: 'shell' });
+  const bookmarks = loadBookmarks();
+  const postsNeeded = new Set();
+  bookmarks.forEach((id) => {
+    const postId = [...DataStore.postsById.keys()]
+      .sort((a, b) => b.length - a.length)
+      .find((p) => id === p || id.startsWith(`${p}-`));
+    if (postId) postsNeeded.add(postId);
+  });
+  await Promise.all([...postsNeeded].map((id) => loadPostDataset(id)));
+  rebuildQuestionIndex();
   renderBookmarks(main);
 }
 
@@ -173,7 +260,7 @@ async function initPyqsPage() {
 async function initAdminPage() {
   const main = document.getElementById('main-content');
   document.title = 'Admin | JKSSB PREP';
-  const dataResult = await initAppData();
+  const dataResult = await initAppData({ mode: 'all' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;

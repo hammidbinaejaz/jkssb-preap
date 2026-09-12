@@ -41,7 +41,7 @@ function runTests() {
       verification_status: 'verified',
     }, { post_id: 'junior-assistant', post_name: 'Junior Assistant', category: 'Clerical' });
 
-    assertEqual(q.question_id, 'JA-001');
+    assertEqual(q.question_id, 'junior-assistant-001');
     assertEqual(q.options.length, 4);
     assertEqual(q.options[0].id, 'A');
     assertEqual(q.options[0].text, 'Srinagar');
@@ -49,6 +49,22 @@ function runTests() {
     assertEqual(q.source.label, 'JKSSB');
     assertEqual(q.post_id, 'junior-assistant');
     assertEqual(q.category, 'Clerical');
+  });
+
+  test('normalizeQuestion keeps already-scoped IDs', () => {
+    const q = normalizeQuestion({
+      question_id: 'junior-assistant-042',
+      question: 'Scoped id stays.',
+      options: [
+        { id: 'A', text: 'One' },
+        { id: 'B', text: 'Two' },
+        { id: 'C', text: 'Three' },
+        { id: 'D', text: 'Four' },
+      ],
+      correct_option: 'A',
+      verification_status: 'verified',
+    }, { post_id: 'junior-assistant' });
+    assertEqual(q.question_id, 'junior-assistant-042');
   });
 
   test('normalizeQuestion keeps legacy options + correct_option', () => {

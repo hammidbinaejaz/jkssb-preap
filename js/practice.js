@@ -151,11 +151,12 @@ function renderCurrentQuestion(container) {
   card.innerHTML = `
     <div class="question-panel__header">
       <span class="question-panel__id">${escapeHtml(q.question_id)}</span>
+      ${q.pool_type === 'shared_syllabus_pool' ? '<span class="badge badge--muted">Shared syllabus pool</span>' : '<span class="badge">Post bank</span>'}
       <button type="button" class="btn btn--icon bookmark-btn" aria-label="${bookmarked ? 'Remove bookmark' : 'Bookmark question'}" aria-pressed="${bookmarked}">
         ${bookmarked ? '★' : '☆'}
       </button>
     </div>
-    <div class="question-panel__text">${formatQuestionText(q.question)}</div>
+    <div class="question-panel__text" lang="${detectTextLang(q.question)}">${formatQuestionText(q.question)}</div>
     <div class="options-grid" role="group" aria-label="Answer options"></div>
     <div id="feedback-area" class="feedback-area" aria-live="polite"></div>
     <div class="question-panel__actions"></div>`;
@@ -237,7 +238,7 @@ function renderFeedback(feedbackEl, question) {
       <strong>${correct ? 'Correct' : 'Incorrect'}</strong>
       <p>Your answer: <span class="feedback__answer">${escapeHtml(practiceState.selected)}</span></p>
       ${!correct ? `<p>Correct answer: <span class="feedback__answer">${escapeHtml(question.correct_option)}</span></p>` : ''}
-      ${question.explanation ? `<p class="feedback__explanation">${escapeHtml(question.explanation)}</p>` : '<p class="feedback__explanation feedback__explanation--muted">No explanation available for this question.</p>'}
+      ${question.explanation ? `<p class="feedback__explanation" lang="${detectTextLang(question.explanation)}">${escapeHtml(question.explanation)}</p>` : '<p class="feedback__explanation feedback__explanation--muted">No explanation available for this question.</p>'}
     </div>`;
 }
 
@@ -261,7 +262,7 @@ function renderRelated(container, question) {
 
 async function initPracticePage() {
   const main = initPage({ pageTitle: 'Practice', currentNav: 'Practice' });
-  const dataResult = await initAppData();
+  const dataResult = await initAppData({ mode: 'shell' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;
@@ -269,19 +270,25 @@ async function initPracticePage() {
 
   const qid = getQueryParam('q');
   if (qid) {
-    const question = getQuestionById(qid);
+    const question = await ensureQuestionLoaded(qid);
     if (!question) {
       main.appendChild(UI.EmptyState({
         title: 'Question not found',
         message: `No question with ID "${qid}" exists.`,
-        actionLabel: 'Browse all',
-        actionUrl: './practice.html',
+        actionLabel: 'Browse posts',
+        actionUrl: pagesHref('browse.html'),
       }));
       return;
     }
+    if (question.post_id) setSelectedPost(question.post_id);
     renderInstantPractice(main, question);
     return;
   }
+
+  if (!requireSelectedPost(main, {
+    title: 'Practice',
+    message: 'Choose your target post first so practice stays on-syllabus.',
+  })) return;
 
   renderPracticeSetup(main);
 }

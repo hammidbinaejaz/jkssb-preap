@@ -5,7 +5,7 @@
       "name": "Accounts Assistant (Finance)",
       "dataset_id": "accounts-assistant-finance",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -15,14 +15,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "sub-inspector-finance",
       "name": "Sub-Inspector (Finance)",
       "dataset_id": "sub-inspector-finance",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -32,14 +69,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "inspector-finance",
       "name": "Inspector (Finance)",
       "dataset_id": "inspector-finance",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -49,14 +123,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "assistant-compiler-finance",
       "name": "Assistant Compiler (Finance)",
       "dataset_id": "assistant-compiler-finance",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -66,14 +177,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "sub-inspector-commercial-taxes",
       "name": "Sub-Inspector Commercial Taxes",
       "dataset_id": "sub-inspector-commercial-taxes",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -83,14 +231,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "junior-statistical-assistant-finance",
       "name": "Junior Statistical Assistant (Finance)",
       "dataset_id": "junior-statistical-assistant-finance",
       "category_id": "finance",
-      "duration_minutes": 30,
+      "duration_minutes": 120,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0,
@@ -100,14 +285,51 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "accounts",
+          "name": "Accounts / Finance",
+          "subjects": [
+            "Accounts",
+            "Economics",
+            "Finance"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "General Awareness",
+            "J&K GK"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Numerical / Stats",
+          "subjects": [
+            "Arithmetic",
+            "Statistics",
+            "Reasoning"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
+      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
     },
     {
       "id": "junior-assistant",
       "name": "Junior Assistant",
       "dataset_id": "junior-assistant",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -117,14 +339,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "junior-assistant-cum-computer-operator",
       "name": "Junior Assistant-cum-Computer Operator",
       "dataset_id": "junior-assistant-cum-computer-operator",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -134,14 +390,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "data-entry-operator",
       "name": "Data Entry Operator",
       "dataset_id": "data-entry-operator",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -151,14 +441,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "junior-stenographer",
       "name": "Junior Stenographer",
       "dataset_id": "junior-stenographer",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -168,14 +492,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "junior-scale-stenographer",
       "name": "Junior Scale Stenographer",
       "dataset_id": "junior-scale-stenographer",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -185,14 +543,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "steno-typist",
       "name": "Steno Typist",
       "dataset_id": "steno-typist",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -202,14 +594,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "urdu-typist",
       "name": "Urdu Typist",
       "dataset_id": "urdu-typist",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -219,14 +645,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "assistant-secretary-head-assistant",
       "name": "Assistant Secretary / Head Assistant",
       "dataset_id": "assistant-secretary-head-assistant",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -236,14 +696,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "cashier-clerk",
       "name": "Cashier Clerk",
       "dataset_id": "cashier-clerk",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -253,14 +747,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "store-attendant",
       "name": "Store Attendant",
       "dataset_id": "store-attendant",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -270,14 +798,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "cadrex-clerk",
-      "name": "Cadrex Clerk",
+      "name": "Cadre Clerk",
       "dataset_id": "cadrex-clerk",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -287,14 +849,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "computer-cum-junior-assistant",
       "name": "Computer-cum-Junior Assistant",
       "dataset_id": "computer-cum-junior-assistant",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -304,14 +900,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "welfare-organizer",
       "name": "Welfare Organizer",
       "dataset_id": "welfare-organizer",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -321,14 +951,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "computer-assistant",
       "name": "Computer Assistant",
       "dataset_id": "computer-assistant",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -338,14 +1002,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "record-keeper",
       "name": "Record Keeper",
       "dataset_id": "record-keeper",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -355,14 +1053,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "sub-editor",
       "name": "Sub-Editor",
       "dataset_id": "sub-editor",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -372,14 +1104,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "copy-holder",
       "name": "Copy Holder",
       "dataset_id": "copy-holder",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -389,14 +1155,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "proof-reader",
       "name": "Proof Reader",
       "dataset_id": "proof-reader",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -406,14 +1206,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "v-copy-holder",
       "name": "V-Copy Holder",
       "dataset_id": "v-copy-holder",
       "category_id": "clerical",
-      "duration_minutes": 30,
+      "duration_minutes": 80,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -423,14 +1257,48 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "english",
+          "name": "General English",
+          "subjects": [
+            "English"
+          ]
+        },
+        {
+          "id": "ga",
+          "name": "General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning & Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 often 80 questions \u00b7 0.25 negative marking (typical Junior Assistant pattern)",
+      "syllabus_summary": "General English \u00b7 General Awareness \u00b7 Reasoning & Numerical \u00b7 Computer"
     },
     {
       "id": "patwari",
       "name": "Patwari",
       "dataset_id": "patwari",
       "category_id": "revenue-rural-development",
-      "duration_minutes": 30,
+      "duration_minutes": 100,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -440,14 +1308,49 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "gk",
+          "name": "J&K / General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "revenue",
+          "name": "Revenue / Rural",
+          "subjects": [
+            "Revenue",
+            "Rural Development"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning / Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 100 questions \u00b7 0.25 negative marking (Patwari-style)",
+      "syllabus_summary": "J&K / General Awareness \u00b7 Revenue / Rural \u00b7 Computer \u00b7 Reasoning / Numerical"
     },
     {
       "id": "panchayat-secretary",
       "name": "Panchayat Secretary",
       "dataset_id": "panchayat-secretary",
       "category_id": "revenue-rural-development",
-      "duration_minutes": 30,
+      "duration_minutes": 100,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -457,14 +1360,49 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "gk",
+          "name": "J&K / General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "revenue",
+          "name": "Revenue / Rural",
+          "subjects": [
+            "Revenue",
+            "Rural Development"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning / Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 100 questions \u00b7 0.25 negative marking (Patwari-style)",
+      "syllabus_summary": "J&K / General Awareness \u00b7 Revenue / Rural \u00b7 Computer \u00b7 Reasoning / Numerical"
     },
     {
       "id": "accounts-assistant-panchayat",
       "name": "Accounts Assistant (Panchayat)",
       "dataset_id": "accounts-assistant-panchayat",
       "category_id": "revenue-rural-development",
-      "duration_minutes": 30,
+      "duration_minutes": 100,
       "default_question_count": 30,
       "marks_per_question": 1,
       "negative_marking": 0.25,
@@ -474,7 +1412,42 @@
         30,
         50,
         100
-      ]
+      ],
+      "sections": [
+        {
+          "id": "gk",
+          "name": "J&K / General Awareness",
+          "subjects": [
+            "J&K GK",
+            "General Awareness"
+          ]
+        },
+        {
+          "id": "revenue",
+          "name": "Revenue / Rural",
+          "subjects": [
+            "Revenue",
+            "Rural Development"
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "subjects": [
+            "Computer"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "name": "Reasoning / Numerical",
+          "subjects": [
+            "Reasoning",
+            "Arithmetic"
+          ]
+        }
+      ],
+      "pattern": "OMR MCQ \u00b7 typically 100 questions \u00b7 0.25 negative marking (Patwari-style)",
+      "syllabus_summary": "J&K / General Awareness \u00b7 Revenue / Rural \u00b7 Computer \u00b7 Reasoning / Numerical"
     }
   ]
 }
