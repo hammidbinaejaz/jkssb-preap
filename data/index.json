@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {
+      "id": "finance",
+      "name": "Finance \u2014 FAA Latest Pattern MCQs",
+      "file": "finance.json",
+      "question_count": 100,
+      "subject": "Finance",
+      "exam": "Finance Accounts Assistant (FAA)"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "exams": [
+    {
+      "id": "faa-finance",
+      "name": "Finance Accounts Assistant (FAA)",
+      "dataset_id": "finance",
+      "duration_minutes": 30,
+      "default_question_count": 30,
+      "marks_per_question": 1,
+      "negative_marking": 0,
+      "allowed_counts": [
+        10,
+        20,
+        30,
+        50,
+        100
+      ]
+    }
+  ]
+}

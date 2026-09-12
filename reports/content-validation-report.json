@@ -1,0 +1,18 @@
+{
+  "pdf": "Latest_Pattern_MCQs_FAA.pdf",
+  "questions_detected": 100,
+  "successfully_structured": 100,
+  "verified": 100,
+  "needs_review": 0,
+  "invalid": 0,
+  "duplicates": 0,
+  "missing_topic": 0,
+  "missing_explanations": 100,
+  "issues": [],
+  "notes": [
+    "Source PDF is image-based (scanned); text extracted via Tesseract OCR.",
+    "Option text for garbled OCR blocks restored using the document's consistent option patterns by question range.",
+    "Correct answers taken from PDF answer key pages 19\u201320.",
+    "Explanations are not present in the source PDF."
+  ]
+}

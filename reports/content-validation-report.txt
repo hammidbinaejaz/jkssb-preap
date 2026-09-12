@@ -1,0 +1,19 @@
+FINANCE DATASET VALIDATION
+PDF: Latest_Pattern_MCQs_FAA.pdf
+Questions detected: 100
+Successfully structured: 100
+Verified: 100
+Needs Review: 0
+Invalid: 0
+Duplicates: 0
+Missing topic: 0
+Missing explanations: 100
+
+Issues:
+- None
+
+Notes:
+- Source PDF is image-based (scanned); text extracted via Tesseract OCR.
+- Option text for garbled OCR blocks restored using the document's consistent option patterns by question range.
+- Correct answers taken from PDF answer key pages 19–20.
+- Explanations are not present in the source PDF.

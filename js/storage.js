@@ -1,0 +1,195 @@
+/**
+ * LocalStorage persistence for JKSSB PREP.
+ * Keys: jkssb_user_progress, jkssb_bookmarks, jkssb_test_history,
+ *       jkssb_active_test, jkssb_settings
+ */
+
+const STORAGE_KEYS = {
+  progress: 'jkssb_user_progress',
+  bookmarks: 'jkssb_bookmarks',
+  testHistory: 'jkssb_test_history',
+  activeTest: 'jkssb_active_test',
+  settings: 'jkssb_settings',
+};
+
+/** @param {string} raw @param {*} fallback */
+function safeParse(raw, fallback = null) {
+  if (raw == null || raw === '') return fallback;
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return fallback;
+  }
+}
+
+function getStorage() {
+  try {
+    if (typeof globalThis !== 'undefined' && globalThis.localStorage) {
+      return globalThis.localStorage;
+    }
+  } catch {
+    /* unavailable */
+  }
+  return null;
+}
+
+function readKey(key, fallback) {
+  const store = getStorage();
+  if (!store) return fallback;
+  return safeParse(store.getItem(key), fallback);
+}
+
+function writeKey(key, value) {
+  const store = getStorage();
+  if (!store) return false;
+  try {
+    store.setItem(key, JSON.stringify(value));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function defaultProgress() {
+  return {
+    attempts: [],
+    topicStats: {},
+    lastActivity: null,
+    continueUrl: null,
+    continueLabel: null,
+  };
+}
+
+function saveProgress(progress) {
+  return writeKey(STORAGE_KEYS.progress, progress);
+}
+
+function loadProgress() {
+  return readKey(STORAGE_KEYS.progress, defaultProgress());
+}
+
+function recordAttempt(attempt) {
+  const progress = loadProgress();
+  progress.attempts = progress.attempts || [];
+  progress.attempts.push({
+    ...attempt,
+    timestamp: attempt.timestamp || Date.now(),
+  });
+  if (progress.attempts.length > 5000) {
+    progress.attempts = progress.attempts.slice(-5000);
+  }
+  const topic = attempt.topic || 'General';
+  if (!progress.topicStats[topic]) {
+    progress.topicStats[topic] = { correct: 0, total: 0 };
+  }
+  progress.topicStats[topic].total += 1;
+  if (attempt.correct) progress.topicStats[topic].correct += 1;
+  progress.lastActivity = Date.now();
+  saveProgress(progress);
+  return progress;
+}
+
+function setContinuePreparation(url, label) {
+  const progress = loadProgress();
+  progress.continueUrl = url;
+  progress.continueLabel = label;
+  progress.lastActivity = Date.now();
+  saveProgress(progress);
+}
+
+function saveTest(testState) {
+  return writeKey(STORAGE_KEYS.activeTest, testState);
+}
+
+function loadTest() {
+  return readKey(STORAGE_KEYS.activeTest, null);
+}
+
+function clearActiveTest() {
+  const store = getStorage();
+  if (!store) return;
+  store.removeItem(STORAGE_KEYS.activeTest);
+}
+
+function loadBookmarks() {
+  return readKey(STORAGE_KEYS.bookmarks, []);
+}
+
+function isBookmarked(questionId) {
+  return loadBookmarks().includes(questionId);
+}
+
+function saveBookmark(questionId) {
+  const bookmarks = loadBookmarks();
+  if (!bookmarks.includes(questionId)) {
+    bookmarks.push(questionId);
+    writeKey(STORAGE_KEYS.bookmarks, bookmarks);
+  }
+  return bookmarks;
+}
+
+function removeBookmark(questionId) {
+  const bookmarks = loadBookmarks().filter((id) => id !== questionId);
+  writeKey(STORAGE_KEYS.bookmarks, bookmarks);
+  return bookmarks;
+}
+
+function toggleBookmark(questionId) {
+  if (isBookmarked(questionId)) {
+    removeBookmark(questionId);
+    return false;
+  }
+  saveBookmark(questionId);
+  return true;
+}
+
+function loadTestHistory() {
+  return readKey(STORAGE_KEYS.testHistory, []);
+}
+
+function saveTestResult(result) {
+  const history = loadTestHistory();
+  history.unshift(result);
+  if (history.length > 100) history.length = 100;
+  writeKey(STORAGE_KEYS.testHistory, history);
+  return history;
+}
+
+function loadSettings() {
+  return readKey(STORAGE_KEYS.settings, {});
+}
+
+function saveSettings(settings) {
+  return writeKey(STORAGE_KEYS.settings, settings);
+}
+
+function getLatestTestResult() {
+  const history = loadTestHistory();
+  return history.length ? history[0] : null;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    STORAGE_KEYS,
+    safeParse,
+    defaultProgress,
+    saveProgress,
+    loadProgress,
+    recordAttempt,
+    setContinuePreparation,
+    saveTest,
+    loadTest,
+    clearActiveTest,
+    loadBookmarks,
+    isBookmarked,
+    saveBookmark,
+    removeBookmark,
+    toggleBookmark,
+    loadTestHistory,
+    saveTestResult,
+    loadSettings,
+    saveSettings,
+    getLatestTestResult,
+    _bindStorage: (mock) => { globalThis.localStorage = mock; },
+  };
+}

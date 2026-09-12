@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JKSSB PREP — Prepare smarter for JKSSB exams with practice questions, mock tests, and progress tracking." />
+  <title>JKSSB PREP</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<body>
+  <div id="site-nav"></div>
+  <main class="container" id="main-content">
+    <section class="hero">
+      <h1 class="hero__title">Prepare smarter for JKSSB.</h1>
+      <p class="hero__sub">Practice questions. Take realistic tests. Understand your mistakes. Improve where it matters.</p>
+      <div class="hero__actions">
+        <a href="./pages/practice.html" class="btn btn--primary">Start Practicing</a>
+        <a href="./pages/mock.html" class="btn btn--secondary">Take a Mock Test</a>
+        <a href="./pages/search.html" class="btn btn--ghost">Search Questions</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">How it works</h2>
+      <div id="learning-loop-home"></div>
+    </section>
+
+    <section class="section continue-card card" id="continue-section" hidden>
+      <div class="continue-card__inner">
+        <div>
+          <p class="continue-card__label">Continue Preparation</p>
+          <p class="continue-card__title" id="continue-label">Resume where you left off</p>
+        </div>
+        <a href="#" id="continue-link" class="btn btn--primary">Continue</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Available Content</h2>
+      <div id="home-datasets" class="card-list"></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/storage.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/ui.js"></script>
+  <script src="./js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      initPage({ pageTitle: 'Home', currentNav: 'Home' });
+      UI.renderLearningLoop(document.getElementById('learning-loop-home'));
+
+      const progress = loadProgress();
+      const section = document.getElementById('continue-section');
+      section.hidden = false;
+      if (progress.continueUrl) {
+        document.getElementById('continue-link').href = progress.continueUrl;
+        document.getElementById('continue-label').textContent = progress.continueLabel || 'Continue where you left off';
+      } else {
+        document.getElementById('continue-link').href = './pages/practice.html';
+        document.getElementById('continue-label').textContent = 'Start your first practice session';
+      }
+
+      const datasetsEl = document.getElementById('home-datasets');
+      try {
+        await loadAllData();
+        const datasets = DataStore.index?.datasets || [];
+        if (!datasets.length) {
+          datasetsEl.appendChild(UI.EmptyState({
+            title: 'No datasets loaded',
+            message: 'Question datasets will appear here once available.',
+          }));
+        } else {
+          datasets.forEach((ds) => {
+            const card = document.createElement('article');
+            card.className = 'dataset-card card';
+            card.innerHTML = `
+              <h3 class="dataset-card__title">${escapeHtml(ds.name)}</h3>
+              <p class="dataset-card__meta">${escapeHtml(ds.subject)} · ${ds.question_count} questions</p>
+              <div class="dataset-card__actions">
+                <a href="./pages/practice.html" class="btn btn--primary btn--sm">Practice</a>
+                <a href="./pages/mock.html" class="btn btn--secondary btn--sm">Mock Test</a>
+              </div>`;
+            datasetsEl.appendChild(card);
+          });
+        }
+      } catch (err) {
+        datasetsEl.appendChild(UI.EmptyState({
+          icon: '⚠️',
+          title: 'Unable to load data',
+          message: DataStore.loadError || 'Please try again later.',
+        }));
+      }
+    });
+  </script>
+</body>
+</html>
