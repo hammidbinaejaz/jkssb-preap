@@ -49,8 +49,8 @@ function renderNav(currentPage) {
     <header class="site-header">
       <div class="container site-header__inner">
         <a href="${base}index.html" class="brand" aria-label="JKSSB PREP Home">
-          <img src="${base}assets/logo/logo.svg" alt="" class="brand__logo" width="32" height="32" />
-          <span class="brand__name">JKSSB PREP</span>
+          <img src="${base}assets/logo/logo.svg" alt="" class="brand__logo" width="36" height="36" />
+          <span class="brand__name">JKSSB<span>PREP</span></span>
         </a>
         <nav class="nav-desktop" aria-label="Main navigation">${desktop}</nav>
       </div>
@@ -60,12 +60,12 @@ function renderNav(currentPage) {
 
 function navIcon(key) {
   const icons = {
-    Home: '⌂',
-    Browse: '☰',
-    Practice: '✎',
-    Search: '⌕',
-    'Mock Tests': '⏱',
-    Progress: '◈',
+    Home: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5z"/></svg>',
+    Browse: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
+    Practice: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>',
+    Search: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+    'Mock Tests': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+    Progress: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M10 19V9M16 19v-6M22 19H2"/></svg>',
   };
   return icons[key] || '•';
 }
@@ -75,8 +75,11 @@ function renderFooter() {
   return `
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p class="site-footer__text">JKSSB PREP — Focused exam preparation</p>
-        <a href="${base}admin.html" class="site-footer__admin">Admin</a>
+        <p class="site-footer__text">JKSSB PREP — Practice smarter. Improve faster.</p>
+        <div class="site-footer__links">
+          <a href="${base}pages/browse.html">Browse</a>
+          <a href="${base}admin.html" class="site-footer__admin">Admin</a>
+        </div>
       </div>
     </footer>`;
 }
