@@ -150,6 +150,7 @@ function categoryIconLabel(icon) {
     finance: 'Fin',
     clerical: 'Clr',
     revenue: 'Rev',
+    'revenue-rural-development': 'Rev',
   };
   return map[icon] || (icon || 'Cat').slice(0, 3);
 }
