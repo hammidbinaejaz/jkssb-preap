@@ -265,6 +265,8 @@ function renderActiveTest(main, testState) {
 }
 
 function submitMockTest(main, testState, autoSubmitted) {
+  if (!testState || testState.submitted) return;
+  testState.submitted = true;
   if (mockTimer) mockTimer.stop();
   const exam = testState.examConfig || getExamConfigForPost(testState.examId);
   const timeUsed = testState.durationSeconds - (mockTimer ? mockTimer.getRemaining() : 0);
@@ -289,12 +291,9 @@ function submitMockTest(main, testState, autoSubmitted) {
   };
 
   saveTestResult(result);
-  testState.submitted = true;
   clearActiveTest();
-  setContinuePreparation(pagesHref('results.html'), 'View last results');
-
-  const base = getBasePath();
-  window.location.href = `${base}pages/results.html?id=${encodeURIComponent(result.id)}`;
+  setContinuePreparation(rootPagesPath('results.html', { id: result.id }), 'View last results');
+  window.location.href = pagesHref('results.html', { id: result.id });
 }
 
 document.addEventListener('DOMContentLoaded', initMockPage);

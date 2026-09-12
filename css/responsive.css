@@ -65,6 +65,7 @@
   .bottom-nav {
     display: flex;
     align-items: stretch;
+    z-index: 400;
   }
 
   main#main-content,

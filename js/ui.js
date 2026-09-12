@@ -88,7 +88,9 @@ UI.QuestionCard = function QuestionCard(question, { compact = false, showMeta = 
   const card = document.createElement('article');
   card.className = `question-card${compact ? ' question-card--compact' : ''}`;
   const preview = question.question.split('\n')[0].slice(0, compact ? 120 : 200);
-  const link = href || `./practice.html?q=${encodeURIComponent(question.question_id)}`;
+  const link = href || (typeof pagesHref === 'function'
+    ? pagesHref('practice.html', { q: question.question_id })
+    : `./practice.html?q=${encodeURIComponent(question.question_id)}`);
   card.innerHTML = `
     <a href="${escapeHtml(link)}" class="question-card__link">
       <p class="question-card__text">${escapeHtml(preview)}${question.question.length > preview.length ? '…' : ''}</p>

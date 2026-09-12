@@ -91,6 +91,8 @@ body::before {
 }
 
 body > * { position: relative; z-index: 1; }
+#site-nav { z-index: 300; }
+.site-header { z-index: 300; }
 
 .container {
   width: 100%;

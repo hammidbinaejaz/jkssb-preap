@@ -21,6 +21,7 @@ const {
   saveProgress,
   loadProgress,
   recordAttempt,
+  setContinuePreparation,
   _bindStorage,
 } = require('../js/storage.js');
 
@@ -165,6 +166,12 @@ function runTests() {
     const exam = getExamConfigForPost('missing-post');
     assertEqual(exam.negative_marking, 0);
     assert(exam.duration_minutes >= 0);
+  });
+
+  test('setContinuePreparation stores root-stable paths', () => {
+    _bindStorage(new MockLocalStorage());
+    setContinuePreparation('../pages/practice.html?topic=GA', 'Drill GA');
+    assertEqual(loadProgress().continueUrl, 'pages/practice.html?topic=GA');
   });
 
   console.log(`\n${passed} passed`);

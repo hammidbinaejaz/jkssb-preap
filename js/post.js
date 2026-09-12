@@ -35,7 +35,14 @@ async function initPostPage() {
   const missing = Boolean(ds?.missing);
   const ready = loaded > 0;
   document.title = `${post.name} | JKSSB PREP`;
-  setContinuePreparation(pagesHref('post.html', { id: post.id }), `${post.name} — ready to practice`);
+  const pendingPractice = (loadProgress().continueUrl || '').startsWith('pages/practice.html')
+    ? loadProgress().continueUrl
+    : '';
+  const practiceHref = pendingPractice ? resolveAppHref(pendingPractice) : pagesHref('practice.html');
+  const practiceLabel = pendingPractice && pendingPractice.includes('topic=')
+    ? 'Continue topic drill'
+    : 'Start practice';
+  setContinuePreparation(rootPagesPath('post.html', { id: post.id }), `${post.name} — ready to practice`);
 
   const isClericalSkill = /steno|typist|data-entry|computer/i.test(post.id);
 
@@ -88,7 +95,7 @@ async function initPostPage() {
     </section>
 
     <div class="post-actions">
-      <a class="btn btn--primary" href="${pagesHref('practice.html')}">Start practice</a>
+      <a class="btn btn--primary" href="${practiceHref}">${escapeHtml(practiceLabel)}</a>
       <a class="btn btn--secondary" href="${pagesHref('mock.html')}">Take mock test</a>
       <a class="btn btn--ghost" href="${pagesHref('search.html')}">Search this bank</a>
       ${isClericalSkill ? `<a class="btn btn--ghost" href="${pagesHref('typing.html')}">Typing drill</a>` : ''}

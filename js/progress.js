@@ -4,7 +4,11 @@
 
 async function initProgressPage() {
   const main = initPage({ pageTitle: 'Progress', currentNav: 'Progress' });
-  await initAppData({ mode: 'shell' });
+  const dataResult = await initAppData({ mode: 'shell' });
+  if (!dataResult.ok) {
+    showDataError(main, dataResult.error);
+    return;
+  }
   renderProgress(main);
 }
 
@@ -204,7 +208,11 @@ function renderRecentTests(container, history, base) {
 
 async function initBookmarksPage() {
   const main = initPage({ pageTitle: 'Bookmarks', currentNav: 'Progress' });
-  await initAppData({ mode: 'shell' });
+  const dataResult = await initAppData({ mode: 'shell' });
+  if (!dataResult.ok) {
+    showDataError(main, dataResult.error);
+    return;
+  }
   const bookmarks = loadBookmarks();
   const postsNeeded = new Set();
   bookmarks.forEach((id) => {
@@ -246,9 +254,23 @@ function renderBookmarks(main) {
     const q = getQuestionById(id);
     if (q) {
       list.appendChild(UI.QuestionCard(q, {
-        href: `${base}pages/practice.html?q=${encodeURIComponent(id)}`,
+        href: pagesHref('practice.html', { q: id }),
       }));
+      return;
     }
+    const orphan = document.createElement('article');
+    orphan.className = 'mistake-card card';
+    orphan.innerHTML = `
+      <p class="mistake-card__text">Saved question <code>${escapeHtml(id)}</code> is no longer in the loaded banks (IDs were remapped).</p>
+      <div class="mistake-card__meta">
+        <button type="button" class="btn btn--sm btn--secondary" data-remove-bookmark="${escapeHtml(id)}">Remove</button>
+      </div>`;
+    orphan.querySelector('[data-remove-bookmark]').addEventListener('click', () => {
+      removeBookmark(id);
+      orphan.remove();
+      UI.Toast.show('Bookmark removed', 'info', 2000);
+    });
+    list.appendChild(orphan);
   });
 }
 

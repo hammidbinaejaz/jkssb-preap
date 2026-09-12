@@ -4,7 +4,11 @@
 
 async function initResultsPage() {
   const main = initPage({ pageTitle: 'Results', currentNav: 'Mock Tests' });
-  await initAppData({ mode: 'shell' });
+  const dataResult = await initAppData({ mode: 'shell' });
+  if (!dataResult.ok) {
+    showDataError(main, dataResult.error);
+    return;
+  }
 
   const resultId = getQueryParam('id');
   let result = loadTestHistory().find((r) => r.id === resultId);
@@ -16,7 +20,7 @@ async function initResultsPage() {
       title: 'No results yet',
       message: 'Complete a mock test to see your performance analysis here.',
       actionLabel: 'Take a mock test',
-      actionUrl: `${getBasePath()}pages/mock.html`,
+      actionUrl: pagesHref('mock.html'),
     }));
     return;
   }

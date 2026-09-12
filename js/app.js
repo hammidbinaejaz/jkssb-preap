@@ -11,13 +11,36 @@ function getPagesPath() {
   return `${getBasePath()}pages/`;
 }
 
-/** Build a path to a page under pages/ from root or nested routes. */
-function pagesHref(filename, query = {}) {
-  const base = getBasePath();
-  let href = `${base}pages/${filename.replace(/^pages\//, '')}`;
+/** Root-stable path like `pages/practice.html?…` (safe to store in LocalStorage). */
+function rootPagesPath(filename, query = {}) {
+  let path = `pages/${String(filename || '').replace(/^(\.\/)?(pages\/)?/, '')}`;
   const qs = new URLSearchParams(query).toString();
-  if (qs) href += `?${qs}`;
-  return href;
+  if (qs) path += `?${qs}`;
+  return path;
+}
+
+/** Build a path to a page under pages/ from the current location (root or /pages/). */
+function pagesHref(filename, query = {}) {
+  return `${getBasePath()}${rootPagesPath(filename, query)}`;
+}
+
+/**
+ * Resolve a stored continue URL (root-stable or legacy ../pages/…) for the current page.
+ * @param {string|null|undefined} url
+ * @returns {string}
+ */
+function resolveAppHref(url) {
+  if (!url) return pagesHref('browse.html');
+  const raw = String(url).trim();
+  if (/^https?:\/\//i.test(raw) || raw.startsWith('/')) return raw;
+  const cleaned = raw.replace(/^\.\//, '').replace(/^\.\.\//, '');
+  if (cleaned.startsWith('pages/') || cleaned.startsWith('index.html') || cleaned === 'admin.html') {
+    return `${getBasePath()}${cleaned}`;
+  }
+  if (cleaned.endsWith('.html') || cleaned.includes('.html?')) {
+    return pagesHref(cleaned);
+  }
+  return `${getBasePath()}${cleaned}`;
 }
 
 function navLink(href, label, current) {
@@ -173,7 +196,9 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     getBasePath,
     getPagesPath,
+    rootPagesPath,
     pagesHref,
+    resolveAppHref,
     initPage,
     initAppData,
     renderPostContext,

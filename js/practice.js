@@ -196,7 +196,7 @@ function renderCurrentQuestion(container) {
         practiceState.selected = null;
         renderCurrentQuestion(container);
       } else {
-        setContinuePreparation(pagesHref('practice.html'), 'Continue practice');
+        setContinuePreparation(rootPagesPath('practice.html'), 'Continue practice');
         UI.Toast.show('Practice session complete!', 'success');
         renderPracticeSetup(document.getElementById('main-content'));
       }
@@ -225,7 +225,7 @@ function selectOption(question, optionId, container) {
     mode: practiceState.mode === 'instant' ? 'instant' : 'practice',
   });
   setContinuePreparation(
-    pagesHref('practice.html', { q: question.question_id }),
+    rootPagesPath('practice.html', { q: question.question_id }),
     `Review ${question.question_id}`,
   );
   renderCurrentQuestion(container);
@@ -285,10 +285,25 @@ async function initPracticePage() {
     return;
   }
 
+  const topicParam = getQueryParam('topic');
+  const subjectParam = getQueryParam('subject');
   if (!requireSelectedPost(main, {
     title: 'Practice',
-    message: 'Choose your target post first so practice stays on-syllabus.',
-  })) return;
+    message: topicParam || subjectParam
+      ? 'Choose your target post first, then we will open this topic drill for that syllabus.'
+      : 'Choose your target post first so practice stays on-syllabus.',
+  })) {
+    if (topicParam || subjectParam) {
+      setContinuePreparation(
+        rootPagesPath('practice.html', {
+          ...(topicParam ? { topic: topicParam } : {}),
+          ...(subjectParam ? { subject: subjectParam } : {}),
+        }),
+        topicParam ? `Practice ${topicParam}` : 'Continue practice',
+      );
+    }
+    return;
+  }
 
   renderPracticeSetup(main);
 }

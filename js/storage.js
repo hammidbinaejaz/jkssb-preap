@@ -92,7 +92,16 @@ function recordAttempt(attempt) {
 
 function setContinuePreparation(url, label) {
   const progress = loadProgress();
-  progress.continueUrl = url;
+  // Always persist root-stable paths so Home can resolve them correctly.
+  let stored = url;
+  if (typeof url === 'string') {
+    stored = url
+      .replace(/^\.\//, '')
+      .replace(/^\.\.\//, '')
+      .replace(/^pages\//, 'pages/');
+    if (stored.startsWith('../')) stored = stored.replace(/^(\.\.\/)+/, '');
+  }
+  progress.continueUrl = stored;
   progress.continueLabel = label;
   progress.lastActivity = Date.now();
   saveProgress(progress);

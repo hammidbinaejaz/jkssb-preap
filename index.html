@@ -68,7 +68,7 @@
 
       const progress = loadProgress();
       if (progress.continueUrl) {
-        document.getElementById('continue-link').href = progress.continueUrl;
+        document.getElementById('continue-link').href = resolveAppHref(progress.continueUrl);
         document.getElementById('continue-label').textContent = progress.continueLabel || 'Continue where you left off';
       } else {
         document.getElementById('continue-link').href = './pages/browse.html';

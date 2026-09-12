@@ -17,8 +17,11 @@ const URDU_TYPING_PROMPTS = [
 
 async function initTypingPage() {
   const main = initPage({ pageTitle: 'Typing Drill', currentNav: 'Practice' });
-  await initAppData({ mode: 'shell' });
-
+  const dataResult = await initAppData({ mode: 'shell' });
+  if (!dataResult.ok) {
+    showDataError(main, dataResult.error);
+    return;
+  }
   const selected = getSelectedPostMeta();
   const isUrdu = selected?.id === 'urdu-typist';
   const prompts = isUrdu ? URDU_TYPING_PROMPTS : TYPING_PROMPTS;
