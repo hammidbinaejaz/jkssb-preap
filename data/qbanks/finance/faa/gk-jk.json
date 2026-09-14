@@ -20490,7 +20490,7 @@
     },
     {
       "question_id": "faa-gk-526",
-      "question": "Kishtwar National Park is known for:",
+      "question": "Kishtwar High Altitude National Park is known for:",
       "options": [
         {
           "id": "A",
@@ -20498,7 +20498,7 @@
         },
         {
           "id": "B",
-          "text": "Hangul / Himalayan fauna in Chenab catchment"
+          "text": "Himalayan fauna such as snow leopard and musk deer"
         },
         {
           "id": "C",
@@ -20516,7 +20516,7 @@
       "difficulty": "easy",
       "year": "2025",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "High-altitude protected area.",
+      "explanation": "High-altitude Chenab catchment park; Hangul’s main stronghold is Dachigam.",
       "verification_status": "verified",
       "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
       "tags": [
@@ -24000,7 +24000,7 @@
     },
     {
       "question_id": "faa-gk-616",
-      "question": "The longest rail tunnel on USBRL includes the:",
+      "question": "India’s longest transportation tunnel on USBRL (T-50) lies on the:",
       "options": [
         {
           "id": "A",
@@ -24012,7 +24012,7 @@
         },
         {
           "id": "C",
-          "text": "T-50 / Banihal–Qazigund related Himalayan tunnels (USBRL)"
+          "text": "Khari–Sumber section"
         },
         {
           "id": "D",
@@ -24026,7 +24026,7 @@
       "difficulty": "easy",
       "year": "2025",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Pir Panjal rail tunnels.",
+      "explanation": "T-50 (~12.77 km) is between Khari and Sumber. Banihal–Qazigund (Pir Panjal / T-80) is shorter.",
       "verification_status": "verified",
       "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
       "tags": [
