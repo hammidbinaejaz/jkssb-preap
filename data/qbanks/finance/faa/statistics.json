@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "Statistics",
-  "question_count": 500,
+  "question_count": 574,
   "schema": [
     "question_id",
     "question",
@@ -19509,6 +19509,2892 @@
         "Statistics",
         "Theory of Probability",
         "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-501",
+      "question": "An index number measures:",
+      "options": [
+        {
+          "id": "A",
+          "text": "relative change in a variable over time"
+        },
+        {
+          "id": "B",
+          "text": "only rainfall as a name"
+        },
+        {
+          "id": "C",
+          "text": "only population as a name"
+        },
+        {
+          "id": "D",
+          "text": "absolute temperature only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Price / quantity indices.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-502",
+      "question": "Base-year index is usually taken as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only as the only convention"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "100"
+        },
+        {
+          "id": "D",
+          "text": "1000 only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Relatives.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-503",
+      "question": "Laspeyre’s index uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "current-year quantities as Laspeyre"
+        },
+        {
+          "id": "B",
+          "text": "no weights"
+        },
+        {
+          "id": "C",
+          "text": "random weights"
+        },
+        {
+          "id": "D",
+          "text": "base-year quantities as weights"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "P0q0 in denominator.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-504",
+      "question": "Paasche’s index uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "no prices"
+        },
+        {
+          "id": "B",
+          "text": "only wages"
+        },
+        {
+          "id": "C",
+          "text": "current-year quantities as weights"
+        },
+        {
+          "id": "D",
+          "text": "base-year quantities as Paasche"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "P0qt vs Ptn qt.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-505",
+      "question": "Fisher’s ideal index is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "geometric mean of Laspeyre and Paasche"
+        },
+        {
+          "id": "B",
+          "text": "arithmetic mean always as Fisher’s definition"
+        },
+        {
+          "id": "C",
+          "text": "Laspeyre only"
+        },
+        {
+          "id": "D",
+          "text": "Paasche only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "√(L×P).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-506",
+      "question": "A price relative is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "P0/P1 only as the only relative"
+        },
+        {
+          "id": "B",
+          "text": "(P1/P0)×100"
+        },
+        {
+          "id": "C",
+          "text": "P1×P0"
+        },
+        {
+          "id": "D",
+          "text": "P1−P0 only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Simple relative.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-507",
+      "question": "CPI is used in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "measuring inflation faced by consumers / DA"
+        },
+        {
+          "id": "B",
+          "text": "only share prices as CPI"
+        },
+        {
+          "id": "C",
+          "text": "only rainfall"
+        },
+        {
+          "id": "D",
+          "text": "only wholesale factory gates as CPI’s only use"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Consumer Price Index.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-508",
+      "question": "WPI tracks:",
+      "options": [
+        {
+          "id": "A",
+          "text": "wholesale prices"
+        },
+        {
+          "id": "B",
+          "text": "wages of workers as the expansion of WPI"
+        },
+        {
+          "id": "C",
+          "text": "consumer retail only as WPI"
+        },
+        {
+          "id": "D",
+          "text": "weather"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Wholesale Price Index.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-509",
+      "question": "CBR is births per:",
+      "options": [
+        {
+          "id": "A",
+          "text": "100 women only as CBR"
+        },
+        {
+          "id": "B",
+          "text": "1000 deaths"
+        },
+        {
+          "id": "C",
+          "text": "100 houses"
+        },
+        {
+          "id": "D",
+          "text": "1000 mid-year population"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Crude birth rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-510",
+      "question": "CDR is deaths per:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1000 births as CDR’s only denominator"
+        },
+        {
+          "id": "B",
+          "text": "100 villages"
+        },
+        {
+          "id": "C",
+          "text": "1000 mid-year population"
+        },
+        {
+          "id": "D",
+          "text": "100 hospitals"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Crude death rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-511",
+      "question": "IMR is infant deaths per:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1000 mothers only"
+        },
+        {
+          "id": "B",
+          "text": "1000 households"
+        },
+        {
+          "id": "C",
+          "text": "1000 mid-year population as IMR’s only denom"
+        },
+        {
+          "id": "D",
+          "text": "1000 live births"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Under-one mortality.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-512",
+      "question": "GFR (general fertility rate) relates births to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "all houses"
+        },
+        {
+          "id": "B",
+          "text": "all males only"
+        },
+        {
+          "id": "C",
+          "text": "women of reproductive age (often 15–49)"
+        },
+        {
+          "id": "D",
+          "text": "all lakes"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Better than CBR for fertility.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-513",
+      "question": "TFR is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "crude death rate"
+        },
+        {
+          "id": "B",
+          "text": "sex ratio"
+        },
+        {
+          "id": "C",
+          "text": "literacy rate"
+        },
+        {
+          "id": "D",
+          "text": "average number of children a woman would have (age-specific rates)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Total fertility rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-514",
+      "question": "GRR counts:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only grandparents"
+        },
+        {
+          "id": "B",
+          "text": "daughters a woman would have (gross, ignoring mortality of mothers sometimes specified)"
+        },
+        {
+          "id": "C",
+          "text": "only teachers"
+        },
+        {
+          "id": "D",
+          "text": "only sons"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gross reproduction rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-515",
+      "question": "NRR takes account of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mortality of potential mothers (net reproduction)"
+        },
+        {
+          "id": "B",
+          "text": "only GST"
+        },
+        {
+          "id": "C",
+          "text": "only rainfall"
+        },
+        {
+          "id": "D",
+          "text": "only prices"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "NRR=1 ≈ replacement in the simple story.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-516",
+      "question": "A life table summarises:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rainfall"
+        },
+        {
+          "id": "B",
+          "text": "share prices"
+        },
+        {
+          "id": "C",
+          "text": "GST slabs"
+        },
+        {
+          "id": "D",
+          "text": "mortality by age"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "lx, qx, e0.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-517",
+      "question": "Sex ratio in Indian Census is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "workers per factory"
+        },
+        {
+          "id": "B",
+          "text": "males per km²"
+        },
+        {
+          "id": "C",
+          "text": "females per 1000 males"
+        },
+        {
+          "id": "D",
+          "text": "children per school"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Demographic indicator.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-518",
+      "question": "Dependency ratio relates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only banks to RBI"
+        },
+        {
+          "id": "B",
+          "text": "only lakes to rivers"
+        },
+        {
+          "id": "C",
+          "text": "only trees to forests as the Census definition of DR"
+        },
+        {
+          "id": "D",
+          "text": "young + old to working-age population"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Age structure.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-519",
+      "question": "Literacy rate (Census of India) is for ages:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0–1 only"
+        },
+        {
+          "id": "B",
+          "text": "only urban males"
+        },
+        {
+          "id": "C",
+          "text": "7 and above (standard definition)"
+        },
+        {
+          "id": "D",
+          "text": "only graduates"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Read and write with understanding.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-520",
+      "question": "A census is ideally:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a 1% sample always as census"
+        },
+        {
+          "id": "B",
+          "text": "only a website poll"
+        },
+        {
+          "id": "C",
+          "text": "complete enumeration"
+        },
+        {
+          "id": "D",
+          "text": "only income-tax returns"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs sample survey.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-521",
+      "question": "Primary data are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always census volumes as primary for a later student"
+        },
+        {
+          "id": "B",
+          "text": "collected first-hand by the investigator"
+        },
+        {
+          "id": "C",
+          "text": "always false"
+        },
+        {
+          "id": "D",
+          "text": "published by others and reused as primary always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Primary and secondary data",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Original collection.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Primary and secondary data",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-522",
+      "question": "Secondary data are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always illegal"
+        },
+        {
+          "id": "B",
+          "text": "always sample of one"
+        },
+        {
+          "id": "C",
+          "text": "already collected by someone else"
+        },
+        {
+          "id": "D",
+          "text": "never published"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Primary and secondary data",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Census, NSSO, books.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Primary and secondary data",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-523",
+      "question": "A sample survey is preferred when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the population has one member only always"
+        },
+        {
+          "id": "B",
+          "text": "data must cover every unit legally as in a full Census of population always"
+        },
+        {
+          "id": "C",
+          "text": "no statistic is needed"
+        },
+        {
+          "id": "D",
+          "text": "population is large and resources limited"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Methods of collecting data",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cost vs accuracy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Methods of collecting data",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-524",
+      "question": "Random sampling gives each unit:",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero chance"
+        },
+        {
+          "id": "B",
+          "text": "selection by the investigator’s friend only"
+        },
+        {
+          "id": "C",
+          "text": "a known chance of selection"
+        },
+        {
+          "id": "D",
+          "text": "certainty of selection always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Methods of collecting data",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Probability sample.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Methods of collecting data",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-525",
+      "question": "Stratified sampling divides the population into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only one unit"
+        },
+        {
+          "id": "B",
+          "text": "homogeneous strata, then samples"
+        },
+        {
+          "id": "C",
+          "text": "only the investigator’s family"
+        },
+        {
+          "id": "D",
+          "text": "only volunteers in a mall always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Methods of collecting data",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Better precision.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Methods of collecting data",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-526",
+      "question": "A closed-ended question has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a blank map"
+        },
+        {
+          "id": "B",
+          "text": "only a photograph"
+        },
+        {
+          "id": "C",
+          "text": "no options and an essay only as closed"
+        },
+        {
+          "id": "D",
+          "text": "fixed response options"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Questionnaires",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Easier to tabulate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Questionnaires",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-527",
+      "question": "An open-ended question allows:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only Yes/No as the only open form"
+        },
+        {
+          "id": "B",
+          "text": "only a number from a list of two"
+        },
+        {
+          "id": "C",
+          "text": "free response"
+        },
+        {
+          "id": "D",
+          "text": "only a tick"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Questionnaires",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Richer, harder to code.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Questionnaires",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-528",
+      "question": "A frequency distribution shows:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the mean as a table name"
+        },
+        {
+          "id": "B",
+          "text": "only the range as a table name"
+        },
+        {
+          "id": "C",
+          "text": "how often values/classes occur"
+        },
+        {
+          "id": "D",
+          "text": "only the mode as a table name"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tally / classes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-529",
+      "question": "Class interval 10–20 (exclusive upper) next class may start at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "100 only"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "10 again"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Continuous exclusive series.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-530",
+      "question": "A histogram is for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only pie of two companies"
+        },
+        {
+          "id": "B",
+          "text": "attributes like gender as the only histogram use"
+        },
+        {
+          "id": "C",
+          "text": "only a timeline of kings"
+        },
+        {
+          "id": "D",
+          "text": "continuous frequency data"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Adjacent rectangles.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-531",
+      "question": "A bar diagram is suitable for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "histogram of ages only"
+        },
+        {
+          "id": "B",
+          "text": "discrete / categorical comparison"
+        },
+        {
+          "id": "C",
+          "text": "ogive only"
+        },
+        {
+          "id": "D",
+          "text": "continuous density as the only bar use"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gaps between bars OK.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-532",
+      "question": "An ogive is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "scatter of two variables only"
+        },
+        {
+          "id": "B",
+          "text": "pictogram only"
+        },
+        {
+          "id": "C",
+          "text": "cumulative frequency curve"
+        },
+        {
+          "id": "D",
+          "text": "pie chart"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Less than / more than.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-533",
+      "question": "The mean is affected by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "extreme values"
+        },
+        {
+          "id": "B",
+          "text": "only the colour of the page"
+        },
+        {
+          "id": "C",
+          "text": "only the mode"
+        },
+        {
+          "id": "D",
+          "text": "nothing ever"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Not robust.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-534",
+      "question": "The median is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "50th percentile"
+        },
+        {
+          "id": "B",
+          "text": "99th always"
+        },
+        {
+          "id": "C",
+          "text": "mean always"
+        },
+        {
+          "id": "D",
+          "text": "1st percentile only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Positional average.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-535",
+      "question": "Mode is useful for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the geometric mean always as mode"
+        },
+        {
+          "id": "B",
+          "text": "the most fashionable / most frequent size (e.g. shoes)"
+        },
+        {
+          "id": "C",
+          "text": "the algebraic sum always"
+        },
+        {
+          "id": "D",
+          "text": "the harmonic mean always as mode"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Qualitative too.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-536",
+      "question": "For a moderately skewed distribution, empirical relation is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mean = Mode always"
+        },
+        {
+          "id": "B",
+          "text": "Mode ≈ 3 Median − 2 Mean"
+        },
+        {
+          "id": "C",
+          "text": "Mode = Mean + Median always"
+        },
+        {
+          "id": "D",
+          "text": "Median = 0 always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Karl Pearson.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-537",
+      "question": "Range is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mean"
+        },
+        {
+          "id": "B",
+          "text": "L − S"
+        },
+        {
+          "id": "C",
+          "text": "L + S"
+        },
+        {
+          "id": "D",
+          "text": "L / S"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Crude.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-538",
+      "question": "Quartile deviation is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "(Q3 − Q1)/2"
+        },
+        {
+          "id": "B",
+          "text": "mean deviation from 0 always"
+        },
+        {
+          "id": "C",
+          "text": "Q3 + Q1"
+        },
+        {
+          "id": "D",
+          "text": "Q2"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Semi-interquartile range.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-539",
+      "question": "Standard deviation is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "range"
+        },
+        {
+          "id": "B",
+          "text": "root-mean-square deviation from the mean"
+        },
+        {
+          "id": "C",
+          "text": "median always"
+        },
+        {
+          "id": "D",
+          "text": "mode"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "σ.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-540",
+      "question": "Variance is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mode"
+        },
+        {
+          "id": "B",
+          "text": "SD itself"
+        },
+        {
+          "id": "C",
+          "text": "square of SD"
+        },
+        {
+          "id": "D",
+          "text": "mean"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "σ².",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-541",
+      "question": "Coefficient of variation is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "range/mean only as the only CV"
+        },
+        {
+          "id": "B",
+          "text": "(SD/mean)×100"
+        },
+        {
+          "id": "C",
+          "text": "mean/SD only as CV"
+        },
+        {
+          "id": "D",
+          "text": "mode/mean"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Relative dispersion; comparable across units.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-542",
+      "question": "P(A∪B) = P(A)+P(B) when A and B are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mutually exclusive"
+        },
+        {
+          "id": "B",
+          "text": "sure events"
+        },
+        {
+          "id": "C",
+          "text": "the same event"
+        },
+        {
+          "id": "D",
+          "text": "independent as the only condition for the sum rule without overlap term"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "No overlap.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-543",
+      "question": "Independent events satisfy:",
+      "options": [
+        {
+          "id": "A",
+          "text": "P(A∩B)=P(A)P(B)"
+        },
+        {
+          "id": "B",
+          "text": "P(B)=0 always"
+        },
+        {
+          "id": "C",
+          "text": "P(A∪B)=0"
+        },
+        {
+          "id": "D",
+          "text": "P(A)=1 always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Multiplication.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-544",
+      "question": "P(A|B) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "P(A)P(B) always"
+        },
+        {
+          "id": "B",
+          "text": "P(A∩B)/P(B)"
+        },
+        {
+          "id": "C",
+          "text": "P(A)+P(B)"
+        },
+        {
+          "id": "D",
+          "text": "1−P(A) always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Conditional.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-545",
+      "question": "Bayes’ theorem revises:",
+      "options": [
+        {
+          "id": "A",
+          "text": "probabilities in the light of new evidence"
+        },
+        {
+          "id": "B",
+          "text": "only the mean"
+        },
+        {
+          "id": "C",
+          "text": "only the range"
+        },
+        {
+          "id": "D",
+          "text": "only the mode"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Inverse probability.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-546",
+      "question": "A random experiment has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "one possible outcome only always"
+        },
+        {
+          "id": "B",
+          "text": "no outcomes"
+        },
+        {
+          "id": "C",
+          "text": "a predetermined single result always"
+        },
+        {
+          "id": "D",
+          "text": "known possible outcomes, uncertain which occurs"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sample space.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-547",
+      "question": "Positive class frequency (AB) cannot exceed:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the sum of all classes always as a lower bound"
+        },
+        {
+          "id": "B",
+          "text": "the smaller of A and B frequencies"
+        },
+        {
+          "id": "C",
+          "text": "zero as a maximum"
+        },
+        {
+          "id": "D",
+          "text": "infinity as a minimum"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Theory of Attributes",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Consistency of attributes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Attributes",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-548",
+      "question": "In a dichotomy, A and α (not-A) are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "probabilities of 2 always"
+        },
+        {
+          "id": "B",
+          "text": "exhaustive and mutually exclusive (with the universe)"
+        },
+        {
+          "id": "C",
+          "text": "the same class"
+        },
+        {
+          "id": "D",
+          "text": "independent always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Theory of Attributes",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Presence/absence.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Attributes",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-549",
+      "question": "Splicing of index numbers is done to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "connect two series with different bases"
+        },
+        {
+          "id": "B",
+          "text": "delete inflation"
+        },
+        {
+          "id": "C",
+          "text": "convert CPI to GDP"
+        },
+        {
+          "id": "D",
+          "text": "delete the base"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Long series.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-550",
+      "question": "Deflating a value series uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a spinner"
+        },
+        {
+          "id": "B",
+          "text": "a price index"
+        },
+        {
+          "id": "C",
+          "text": "a dice"
+        },
+        {
+          "id": "D",
+          "text": "a coin"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Real values.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-551",
+      "question": "Maternal mortality ratio relates maternal deaths to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "total males"
+        },
+        {
+          "id": "B",
+          "text": "total population only as MMR’s only denom"
+        },
+        {
+          "id": "C",
+          "text": "live births (per 1 lakh often)"
+        },
+        {
+          "id": "D",
+          "text": "total houses"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Health indicator.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-552",
+      "question": "NSSO / NSS surveys are examples of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a school register"
+        },
+        {
+          "id": "B",
+          "text": "sample surveys (secondary for a later user)"
+        },
+        {
+          "id": "C",
+          "text": "complete census of every Indian every week"
+        },
+        {
+          "id": "D",
+          "text": "only a shop bill"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "National Sample Survey.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-553",
+      "question": "Non-sampling error includes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the formula of SD"
+        },
+        {
+          "id": "B",
+          "text": "only the colour of the histogram"
+        },
+        {
+          "id": "C",
+          "text": "measurement / response / processing error"
+        },
+        {
+          "id": "D",
+          "text": "only the luck of which units were drawn as non-sampling"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Methods of collecting data",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs sampling error.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Methods of collecting data",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-554",
+      "question": "Geometric mean is useful for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rates of growth / ratios"
+        },
+        {
+          "id": "B",
+          "text": "attributes like gender as GM"
+        },
+        {
+          "id": "C",
+          "text": "ranks only"
+        },
+        {
+          "id": "D",
+          "text": "open-end qualitative colours"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "GM of relatives.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-555",
+      "question": "Harmonic mean is useful for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "averaging colours"
+        },
+        {
+          "id": "B",
+          "text": "averaging names"
+        },
+        {
+          "id": "C",
+          "text": "averaging rates (e.g. speeds for a fixed distance)"
+        },
+        {
+          "id": "D",
+          "text": "averaging ranks only as HM’s only use"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "HM ≤ GM ≤ AM.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-556",
+      "question": "Mean deviation is computed from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mean or median (absolute deviations)"
+        },
+        {
+          "id": "B",
+          "text": "range only"
+        },
+        {
+          "id": "C",
+          "text": "mode only as the only origin never mean"
+        },
+        {
+          "id": "D",
+          "text": "CV only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Less popular than SD.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-557",
+      "question": "P(sure event) + P(impossible event) =",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 + 0 = 1"
+        },
+        {
+          "id": "B",
+          "text": "0.5"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Complements of certainty.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-558",
+      "question": "A pie chart shows:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a histogram of ages as a pie by definition"
+        },
+        {
+          "id": "B",
+          "text": "time series of 100 years as the only pie use"
+        },
+        {
+          "id": "C",
+          "text": "an ogive"
+        },
+        {
+          "id": "D",
+          "text": "percentage share of a total"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "360°.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-559",
+      "question": "A quantity index holds prices at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "neither prices nor quantities"
+        },
+        {
+          "id": "B",
+          "text": "only wages"
+        },
+        {
+          "id": "C",
+          "text": "a chosen year’s prices and lets quantities change (in the usual construction)"
+        },
+        {
+          "id": "D",
+          "text": "quantities fixed and prices changing as a quantity index by name"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Production volume.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-560",
+      "question": "Expectation of life at birth (e0) comes from a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "trial balance"
+        },
+        {
+          "id": "B",
+          "text": "life table"
+        },
+        {
+          "id": "C",
+          "text": "cash book"
+        },
+        {
+          "id": "D",
+          "text": "GST return"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Longevity.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-561",
+      "question": "Urbanisation is the rise in the share of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "urban population"
+        },
+        {
+          "id": "B",
+          "text": "lakes"
+        },
+        {
+          "id": "C",
+          "text": "glaciers"
+        },
+        {
+          "id": "D",
+          "text": "forests"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Census classification.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-562",
+      "question": "A questionnaire filled by respondents is generally:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a life table always"
+        },
+        {
+          "id": "B",
+          "text": "invalid always"
+        },
+        {
+          "id": "C",
+          "text": "secondary census always"
+        },
+        {
+          "id": "D",
+          "text": "primary (for that study)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Primary and secondary data",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "First-hand.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Primary and secondary data",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-563",
+      "question": "A leading question is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "worded to suggest an answer (bad practice)"
+        },
+        {
+          "id": "B",
+          "text": "always closed"
+        },
+        {
+          "id": "C",
+          "text": "always open"
+        },
+        {
+          "id": "D",
+          "text": "always numerical"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Questionnaires",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Bias.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Questionnaires",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-564",
+      "question": "For open-end classes, the median can still be found but the mean:",
+      "options": [
+        {
+          "id": "A",
+          "text": "is always zero"
+        },
+        {
+          "id": "B",
+          "text": "is always exact without assumption"
+        },
+        {
+          "id": "C",
+          "text": "needs assumed class limits / may be problematic"
+        },
+        {
+          "id": "D",
+          "text": "equals the mode always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Limitation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-565",
+      "question": "With replacement, successive draws from an urn are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mutually exclusive always"
+        },
+        {
+          "id": "B",
+          "text": "independent (typically)"
+        },
+        {
+          "id": "C",
+          "text": "sure"
+        },
+        {
+          "id": "D",
+          "text": "impossible"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unchanging composition.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-566",
+      "question": "Without replacement, successive draws are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "independent always"
+        },
+        {
+          "id": "B",
+          "text": "dependent"
+        },
+        {
+          "id": "C",
+          "text": "sure events"
+        },
+        {
+          "id": "D",
+          "text": "impossible events"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Theory of Probability",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Changing composition.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Theory of Probability",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-567",
+      "question": "Cost of living index is essentially a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "WPI of machinery only"
+        },
+        {
+          "id": "B",
+          "text": "rainfall index"
+        },
+        {
+          "id": "C",
+          "text": "SENSEX"
+        },
+        {
+          "id": "D",
+          "text": "consumer price index for a population group"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "DA in wages.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-568",
+      "question": "A larger SD means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "all values equal"
+        },
+        {
+          "id": "B",
+          "text": "zero variance always"
+        },
+        {
+          "id": "C",
+          "text": "greater spread about the mean"
+        },
+        {
+          "id": "D",
+          "text": "mode equals mean always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Statistics",
+      "topic": "Dispersion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Variability.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Dispersion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-569",
+      "question": "Bivariate tables show:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only names"
+        },
+        {
+          "id": "B",
+          "text": "one variable only"
+        },
+        {
+          "id": "C",
+          "text": "no frequencies"
+        },
+        {
+          "id": "D",
+          "text": "two characteristics together"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Tabulation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Contingency.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Tabulation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-570",
+      "question": "Replacement-level fertility is often cited near TFR:",
+      "options": [
+        {
+          "id": "A",
+          "text": "2.1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Demography",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Rough global rule of thumb.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Demography",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-571",
+      "question": "A vital event is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "birth, death, marriage, etc."
+        },
+        {
+          "id": "B",
+          "text": "a CPU cycle"
+        },
+        {
+          "id": "C",
+          "text": "a journal entry"
+        },
+        {
+          "id": "D",
+          "text": "a GST invoice"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Statistics",
+      "topic": "Vital Statistics",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Civil registration.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Vital Statistics",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-572",
+      "question": "Systematic sampling picks every k-th unit after a random start.",
+      "options": [
+        {
+          "id": "A",
+          "text": "False — that is stratified only"
+        },
+        {
+          "id": "B",
+          "text": "False — that is census only"
+        },
+        {
+          "id": "C",
+          "text": "False — that is quota only"
+        },
+        {
+          "id": "D",
+          "text": "True as a method"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Methods of collecting data",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "k = N/n.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Methods of collecting data",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-573",
+      "question": "Time reversal test is satisfied by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "simple average of relatives never as Fisher"
+        },
+        {
+          "id": "B",
+          "text": "Laspeyre only as always passing TRT"
+        },
+        {
+          "id": "C",
+          "text": "Paasche only as always passing TRT"
+        },
+        {
+          "id": "D",
+          "text": "Fisher’s index (among common tests)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Statistics",
+      "topic": "Index Numbers",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ideal index tests.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Index Numbers",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-statistics-574",
+      "question": "Weighted mean uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "equal weights only as weighted by definition"
+        },
+        {
+          "id": "B",
+          "text": "weights reflecting importance / frequencies"
+        },
+        {
+          "id": "C",
+          "text": "zero weights always"
+        },
+        {
+          "id": "D",
+          "text": "negative frequencies always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Statistics",
+      "topic": "Measures of central Tendency",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "e.g. average marks.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Statistics",
+        "Measures of central Tendency",
+        "medium"
       ],
       "pool_type": "post_primary",
       "post_id": "accounts-assistant-finance"

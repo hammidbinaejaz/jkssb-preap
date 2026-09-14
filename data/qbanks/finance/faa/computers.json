@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "Knowledge of Computers",
-  "question_count": 500,
+  "question_count": 585,
   "schema": [
     "question_id",
     "question",
@@ -19508,6 +19508,3321 @@
       "tags": [
         "Knowledge of Computers",
         "MS Excel",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-501",
+      "question": "In Access, a primary key:",
+      "options": [
+        {
+          "id": "A",
+          "text": "stores videos only"
+        },
+        {
+          "id": "B",
+          "text": "is a printer"
+        },
+        {
+          "id": "C",
+          "text": "is an OS"
+        },
+        {
+          "id": "D",
+          "text": "uniquely identifies a record"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Access",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Relational table.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Access",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-502",
+      "question": "A query in Access is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "send SMS as the only use"
+        },
+        {
+          "id": "B",
+          "text": "cool the CPU"
+        },
+        {
+          "id": "C",
+          "text": "scan photos as the only use"
+        },
+        {
+          "id": "D",
+          "text": "retrieve / filter data"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Access",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "SQL underneath.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Access",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-503",
+      "question": "A form in Access is mainly for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "data entry / display UI"
+        },
+        {
+          "id": "B",
+          "text": "routing packets"
+        },
+        {
+          "id": "C",
+          "text": "printing OS kernels"
+        },
+        {
+          "id": "D",
+          "text": "compiling C++"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Access",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Front-end to tables.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Access",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-504",
+      "question": "VLOOKUP is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "defragment a disk"
+        },
+        {
+          "id": "B",
+          "text": "send email"
+        },
+        {
+          "id": "C",
+          "text": "format slides"
+        },
+        {
+          "id": "D",
+          "text": "look up a value in a table column"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lookup function.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-505",
+      "question": "A pivot table is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "boot Linux"
+        },
+        {
+          "id": "B",
+          "text": "summarise large data"
+        },
+        {
+          "id": "C",
+          "text": "scan viruses"
+        },
+        {
+          "id": "D",
+          "text": "draw only circles"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Interactive summary.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-506",
+      "question": "Absolute cell reference uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "#"
+        },
+        {
+          "id": "B",
+          "text": "$ (e.g. $A$1)"
+        },
+        {
+          "id": "C",
+          "text": "@"
+        },
+        {
+          "id": "D",
+          "text": "& only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Does not change on copy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-507",
+      "question": "COUNT counts:",
+      "options": [
+        {
+          "id": "A",
+          "text": "errors only"
+        },
+        {
+          "id": "B",
+          "text": "all text always as COUNT’s only job"
+        },
+        {
+          "id": "C",
+          "text": "blank colour"
+        },
+        {
+          "id": "D",
+          "text": "numeric cells"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "COUNTA counts non-empty.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-508",
+      "question": "A slide master controls:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Access keys only"
+        },
+        {
+          "id": "B",
+          "text": "Excel macros only"
+        },
+        {
+          "id": "C",
+          "text": "common layout/theme of slides"
+        },
+        {
+          "id": "D",
+          "text": "BIOS"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "MS PowerPoint",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Design consistency.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS PowerPoint",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-509",
+      "question": "Mail merge is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "produce personalised letters from a data source"
+        },
+        {
+          "id": "B",
+          "text": "merge PDF printers into one laser"
+        },
+        {
+          "id": "C",
+          "text": "merge two CPUs"
+        },
+        {
+          "id": "D",
+          "text": "merge two RAMs physically"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Word",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Envelopes / certificates.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Word",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-510",
+      "question": "Track Changes is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "show edits for review"
+        },
+        {
+          "id": "B",
+          "text": "format a hard disk"
+        },
+        {
+          "id": "C",
+          "text": "speed up RAM"
+        },
+        {
+          "id": "D",
+          "text": "overclock CPU"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Word",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Collaboration.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Word",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-511",
+      "question": "A GUI OS provides:",
+      "options": [
+        {
+          "id": "A",
+          "text": "windows, icons, menus, pointer"
+        },
+        {
+          "id": "B",
+          "text": "only machine code with no display"
+        },
+        {
+          "id": "C",
+          "text": "only a paper tape"
+        },
+        {
+          "id": "D",
+          "text": "only BIOS beeps"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Windows, macOS, many Linux desktops.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-512",
+      "question": "Multitasking means the OS can:",
+      "options": [
+        {
+          "id": "A",
+          "text": "run zero programs"
+        },
+        {
+          "id": "B",
+          "text": "store infinite RAM physically"
+        },
+        {
+          "id": "C",
+          "text": "run multiple processes (apparently) at once"
+        },
+        {
+          "id": "D",
+          "text": "print without a printer"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Time sharing.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-513",
+      "question": "Android is primarily a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "laser printer"
+        },
+        {
+          "id": "B",
+          "text": "relational database of Access only"
+        },
+        {
+          "id": "C",
+          "text": "CPU brand of Intel only"
+        },
+        {
+          "id": "D",
+          "text": "mobile operating system"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Google / Linux kernel.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-514",
+      "question": "GNU/Linux distributions include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ubuntu, Fedora, Debian (examples)"
+        },
+        {
+          "id": "B",
+          "text": "Windows 11 as open source by default"
+        },
+        {
+          "id": "C",
+          "text": "MS Word as a distro"
+        },
+        {
+          "id": "D",
+          "text": "macOS as GPL Linux"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Open Source",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Free/open packages.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Open Source",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-515",
+      "question": "A GPL licence generally requires:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sharing source of derivative works under GPL (copyleft)"
+        },
+        {
+          "id": "B",
+          "text": "banning modification"
+        },
+        {
+          "id": "C",
+          "text": "payment to Microsoft mandatorily"
+        },
+        {
+          "id": "D",
+          "text": "secrecy of all source forever"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Open Source",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Copyleft.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Open Source",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-516",
+      "question": "HTTPS adds:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a larger monitor"
+        },
+        {
+          "id": "B",
+          "text": "more RAM chips"
+        },
+        {
+          "id": "C",
+          "text": "TLS/SSL encryption to HTTP"
+        },
+        {
+          "id": "D",
+          "text": "a faster CPU"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Padlock in the browser.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-517",
+      "question": "SMTP is used mainly to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "print only"
+        },
+        {
+          "id": "B",
+          "text": "browse only"
+        },
+        {
+          "id": "C",
+          "text": "send email"
+        },
+        {
+          "id": "D",
+          "text": "scan only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Simple Mail Transfer Protocol.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-518",
+      "question": "IMAP/POP are used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "compile Java as their only job"
+        },
+        {
+          "id": "B",
+          "text": "route IP packets as their only job"
+        },
+        {
+          "id": "C",
+          "text": "retrieve email"
+        },
+        {
+          "id": "D",
+          "text": "format C as their only job"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Mailbox access.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-519",
+      "question": "A DNS server translates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "domain names to IP addresses"
+        },
+        {
+          "id": "B",
+          "text": "rupees to dollars as DNS"
+        },
+        {
+          "id": "C",
+          "text": "C to machine code as DNS"
+        },
+        {
+          "id": "D",
+          "text": "PDF to Word as DNS"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Domain Name System.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-520",
+      "question": "IPv4 addresses are typically:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1-bit"
+        },
+        {
+          "id": "B",
+          "text": "32-bit"
+        },
+        {
+          "id": "C",
+          "text": "128-bit (that is IPv6)"
+        },
+        {
+          "id": "D",
+          "text": "8-bit only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dotted decimal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-521",
+      "question": "IPv6 uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "128-bit addresses"
+        },
+        {
+          "id": "B",
+          "text": "4-bit only"
+        },
+        {
+          "id": "C",
+          "text": "16-bit only"
+        },
+        {
+          "id": "D",
+          "text": "32-bit only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Newer IP.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-522",
+      "question": "A worm spreads:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only with a printer cable as the definition"
+        },
+        {
+          "id": "B",
+          "text": "only via monitor colour"
+        },
+        {
+          "id": "C",
+          "text": "only via RAM heat"
+        },
+        {
+          "id": "D",
+          "text": "without needing a host file (self-replicating network malware)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Network malware.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-523",
+      "question": "Phishing is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "an OS kernel"
+        },
+        {
+          "id": "B",
+          "text": "a type of RAM"
+        },
+        {
+          "id": "C",
+          "text": "fraudulent attempt to steal credentials"
+        },
+        {
+          "id": "D",
+          "text": "a printer drum"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Social engineering.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-524",
+      "question": "Ransomware:",
+      "options": [
+        {
+          "id": "A",
+          "text": "encrypts files and demands payment"
+        },
+        {
+          "id": "B",
+          "text": "cools CPU"
+        },
+        {
+          "id": "C",
+          "text": "increases disk RPM"
+        },
+        {
+          "id": "D",
+          "text": "speeds Wi-Fi legally as a gift"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Malware.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-525",
+      "question": "A firewall can:",
+      "options": [
+        {
+          "id": "A",
+          "text": "increase clock speed of CPU by heating"
+        },
+        {
+          "id": "B",
+          "text": "filter network traffic"
+        },
+        {
+          "id": "C",
+          "text": "replace RAM"
+        },
+        {
+          "id": "D",
+          "text": "print faster by itself"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Perimeter defence.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-526",
+      "question": "SSD compared with HDD generally offers:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always cheaper per GB historically as the only fact"
+        },
+        {
+          "id": "B",
+          "text": "faster access, no spinning platters"
+        },
+        {
+          "id": "C",
+          "text": "only tape backup"
+        },
+        {
+          "id": "D",
+          "text": "more moving heads always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Solid-state drive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-527",
+      "question": "A GPU is specialised for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "graphics / parallel compute"
+        },
+        {
+          "id": "B",
+          "text": "only keyboard bounce"
+        },
+        {
+          "id": "C",
+          "text": "only speaker ohms"
+        },
+        {
+          "id": "D",
+          "text": "only mouse DPI"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Graphics processing unit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-528",
+      "question": "1 MB is 1024 KB in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "SI mole"
+        },
+        {
+          "id": "B",
+          "text": "metric tonne definition"
+        },
+        {
+          "id": "C",
+          "text": "binary (IEC-style) convention used by many OSs"
+        },
+        {
+          "id": "D",
+          "text": "astronomical unit"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Storage Media",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "1024×1024 bytes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Storage Media",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-529",
+      "question": "Cache memory is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "small fast memory close to the CPU"
+        },
+        {
+          "id": "B",
+          "text": "an email protocol"
+        },
+        {
+          "id": "C",
+          "text": "a type of printer"
+        },
+        {
+          "id": "D",
+          "text": "a type of scanner"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Storage Media",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Speeds the processor.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Storage Media",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-530",
+      "question": "OCR software converts:",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM to ROM physically"
+        },
+        {
+          "id": "B",
+          "text": "CPU to GPU physically"
+        },
+        {
+          "id": "C",
+          "text": "scanned text images to editable text"
+        },
+        {
+          "id": "D",
+          "text": "sound to light"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Input & output Devices",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Optical character recognition.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Input & output Devices",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-531",
+      "question": "A plotter is historically an:",
+      "options": [
+        {
+          "id": "A",
+          "text": "output device for large drawings"
+        },
+        {
+          "id": "B",
+          "text": "OS"
+        },
+        {
+          "id": "C",
+          "text": "input microphone"
+        },
+        {
+          "id": "D",
+          "text": "virus"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Input & output Devices",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CAD plots.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Input & output Devices",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-532",
+      "question": "A PDF is useful because it:",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserves layout across devices"
+        },
+        {
+          "id": "B",
+          "text": "is a type of RAM"
+        },
+        {
+          "id": "C",
+          "text": "is an OS"
+        },
+        {
+          "id": "D",
+          "text": "replaces the CPU"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "PDF",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Portable Document Format.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "PDF",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-533",
+      "question": "UMANG / MyGov type apps are examples of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "computer viruses"
+        },
+        {
+          "id": "B",
+          "text": "e-governance front ends"
+        },
+        {
+          "id": "C",
+          "text": "dot-matrix printers"
+        },
+        {
+          "id": "D",
+          "text": "BIOS chips"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Citizen services.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-534",
+      "question": "DigiLocker stores:",
+      "options": [
+        {
+          "id": "A",
+          "text": "nuclear waste"
+        },
+        {
+          "id": "B",
+          "text": "crude oil"
+        },
+        {
+          "id": "C",
+          "text": "forest timber as bits"
+        },
+        {
+          "id": "D",
+          "text": "digital documents issued to citizens"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MeitY ecosystem.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-535",
+      "question": "GeM is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Government e-Marketplace"
+        },
+        {
+          "id": "B",
+          "text": "an antivirus"
+        },
+        {
+          "id": "C",
+          "text": "a compiler"
+        },
+        {
+          "id": "D",
+          "text": "a graphics card"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Public procurement.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-536",
+      "question": "Aadhaar is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Wi-Fi dongle"
+        },
+        {
+          "id": "B",
+          "text": "a CPU socket"
+        },
+        {
+          "id": "C",
+          "text": "a unique identity number"
+        },
+        {
+          "id": "D",
+          "text": "an Excel function"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "UIDAI.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-537",
+      "question": "A compiler translates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "JPG to PNG only as a compiler"
+        },
+        {
+          "id": "B",
+          "text": "high-level source to machine code (typically)"
+        },
+        {
+          "id": "C",
+          "text": "MP3 to WAV only as a compiler"
+        },
+        {
+          "id": "D",
+          "text": "HTTP to HTML only as a compiler"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Programming.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-538",
+      "question": "An interpreter executes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only BIOS"
+        },
+        {
+          "id": "B",
+          "text": "only POST"
+        },
+        {
+          "id": "C",
+          "text": "only CMOS battery"
+        },
+        {
+          "id": "D",
+          "text": "source code statement by statement (vs a full compile)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Python-style.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-539",
+      "question": "ASCII is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "printer drum"
+        },
+        {
+          "id": "B",
+          "text": "character encoding"
+        },
+        {
+          "id": "C",
+          "text": "GPU cooler"
+        },
+        {
+          "id": "D",
+          "text": "network cable"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "American Standard Code.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-540",
+      "question": "Unicode can represent:",
+      "options": [
+        {
+          "id": "A",
+          "text": "characters of many scripts"
+        },
+        {
+          "id": "B",
+          "text": "only 128 English letters forever"
+        },
+        {
+          "id": "C",
+          "text": "only digits 0–1"
+        },
+        {
+          "id": "D",
+          "text": "only emojis of one vendor"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "UTF-8 common on the web.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-541",
+      "question": "Virtual memory uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only ROM as RAM"
+        },
+        {
+          "id": "B",
+          "text": "only cache as the only memory"
+        },
+        {
+          "id": "C",
+          "text": "only registers of 8 bits forever"
+        },
+        {
+          "id": "D",
+          "text": "disk as an extension of RAM"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Paging / swap.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-542",
+      "question": "BIOS/UEFI firmware runs:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only inside Chrome"
+        },
+        {
+          "id": "B",
+          "text": "before the OS boots"
+        },
+        {
+          "id": "C",
+          "text": "after shutdown only"
+        },
+        {
+          "id": "D",
+          "text": "only inside MS Word"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Boot firmware.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-543",
+      "question": "A MAC address identifies a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lake"
+        },
+        {
+          "id": "B",
+          "text": "person’s PAN"
+        },
+        {
+          "id": "C",
+          "text": "a mountain"
+        },
+        {
+          "id": "D",
+          "text": "network interface hardware (typically)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Media Access Control.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-544",
+      "question": "Bandwidth commonly measures:",
+      "options": [
+        {
+          "id": "A",
+          "text": "data capacity of a link"
+        },
+        {
+          "id": "B",
+          "text": "disk colour"
+        },
+        {
+          "id": "C",
+          "text": "fan RPM as bandwidth"
+        },
+        {
+          "id": "D",
+          "text": "CPU temperature"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Bits per second.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-545",
+      "question": "IF(A1>0,\"Yes\",\"No\") returns:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always the OS name"
+        },
+        {
+          "id": "B",
+          "text": "always a printer name"
+        },
+        {
+          "id": "C",
+          "text": "always a virus name"
+        },
+        {
+          "id": "D",
+          "text": "Yes or No based on A1"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Logical function.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-546",
+      "question": "A style in Word is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "named set of formatting"
+        },
+        {
+          "id": "B",
+          "text": "BIOS setting"
+        },
+        {
+          "id": "C",
+          "text": "IP packet"
+        },
+        {
+          "id": "D",
+          "text": "CPU instruction"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Word",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Heading 1 etc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Word",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-547",
+      "question": "Apache and Nginx are examples of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "laser printers"
+        },
+        {
+          "id": "B",
+          "text": "web server software (often open source)"
+        },
+        {
+          "id": "C",
+          "text": "floppy disks"
+        },
+        {
+          "id": "D",
+          "text": "CRTs"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Open Source",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "HTTP servers.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Open Source",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-548",
+      "question": "e-Office / e-File in government is meant to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ban computers"
+        },
+        {
+          "id": "B",
+          "text": "print more paper by policy as the goal"
+        },
+        {
+          "id": "C",
+          "text": "stop email"
+        },
+        {
+          "id": "D",
+          "text": "move files digitally"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Paperless office.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-549",
+      "question": "Updating antivirus signatures is needed because:",
+      "options": [
+        {
+          "id": "A",
+          "text": "monitors fade as the only reason"
+        },
+        {
+          "id": "B",
+          "text": "keyboards rust as the only reason"
+        },
+        {
+          "id": "C",
+          "text": "new malware appears continuously"
+        },
+        {
+          "id": "D",
+          "text": "RAM evaporates"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Threat intelligence.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-550",
+      "question": "A nibble is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1024 bits"
+        },
+        {
+          "id": "B",
+          "text": "8 bytes"
+        },
+        {
+          "id": "C",
+          "text": "4 bits"
+        },
+        {
+          "id": "D",
+          "text": "1 MB"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Half a byte.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-551",
+      "question": "Cloud storage means data kept on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only paper"
+        },
+        {
+          "id": "B",
+          "text": "only ROM of 1980"
+        },
+        {
+          "id": "C",
+          "text": "remote servers accessed via network"
+        },
+        {
+          "id": "D",
+          "text": "only a local floppy"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Storage Media",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Drive services.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Storage Media",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-552",
+      "question": "An application package is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the PSU fan only"
+        },
+        {
+          "id": "B",
+          "text": "software for end users (Word, Excel)"
+        },
+        {
+          "id": "C",
+          "text": "the CPU die only"
+        },
+        {
+          "id": "D",
+          "text": "the chassis screws only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs system software.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-553",
+      "question": "Device drivers allow the OS to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "increase mains voltage"
+        },
+        {
+          "id": "B",
+          "text": "talk to hardware"
+        },
+        {
+          "id": "C",
+          "text": "replace the monitor with a printer automatically"
+        },
+        {
+          "id": "D",
+          "text": "change the colour of copper"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kernel modules / driver model.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-554",
+      "question": "A cookie on the web is typically:",
+      "options": [
+        {
+          "id": "A",
+          "text": "data stored by a site in the browser"
+        },
+        {
+          "id": "B",
+          "text": "a type of RAM chip"
+        },
+        {
+          "id": "C",
+          "text": "a CPU instruction"
+        },
+        {
+          "id": "D",
+          "text": "a laser toner"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Session / tracking.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-555",
+      "question": "A foreign key refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the IP of Google"
+        },
+        {
+          "id": "B",
+          "text": "the BIOS password"
+        },
+        {
+          "id": "C",
+          "text": "the GSTIN of a mountain"
+        },
+        {
+          "id": "D",
+          "text": "the primary key of another table"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Access",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Referential integrity.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Access",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-556",
+      "question": "OCR on a scanned PDF can make text:",
+      "options": [
+        {
+          "id": "A",
+          "text": "heavier in kilograms"
+        },
+        {
+          "id": "B",
+          "text": "searchable"
+        },
+        {
+          "id": "C",
+          "text": "a CPU"
+        },
+        {
+          "id": "D",
+          "text": "radioactive"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "PDF",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Image vs text layer.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "PDF",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-557",
+      "question": "RTI online filing is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a computer virus"
+        },
+        {
+          "id": "B",
+          "text": "ICT-enabled transparency"
+        },
+        {
+          "id": "C",
+          "text": "a GPU driver as RTI"
+        },
+        {
+          "id": "D",
+          "text": "a BIOS update as RTI"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Right to Information.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-558",
+      "question": "Machine language is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excel macros only"
+        },
+        {
+          "id": "B",
+          "text": "English essays"
+        },
+        {
+          "id": "C",
+          "text": "binary instructions for the CPU"
+        },
+        {
+          "id": "D",
+          "text": "HTML only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lowest level.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-559",
+      "question": "A biometric scanner is an:",
+      "options": [
+        {
+          "id": "A",
+          "text": "protocol"
+        },
+        {
+          "id": "B",
+          "text": "OS"
+        },
+        {
+          "id": "C",
+          "text": "input device"
+        },
+        {
+          "id": "D",
+          "text": "output speaker"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Input & output Devices",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fingerprint / iris.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Input & output Devices",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-560",
+      "question": "UPS provides:",
+      "options": [
+        {
+          "id": "A",
+          "text": "backup power to avoid abrupt shutdown"
+        },
+        {
+          "id": "B",
+          "text": "larger fonts in Word by hardware"
+        },
+        {
+          "id": "C",
+          "text": "faster Wi-Fi by itself"
+        },
+        {
+          "id": "D",
+          "text": "more megapixels"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Uninterruptible power supply.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-561",
+      "question": "Cc in email means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "blind copy as the meaning of Cc"
+        },
+        {
+          "id": "B",
+          "text": "certified cheque"
+        },
+        {
+          "id": "C",
+          "text": "encrypted CPU"
+        },
+        {
+          "id": "D",
+          "text": "carbon copy (visible to all recipients)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs Bcc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-562",
+      "question": "Bcc hides:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the From address from DNS"
+        },
+        {
+          "id": "B",
+          "text": "the subject line from the sender"
+        },
+        {
+          "id": "C",
+          "text": "additional recipients from each other"
+        },
+        {
+          "id": "D",
+          "text": "the SMTP server from the internet physically"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Blind carbon copy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-563",
+      "question": "Charts in Excel are used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "format a disk"
+        },
+        {
+          "id": "B",
+          "text": "compile C"
+        },
+        {
+          "id": "C",
+          "text": "send SMTP"
+        },
+        {
+          "id": "D",
+          "text": "visualise numbers"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Column, pie, line.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-564",
+      "question": "Git is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "version-control system"
+        },
+        {
+          "id": "B",
+          "text": "relational OS"
+        },
+        {
+          "id": "C",
+          "text": "graphics card"
+        },
+        {
+          "id": "D",
+          "text": "laser printer"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Open Source",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Source history.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Open Source",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-565",
+      "question": "PFMS dashboards for ministries are an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a GPU miner"
+        },
+        {
+          "id": "B",
+          "text": "IT in public finance"
+        },
+        {
+          "id": "C",
+          "text": "a game engine"
+        },
+        {
+          "id": "D",
+          "text": "malware"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Expenditure tracking.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-566",
+      "question": "Clock speed of a CPU is measured in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "lumens"
+        },
+        {
+          "id": "B",
+          "text": "hertz (GHz)"
+        },
+        {
+          "id": "C",
+          "text": "pixels"
+        },
+        {
+          "id": "D",
+          "text": "ohms"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cycles per second.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-567",
+      "question": "A bit can be:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 or 1"
+        },
+        {
+          "id": "B",
+          "text": "A to Z only"
+        },
+        {
+          "id": "C",
+          "text": "red or blue only"
+        },
+        {
+          "id": "D",
+          "text": "0 to 9 only as decimal bits"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Storage Media",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Binary digit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Storage Media",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-568",
+      "question": "Formatting a disk (high-level) prepares:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a file system"
+        },
+        {
+          "id": "B",
+          "text": "an SMTP banner"
+        },
+        {
+          "id": "C",
+          "text": "a CPU socket"
+        },
+        {
+          "id": "D",
+          "text": "a GPU shader"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "NTFS, ext4, APFS…",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-569",
+      "question": "A Trojan disguises itself as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "useful software"
+        },
+        {
+          "id": "B",
+          "text": "a screw"
+        },
+        {
+          "id": "C",
+          "text": "a CAT6 cable"
+        },
+        {
+          "id": "D",
+          "text": "a heat sink"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Does not typically self-replicate like a worm.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-570",
+      "question": "Peripherals are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "devices attached to the computer (printer, mouse…)"
+        },
+        {
+          "id": "B",
+          "text": "only the control unit"
+        },
+        {
+          "id": "C",
+          "text": "only cache L1"
+        },
+        {
+          "id": "D",
+          "text": "only the ALU"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "I/O around the box.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-571",
+      "question": "Headers and footers appear:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only in DNS"
+        },
+        {
+          "id": "B",
+          "text": "on each page (unless different first page)"
+        },
+        {
+          "id": "C",
+          "text": "only in Excel cells as Word headers"
+        },
+        {
+          "id": "D",
+          "text": "only in BIOS"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Word",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Document chrome.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Word",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-572",
+      "question": "A search engine indexes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "PSU wattage only"
+        },
+        {
+          "id": "B",
+          "text": "RAM timing only"
+        },
+        {
+          "id": "C",
+          "text": "web pages"
+        },
+        {
+          "id": "D",
+          "text": "CPU microcode only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Google, Bing, etc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-573",
+      "question": "CSC (Common Service Centre) helps citizens to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "access e-services locally"
+        },
+        {
+          "id": "B",
+          "text": "mine bitcoin as government policy"
+        },
+        {
+          "id": "C",
+          "text": "print currency"
+        },
+        {
+          "id": "D",
+          "text": "overclock CPUs as a right"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Digital India last mile.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-574",
+      "question": "System software includes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only WhatsApp as the kernel"
+        },
+        {
+          "id": "B",
+          "text": "only Solitaire"
+        },
+        {
+          "id": "C",
+          "text": "only Chrome as the OS"
+        },
+        {
+          "id": "D",
+          "text": "OS, drivers, utilities"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs applications.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-575",
+      "question": "Password-protecting a PDF is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "basic document-security feature"
+        },
+        {
+          "id": "B",
+          "text": "CPU instruction"
+        },
+        {
+          "id": "C",
+          "text": "BGP route"
+        },
+        {
+          "id": "D",
+          "text": "RAID level"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "PDF",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Encryption / permissions.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "PDF",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-576",
+      "question": "Conditional formatting changes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cell appearance based on rules"
+        },
+        {
+          "id": "B",
+          "text": "the OS kernel"
+        },
+        {
+          "id": "C",
+          "text": "the BIOS"
+        },
+        {
+          "id": "D",
+          "text": "the SMTP port"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Excel",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Highlight duplicates etc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Excel",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-577",
+      "question": "LibreOffice is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a laser OEM as its only identity"
+        },
+        {
+          "id": "B",
+          "text": "a proprietary BIOS vendor as its only identity"
+        },
+        {
+          "id": "C",
+          "text": "a closed CPU brand"
+        },
+        {
+          "id": "D",
+          "text": "open-source office suite"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Open Source",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Writer, Calc, Impress.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Open Source",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-578",
+      "question": "Human-ware emphasises that computers need:",
+      "options": [
+        {
+          "id": "A",
+          "text": "trained people"
+        },
+        {
+          "id": "B",
+          "text": "no users"
+        },
+        {
+          "id": "C",
+          "text": "only robots with no policy"
+        },
+        {
+          "id": "D",
+          "text": "only firmware with no operators"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "The human component.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-579",
+      "question": "FTP is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "print only"
+        },
+        {
+          "id": "B",
+          "text": "transfer files"
+        },
+        {
+          "id": "C",
+          "text": "send only SMS"
+        },
+        {
+          "id": "D",
+          "text": "scan only irises"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Internet and E-mail",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "File Transfer Protocol.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Internet and E-mail",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-580",
+      "question": "Linux is widely used on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "servers, Android, supercomputers, desktops"
+        },
+        {
+          "id": "B",
+          "text": "only typewriters"
+        },
+        {
+          "id": "C",
+          "text": "only washing machines as the only Linux use"
+        },
+        {
+          "id": "D",
+          "text": "only CRT TVs as the only use"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Operating system",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Open ecosystem.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Operating system",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-581",
+      "question": "e-Procurement portals reduce:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Himalayan snow"
+        },
+        {
+          "id": "B",
+          "text": "paper tenders and opacity"
+        },
+        {
+          "id": "C",
+          "text": "electricity legally as the main goal"
+        },
+        {
+          "id": "D",
+          "text": "rainfall"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "IT in Governance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Transparency in buying.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "IT in Governance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-582",
+      "question": "Byte is the basic addressable unit of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "memory in most architectures"
+        },
+        {
+          "id": "B",
+          "text": "luminous intensity"
+        },
+        {
+          "id": "C",
+          "text": "time"
+        },
+        {
+          "id": "D",
+          "text": "mass"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Knowledge of Computers",
+      "topic": "Fundamentals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "8 bits.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Fundamentals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-583",
+      "question": "A report in Access is designed to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "boot the PC"
+        },
+        {
+          "id": "B",
+          "text": "compile Rust"
+        },
+        {
+          "id": "C",
+          "text": "route IP"
+        },
+        {
+          "id": "D",
+          "text": "print / present data"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "MS Access",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Output object.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "MS Access",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-584",
+      "question": "Heuristic antivirus detection looks for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the colour of the cabinet"
+        },
+        {
+          "id": "B",
+          "text": "suspicious behaviour / patterns, not only known hashes"
+        },
+        {
+          "id": "C",
+          "text": "the brand of the chair"
+        },
+        {
+          "id": "D",
+          "text": "the length of the mouse cable"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Knowledge of Computers",
+      "topic": "Virus and Anti-Virus",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unknown malware.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Virus and Anti-Virus",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-computers-585",
+      "question": "Firmware sits between:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only two PDFs"
+        },
+        {
+          "id": "B",
+          "text": "only two emails"
+        },
+        {
+          "id": "C",
+          "text": "only two spreadsheets"
+        },
+        {
+          "id": "D",
+          "text": "hardware and higher-level software"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Knowledge of Computers",
+      "topic": "Hardware & Software",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Embedded code.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Knowledge of Computers",
+        "Hardware & Software",
         "hard"
       ],
       "pool_type": "post_primary",

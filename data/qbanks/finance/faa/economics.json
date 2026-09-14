@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "General Economics",
-  "question_count": 500,
+  "question_count": 580,
   "schema": [
     "question_id",
     "question",
@@ -19508,6 +19508,3126 @@
       "tags": [
         "General Economics",
         "National Income",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-501",
+      "question": "The Monetary Policy Committee (MPC) of India decides the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fiscal deficit target of the Union Budget as MPC’s only job"
+        },
+        {
+          "id": "B",
+          "text": "GST rates"
+        },
+        {
+          "id": "C",
+          "text": "policy repo rate"
+        },
+        {
+          "id": "D",
+          "text": "MGNREGA wage as its only job"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "RBI Act framework.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-502",
+      "question": "Reverse repo is the rate at which RBI:",
+      "options": [
+        {
+          "id": "A",
+          "text": "runs railways"
+        },
+        {
+          "id": "B",
+          "text": "collects income tax"
+        },
+        {
+          "id": "C",
+          "text": "absorbs liquidity from banks"
+        },
+        {
+          "id": "D",
+          "text": "prints coins only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Standing facility / LAF family.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-503",
+      "question": "SLR is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standard Lending Rate of WTO"
+        },
+        {
+          "id": "B",
+          "text": "Statutory Liquidity Ratio"
+        },
+        {
+          "id": "C",
+          "text": "Systemic Liquidity of RBI’s canteen"
+        },
+        {
+          "id": "D",
+          "text": "State Literacy Rank"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Banks’ liquid assets.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-504",
+      "question": "Bank rate is a traditional:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST slab"
+        },
+        {
+          "id": "B",
+          "text": "income-tax slab"
+        },
+        {
+          "id": "C",
+          "text": "stamp duty"
+        },
+        {
+          "id": "D",
+          "text": "long-term refinance / signalling rate of the central bank"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Distinct from repo in operations.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-505",
+      "question": "A fiscal deficit is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always zero in India"
+        },
+        {
+          "id": "B",
+          "text": "always equal to GDP"
+        },
+        {
+          "id": "C",
+          "text": "total expenditure minus (revenue receipts + non-debt capital receipts)"
+        },
+        {
+          "id": "D",
+          "text": "RBI’s profit only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Government borrowing need.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-506",
+      "question": "Primary deficit is fiscal deficit minus:",
+      "options": [
+        {
+          "id": "A",
+          "text": "defence spending only"
+        },
+        {
+          "id": "B",
+          "text": "GST only"
+        },
+        {
+          "id": "C",
+          "text": "MGNREGA only"
+        },
+        {
+          "id": "D",
+          "text": "interest payments"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Deficit excluding interest.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-507",
+      "question": "Revenue deficit arises when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "revenue expenditure exceeds revenue receipts"
+        },
+        {
+          "id": "B",
+          "text": "RBI buys dollars always"
+        },
+        {
+          "id": "C",
+          "text": "capital spending exceeds GST"
+        },
+        {
+          "id": "D",
+          "text": "exports exceed imports always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Current account of the government.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-508",
+      "question": "LPG in 1991 stands for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Labour, Pension, GST"
+        },
+        {
+          "id": "B",
+          "text": "Liquidity, Price, Gold"
+        },
+        {
+          "id": "C",
+          "text": "Liberalisation, Privatisation, Globalisation"
+        },
+        {
+          "id": "D",
+          "text": "Land, Power, Gas only as 1991’s official expansion"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Economic Reforms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Narasimha Rao / Manmohan Singh reforms.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Reforms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-509",
+      "question": "Disinvestment means the government:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sells a stake in PSUs"
+        },
+        {
+          "id": "B",
+          "text": "bans imports as the definition"
+        },
+        {
+          "id": "C",
+          "text": "prints more notes as the definition"
+        },
+        {
+          "id": "D",
+          "text": "nationalises all shops as the definition"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Economic Reforms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Privatisation tool.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Reforms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-510",
+      "question": "GDP at factor cost + net indirect taxes =",
+      "options": [
+        {
+          "id": "A",
+          "text": "NNP"
+        },
+        {
+          "id": "B",
+          "text": "personal income only"
+        },
+        {
+          "id": "C",
+          "text": "GDP at market price"
+        },
+        {
+          "id": "D",
+          "text": "disposable income only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MP vs FC.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-511",
+      "question": "GNP = GDP +",
+      "options": [
+        {
+          "id": "A",
+          "text": "only GST"
+        },
+        {
+          "id": "B",
+          "text": "net factor income from abroad"
+        },
+        {
+          "id": "C",
+          "text": "only exports"
+        },
+        {
+          "id": "D",
+          "text": "depreciation"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "National vs domestic.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-512",
+      "question": "Personal disposable income is personal income minus:",
+      "options": [
+        {
+          "id": "A",
+          "text": "direct personal taxes"
+        },
+        {
+          "id": "B",
+          "text": "capital formation"
+        },
+        {
+          "id": "C",
+          "text": "GDP"
+        },
+        {
+          "id": "D",
+          "text": "NNP"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "What households can spend/save.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-513",
+      "question": "The value-added method of NI avoids:",
+      "options": [
+        {
+          "id": "A",
+          "text": "all wages forever"
+        },
+        {
+          "id": "B",
+          "text": "all taxes forever"
+        },
+        {
+          "id": "C",
+          "text": "all subsidies forever"
+        },
+        {
+          "id": "D",
+          "text": "double counting"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Intermediate consumption excluded.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-514",
+      "question": "Price elasticity of demand is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "slope of supply only"
+        },
+        {
+          "id": "B",
+          "text": "% change in quantity demanded ÷ % change in price"
+        },
+        {
+          "id": "C",
+          "text": "CRR"
+        },
+        {
+          "id": "D",
+          "text": "MPC"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ed.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-515",
+      "question": "If Ed > 1, demand is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "elastic"
+        },
+        {
+          "id": "B",
+          "text": "unitary only"
+        },
+        {
+          "id": "C",
+          "text": "perfectly inelastic"
+        },
+        {
+          "id": "D",
+          "text": "zero always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "|%Q| > |%P|.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-516",
+      "question": "Inferior goods have:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite supply always"
+        },
+        {
+          "id": "B",
+          "text": "zero price always"
+        },
+        {
+          "id": "C",
+          "text": "positive income elasticity always"
+        },
+        {
+          "id": "D",
+          "text": "negative income elasticity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Demand falls as income rises.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-517",
+      "question": "Complementary goods have:",
+      "options": [
+        {
+          "id": "A",
+          "text": "positive cross elasticity like substitutes"
+        },
+        {
+          "id": "B",
+          "text": "zero prices always"
+        },
+        {
+          "id": "C",
+          "text": "no demand curve"
+        },
+        {
+          "id": "D",
+          "text": "negative cross elasticity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cars and petrol.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-518",
+      "question": "Substitute goods have:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite SLR"
+        },
+        {
+          "id": "B",
+          "text": "negative income elasticity always"
+        },
+        {
+          "id": "C",
+          "text": "zero Ed always"
+        },
+        {
+          "id": "D",
+          "text": "positive cross elasticity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tea and coffee.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-519",
+      "question": "MRS is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "CRR"
+        },
+        {
+          "id": "B",
+          "text": "repo rate"
+        },
+        {
+          "id": "C",
+          "text": "slope of the budget line only as the definition of MRS"
+        },
+        {
+          "id": "D",
+          "text": "slope of the indifference curve (rate of substitution)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Indifference curve",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Marginal rate of substitution.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Indifference curve",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-520",
+      "question": "A budget line shows:",
+      "options": [
+        {
+          "id": "A",
+          "text": "equal utility only"
+        },
+        {
+          "id": "B",
+          "text": "combinations affordable with given income and prices"
+        },
+        {
+          "id": "C",
+          "text": "equal cost of production of a firm only"
+        },
+        {
+          "id": "D",
+          "text": "the Laffer curve"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Indifference curve",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Px X + Py Y = M.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Indifference curve",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-521",
+      "question": "Consumer equilibrium (IC–budget) is where:",
+      "options": [
+        {
+          "id": "A",
+          "text": "MRS is infinite always"
+        },
+        {
+          "id": "B",
+          "text": "budget line is tangent to an IC"
+        },
+        {
+          "id": "C",
+          "text": "income is zero"
+        },
+        {
+          "id": "D",
+          "text": "IC crosses itself"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Indifference curve",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MRS = price ratio.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Indifference curve",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-522",
+      "question": "Quasi-rent is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keynes on liquidity only as the definition"
+        },
+        {
+          "id": "B",
+          "text": "Ricardo on land only as the only term for quasi-rent"
+        },
+        {
+          "id": "C",
+          "text": "Friedman on money only as the definition"
+        },
+        {
+          "id": "D",
+          "text": "Marshall (return to a factor fixed in the short run)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Factor Pricing",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Temporary surplus.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Factor Pricing",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-523",
+      "question": "Economic rent is payment to a factor over and above:",
+      "options": [
+        {
+          "id": "A",
+          "text": "repo"
+        },
+        {
+          "id": "B",
+          "text": "GST"
+        },
+        {
+          "id": "C",
+          "text": "CRR"
+        },
+        {
+          "id": "D",
+          "text": "transfer earnings"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Factor Pricing",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Surplus over opportunity cost.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Factor Pricing",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-524",
+      "question": "In perfect competition, AR equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "MC is always zero"
+        },
+        {
+          "id": "B",
+          "text": "AC is always infinite"
+        },
+        {
+          "id": "C",
+          "text": "TR is always zero"
+        },
+        {
+          "id": "D",
+          "text": "MR equals price"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Horizontal demand for the firm.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-525",
+      "question": "A discriminating monopolist charges:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only barter"
+        },
+        {
+          "id": "B",
+          "text": "one price worldwide always by definition of discrimination"
+        },
+        {
+          "id": "C",
+          "text": "zero price always"
+        },
+        {
+          "id": "D",
+          "text": "different prices in different markets"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Price discrimination.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-526",
+      "question": "Returns to scale are a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "long-run concept (all factors variable)"
+        },
+        {
+          "id": "B",
+          "text": "monetary policy tool"
+        },
+        {
+          "id": "C",
+          "text": "GST slab"
+        },
+        {
+          "id": "D",
+          "text": "short-run law of variable proportions only as the definition of RTS"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Laws of Production",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Constant / increasing / decreasing returns to scale.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Laws of Production",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-527",
+      "question": "MP becomes negative in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "third stage of the law of variable proportions"
+        },
+        {
+          "id": "B",
+          "text": "perfect competition only"
+        },
+        {
+          "id": "C",
+          "text": "liquidity trap only"
+        },
+        {
+          "id": "D",
+          "text": "long-run constant returns always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Laws of Production",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Too much of the variable factor.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Laws of Production",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-528",
+      "question": "Economic development is growth plus:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a fall in one commodity’s price"
+        },
+        {
+          "id": "B",
+          "text": "structural / welfare / human development change (broader than GDP rise)"
+        },
+        {
+          "id": "C",
+          "text": "only printing notes"
+        },
+        {
+          "id": "D",
+          "text": "only a rise in a single day’s Sensex"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Economic Growth",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Qualitative change.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Growth",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-529",
+      "question": "HDI is published conceptually by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "NASA"
+        },
+        {
+          "id": "B",
+          "text": "UNDP"
+        },
+        {
+          "id": "C",
+          "text": "FIFA"
+        },
+        {
+          "id": "D",
+          "text": "ICC"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Economic Growth",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Health, education, income.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Growth",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-530",
+      "question": "The Keynesian multiplier is larger when MPC is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero"
+        },
+        {
+          "id": "B",
+          "text": "negative one"
+        },
+        {
+          "id": "C",
+          "text": "higher"
+        },
+        {
+          "id": "D",
+          "text": "undefined always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Economic Growth",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "k = 1/(1−MPC).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Growth",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-531",
+      "question": "Disguised unemployment is typical of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a single-person monopoly in software with no extra labour"
+        },
+        {
+          "id": "B",
+          "text": "a fully automated unmanned plant with zero labour"
+        },
+        {
+          "id": "C",
+          "text": "over-manned agriculture"
+        },
+        {
+          "id": "D",
+          "text": "a desert with no people"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Developing economy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MPP of extra labour near zero.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Developing economy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-532",
+      "question": "Indicative planning is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "guiding the private sector rather than commanding every output"
+        },
+        {
+          "id": "B",
+          "text": "Soviet-style material balances as the only Indian 1991 meaning"
+        },
+        {
+          "id": "C",
+          "text": "no role for markets by definition of indicative"
+        },
+        {
+          "id": "D",
+          "text": "banning prices"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Planning vs Market",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "France / later Indian plans.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Planning vs Market",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-533",
+      "question": "A market economy allocates resources mainly by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "central quantity orders only"
+        },
+        {
+          "id": "B",
+          "text": "prices"
+        },
+        {
+          "id": "C",
+          "text": "ration coupons only as the only tool"
+        },
+        {
+          "id": "D",
+          "text": "lottery only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Planning vs Market",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Invisible hand.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Planning vs Market",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-534",
+      "question": "Positive economics deals with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ethics only"
+        },
+        {
+          "id": "B",
+          "text": "what ought to be only"
+        },
+        {
+          "id": "C",
+          "text": "what is"
+        },
+        {
+          "id": "D",
+          "text": "poetry only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs normative.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-535",
+      "question": "Normative economics deals with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only weather"
+        },
+        {
+          "id": "B",
+          "text": "laboratory measurement of GDP only"
+        },
+        {
+          "id": "C",
+          "text": "only accounting identities"
+        },
+        {
+          "id": "D",
+          "text": "value judgements / what ought to be"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Policy advice.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-536",
+      "question": "A public good is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a haircut"
+        },
+        {
+          "id": "B",
+          "text": "non-rival and non-excludable (pure case)"
+        },
+        {
+          "id": "C",
+          "text": "a private car ride"
+        },
+        {
+          "id": "D",
+          "text": "a sandwich"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Defence, basic research.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-537",
+      "question": "Merit goods are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "under-consumed if left only to the market (education, health)"
+        },
+        {
+          "id": "B",
+          "text": "Giffen goods always"
+        },
+        {
+          "id": "C",
+          "text": "demerit goods like tobacco as the definition of merit"
+        },
+        {
+          "id": "D",
+          "text": "pure public goods only by definition always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Government may subsidise.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-538",
+      "question": "A movement along the demand curve is caused by a change in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "tastes"
+        },
+        {
+          "id": "B",
+          "text": "price of substitutes (those shift the curve)"
+        },
+        {
+          "id": "C",
+          "text": "income"
+        },
+        {
+          "id": "D",
+          "text": "own price"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ceteris paribus.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-539",
+      "question": "Crowding out refers to government borrowing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "creating public goods at zero cost always"
+        },
+        {
+          "id": "B",
+          "text": "lowering GST automatically"
+        },
+        {
+          "id": "C",
+          "text": "increasing exports automatically"
+        },
+        {
+          "id": "D",
+          "text": "raising interest rates and reducing private investment"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fiscal–monetary interaction.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-540",
+      "question": "Lender of last resort means RBI can:",
+      "options": [
+        {
+          "id": "A",
+          "text": "issue passports"
+        },
+        {
+          "id": "B",
+          "text": "support solvent banks facing liquidity stress"
+        },
+        {
+          "id": "C",
+          "text": "build highways as its main job"
+        },
+        {
+          "id": "D",
+          "text": "run a grocery"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Financial stability.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-541",
+      "question": "Open market operations are buying/selling of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "government securities"
+        },
+        {
+          "id": "B",
+          "text": "cricket teams"
+        },
+        {
+          "id": "C",
+          "text": "cinema tickets"
+        },
+        {
+          "id": "D",
+          "text": "vegetables"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Liquidity management.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-542",
+      "question": "A closed economy has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "no households"
+        },
+        {
+          "id": "B",
+          "text": "no government"
+        },
+        {
+          "id": "C",
+          "text": "no firms"
+        },
+        {
+          "id": "D",
+          "text": "no foreign trade (X=M=0 in the simple model)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Y = C+I+G.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-543",
+      "question": "Kinked demand curve is used to explain:",
+      "options": [
+        {
+          "id": "A",
+          "text": "perfect competition price taking as a kink"
+        },
+        {
+          "id": "B",
+          "text": "monopoly dumping only as the only use"
+        },
+        {
+          "id": "C",
+          "text": "price rigidity in oligopoly"
+        },
+        {
+          "id": "D",
+          "text": "labour supply of a farmer only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sweezy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-544",
+      "question": "Loanable funds and liquidity preference are theories of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "profit of a monopolist only"
+        },
+        {
+          "id": "B",
+          "text": "wages in MGNREGA only"
+        },
+        {
+          "id": "C",
+          "text": "interest"
+        },
+        {
+          "id": "D",
+          "text": "rent of land only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Factor Pricing",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Classical vs Keynes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Factor Pricing",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-545",
+      "question": "FRBM Act is related to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fiscal discipline of the government"
+        },
+        {
+          "id": "B",
+          "text": "wildlife only"
+        },
+        {
+          "id": "C",
+          "text": "cinema"
+        },
+        {
+          "id": "D",
+          "text": "cricket"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Economic Reforms",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fiscal Responsibility and Budget Management.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Reforms",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-546",
+      "question": "NITI Aayog is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "election commission"
+        },
+        {
+          "id": "B",
+          "text": "central bank"
+        },
+        {
+          "id": "C",
+          "text": "policy think-tank of the Union"
+        },
+        {
+          "id": "D",
+          "text": "supreme court"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Planning vs Market",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cooperative federalism.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Planning vs Market",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-547",
+      "question": "Ceteris paribus means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "demand is infinite"
+        },
+        {
+          "id": "B",
+          "text": "prices are zero"
+        },
+        {
+          "id": "C",
+          "text": "other things remaining the same"
+        },
+        {
+          "id": "D",
+          "text": "profit is maximised always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Model assumption.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-548",
+      "question": "Engel’s law observes that as income rises, the share of income spent on food:",
+      "options": [
+        {
+          "id": "A",
+          "text": "is always zero"
+        },
+        {
+          "id": "B",
+          "text": "equals CRR"
+        },
+        {
+          "id": "C",
+          "text": "always rises to 100%"
+        },
+        {
+          "id": "D",
+          "text": "tends to fall"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Household expenditure pattern.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-549",
+      "question": "Green GDP adjusts GDP for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "environmental degradation / resource depletion"
+        },
+        {
+          "id": "B",
+          "text": "only cricket scores"
+        },
+        {
+          "id": "C",
+          "text": "only rainfall in one village"
+        },
+        {
+          "id": "D",
+          "text": "only stock indices"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sustainable measure (conceptual).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-550",
+      "question": "The Indian rupee is issued (notes, except ₹1) by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "SEBI"
+        },
+        {
+          "id": "B",
+          "text": "NITI Aayog"
+        },
+        {
+          "id": "C",
+          "text": "IRDAI as note issuer"
+        },
+        {
+          "id": "D",
+          "text": "RBI"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Currency chest / issue department.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-551",
+      "question": "An expansionary monetary policy would typically:",
+      "options": [
+        {
+          "id": "A",
+          "text": "raise SLR sharply as expansion"
+        },
+        {
+          "id": "B",
+          "text": "raise repo as the only expansion tool"
+        },
+        {
+          "id": "C",
+          "text": "raise CRR sharply as expansion"
+        },
+        {
+          "id": "D",
+          "text": "cut policy rates / inject liquidity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Counter-cyclical easing.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-552",
+      "question": "Deadweight loss is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "barter with no money as DWL by definition"
+        },
+        {
+          "id": "B",
+          "text": "inefficient market outcomes (e.g. monopoly, taxes)"
+        },
+        {
+          "id": "C",
+          "text": "a free good with no scarcity"
+        },
+        {
+          "id": "D",
+          "text": "perfect competition efficiency as a DWL by definition"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lost surplus.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-553",
+      "question": "Isoquants are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "indifference curves of a consumer as the definition of isoquant"
+        },
+        {
+          "id": "B",
+          "text": "demand curves"
+        },
+        {
+          "id": "C",
+          "text": "loci of input combinations producing the same output"
+        },
+        {
+          "id": "D",
+          "text": "budget lines"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Laws of Production",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Producer theory.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Laws of Production",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-554",
+      "question": "Capital formation is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "consumption of food only"
+        },
+        {
+          "id": "B",
+          "text": "investment in physical / productive assets"
+        },
+        {
+          "id": "C",
+          "text": "intermediate consumption only"
+        },
+        {
+          "id": "D",
+          "text": "transfer pensions only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Economic Growth",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "I in GDP.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Growth",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-555",
+      "question": "A dual economy has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only government"
+        },
+        {
+          "id": "B",
+          "text": "a modern and a traditional sector together"
+        },
+        {
+          "id": "C",
+          "text": "only one person"
+        },
+        {
+          "id": "D",
+          "text": "only exports of software with no farms ever"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Developing economy",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lewis-type structure.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Developing economy",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-556",
+      "question": "Veblen goods are consumed more when price is high because of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero income"
+        },
+        {
+          "id": "B",
+          "text": "snob / prestige effect"
+        },
+        {
+          "id": "C",
+          "text": "perfectly elastic supply always"
+        },
+        {
+          "id": "D",
+          "text": "Giffen poverty effect as the only explanation always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Conspicuous consumption.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-557",
+      "question": "Two ICs of the same consumer do not:",
+      "options": [
+        {
+          "id": "A",
+          "text": "slope down in the usual case"
+        },
+        {
+          "id": "B",
+          "text": "exist"
+        },
+        {
+          "id": "C",
+          "text": "intersect"
+        },
+        {
+          "id": "D",
+          "text": "represent utility"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Indifference curve",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Transitivity.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Indifference curve",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-558",
+      "question": "Automatic stabilisers include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "progressive taxes and unemployment benefits"
+        },
+        {
+          "id": "B",
+          "text": "a new PSU only"
+        },
+        {
+          "id": "C",
+          "text": "a one-time bonus only"
+        },
+        {
+          "id": "D",
+          "text": "discretionary new schemes only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Built-in fiscal response.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-559",
+      "question": "The banking ombudsman scheme is an:",
+      "options": [
+        {
+          "id": "A",
+          "text": "WTO court"
+        },
+        {
+          "id": "B",
+          "text": "UNSC committee"
+        },
+        {
+          "id": "C",
+          "text": "RBI customer-grievance mechanism"
+        },
+        {
+          "id": "D",
+          "text": "FIFA panel"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Retail banking complaints.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-560",
+      "question": "Base year in national accounts is used to compute:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only literacy"
+        },
+        {
+          "id": "B",
+          "text": "only population"
+        },
+        {
+          "id": "C",
+          "text": "only forest cover"
+        },
+        {
+          "id": "D",
+          "text": "real / constant-price estimates"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Deflation of GDP.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-561",
+      "question": "FDI is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a tourist’s hotel bill only as the definition of FDI"
+        },
+        {
+          "id": "B",
+          "text": "foreign direct investment in lasting interest of an enterprise"
+        },
+        {
+          "id": "C",
+          "text": "FII’s one-day share trade as the only definition of FDI always"
+        },
+        {
+          "id": "D",
+          "text": "remittance of a worker as the only FDI"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Economic Reforms",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Capital account.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Reforms",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-562",
+      "question": "Licence-permit raj refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST 2017 as its original name"
+        },
+        {
+          "id": "B",
+          "text": "pre-1991 industrial licensing controls"
+        },
+        {
+          "id": "C",
+          "text": "IT Act 2000 as licence raj"
+        },
+        {
+          "id": "D",
+          "text": "MNREGA as licence raj"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Planning vs Market",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Why liberalisation happened.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Planning vs Market",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-563",
+      "question": "The production possibility curve is concave due to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "free goods"
+        },
+        {
+          "id": "B",
+          "text": "zero scarcity"
+        },
+        {
+          "id": "C",
+          "text": "increasing opportunity cost"
+        },
+        {
+          "id": "D",
+          "text": "constant returns always with a concave PPC by contradiction"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Resources not equally suited.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-564",
+      "question": "Profit in the residual sense is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "TR − explicit and implicit costs (economic profit)"
+        },
+        {
+          "id": "B",
+          "text": "only rent of land"
+        },
+        {
+          "id": "C",
+          "text": "only wages"
+        },
+        {
+          "id": "D",
+          "text": "only GST payable"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Factor Pricing",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Including opportunity cost.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Factor Pricing",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-565",
+      "question": "Contestable markets emphasise:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite cost"
+        },
+        {
+          "id": "B",
+          "text": "threat of entry, not just the number of firms"
+        },
+        {
+          "id": "C",
+          "text": "zero demand"
+        },
+        {
+          "id": "D",
+          "text": "no prices"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Baumol.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-566",
+      "question": "Arc elasticity uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the first point"
+        },
+        {
+          "id": "B",
+          "text": "only income"
+        },
+        {
+          "id": "C",
+          "text": "average of old and new P and Q"
+        },
+        {
+          "id": "D",
+          "text": "only MPC"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Mid-point method.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-567",
+      "question": "Demonetisation of 2016 was a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST rate change"
+        },
+        {
+          "id": "B",
+          "text": "an MPC repo hike as the definition"
+        },
+        {
+          "id": "C",
+          "text": "currency-recall decision of the Government / RBI issue function"
+        },
+        {
+          "id": "D",
+          "text": "an FRBM target"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "₹500 and ₹1000 notes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-568",
+      "question": "Twelfth / latest Finance Commissions recommend:",
+      "options": [
+        {
+          "id": "A",
+          "text": "film awards"
+        },
+        {
+          "id": "B",
+          "text": "tax devolution and grants"
+        },
+        {
+          "id": "C",
+          "text": "Olympic bids"
+        },
+        {
+          "id": "D",
+          "text": "cricket fixtures"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Centre–State finances.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-569",
+      "question": "Per capita income is NI divided by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "number of cars"
+        },
+        {
+          "id": "B",
+          "text": "land area only"
+        },
+        {
+          "id": "C",
+          "text": "population"
+        },
+        {
+          "id": "D",
+          "text": "number of banks"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Average income.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-570",
+      "question": "Inclusive growth emphasises:",
+      "options": [
+        {
+          "id": "A",
+          "text": "growth of one sector only"
+        },
+        {
+          "id": "B",
+          "text": "inflation only"
+        },
+        {
+          "id": "C",
+          "text": "deficits only"
+        },
+        {
+          "id": "D",
+          "text": "broad-based participation and equity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Economic Growth",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Development goal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Growth",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-571",
+      "question": "Vicious circle of poverty is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "surplus labour disappearing overnight always"
+        },
+        {
+          "id": "B",
+          "text": "high HDI always"
+        },
+        {
+          "id": "C",
+          "text": "low income → low saving → low investment → low income"
+        },
+        {
+          "id": "D",
+          "text": "zero population"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Developing economy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Nurkse-type idea.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Developing economy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-572",
+      "question": "The substitution effect of a price fall makes the consumer:",
+      "options": [
+        {
+          "id": "A",
+          "text": "buy more of the cheaper good"
+        },
+        {
+          "id": "B",
+          "text": "buy less of it always"
+        },
+        {
+          "id": "C",
+          "text": "stop consuming always"
+        },
+        {
+          "id": "D",
+          "text": "save 100% always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Demand Analysis",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hicks/Slutsky.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Demand Analysis",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-573",
+      "question": "An inferior good can have a negative:",
+      "options": [
+        {
+          "id": "A",
+          "text": "price always"
+        },
+        {
+          "id": "B",
+          "text": "MRS always"
+        },
+        {
+          "id": "C",
+          "text": "income effect that may offset substitution"
+        },
+        {
+          "id": "D",
+          "text": "utility always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Indifference curve",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Giffen is a strong inferior case.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Indifference curve",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-574",
+      "question": "Dumping is selling abroad at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a higher price than at home always as the definition of dumping"
+        },
+        {
+          "id": "B",
+          "text": "barter only"
+        },
+        {
+          "id": "C",
+          "text": "a price below domestic / cost (as alleged in trade policy)"
+        },
+        {
+          "id": "D",
+          "text": "zero quantity"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Market",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Trade remedy context.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Market",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-575",
+      "question": "NBFCs are regulated in India mainly by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the ICC only"
+        },
+        {
+          "id": "B",
+          "text": "the Press Council only"
+        },
+        {
+          "id": "C",
+          "text": "RBI (for most deposit/credit NBFCs)"
+        },
+        {
+          "id": "D",
+          "text": "the Zoo Authority only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Economics",
+      "topic": "Role of RBI",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Non-bank financial companies.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Role of RBI",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-576",
+      "question": "Counter-cyclical fiscal policy in a recession would:",
+      "options": [
+        {
+          "id": "A",
+          "text": "raise CRR as fiscal policy"
+        },
+        {
+          "id": "B",
+          "text": "raise spending or cut taxes"
+        },
+        {
+          "id": "C",
+          "text": "raise SLR as fiscal policy"
+        },
+        {
+          "id": "D",
+          "text": "cut spending and raise taxes as the expansionary mix"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "Fiscal & Monetary Policy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Keynesian demand management.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Fiscal & Monetary Policy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-577",
+      "question": "Scarcity exists because:",
+      "options": [
+        {
+          "id": "A",
+          "text": "wants are zero"
+        },
+        {
+          "id": "B",
+          "text": "prices are banned"
+        },
+        {
+          "id": "C",
+          "text": "resources are infinite"
+        },
+        {
+          "id": "D",
+          "text": "wants are unlimited relative to resources"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Economics",
+      "topic": "Basic concepts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Central economic problem.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Basic concepts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-578",
+      "question": "Mixed income of self-employed appears in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the expenditure method as mixed income’s only home"
+        },
+        {
+          "id": "B",
+          "text": "income method of NI"
+        },
+        {
+          "id": "C",
+          "text": "only the foreign trade account"
+        },
+        {
+          "id": "D",
+          "text": "only the capital account of BoP as mixed income"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Economics",
+      "topic": "National Income",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unincorporated enterprises.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "National Income",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-579",
+      "question": "SEBI regulates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "securities markets"
+        },
+        {
+          "id": "B",
+          "text": "telecom as TRAI’s opposite"
+        },
+        {
+          "id": "C",
+          "text": "insurance as IRDAI’s opposite"
+        },
+        {
+          "id": "D",
+          "text": "banks’ CRR as SEBI’s main job"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Economic Reforms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Capital market.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Economic Reforms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-economics-580",
+      "question": "A planned economy relies mainly on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "central allocation"
+        },
+        {
+          "id": "B",
+          "text": "only barter between villages with no plan"
+        },
+        {
+          "id": "C",
+          "text": "only auctions of everything including air"
+        },
+        {
+          "id": "D",
+          "text": "only stock prices"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Economics",
+      "topic": "Planning vs Market",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Command vs market.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Economics",
+        "Planning vs Market",
         "hard"
       ],
       "pool_type": "post_primary",

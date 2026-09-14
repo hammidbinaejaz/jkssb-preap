@@ -45,21 +45,34 @@ function runTests() {
     assertEqual(exams.exams[0].id, 'accounts-assistant-finance');
   });
 
-  test('index.json lists only the FAA dataset', () => {
+  test('index.json question_count matches the FAA banks', () => {
     const index = readJson('data/index.json');
+    const catalog = readJson('data/catalog.json');
+    const manifest = readJson('data/qbanks/finance/accounts-assistant-finance.json');
+    const exam = readJson('data/exams.json').exams[0];
+    let total = 0;
+    exam.sections.forEach((section) => {
+      total += readJson(`data/${section.file}`).questions.length;
+    });
+    total += readJson('data/qbanks/finance/faa/latest-pattern.json').questions.length;
     assertEqual(index.datasets.length, 1);
     assertEqual(index.datasets[0].id, 'accounts-assistant-finance');
-    assertEqual(index.datasets[0].question_count, 4100);
+    assert(index.datasets[0].question_count > 4100, 'bank should grow past the original 4100');
+    assertEqual(index.datasets[0].question_count, total);
+    assertEqual(catalog.categories[0].posts[0].question_count, total);
+    assertEqual(manifest.question_count, total);
   });
 
-  test('FAA subject banks exist with 500 MCQs each', () => {
+  test('FAA subject banks have at least 500 unique stems each', () => {
     const exam = readJson('data/exams.json').exams[0];
     exam.sections.forEach((section) => {
       const bank = readJson(`data/${section.file}`);
-      assertEqual(bank.questions.length, 500, section.id);
+      assert(bank.questions.length >= 500, `${section.id} count ${bank.questions.length}`);
       assertEqual(bank.subject, section.name);
       const stems = new Set(bank.questions.map((q) => q.question));
-      assertEqual(stems.size, 500, `${section.id} unique stems`);
+      assertEqual(stems.size, bank.questions.length, `${section.id} unique stems`);
+      const ids = new Set(bank.questions.map((q) => q.question_id));
+      assertEqual(ids.size, bank.questions.length, `${section.id} unique ids`);
     });
     const pattern = readJson('data/qbanks/finance/faa/latest-pattern.json');
     assertEqual(pattern.questions.length, 100);
