@@ -35,15 +35,15 @@
 }
 
 .btn--primary {
-  background: var(--ember);
+  background: var(--lake);
   color: #fff;
-  border-color: var(--ember);
-  box-shadow: 0 12px 28px rgba(224, 107, 60, 0.28);
+  border-color: var(--lake);
+  box-shadow: 0 12px 28px rgba(5, 150, 105, 0.28);
 }
 
 .btn--primary:hover:not(:disabled) {
-  background: #c95a30;
-  border-color: #c95a30;
+  background: #047857;
+  border-color: #047857;
   color: #fff;
 }
 
@@ -51,11 +51,11 @@
   background: var(--ember);
   color: #fff;
   border-color: var(--ember);
-  box-shadow: 0 12px 28px rgba(224, 107, 60, 0.28);
+  box-shadow: 0 12px 28px rgba(4, 120, 87, 0.28);
 }
 
 .btn--ember:hover:not(:disabled) {
-  background: #c95a30;
+  background: #065f46;
   color: #fff;
 }
 
@@ -71,14 +71,14 @@
 }
 
 .btn--secondary {
-  background: var(--lake);
+  background: var(--ink);
   color: #fff;
-  border-color: var(--lake);
+  border-color: var(--ink);
 }
 
 .btn--secondary:hover:not(:disabled) {
-  background: #0d655e;
-  border-color: #0d655e;
+  background: var(--ink-soft);
+  border-color: var(--ink-soft);
   color: #fff;
 }
 
@@ -119,15 +119,15 @@
 
 .btn--icon:hover:not(:disabled),
 .bookmark-btn:hover:not(:disabled) {
-  border-color: var(--gold);
-  color: var(--ember);
-  background: var(--ember-soft);
+  border-color: var(--lake);
+  color: var(--lake);
+  background: var(--lake-soft);
 }
 
 .bookmark-btn[aria-pressed="true"] {
-  border-color: var(--gold);
-  color: var(--ember);
-  background: var(--ember-soft);
+  border-color: var(--lake);
+  color: var(--lake);
+  background: var(--lake-soft);
 }
 
 /* ── Cards & lists ───────────────────────────────────────── */
@@ -163,7 +163,7 @@
 }
 
 .badge--muted {
-  background: rgba(11, 31, 42, 0.06);
+  background: rgba(5, 46, 31, 0.06);
   color: var(--muted);
 }
 
@@ -215,7 +215,7 @@
   color: #f8fafb;
   overflow: hidden;
   background:
-    linear-gradient(125deg, rgba(11, 31, 42, 0.94) 0%, rgba(15, 118, 110, 0.82) 52%, rgba(224, 107, 60, 0.5) 100%);
+    linear-gradient(125deg, rgba(5, 46, 31, 0.94) 0%, rgba(4, 120, 87, 0.88) 52%, rgba(16, 185, 129, 0.72) 100%);
 }
 
 .hero::before {
@@ -310,7 +310,7 @@
   margin-bottom: 0.5rem;
   color: #f8fafb;
   background:
-    linear-gradient(125deg, rgba(11, 31, 42, 0.94) 0%, rgba(15, 118, 110, 0.82) 52%, rgba(224, 107, 60, 0.5) 100%);
+    linear-gradient(125deg, rgba(5, 46, 31, 0.94) 0%, rgba(4, 120, 87, 0.88) 52%, rgba(16, 185, 129, 0.72) 100%);
 }
 
 .hero-stage__inner { max-width: var(--max-width); margin: 0 auto; padding: 0 1.35rem; }
@@ -778,6 +778,26 @@
   color: var(--muted);
 }
 
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 0.75rem 0 0;
+}
+
+button.post-hub__action {
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  width: 100%;
+}
+
+.post-hub__action--active {
+  border-color: var(--lake);
+  box-shadow: var(--shadow-md);
+  background: var(--lake-soft);
+}
+
 /* ── Learning loop ─────────────────────────────────────────── */
 
 .learning-loop {
@@ -1055,10 +1075,12 @@
     box-shadow var(--transition);
 }
 
-.option-btn:hover:not(:disabled),
-.option:hover:not(:disabled) {
-  border-color: var(--lake);
-  background: var(--lake-soft);
+@media (hover: hover) and (pointer: fine) {
+  .option-btn:hover:not(:disabled),
+  .option:hover:not(:disabled) {
+    border-color: var(--lake);
+    background: var(--lake-soft);
+  }
 }
 
 .option-btn:focus-visible,
@@ -1068,14 +1090,18 @@
 }
 
 .option-btn--selected,
-.option--selected {
+.option--selected,
+.option-btn[aria-pressed="true"],
+.option-btn[aria-checked="true"] {
   border-color: var(--lake);
   background: var(--lake-soft);
-  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(5, 150, 105, 0.35);
 }
 
 .option-btn--selected .option-btn__id,
-.option--selected .option-btn__id {
+.option--selected .option-btn__id,
+.option-btn[aria-pressed="true"] .option-btn__id,
+.option-btn[aria-checked="true"] .option-btn__id {
   background: var(--lake);
   color: #fff;
 }
@@ -1311,9 +1337,9 @@
 }
 
 .test-navigator__item--current {
-  background: var(--ink);
+  background: var(--lake);
   color: #fff;
-  border-color: var(--ink);
+  border-color: var(--lake);
 }
 
 /* ── Stats & progress ──────────────────────────────────────── */
@@ -1622,7 +1648,7 @@
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(11, 31, 42, 0.52);
+  background: rgba(5, 46, 31, 0.52);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -1772,69 +1798,6 @@
   padding-top: 0.5rem;
 }
 
-.option-btn {
-  width: 100%;
-  text-align: left;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.85rem;
-  min-height: 56px;
-  padding: 0.95rem 1.1rem;
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  background: #fff;
-  cursor: pointer;
-  font-family: var(--font-body);
-  font-size: 1rem;
-  line-height: 1.45;
-  color: var(--text);
-  transition: border-color var(--transition), background var(--transition), transform var(--transition);
-}
-
-.option-btn:hover:not(:disabled) {
-  border-color: var(--lake);
-  background: var(--lake-soft);
-}
-
-.option-btn--selected {
-  border-color: var(--lake);
-  background: var(--lake-soft);
-  box-shadow: inset 0 0 0 1px var(--lake);
-}
-
-.option-btn--correct {
-  border-color: var(--success);
-  background: var(--success-soft);
-}
-
-.option-btn--incorrect {
-  border-color: var(--danger);
-  background: var(--danger-soft);
-}
-
-.option-btn__id {
-  flex-shrink: 0;
-  width: 1.85rem;
-  height: 1.85rem;
-  border-radius: 999px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.85rem;
-  background: var(--mist-deep);
-  color: var(--ink);
-}
-
-.option-btn--correct .option-btn__id { background: var(--success); color: #fff; }
-.option-btn--incorrect .option-btn__id { background: var(--danger); color: #fff; }
-
-.options-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-}
-
 .question-panel__text,
 .question-card__text {
   font-size: 1.08rem;
@@ -1944,17 +1907,6 @@
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.02em;
-}
-
-.test-navigator__item--current {
-  background: var(--lake) !important;
-  color: #fff !important;
-  border-color: var(--lake) !important;
-}
-
-.test-navigator__item--answered {
-  background: var(--lake-soft) !important;
-  border-color: rgba(15, 118, 110, 0.4) !important;
 }
 
 /* Typing drill */

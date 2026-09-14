@@ -27,85 +27,93 @@ function renderInstantPractice(main, question) {
 }
 
 function renderPracticeSetup(main) {
-  const subjects = getSubjects();
-  const topics = getTopics();
-  const difficulties = getDifficulties();
+  const exam = getExamConfigForPost();
   const params = new URLSearchParams(window.location.search);
+  const presetSubject = params.get('subject') || '';
   const presetTopic = params.get('topic') || '';
   const active = getActiveQuestions();
-  const selected = getSelectedPostMeta();
+  const sections = exam.sections || [];
 
   main.innerHTML = `
     <section class="page-header">
-      <h1>Practice Mode</h1>
-      <p class="page-header__sub">Learning-focused practice with immediate feedback.</p>
+      <h1>Practice</h1>
+      <p class="page-header__sub">Pick a subject. A fresh random set is drawn every time — easy, medium, and hard mixed unless you lock a level.</p>
     </section>
     <div id="post-context-slot"></div>
     ${!active.length ? `
       <div class="card" style="margin-bottom:1.25rem;">
-        <p class="empty-inline" style="margin:0;">
-          ${selected
-            ? 'No questions loaded for this post yet. Choose another post or wait for the question bank.'
-            : 'No questions available yet. Reload the exam hub.'}
-        </p>
-        <div class="cta-row">
-          <a href="${pagesHref('post.html', { id: DEFAULT_POST_ID })}" class="btn btn--secondary btn--sm">Exam hub</a>
-        </div>
+        <p class="empty-inline" style="margin:0;">Question bank is still loading. Refresh if this stays empty.</p>
       </div>` : ''}
-    <form id="practice-form" class="filter-form card">
-      <div class="form-row">
-        <label for="filter-subject">Subject</label>
-        <select id="filter-subject" name="subject">
-          <option value="">All subjects</option>
-          ${subjects.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('')}
-        </select>
-      </div>
-      <div class="form-row">
-        <label for="filter-topic">Topic</label>
-        <select id="filter-topic" name="topic">
-          <option value="">All topics</option>
-          ${topics.map((t) => `<option value="${escapeHtml(t)}"${t === presetTopic ? ' selected' : ''}>${escapeHtml(t)}</option>`).join('')}
-        </select>
-      </div>
+    <h2 class="section-title">Official subjects (Advt. 10 of 2025)</h2>
+    <div class="subject-grid" id="subject-grid"></div>
+    <form id="practice-form" class="filter-form card" style="margin-top:1.25rem;">
+      <input type="hidden" name="subject" id="filter-subject" value="${escapeHtml(presetSubject)}" />
+      <p class="empty-inline" id="subject-chosen">${presetSubject ? `Selected: <strong>${escapeHtml(presetSubject)}</strong>` : 'Select a subject above, or practise a full mix.'}</p>
       <div class="form-row">
         <label for="filter-difficulty">Difficulty</label>
         <select id="filter-difficulty" name="difficulty">
-          <option value="">All levels</option>
-          ${difficulties.map((d) => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join('')}
+          <option value="">Mixed (easy / medium / hard)</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
         </select>
       </div>
       <div class="form-row">
         <label for="filter-count">Question count</label>
         <select id="filter-count" name="count">
           <option value="10">10</option>
-          <option value="20">20</option>
+          <option value="20" selected>20</option>
           <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
         </select>
       </div>
-      <button type="submit" class="btn btn--primary btn--block"${active.length ? '' : ' disabled'}>Start Practice</button>
+      <p class="empty-inline">Unlimited numericals generate a fresh computed set each time (Math, Statistics, Accountancy — or a mix if you pick Full mix).</p>
+      <div class="cta-row">
+        <button type="submit" class="btn btn--primary"${active.length ? '' : ' disabled'}>Start random practice</button>
+        <button type="button" class="btn btn--secondary" id="btn-numerical">Unlimited numericals</button>
+      </div>
     </form>`;
 
-  renderPostContext(document.getElementById('post-context-slot'), {
-    allowClear: true,
-    onClear: () => renderPracticeSetup(main),
-  });
+  renderPostContext(document.getElementById('post-context-slot'));
 
-  const subjectSelect = document.getElementById('filter-subject');
-  subjectSelect.addEventListener('change', () => {
-    const topicSelect = document.getElementById('filter-topic');
-    const subj = subjectSelect.value;
-    const tps = getTopics(subj || undefined);
-    topicSelect.innerHTML = `<option value="">All topics</option>${tps.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('')}`;
+  const grid = document.getElementById('subject-grid');
+  const hidden = document.getElementById('filter-subject');
+  const chosen = document.getElementById('subject-chosen');
+
+  function addCard(name, meta, value) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `post-hub__action${hidden.value === value ? ' post-hub__action--active' : ''}`;
+    btn.innerHTML = `<span class="post-hub__action-title">${escapeHtml(name)}</span>
+      <p class="post-hub__action-desc">${escapeHtml(meta)}</p>`;
+    btn.addEventListener('click', () => {
+      hidden.value = value;
+      chosen.innerHTML = value ? `Selected: <strong>${escapeHtml(name)}</strong>` : 'Full mix across the official paper.';
+      grid.querySelectorAll('.post-hub__action').forEach((el) => el.classList.remove('post-hub__action--active'));
+      btn.classList.add('post-hub__action--active');
+    });
+    grid.appendChild(btn);
+  }
+
+  addCard('Full mix', 'All eight official units', '');
+  sections.forEach((s) => {
+    addCard(s.name, `${s.marks} marks in the real paper`, s.name);
   });
+  addCard('Latest pattern paper', 'The original 100 FAA-pattern MCQs', 'Latest pattern paper');
+
+  if (presetTopic) {
+    hidden.value = '';
+  }
 
   document.getElementById('practice-form').addEventListener('submit', (e) => {
     e.preventDefault();
     const fd = new FormData(e.target);
     const filters = {
       subject: fd.get('subject') || undefined,
-      topic: fd.get('topic') || undefined,
+      topic: presetTopic || undefined,
       difficulty: fd.get('difficulty') || undefined,
-      count: parseInt(fd.get('count'), 10) || 10,
+      count: parseInt(fd.get('count'), 10) || 20,
       postId: getSelectedPostId() || undefined,
     };
     const questions = getPracticeQuestions(filters);
@@ -114,6 +122,24 @@ function renderPracticeSetup(main) {
       return;
     }
     startPracticeSession(main, questions);
+  });
+
+  document.getElementById('btn-numerical').addEventListener('click', () => {
+    if (typeof NumericalDrill === 'undefined') {
+      UI.Toast.show('Numerical drill is unavailable.', 'warning');
+      return;
+    }
+    const subject = hidden.value;
+    const count = parseInt(document.getElementById('filter-count').value, 10) || 20;
+    if (!subject) {
+      startPracticeSession(main, NumericalDrill.generateMix(count));
+      return;
+    }
+    if (!NumericalDrill.subjects.has(subject)) {
+      UI.Toast.show('Pick Mathematics, Statistics, Accountancy, or Full mix for unlimited numericals.', 'info');
+      return;
+    }
+    startPracticeSession(main, NumericalDrill.generate(subject, count));
   });
 }
 
@@ -213,6 +239,7 @@ function formatQuestionText(text) {
 
 function selectOption(question, optionId, container) {
   if (practiceState.revealed) return;
+  if (!optionId) return;
   practiceState.selected = optionId;
   practiceState.revealed = true;
   const correct = optionId === question.correct_option;

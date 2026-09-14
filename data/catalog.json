@@ -11,7 +11,7 @@
           "id": "accounts-assistant-finance",
           "name": "Accounts Assistant (Finance)",
           "file": "qbanks/finance/accounts-assistant-finance.json",
-          "question_count": 100,
+          "question_count": 4100,
           "folder": "JKSSB/FINANCE/Accounts_Assistant_Finance",
           "pool_note": "FAA-focused bank. Shared-syllabus items are labelled when a question is not a post-specific PYQ."
         }

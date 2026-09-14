@@ -66,8 +66,8 @@ def main() -> int:
                 errors.append(f"Duplicate ID {qid}: {seen_ids[qid]} and {path}")
             else:
                 seen_ids[qid] = str(path)
-            if not str(qid).startswith(f"{post_id}-"):
-                warnings.append(f"{path}: {qid} does not use postId:nnn prefix")
+            if not str(qid).startswith(f"{post_id}-") and not str(qid).startswith("faa-"):
+                warnings.append(f"{path}: {qid} does not use postId:nnn or faa- prefix")
 
             opts = q.get("options") or []
             if len(opts) != 4:

@@ -4,6 +4,14 @@
 
 const UI = {};
 
+/** True only for the option the candidate actually chose. */
+function isChosenOption(optionId, selectedId) {
+  if (optionId == null || selectedId == null) return false;
+  const option = String(optionId);
+  const selected = String(selectedId);
+  return option !== '' && selected !== '' && option === selected;
+}
+
 UI.Toast = {
   show(message, type = 'info', duration = 3000) {
     let container = document.getElementById('toast-container');
@@ -112,7 +120,8 @@ UI.OptionButton = function OptionButton(option, { selected, correct, revealed, d
   btn.lang = lang;
   btn.setAttribute('aria-label', `Option ${option.id}: ${option.text}`);
   if (disabled) btn.disabled = true;
-  if (selected) btn.classList.add('option-btn--selected');
+  if (isChosenOption(option.id, selected)) btn.classList.add('option-btn--selected');
+  btn.setAttribute('aria-pressed', isChosenOption(option.id, selected) ? 'true' : 'false');
   if (revealed) {
     if (option.id === correct) btn.classList.add('option-btn--correct');
     else if (option.id === selected && selected !== correct) btn.classList.add('option-btn--incorrect');
@@ -186,7 +195,7 @@ UI.TestNavigator = function TestNavigator({ questionIds, answers, currentIndex, 
     btn.className = 'test-navigator__item';
     btn.textContent = String(i + 1);
     btn.setAttribute('aria-label', `Question ${i + 1}`);
-    if (answers[qid]) btn.classList.add('test-navigator__item--answered');
+    if (qid && answers[qid]) btn.classList.add('test-navigator__item--answered');
     if (i === currentIndex) btn.classList.add('test-navigator__item--current');
     btn.addEventListener('click', () => onNavigate(i));
     nav.appendChild(btn);
@@ -258,3 +267,7 @@ UI.PostItem = function PostItem(post, { href, loadedCount }) {
     <span class="post-item__count">${count} Qs</span>`;
   return a;
 };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { UI, isChosenOption };
+}

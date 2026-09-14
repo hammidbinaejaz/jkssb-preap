@@ -53,13 +53,6 @@ function renderMockSetup(main) {
     return;
   }
 
-  const counts = (exam.allowed_counts || [10, 20, 30, 50, 100]).filter(
-    (c) => c <= Math.max(active.length, 10) || active.length === 0,
-  );
-  const usableCounts = active.length
-    ? counts.filter((c) => c <= active.length)
-    : counts;
-
   main.innerHTML = `
     <section class="page-header">
       <h1>Mock Tests</h1>
@@ -71,10 +64,9 @@ function renderMockSetup(main) {
       <p class="empty-inline">${escapeHtml(exam.pattern || 'Follow the latest JKSSB notification for official pattern.')}</p>
       ${exam.syllabus_summary ? `<p class="empty-inline"><strong>Sections:</strong> ${escapeHtml(exam.syllabus_summary)}</p>` : ''}
       <ul class="rules-list">
-        <li>Base duration: ${exam.duration_minutes} minutes for ${exam.default_question_count} questions (scaled to your count)</li>
-        <li>Marks per question: ${exam.marks_per_question}</li>
-        <li>Negative marking: ${exam.negative_marking} mark(s) per wrong answer</li>
-        <li>Only verified questions are included</li>
+        <li>Official paper: 120 questions in 120 minutes (Advt. 10 of 2025)</li>
+        <li>Marks: +1 correct · −0.25 wrong · 0 for unattempted</li>
+        <li>Section mix: GK 30 · Accountancy 30 · English 10 · Statistics 10 · Mathematics 10 · Economics 10 · Science 10 · Computers 10</li>
         <li>Timer uses wall-clock time and auto-submits at zero</li>
         <li>Progress is saved — you can resume after refresh</li>
       </ul>
@@ -82,23 +74,28 @@ function renderMockSetup(main) {
     ${!active.length ? `
       <div class="card" style="margin:1rem 0;">
         <p class="empty-inline" style="margin:0;">No verified questions for this selection yet.</p>
-        <div class="cta-row">
-          <a href="${pagesHref('post.html', { id: DEFAULT_POST_ID })}" class="btn btn--secondary btn--sm">Exam hub</a>
-        </div>
       </div>` : `
     <form id="mock-form" class="filter-form card">
-      ${(exam.sections || []).length ? `
       <div class="form-row">
-        <label for="mock-section">Section focus</label>
+        <label for="mock-mode">Paper</label>
+        <select id="mock-mode" name="mode">
+          <option value="official" selected>Official 120 (real section mix)</option>
+          <option value="section">One section only</option>
+          <option value="short">Short mixed mock</option>
+        </select>
+      </div>
+      ${(exam.sections || []).length ? `
+      <div class="form-row" id="mock-section-row" hidden>
+        <label for="mock-section">Section</label>
         <select id="mock-section" name="section">
-          <option value="">Full mix (all sections)</option>
-          ${exam.sections.map((s) => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('')}
+          ${exam.sections.map((s) => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)} (${s.marks} marks)</option>`).join('')}
         </select>
       </div>` : ''}
-      <div class="form-row">
+      <div class="form-row" id="mock-count-row" hidden>
         <label for="mock-count">Number of questions</label>
         <select id="mock-count" name="count">
-          ${(usableCounts.length ? usableCounts : [Math.min(10, active.length || 10)]).map((c) => `<option value="${c}"${c === exam.default_question_count ? ' selected' : ''}>${c}</option>`).join('')}
+          <option value="30">30</option>
+          <option value="60">60</option>
         </select>
       </div>
       <button type="submit" class="btn btn--primary btn--block">Start Mock Test</button>
@@ -110,17 +107,41 @@ function renderMockSetup(main) {
 
   const form = document.getElementById('mock-form');
   if (form) {
+    const modeEl = document.getElementById('mock-mode');
+    const sectionRow = document.getElementById('mock-section-row');
+    const countRow = document.getElementById('mock-count-row');
+    const syncMode = () => {
+      const mode = modeEl.value;
+      if (sectionRow) sectionRow.hidden = mode !== 'section';
+      if (countRow) countRow.hidden = mode !== 'short';
+    };
+    modeEl.addEventListener('change', syncMode);
+    syncMode();
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const count = parseInt(document.getElementById('mock-count').value, 10);
+      const mode = modeEl.value;
       const sectionId = document.getElementById('mock-section')?.value || '';
-      startMockTest(main, exam, count, sectionId);
+      let count = exam.default_question_count || 120;
+      let official = false;
+      if (mode === 'official') {
+        official = true;
+        count = exam.default_question_count || 120;
+      } else if (mode === 'section') {
+        const section = (exam.sections || []).find((s) => s.id === sectionId);
+        count = section?.question_count || section?.marks || 30;
+      } else {
+        count = parseInt(document.getElementById('mock-count').value, 10) || 30;
+      }
+      startMockTest(main, exam, count, mode === 'section' ? sectionId : '', official);
     });
   }
 }
 
-function startMockTest(main, exam, count, sectionId = '') {
-  const questions = getMockQuestions(count, exam, { sectionId: sectionId || undefined });
+function startMockTest(main, exam, count, sectionId = '', official = false) {
+  const questions = getMockQuestions(count, exam, {
+    sectionId: sectionId || undefined,
+    official,
+  });
   if (!questions.length) {
     UI.Toast.show('Not enough verified questions for this section.', 'warning');
     return;
@@ -225,8 +246,9 @@ function renderActiveTest(main, testState) {
         disabled: false,
       });
       btn.setAttribute('role', 'radio');
-      btn.setAttribute('aria-checked', testState.answers[qid] === opt.id ? 'true' : 'false');
+      btn.setAttribute('aria-checked', isChosenOption(opt.id, testState.answers[qid]) ? 'true' : 'false');
       btn.addEventListener('click', () => {
+        if (!opt.id || !qid) return;
         testState.answers[qid] = opt.id;
         persist();
         renderQuestion();
