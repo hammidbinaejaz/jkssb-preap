@@ -42,9 +42,7 @@ function renderMockSetup(main) {
   endExamChrome();
   const exam = getExamConfigForPost();
   const selected = getSelectedPostMeta();
-  const active = getActiveQuestions().filter(
-    (q) => q.verification_status === 'verified' && q.correct_option,
-  );
+  const active = getActiveQuestions().filter(isExamReadyQuestion);
 
   if (!selected && !DataStore.allQuestions.length) {
     main.innerHTML = `
@@ -348,6 +346,7 @@ function submitMockTest(main, testState, autoSubmitted) {
   };
 
   saveTestResult(result);
+  recordMockProgress(result, DataStore.questionsById);
   clearActiveTest();
   setContinuePreparation(rootPagesPath('results.html', { id: result.id }), 'View last results');
   window.location.href = pagesHref('results.html', { id: result.id });

@@ -30,6 +30,9 @@ function renderProgress(main) {
     .filter((t) => t.total > 0)
     .sort((a, b) => b.accuracy - a.accuracy);
 
+  const attempted = (progress.attempts || []).length;
+  const correctN = (progress.attempts || []).filter((a) => a.correct).length;
+  const accuracy = attempted ? Math.round((correctN / attempted) * 100) : 0;
   const strongest = topicEntries.filter((t) => t.accuracy > 75).slice(0, 5);
   const needsAttention = [...topicEntries].sort((a, b) => a.accuracy - b.accuracy).filter((t) => t.accuracy < 60).slice(0, 5);
 
@@ -46,15 +49,15 @@ function renderProgress(main) {
       </div>
       <div class="stat-card card">
         <span class="stat-card__label">Questions Attempted</span>
-        <span class="stat-card__value">${(progress.attempts || []).length}</span>
+        <span class="stat-card__value">${attempted}</span>
       </div>
       <div class="stat-card card">
         <span class="stat-card__label">Mock Tests</span>
         <span class="stat-card__value">${history.length}</span>
       </div>
       <div class="stat-card card">
-        <span class="stat-card__label">Best typing WPM</span>
-        <span class="stat-card__value">${progress.typingBestWpm || 0}</span>
+        <span class="stat-card__label">Attempt accuracy</span>
+        <span class="stat-card__value">${accuracy}%</span>
       </div>
     </div>
 
@@ -101,7 +104,7 @@ function renderProgress(main) {
 
   const queueEl = document.getElementById('weak-queue');
   if (!weakQueue.length) {
-    queueEl.innerHTML = '<p class="empty-inline">No weak topics yet — complete a few practice sets first.</p>';
+    queueEl.innerHTML = '<p class="empty-inline">No weak topics yet — complete a practice set or a mock first.</p>';
   } else {
     const ul = document.createElement('ul');
     ul.className = 'topic-list';
@@ -117,16 +120,7 @@ function renderProgress(main) {
   }
 
   const weekPlan = document.getElementById('week-plan');
-  const planItems = [
-    { day: 'Mon', text: 'General Awareness warm-up (20 Q)' },
-    { day: 'Tue', text: weakQueue[0] ? `Drill ${weakQueue[0].topic}` : 'Reasoning set (20 Q)' },
-    { day: 'Wed', text: 'Section-wise mock (one section)' },
-    { day: 'Thu', text: weakQueue[1] ? `Drill ${weakQueue[1].topic}` : 'Computer / Accounts set' },
-    { day: 'Fri', text: 'Full mix practice (30 Q)' },
-    { day: 'Sat', text: 'Timed mock under exam pattern' },
-    { day: 'Sun', text: 'Mistake review + typing / steno drill' },
-  ];
-  weekPlan.innerHTML = planItems.map((item) => `
+  weekPlan.innerHTML = faaWeekPlan(weakQueue).map((item) => `
     <li class="week-plan__item"><strong>${item.day}</strong> <span>${escapeHtml(item.text)}</span></li>
   `).join('');
 

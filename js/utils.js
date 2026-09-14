@@ -127,7 +127,7 @@ function scoreTest({ questionIds, answers, questionsById, examConfig }) {
     } else {
       incorrect += 1;
       topicBreakdown[topic].incorrect += 1;
-      mistakes.push({ question: q, selected, correct: q.correct_option });
+    mistakes.push({ question: q, selected, correct: q.correct_option });
     }
   });
 
@@ -208,6 +208,43 @@ function getRecommendations(progress, latestTest) {
   return recs;
 }
 
+function optionLabel(question, optionId) {
+  const id = String(optionId || '');
+  const opt = (question?.options || []).find((o) => String(o.id) === id);
+  return opt?.text ? `${id}. ${opt.text}` : id;
+}
+
+/**
+ * View-model for mistake review cards (stem, keyed texts, explanation).
+ * @param {{ question?: object, selected?: string, correct?: string }} mistake
+ */
+function mistakeReviewModel(mistake) {
+  const q = mistake?.question || {};
+  return {
+    stem: q.question || '',
+    topic: q.topic || '',
+    selected: mistake?.selected || '',
+    correct: mistake?.correct || q.correct_option || '',
+    selectedLabel: optionLabel(q, mistake?.selected),
+    correctLabel: optionLabel(q, mistake?.correct || q.correct_option),
+    explanation: String(q.explanation || '').trim(),
+    provenance: q.verification_status || '',
+  };
+}
+
+/** FAA-only weekly plan — no reasoning / typing / steno. */
+function faaWeekPlan(weakQueue = []) {
+  return [
+    { day: 'Mon', text: 'J&K GK with special reference to the UT (20 Q)' },
+    { day: 'Tue', text: weakQueue[0] ? `Drill ${weakQueue[0].topic}` : 'Accountancy and Book Keeping (20 Q)' },
+    { day: 'Wed', text: 'Official section mock (one 10- or 30-mark paper)' },
+    { day: 'Thu', text: weakQueue[1] ? `Drill ${weakQueue[1].topic}` : 'General Economics + PFMS/GST (20 Q)' },
+    { day: 'Fri', text: 'Mathematics, Statistics, and Computers mix (30 Q)' },
+    { day: 'Sat', text: 'Timed 120-Q mock under Advt. 10 of 2025' },
+    { day: 'Sun', text: 'Mistake review from mocks and weak-topic drills' },
+  ];
+}
+
 function generateId() {
   return `id-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
 }
@@ -238,5 +275,8 @@ if (typeof module !== 'undefined' && module.exports) {
     generateId,
     getQueryParam,
     detectTextLang,
+    optionLabel,
+    mistakeReviewModel,
+    faaWeekPlan,
   };
 }

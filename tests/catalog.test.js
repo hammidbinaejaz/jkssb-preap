@@ -57,25 +57,35 @@ function runTests() {
     total += readJson('data/qbanks/finance/faa/latest-pattern.json').questions.length;
     assertEqual(index.datasets.length, 1);
     assertEqual(index.datasets[0].id, 'accounts-assistant-finance');
-    assert(index.datasets[0].question_count > 4100, 'bank should grow past the original 4100');
+    assert(index.datasets[0].question_count >= 4000, 'FAA bank should stay large after quality cleanup');
     assertEqual(index.datasets[0].question_count, total);
     assertEqual(catalog.categories[0].posts[0].question_count, total);
     assertEqual(manifest.question_count, total);
   });
 
-  test('FAA subject banks have at least 500 unique stems each', () => {
+  test('FAA subject banks have unique stems, provenance, and real explanations', () => {
     const exam = readJson('data/exams.json').exams[0];
     exam.sections.forEach((section) => {
       const bank = readJson(`data/${section.file}`);
-      assert(bank.questions.length >= 500, `${section.id} count ${bank.questions.length}`);
+      assert(bank.questions.length >= 200, `${section.id} count ${bank.questions.length}`);
       assertEqual(bank.subject, section.name);
       const stems = new Set(bank.questions.map((q) => q.question));
       assertEqual(stems.size, bank.questions.length, `${section.id} unique stems`);
       const ids = new Set(bank.questions.map((q) => q.question_id));
       assertEqual(ids.size, bank.questions.length, `${section.id} unique ids`);
+      bank.questions.forEach((q) => {
+        assert(!/\(item\s+\d+\)/i.test(q.question), q.question_id);
+        assert(q.verification_status !== 'verified', q.question_id);
+        const words = String(q.explanation || '').match(/[A-Za-z0-9']+/g) || [];
+        assert(words.length >= 20, `${q.question_id} explanation`);
+      });
     });
     const pattern = readJson('data/qbanks/finance/faa/latest-pattern.json');
     assertEqual(pattern.questions.length, 100);
+    pattern.questions.forEach((q) => {
+      assert(q.verification_status === 'generated', q.question_id);
+      assert(!/syllabus notes/i.test(q.explanation || ''), q.question_id);
+    });
   });
 
   console.log(`\n${passed} passed`);

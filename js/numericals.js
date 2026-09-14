@@ -214,8 +214,8 @@ const NumericalDrill = {
       topic,
       difficulty: ['easy', 'medium', 'hard'][i % 3],
       explanation,
-      verification_status: 'verified',
-      source: { label: 'Computed numerical drill' },
+      verification_status: 'generated',
+      source: { label: 'Computed numerical drill (generated, not an official key)' },
       pool_type: 'post_primary',
       post_id: 'accounts-assistant-finance',
     };

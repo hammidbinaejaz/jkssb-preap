@@ -15,7 +15,7 @@
   "questions": [
     {
       "question_id": "accounts-assistant-finance-001",
-      "question": "Consider the following statements regarding the problem of scarcity:\n\nStatement I: Scarcity exists because human wants are unlimited while resources have alternative uses.\n\nStatement II: Scarcity can be completely eliminated through technological advancement.\n\nStatement III: The existence of scarcity makes choice and opportunity cost unavoidable.\n\nWhich of the options correctly identifies the true statements?",
+      "question": "Consider the following statements regarding the problem of scarcity: Statement I: Scarcity exists because human wants are unlimited while resources have alternative uses. Statement II: Scarcity can be completely eliminated through technological advancement. Statement III: The existence of scarcity makes choice and opportunity cost unavoidable. Which of the options correctly identifies the true statements?",
       "options": [
         {
           "id": "A",
@@ -41,9 +41,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Opportunity cost is the value of the next best alternative forgone.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Scarcity exists because human wants are unlimited while resources have alternative uses. Statement II is false: Scarcity can be completely eliminated through technological advancement. Statement III is true: The existence of scarcity makes choice and opportunity cost unavoidable. Which of the options correctly identifies the true statements?. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -54,7 +54,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-002",
-      "question": "Regarding opportunity cost, consider the following:\n\nStatement I: Opportunity cost represents the value of the next best alternative forgone.\n\nStatement II: Opportunity cost is always measured in monetary terms.\n\nStatement III: Opportunity cost arises because resources have alternative uses.",
+      "question": "Regarding opportunity cost, consider the following: Statement I: Opportunity cost represents the value of the next best alternative forgone. Statement II: Opportunity cost is always measured in monetary terms. Statement III: Opportunity cost arises because resources have alternative uses.",
       "options": [
         {
           "id": "A",
@@ -80,9 +80,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Opportunity cost is the value of the next best alternative forgone.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Opportunity cost represents the value of the next best alternative forgone. Statement II is false: Opportunity cost is always measured in monetary terms. Statement III is true: Opportunity cost arises because resources have alternative uses. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -93,7 +93,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-003",
-      "question": "Consider the following statements about the central economic problems:\n\nStatement I: \"What to produce\" involves deciding the composition and quantity of goods and services.\n\nStatement II: \"How to produce\" is concerned exclusively with determining the wages paid to workers.\n\nStatement III: \"For whom to produce\" is related to the distribution of output among different sections of society.",
+      "question": "Consider the following statements about the central economic problems: Statement I: \"What to produce\" involves deciding the composition and quantity of goods and services. Statement II: \"How to produce\" is concerned exclusively with determining the wages paid to workers. Statement III: \"For whom to produce\" is related to the distribution of output among different sections of society.",
       "options": [
         {
           "id": "A",
@@ -119,9 +119,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: \"What to produce\" involves deciding the composition and quantity of goods and services. Statement II is false: \"How to produce\" is concerned exclusively with determining the wages paid to workers. Statement III is true: \"For whom to produce\" is related to the distribution of output among different sections of society. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -132,7 +132,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-004",
-      "question": "Regarding a production possibility frontier (PPF):\n\nStatement I: A point inside the PPF generally indicates inefficient utilization of resources.\n\nStatement II: A point outside the PPF is attainable with the existing resources and technology.\n\nStatement III: An outward shift of the PPF can result from an increase in productive resources.",
+      "question": "Regarding a production possibility frontier (PPF): Statement I: A point inside the PPF generally indicates inefficient utilization of resources. Statement II: A point outside the PPF is attainable with the existing resources and technology. Statement III: An outward shift of the PPF can result from an increase in productive resources.",
       "options": [
         {
           "id": "A",
@@ -158,9 +158,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A point inside the PPF generally indicates inefficient utilization of resources. Statement II is false: A point outside the PPF is attainable with the existing resources and technology. Statement III is true: An outward shift of the PPF can result from an increase in productive resources. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -171,7 +171,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-005",
-      "question": "Consider the following statements regarding economic efficiency:\n\nStatement I: Productive efficiency occurs when output is produced at the lowest possible resource cost.\n\nStatement II: Allocative efficiency requires resources to be distributed according to consumer preferences and social priorities.\n\nStatement III: Economic efficiency necessarily guarantees an equitable distribution of income.",
+      "question": "Consider the following statements regarding economic efficiency: Statement I: Productive efficiency occurs when output is produced at the lowest possible resource cost. Statement II: Allocative efficiency requires resources to be distributed according to consumer preferences and social priorities. Statement III: Economic efficiency necessarily guarantees an equitable distribution of income.",
       "options": [
         {
           "id": "A",
@@ -197,9 +197,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Productive efficiency occurs when output is produced at the lowest possible resource cost. Statement II is true: Allocative efficiency requires resources to be distributed according to consumer preferences and social priorities. Statement III is false: Economic efficiency necessarily guarantees an equitable distribution of income. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -210,7 +210,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-006",
-      "question": "Regarding the problem \"for whom to produce\":\n\nStatement I: Distribution of income influences the purchasing power of different individuals.\n\nStatement II: In a market economy, purchasing power plays an important role in determining access to goods and services.\n\nStatement III: A market economy automatically distributes goods according to biological needs irrespective of income.",
+      "question": "Regarding the problem \"for whom to produce\": Statement I: Distribution of income influences the purchasing power of different individuals. Statement II: In a market economy, purchasing power plays an important role in determining access to goods and services. Statement III: A market economy automatically distributes goods according to biological needs irrespective of income.",
       "options": [
         {
           "id": "A",
@@ -236,9 +236,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Distribution of income influences the purchasing power of different individuals. Statement II is true: In a market economy, purchasing power plays an important role in determining access to goods and services. Statement III is false: A market economy automatically distributes goods according to biological needs irrespective of income. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -249,7 +249,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-007",
-      "question": "Consider the following statements about a free-market economy:\n\nStatement I: Prices perform an important signaling and coordinating function.\n\nStatement II: Resource allocation is primarily determined by government commands rather than market forces.\n\nStatement III: Changes in relative prices can influence producers' decisions regarding resource allocation.",
+      "question": "Consider the following statements about a free-market economy: Statement I: Prices perform an important signaling and coordinating function. Statement II: Resource allocation is primarily determined by government commands rather than market forces. Statement III: Changes in relative prices can influence producers' decisions regarding resource allocation.",
       "options": [
         {
           "id": "A",
@@ -275,9 +275,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Prices perform an important signaling and coordinating function. Statement II is false: Resource allocation is primarily determined by government commands rather than market forces. Statement III is true: Changes in relative prices can influence producers' decisions regarding resource allocation. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -288,7 +288,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-008",
-      "question": "Regarding economic choice, consider:\n\nStatement I: Choosing one alternative necessarily involves foregoing at least one other alternative when resources are scarce.\n\nStatement II: Opportunity cost exists even when the chosen alternative has no explicit monetary price.\n\nStatement III: Unlimited resources would make the problem of economic choice more severe.",
+      "question": "Regarding economic choice, consider: Statement I: Choosing one alternative necessarily involves foregoing at least one other alternative when resources are scarce. Statement II: Opportunity cost exists even when the chosen alternative has no explicit monetary price. Statement III: Unlimited resources would make the problem of economic choice more severe.",
       "options": [
         {
           "id": "A",
@@ -314,9 +314,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Opportunity cost is the value of the next best alternative forgone.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Choosing one alternative necessarily involves foregoing at least one other alternative when resources are scarce. Statement II is true: Opportunity cost exists even when the chosen alternative has no explicit monetary price. Statement III is false: Unlimited resources would make the problem of economic choice more severe. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -327,7 +327,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-009",
-      "question": "Consider the following statements about mixed economies:\n\nStatement I: A mixed economy combines elements of market mechanisms and government intervention.\n\nStatement II: Government intervention may aim to correct market failures and promote equity.\n\nStatement III: In a mixed economy, all resource allocation decisions are necessarily made by the government.",
+      "question": "Consider the following statements about mixed economies: Statement I: A mixed economy combines elements of market mechanisms and government intervention. Statement II: Government intervention may aim to correct market failures and promote equity. Statement III: In a mixed economy, all resource allocation decisions are necessarily made by the government.",
       "options": [
         {
           "id": "A",
@@ -353,9 +353,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A mixed economy combines elements of market mechanisms and government intervention. Statement II is true: Government intervention may aim to correct market failures and promote equity. Statement III is false: In a mixed economy, all resource allocation decisions are necessarily made by the government. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -366,7 +366,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-010",
-      "question": "Regarding the basic economic problem:\n\nStatement I: Scarcity is a relative concept rather than an indication that a resource is absolutely unavailable.\n\nStatement II: Even a wealthy economy faces scarcity because wants can exceed available resources.\n\nStatement III: Economic growth completely eliminates the fundamental problem of scarcity.",
+      "question": "Regarding the basic economic problem: Statement I: Scarcity is a relative concept rather than an indication that a resource is absolutely unavailable. Statement II: Even a wealthy economy faces scarcity because wants can exceed available resources. Statement III: Economic growth completely eliminates the fundamental problem of scarcity.",
       "options": [
         {
           "id": "A",
@@ -392,9 +392,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Scarcity exists because wants are unlimited relative to limited resources.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Scarcity is a relative concept rather than an indication that a resource is absolutely unavailable. Statement II is true: Even a wealthy economy faces scarcity because wants can exceed available resources. Statement III is false: Economic growth completely eliminates the fundamental problem of scarcity. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -405,7 +405,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-011",
-      "question": "Consider the following statements regarding income distribution:\n\nStatement I: Factor incomes include wages, rent, interest, and profit.\n\nStatement II: The distribution of factor income can influence the distribution of purchasing power.\n\nStatement III: Equal factor income necessarily implies equal consumption of every good.",
+      "question": "Consider the following statements regarding income distribution: Statement I: Factor incomes include wages, rent, interest, and profit. Statement II: The distribution of factor income can influence the distribution of purchasing power. Statement III: Equal factor income necessarily implies equal consumption of every good.",
       "options": [
         {
           "id": "A",
@@ -431,9 +431,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Factor incomes include wages, rent, interest, and profit. Statement II is true: The distribution of factor income can influence the distribution of purchasing power. Statement III is false: Equal factor income necessarily implies equal consumption of every good. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -444,7 +444,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-012",
-      "question": "Regarding the \"how to produce\" problem:\n\nStatement I: Producers may choose between labor-intensive and capital-intensive techniques.\n\nStatement II: The choice of technique can depend on relative prices of factors of production.\n\nStatement III: The most technologically advanced production technique is always economically optimal.",
+      "question": "Regarding the \"how to produce\" problem: Statement I: Producers may choose between labor-intensive and capital-intensive techniques. Statement II: The choice of technique can depend on relative prices of factors of production. Statement III: The most technologically advanced production technique is always economically optimal.",
       "options": [
         {
           "id": "A",
@@ -470,9 +470,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Producers may choose between labor-intensive and capital-intensive techniques. Statement II is true: The choice of technique can depend on relative prices of factors of production. Statement III is false: The most technologically advanced production technique is always economically optimal. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -483,7 +483,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-013",
-      "question": "Consider the following statements about social equity and efficiency:\n\nStatement I: A policy may improve income equality while potentially creating efficiency costs.\n\nStatement II: Efficiency and equity are always perfectly compatible objectives.\n\nStatement III: The conflict between efficiency and equity is an important issue in economic policy.",
+      "question": "Consider the following statements about social equity and efficiency: Statement I: A policy may improve income equality while potentially creating efficiency costs. Statement II: Efficiency and equity are always perfectly compatible objectives. Statement III: The conflict between efficiency and equity is an important issue in economic policy.",
       "options": [
         {
           "id": "A",
@@ -509,9 +509,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A policy may improve income equality while potentially creating efficiency costs. Statement II is false: Efficiency and equity are always perfectly compatible objectives. Statement III is true: The conflict between efficiency and equity is an important issue in economic policy. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -522,7 +522,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-014",
-      "question": "Regarding market allocation:\n\nStatement I: In a competitive market, prices can influence both demand and supply decisions.\n\nStatement II: Higher purchasing power generally increases an individual's ability to obtain market goods, other things being equal.\n\nStatement III: Market allocation necessarily ensures that goods reach those with the greatest biological need.",
+      "question": "Regarding market allocation: Statement I: In a competitive market, prices can influence both demand and supply decisions. Statement II: Higher purchasing power generally increases an individual's ability to obtain market goods, other things being equal. Statement III: Market allocation necessarily ensures that goods reach those with the greatest biological need.",
       "options": [
         {
           "id": "A",
@@ -548,9 +548,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: In a competitive market, prices can influence both demand and supply decisions. Statement II is true: Higher purchasing power generally increases an individual's ability to obtain market goods, other things being equal. Statement III is false: Market allocation necessarily ensures that goods reach those with the greatest biological need. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -561,7 +561,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-015",
-      "question": "Consider the following statements regarding production possibilities:\n\nStatement I: The PPF illustrates alternative combinations of output that can be produced with given resources and technology.\n\nStatement II: A movement along a PPF generally reflects a tradeoff between outputs.\n\nStatement III: A movement along the PPF necessarily represents economic growth.",
+      "question": "Consider the following statements regarding production possibilities: Statement I: The PPF illustrates alternative combinations of output that can be produced with given resources and technology. Statement II: A movement along a PPF generally reflects a tradeoff between outputs. Statement III: A movement along the PPF necessarily represents economic growth.",
       "options": [
         {
           "id": "A",
@@ -587,9 +587,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The PPF illustrates alternative combinations of output that can be produced with given resources and technology. Statement II is true: A movement along a PPF generally reflects a tradeoff between outputs. Statement III is false: A movement along the PPF necessarily represents economic growth. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -600,7 +600,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-016",
-      "question": "Regarding economic systems:\n\nStatement I: In a command economy, central authorities play a major role in determining resource allocation.\n\nStatement II: In a market economy, decentralized decisions of consumers and producers influence resource allocation.\n\nStatement III: Both systems face no problem of scarcity because their allocation mechanisms differ.",
+      "question": "Regarding economic systems: Statement I: In a command economy, central authorities play a major role in determining resource allocation. Statement II: In a market economy, decentralized decisions of consumers and producers influence resource allocation. Statement III: Both systems face no problem of scarcity because their allocation mechanisms differ.",
       "options": [
         {
           "id": "A",
@@ -626,9 +626,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Scarcity exists because wants are unlimited relative to limited resources.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: In a command economy, central authorities play a major role in determining resource allocation. Statement II is true: In a market economy, decentralized decisions of consumers and producers influence resource allocation. Statement III is false: Both systems face no problem of scarcity because their allocation mechanisms differ. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -639,7 +639,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-017",
-      "question": "Consider the following statements about consumer sovereignty:\n\nStatement I: Consumer demand can influence what producers choose to produce in a market economy.\n\nStatement II: Consumer sovereignty means that consumers can obtain any good regardless of their income.\n\nStatement III: Purchasing power can limit the extent to which preferences translate into effective market demand.",
+      "question": "Consider the following statements about consumer sovereignty: Statement I: Consumer demand can influence what producers choose to produce in a market economy. Statement II: Consumer sovereignty means that consumers can obtain any good regardless of their income. Statement III: Purchasing power can limit the extent to which preferences translate into effective market demand.",
       "options": [
         {
           "id": "A",
@@ -665,9 +665,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Consumer demand can influence what producers choose to produce in a market economy. Statement II is false: Consumer sovereignty means that consumers can obtain any good regardless of their income. Statement III is true: Purchasing power can limit the extent to which preferences translate into effective market demand. The keyed option is “Only I and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -678,7 +678,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-018",
-      "question": "Regarding the distribution of national output:\n\nStatement I: The distribution of national output is influenced by the distribution of income and purchasing power.\n\nStatement II: Government taxation and transfer policies can alter the distribution of disposable income.\n\nStatement III: Redistribution policies are completely irrelevant to the problem of \"for whom to produce.\"",
+      "question": "Regarding the distribution of national output: Statement I: The distribution of national output is influenced by the distribution of income and purchasing power. Statement II: Government taxation and transfer policies can alter the distribution of disposable income. Statement III: Redistribution policies are completely irrelevant to the problem of \"for whom to produce.\"",
       "options": [
         {
           "id": "A",
@@ -704,9 +704,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The distribution of national output is influenced by the distribution of income and purchasing power. Statement II is true: Government taxation and transfer policies can alter the distribution of disposable income. Statement III is false: Redistribution policies are completely irrelevant to the problem of \"for whom to produce.\". The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -717,7 +717,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-019",
-      "question": "Consider the following statements regarding resource allocation:\n\nStatement I: Allocating more resources to one activity can reduce the resources available for another activity.\n\nStatement II: The opportunity cost of an allocation decision depends on the best alternative forgone.\n\nStatement III: Resource allocation has no connection with the central economic problem of \"what to produce.\"",
+      "question": "Consider the following statements regarding resource allocation: Statement I: Allocating more resources to one activity can reduce the resources available for another activity. Statement II: The opportunity cost of an allocation decision depends on the best alternative forgone. Statement III: Resource allocation has no connection with the central economic problem of \"what to produce.\"",
       "options": [
         {
           "id": "A",
@@ -743,9 +743,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Opportunity cost is the value of the next best alternative forgone.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Allocating more resources to one activity can reduce the resources available for another activity. Statement II is true: The opportunity cost of an allocation decision depends on the best alternative forgone. Statement III is false: Resource allocation has no connection with the central economic problem of \"what to produce.\". The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -756,7 +756,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-020",
-      "question": "Consider the following statements regarding efficiency and equity:\n\nStatement I: An economically efficient allocation may coexist with substantial inequality.\n\nStatement II: A government may use redistribution to pursue greater equity even if such policies involve efficiency tradeoffs.\n\nStatement II: Maximizing total output automatically guarantees that every individual receives an equal share of national output.",
+      "question": "Consider the following statements regarding efficiency and equity: Statement I: An economically efficient allocation may coexist with substantial inequality. Statement II: A government may use redistribution to pursue greater equity even if such policies involve efficiency tradeoffs. Statement II: Maximizing total output automatically guarantees that every individual receives an equal share of national output.",
       "options": [
         {
           "id": "A",
@@ -782,9 +782,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: An economically efficient allocation may coexist with substantial inequality. Statement II is true: A government may use redistribution to pursue greater equity even if such policies involve efficiency tradeoffs. Statement II is true: Maximizing total output automatically guarantees that every individual receives an equal share of national output. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -795,7 +795,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-021",
-      "question": "Consider the following statements regarding the Primary Sector:\n\nStatement I: Primary sector activities generally involve obtaining resources directly from nature.\n\nStatement II: Mining is classified under the primary sector even though extracted minerals may subsequently undergo industrial processing.\n\nStatement III: Primary sector activities necessarily produce only food products.\n\nWhich of the statements given above are correct?",
+      "question": "Consider the following statements regarding the Primary Sector: Statement I: Primary sector activities generally involve obtaining resources directly from nature. Statement II: Mining is classified under the primary sector even though extracted minerals may subsequently undergo industrial processing. Statement III: Primary sector activities necessarily produce only food products. Which of the statements given above are correct?",
       "options": [
         {
           "id": "A",
@@ -821,9 +821,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Primary sector activities generally involve obtaining resources directly from nature. Statement II is true: Mining is classified under the primary sector even though extracted minerals may subsequently undergo industrial processing. Statement III is false: Primary sector activities necessarily produce only food products. Which of the statements given above are correct?. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -834,7 +834,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-022",
-      "question": "Consider the following statements regarding the Secondary Sector:\n\nStatement I: Manufacturing converts raw materials into goods having greater utility or value.\n\nStatement II: Construction is generally included in the secondary sector.\n\nStatement III: Every activity involving physical goods automatically belongs to the secondary sector.",
+      "question": "Consider the following statements regarding the Secondary Sector: Statement I: Manufacturing converts raw materials into goods having greater utility or value. Statement II: Construction is generally included in the secondary sector. Statement III: Every activity involving physical goods automatically belongs to the secondary sector.",
       "options": [
         {
           "id": "A",
@@ -860,9 +860,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Manufacturing converts raw materials into goods having greater utility or value. Statement II is true: Construction is generally included in the secondary sector. Statement III is false: Every activity involving physical goods automatically belongs to the secondary sector. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -873,7 +873,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-023",
-      "question": "Consider the following statements regarding the Tertiary Sector:\n\nStatement I: The tertiary sector primarily provides services rather than tangible physical goods.\n\nStatement II: Banking, transportation, communication, and insurance are examples of tertiary activities.\n\nStatement III: The tertiary sector has no role in supporting agricultural and manufacturing activities.",
+      "question": "Consider the following statements regarding the Tertiary Sector: Statement I: The tertiary sector primarily provides services rather than tangible physical goods. Statement II: Banking, transportation, communication, and insurance are examples of tertiary activities. Statement III: The tertiary sector has no role in supporting agricultural and manufacturing activities.",
       "options": [
         {
           "id": "A",
@@ -899,9 +899,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The tertiary sector primarily provides services rather than tangible physical goods. Statement II is true: Banking, transportation, communication, and insurance are examples of tertiary activities. Statement III is false: The tertiary sector has no role in supporting agricultural and manufacturing activities. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -912,7 +912,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-024",
-      "question": "Consider the following statements regarding interdependence among sectors:\n\nStatement I: Agriculture can provide raw materials required by certain manufacturing industries.\n\nStatement II: Manufacturing may supply machinery and inputs required by agriculture.\n\nStatement III: The tertiary sector can facilitate the movement, financing, and marketing of goods produced by the other sectors.",
+      "question": "Consider the following statements regarding interdependence among sectors: Statement I: Agriculture can provide raw materials required by certain manufacturing industries. Statement II: Manufacturing may supply machinery and inputs required by agriculture. Statement III: The tertiary sector can facilitate the movement, financing, and marketing of goods produced by the other sectors.",
       "options": [
         {
           "id": "A",
@@ -938,9 +938,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Agriculture can provide raw materials required by certain manufacturing industries. Statement II is true: Manufacturing may supply machinery and inputs required by agriculture. Statement III is true: The tertiary sector can facilitate the movement, financing, and marketing of goods produced by the other sectors. The keyed option is “I, II, and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -951,7 +951,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-025",
-      "question": "Consider the following statements regarding economic development and sectoral transformation:\n\nStatement I: Economic development is often associated with a declining relative importance of agriculture in employment and output.\n\nStatement II: Industrialization can increase the importance of the secondary sector during certain stages of development.\n\nStatement III: Development necessarily causes the tertiary sector to disappear.",
+      "question": "Consider the following statements regarding economic development and sectoral transformation: Statement I: Economic development is often associated with a declining relative importance of agriculture in employment and output. Statement II: Industrialization can increase the importance of the secondary sector during certain stages of development. Statement III: Development necessarily causes the tertiary sector to disappear.",
       "options": [
         {
           "id": "A",
@@ -977,9 +977,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Economic development is often associated with a declining relative importance of agriculture in employment and output. Statement II is true: Industrialization can increase the importance of the secondary sector during certain stages of development. Statement III is false: Development necessarily causes the tertiary sector to disappear. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -990,7 +990,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-026",
-      "question": "Consider the following statements regarding value addition:\n\nStatement I: Processing raw cotton into yarn involves value addition.\n\nStatement II: Value addition can occur when a product is transformed into a form that is more useful to consumers or other producers.\n\nStatement III: Value addition is possible only in the manufacturing sector.",
+      "question": "Consider the following statements regarding value addition: Statement I: Processing raw cotton into yarn involves value addition. Statement II: Value addition can occur when a product is transformed into a form that is more useful to consumers or other producers. Statement III: Value addition is possible only in the manufacturing sector.",
       "options": [
         {
           "id": "A",
@@ -1016,9 +1016,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Processing raw cotton into yarn involves value addition. Statement II is true: Value addition can occur when a product is transformed into a form that is more useful to consumers or other producers. Statement III is false: Value addition is possible only in the manufacturing sector. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1029,7 +1029,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-027",
-      "question": "Consider the following statements regarding employment in different sectors:\n\nStatement I: A country may have a large proportion of its workforce employed in agriculture despite agriculture contributing a relatively smaller share to national income.\n\nStatement II: Such a situation may indicate relatively low productivity in agriculture.\n\nStatement III: A high share of employment in the primary sector always indicates a highly developed economy.",
+      "question": "Consider the following statements regarding employment in different sectors: Statement I: A country may have a large proportion of its workforce employed in agriculture despite agriculture contributing a relatively smaller share to national income. Statement II: Such a situation may indicate relatively low productivity in agriculture. Statement III: A high share of employment in the primary sector always indicates a highly developed economy.",
       "options": [
         {
           "id": "A",
@@ -1055,9 +1055,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A country may have a large proportion of its workforce employed in agriculture despite agriculture contributing a relatively smaller share to national income. Statement II is true: Such a situation may indicate relatively low productivity in agriculture. Statement III is false: A high share of employment in the primary sector always indicates a highly developed economy. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1068,7 +1068,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-028",
-      "question": "Consider the following statements regarding organized and unorganized activities:\n\nStatement I: The distinction between primary, secondary, and tertiary sectors is based primarily on the nature of economic activity rather than whether the activity is organized or unorganized.\n\nStatement II: A service provider operating informally can still belong to the tertiary sector.\n\nStatement III: Only formally registered businesses can be classified into the three sectors.",
+      "question": "Consider the following statements regarding organized and unorganized activities: Statement I: The distinction between primary, secondary, and tertiary sectors is based primarily on the nature of economic activity rather than whether the activity is organized or unorganized. Statement II: A service provider operating informally can still belong to the tertiary sector. Statement III: Only formally registered businesses can be classified into the three sectors.",
       "options": [
         {
           "id": "A",
@@ -1094,9 +1094,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The distinction between primary, secondary, and tertiary sectors is based primarily on the nature of economic activity rather than whether the activity is organized or unorganized. Statement II is true: A service provider operating informally can still belong to the tertiary sector. Statement III is false: Only formally registered businesses can be classified into the three sectors. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1107,7 +1107,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-029",
-      "question": "Consider the following statements regarding agriculture and allied activities:\n\nStatement I: Crop cultivation is a primary-sector activity.\n\nStatement II: Fishing and forestry are generally classified as primary-sector activities.\n\nStatement III: Food processing of agricultural produce is generally a primary-sector activity because its raw material comes from agriculture.",
+      "question": "Consider the following statements regarding agriculture and allied activities: Statement I: Crop cultivation is a primary-sector activity. Statement II: Fishing and forestry are generally classified as primary-sector activities. Statement III: Food processing of agricultural produce is generally a primary-sector activity because its raw material comes from agriculture.",
       "options": [
         {
           "id": "A",
@@ -1133,9 +1133,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Crop cultivation is a primary-sector activity. Statement II is true: Fishing and forestry are generally classified as primary-sector activities. Statement III is false: Food processing of agricultural produce is generally a primary-sector activity because its raw material comes from agriculture. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1146,7 +1146,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-030",
-      "question": "Consider the following statements regarding manufacturing:\n\nStatement I: Manufacturing can create additional value by converting intermediate goods or raw materials into more usable products.\n\nStatement II: Manufacturing has backward and forward linkages with other sectors of the economy.\n\nStatement III: Manufacturing is completely independent of services such as transportation, banking, and insurance.",
+      "question": "Consider the following statements regarding manufacturing: Statement I: Manufacturing can create additional value by converting intermediate goods or raw materials into more usable products. Statement II: Manufacturing has backward and forward linkages with other sectors of the economy. Statement III: Manufacturing is completely independent of services such as transportation, banking, and insurance.",
       "options": [
         {
           "id": "A",
@@ -1172,9 +1172,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Manufacturing can create additional value by converting intermediate goods or raw materials into more usable products. Statement II is true: Manufacturing has backward and forward linkages with other sectors of the economy. Statement III is false: Manufacturing is completely independent of services such as transportation, banking, and insurance. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1185,7 +1185,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-031",
-      "question": "Consider the following statements regarding the service sector:\n\nStatement I: Expansion of education, healthcare, banking, tourism, and information technology can contribute to growth of the tertiary sector.\n\nStatement II: Services may support both production and consumption activities.\n\nStatement III: Since services are intangible, they cannot contribute to national income.",
+      "question": "Consider the following statements regarding the service sector: Statement I: Expansion of education, healthcare, banking, tourism, and information technology can contribute to growth of the tertiary sector. Statement II: Services may support both production and consumption activities. Statement III: Since services are intangible, they cannot contribute to national income.",
       "options": [
         {
           "id": "A",
@@ -1211,9 +1211,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Expansion of education, healthcare, banking, tourism, and information technology can contribute to growth of the tertiary sector. Statement II is true: Services may support both production and consumption activities. Statement III is false: Since services are intangible, they cannot contribute to national income. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1224,7 +1224,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-032",
-      "question": "Consider the following statements regarding structural change:\n\nStatement I: Structural transformation refers to changes in the relative contribution of different sectors to an economy.\n\nStatement II: Movement of workers from low-productivity agricultural activities to higher-productivity industrial or service activities may accompany economic development.\n\nStatement III: Structural transformation means that the primary sector must completely vanish.",
+      "question": "Consider the following statements regarding structural change: Statement I: Structural transformation refers to changes in the relative contribution of different sectors to an economy. Statement II: Movement of workers from low-productivity agricultural activities to higher-productivity industrial or service activities may accompany economic development. Statement III: Structural transformation means that the primary sector must completely vanish.",
       "options": [
         {
           "id": "A",
@@ -1250,9 +1250,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Structural transformation refers to changes in the relative contribution of different sectors to an economy. Statement II is true: Movement of workers from low-productivity agricultural activities to higher-productivity industrial or service activities may accompany economic development. Statement III is false: Structural transformation means that the primary sector must completely vanish. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1263,7 +1263,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-033",
-      "question": "Consider the following statements regarding transportation:\n\nStatement I: Transportation is generally classified as a tertiary-sector activity.\n\nStatement II: Transportation facilitates the movement of raw materials to factories and finished goods to markets.\n\nStatement III: Because transportation supports manufacturing, it should itself be classified as a secondary-sector activity.",
+      "question": "Consider the following statements regarding transportation: Statement I: Transportation is generally classified as a tertiary-sector activity. Statement II: Transportation facilitates the movement of raw materials to factories and finished goods to markets. Statement III: Because transportation supports manufacturing, it should itself be classified as a secondary-sector activity.",
       "options": [
         {
           "id": "A",
@@ -1289,9 +1289,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Transportation is generally classified as a tertiary-sector activity. Statement II is true: Transportation facilitates the movement of raw materials to factories and finished goods to markets. Statement III is false: Because transportation supports manufacturing, it should itself be classified as a secondary-sector activity. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1302,7 +1302,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-034",
-      "question": "Consider the following statements regarding mining and processing:\n\nStatement I: Extraction of iron ore from a mine is generally a primary-sector activity.\n\nStatement II: Converting iron ore into steel through industrial processing belongs to the secondary sector.\n\nStatement III: Both activities must belong to the same sector because they involve the same natural resource.",
+      "question": "Consider the following statements regarding mining and processing: Statement I: Extraction of iron ore from a mine is generally a primary-sector activity. Statement II: Converting iron ore into steel through industrial processing belongs to the secondary sector. Statement III: Both activities must belong to the same sector because they involve the same natural resource.",
       "options": [
         {
           "id": "A",
@@ -1328,9 +1328,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Extraction of iron ore from a mine is generally a primary-sector activity. Statement II is true: Converting iron ore into steel through industrial processing belongs to the secondary sector. Statement III is false: Both activities must belong to the same sector because they involve the same natural resource. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1341,7 +1341,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-035",
-      "question": "Consider the following statements regarding tertiarization:\n\nStatement I: Tertiarization refers to the increasing importance of the service sector in an economy.\n\nStatement II: Rising incomes can increase demand for several services such as education, healthcare, recreation, and financial services.\n\nStatement III: Tertiarization necessarily means that manufacturing output must fall in absolute terms.",
+      "question": "Consider the following statements regarding tertiarization: Statement I: Tertiarization refers to the increasing importance of the service sector in an economy. Statement II: Rising incomes can increase demand for several services such as education, healthcare, recreation, and financial services. Statement III: Tertiarization necessarily means that manufacturing output must fall in absolute terms.",
       "options": [
         {
           "id": "A",
@@ -1367,9 +1367,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Tertiarization refers to the increasing importance of the service sector in an economy. Statement II is true: Rising incomes can increase demand for several services such as education, healthcare, recreation, and financial services. Statement III is false: Tertiarization necessarily means that manufacturing output must fall in absolute terms. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1380,7 +1380,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-036",
-      "question": "Consider the following statements regarding sectoral classification:\n\nStatement I: An activity can be classified according to the immediate nature of the economic process involved.\n\nStatement II: The same broad commodity can pass through different sectors during different stages of its production chain.\n\nStatement III: Once a commodity originates in the primary sector, every subsequent activity related to it remains part of the primary sector.",
+      "question": "Consider the following statements regarding sectoral classification: Statement I: An activity can be classified according to the immediate nature of the economic process involved. Statement II: The same broad commodity can pass through different sectors during different stages of its production chain. Statement III: Once a commodity originates in the primary sector, every subsequent activity related to it remains part of the primary sector.",
       "options": [
         {
           "id": "A",
@@ -1406,9 +1406,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: An activity can be classified according to the immediate nature of the economic process involved. Statement II is true: The same broad commodity can pass through different sectors during different stages of its production chain. Statement III is false: Once a commodity originates in the primary sector, every subsequent activity related to it remains part of the primary sector. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1419,7 +1419,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-037",
-      "question": "Consider the following statements regarding productivity:\n\nStatement I: Productivity refers broadly to the amount of output generated from a given quantity of inputs.\n\nStatement II: A shift of workers between sectors does not automatically guarantee an increase in aggregate productivity.\n\nStatement III: Every service-sector job is necessarily more productive than every agricultural job.",
+      "question": "Consider the following statements regarding productivity: Statement I: Productivity refers broadly to the amount of output generated from a given quantity of inputs. Statement II: A shift of workers between sectors does not automatically guarantee an increase in aggregate productivity. Statement III: Every service-sector job is necessarily more productive than every agricultural job.",
       "options": [
         {
           "id": "A",
@@ -1445,9 +1445,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Productivity refers broadly to the amount of output generated from a given quantity of inputs. Statement II is true: A shift of workers between sectors does not automatically guarantee an increase in aggregate productivity. Statement III is false: Every service-sector job is necessarily more productive than every agricultural job. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1458,7 +1458,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-038",
-      "question": "Consider the following statements regarding economic linkages:\n\nStatement I: Banks can provide credit to farmers, manufacturers, and service providers.\n\nStatement II: Improved transport infrastructure can reduce the cost of moving agricultural and industrial products.\n\nStatement III: Because tertiary activities provide services, they cannot influence productivity in primary and secondary sectors.",
+      "question": "Consider the following statements regarding economic linkages: Statement I: Banks can provide credit to farmers, manufacturers, and service providers. Statement II: Improved transport infrastructure can reduce the cost of moving agricultural and industrial products. Statement III: Because tertiary activities provide services, they cannot influence productivity in primary and secondary sectors.",
       "options": [
         {
           "id": "A",
@@ -1484,9 +1484,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Banks can provide credit to farmers, manufacturers, and service providers. Statement II is true: Improved transport infrastructure can reduce the cost of moving agricultural and industrial products. Statement III is false: Because tertiary activities provide services, they cannot influence productivity in primary and secondary sectors. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1497,7 +1497,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-039",
-      "question": "Consider the following statements regarding sectoral contribution:\n\nStatement I: The sector employing the largest proportion of workers need not necessarily contribute the largest share of GDP.\n\nStatement II: Differences in labor productivity can explain why employment shares and output shares differ across sectors.\n\nStatement III: Employment share and output share must always be identical in every economy.",
+      "question": "Consider the following statements regarding sectoral contribution: Statement I: The sector employing the largest proportion of workers need not necessarily contribute the largest share of GDP. Statement II: Differences in labor productivity can explain why employment shares and output shares differ across sectors. Statement III: Employment share and output share must always be identical in every economy.",
       "options": [
         {
           "id": "A",
@@ -1523,9 +1523,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The sector employing the largest proportion of workers need not necessarily contribute the largest share of GDP. Statement II is true: Differences in labor productivity can explain why employment shares and output shares differ across sectors. Statement III is false: Employment share and output share must always be identical in every economy. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1536,7 +1536,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-040",
-      "question": "Consider the following statements regarding the overall structure of an economy:\n\nStatement I: Primary, secondary, and tertiary sectors are interconnected rather than completely independent.\n\nStatement II: Economic development can involve changes in the relative importance of all three sectors.\n\nStatement III: A developed economy can have a tertiary sector without having any dependence on primary or secondary sector activities.",
+      "question": "Consider the following statements regarding the overall structure of an economy: Statement I: Primary, secondary, and tertiary sectors are interconnected rather than completely independent. Statement II: Economic development can involve changes in the relative importance of all three sectors. Statement III: A developed economy can have a tertiary sector without having any dependence on primary or secondary sector activities.",
       "options": [
         {
           "id": "A",
@@ -1562,9 +1562,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Primary, secondary, and tertiary sectors are interconnected rather than completely independent. Statement II is true: Economic development can involve changes in the relative importance of all three sectors. Statement III is false: A developed economy can have a tertiary sector without having any dependence on primary or secondary sector activities. The keyed option is “Only I and II”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1575,7 +1575,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-041",
-      "question": "Consider the following statements:\n\nStatement I: If goods X and Y are substitutes, an increase in the price of X will generally increase the demand for Y.\n\nStatement II: If goods A and B are complements, an increase in the price of A will generally decrease the demand for B.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If goods X and Y are substitutes, an increase in the price of X will generally increase the demand for Y. Statement II: If goods A and B are complements, an increase in the price of A will generally decrease the demand for B. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1601,9 +1601,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If goods X and Y are substitutes, an increase in the price of X will generally increase the demand for Y. Statement II is true: If goods A and B are complements, an increase in the price of A will generally decrease the demand for B. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1614,7 +1614,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-042",
-      "question": "Consider the following statements:\n\nStatement I: A change in the price of a good itself causes a movement along its demand curve, not a shift of the demand curve.\n\nStatement II: A change in consumer income can shift the demand curve even when the price of the good remains unchanged.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: A change in the price of a good itself causes a movement along its demand curve, not a shift of the demand curve. Statement II: A change in consumer income can shift the demand curve even when the price of the good remains unchanged. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1640,9 +1640,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A change in the price of a good itself causes a movement along its demand curve, not a shift of the demand curve. Statement II is true: A change in consumer income can shift the demand curve even when the price of the good remains unchanged. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1653,7 +1653,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-043",
-      "question": "Consider the following statements:\n\nStatement I: For a normal good, an increase in consumer income generally shifts the demand curve to the right.\n\nStatement II: For an inferior good, an increase in income necessarily shifts the demand curve to the right.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: For a normal good, an increase in consumer income generally shifts the demand curve to the right. Statement II: For an inferior good, an increase in income necessarily shifts the demand curve to the right. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1679,9 +1679,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: For a normal good, an increase in consumer income generally shifts the demand curve to the right. Statement II is true: For an inferior good, an increase in income necessarily shifts the demand curve to the right. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1692,7 +1692,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-044",
-      "question": "Consider the following statements:\n\nStatement I: Tea and coffee can be substitutes because consumers may switch from one to the other when relative prices change.\n\nStatement II: If the price of tea falls, the demand for coffee will necessarily increase.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: Tea and coffee can be substitutes because consumers may switch from one to the other when relative prices change. Statement II: If the price of tea falls, the demand for coffee will necessarily increase. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1718,9 +1718,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Tea and coffee can be substitutes because consumers may switch from one to the other when relative prices change. Statement II is true: If the price of tea falls, the demand for coffee will necessarily increase. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1731,7 +1731,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-045",
-      "question": "Consider the following statements:\n\nStatement I: An increase in the price of petrol may reduce the demand for petrol-driven cars, ceteris paribus.\n\nStatement II: Petrol and petrol-driven cars can be considered complementary goods.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: An increase in the price of petrol may reduce the demand for petrol-driven cars, ceteris paribus. Statement II: Petrol and petrol-driven cars can be considered complementary goods. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1757,9 +1757,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: An increase in the price of petrol may reduce the demand for petrol-driven cars, ceteris paribus. Statement II is true: Petrol and petrol-driven cars can be considered complementary goods. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1770,7 +1770,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-046",
-      "question": "Consider the following statements:\n\nStatement I: A rightward shift in the demand curve indicates an increase in demand at every relevant price.\n\nStatement II: A movement upward along the same demand curve represents an increase in demand.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: A rightward shift in the demand curve indicates an increase in demand at every relevant price. Statement II: A movement upward along the same demand curve represents an increase in demand. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1796,9 +1796,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A rightward shift in the demand curve indicates an increase in demand at every relevant price. Statement II is true: A movement upward along the same demand curve represents an increase in demand. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1809,7 +1809,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-047",
-      "question": "Consider the following statements:\n\nStatement I: If the price of a substitute good rises, demand for the concerned good may increase.\n\nStatement II: The cross-price effect between substitutes is generally positive.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If the price of a substitute good rises, demand for the concerned good may increase. Statement II: The cross-price effect between substitutes is generally positive. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1835,9 +1835,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If the price of a substitute good rises, demand for the concerned good may increase. Statement II is true: The cross-price effect between substitutes is generally positive. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1848,7 +1848,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-048",
-      "question": "Consider the following statements:\n\nStatement I: The cross-price effect between complementary goods is generally negative.\n\nStatement II: If the price of printers falls, the demand for printer cartridges may decrease because printers and cartridges are complements.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: The cross-price effect between complementary goods is generally negative. Statement II: If the price of printers falls, the demand for printer cartridges may decrease because printers and cartridges are complements. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1874,9 +1874,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The cross-price effect between complementary goods is generally negative. Statement II is true: If the price of printers falls, the demand for printer cartridges may decrease because printers and cartridges are complements. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1887,7 +1887,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-049",
-      "question": "Consider the following statements:\n\nStatement I: Consumer expectations about future prices can influence present demand.\n\nStatement II: If consumers expect a substantial price increase in the future, they may increase current demand.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: Consumer expectations about future prices can influence present demand. Statement II: If consumers expect a substantial price increase in the future, they may increase current demand. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1913,9 +1913,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Consumer expectations about future prices can influence present demand. Statement II is true: If consumers expect a substantial price increase in the future, they may increase current demand. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1926,7 +1926,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-050",
-      "question": "Consider the following statements:\n\nStatement I: A fall in the price of a normal good generally increases its quantity demanded, ceteris paribus.\n\nStatement II: This movement along the demand curve is called an increase in demand.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: A fall in the price of a normal good generally increases its quantity demanded, ceteris paribus. Statement II: This movement along the demand curve is called an increase in demand. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1952,9 +1952,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A fall in the price of a normal good generally increases its quantity demanded, ceteris paribus. Statement II is true: This movement along the demand curve is called an increase in demand. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -1965,7 +1965,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-051",
-      "question": "Consider the following statements:\n\nStatement I: If two goods are perfect substitutes, consumers may switch completely toward the relatively cheaper good under certain conditions.\n\nStatement II: Perfect substitutes must always be consumed together in a fixed proportion.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If two goods are perfect substitutes, consumers may switch completely toward the relatively cheaper good under certain conditions. Statement II: Perfect substitutes must always be consumed together in a fixed proportion. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -1991,9 +1991,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If two goods are perfect substitutes, consumers may switch completely toward the relatively cheaper good under certain conditions. Statement II is true: Perfect substitutes must always be consumed together in a fixed proportion. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2004,7 +2004,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-052",
-      "question": "Consider the following statements:\n\nStatement I: An increase in the number of consumers in a market can increase market demand, other things remaining constant.\n\nStatement II: Market demand is obtained by horizontally summing individual demand curves at each price.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: An increase in the number of consumers in a market can increase market demand, other things remaining constant. Statement II: Market demand is obtained by horizontally summing individual demand curves at each price. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2030,9 +2030,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: An increase in the number of consumers in a market can increase market demand, other things remaining constant. Statement II is true: Market demand is obtained by horizontally summing individual demand curves at each price. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2043,7 +2043,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-053",
-      "question": "Consider the following statements:\n\nStatement I: A fall in the price of a complementary good can increase the demand for the concerned good.\n\nStatement II: The price of a complementary good and demand for the concerned good generally have a positive relationship.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: A fall in the price of a complementary good can increase the demand for the concerned good. Statement II: The price of a complementary good and demand for the concerned good generally have a positive relationship. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2069,9 +2069,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A fall in the price of a complementary good can increase the demand for the concerned good. Statement II is true: The price of a complementary good and demand for the concerned good generally have a positive relationship. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2082,7 +2082,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-054",
-      "question": "Consider the following statements:\n\nStatement I: If the price of butter increases and consumers shift toward margarine, butter and margarine behave as substitutes.\n\nStatement II: An increase in the price of butter would generally shift the demand curve for margarine to the right, assuming other factors remain constant.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If the price of butter increases and consumers shift toward margarine, butter and margarine behave as substitutes. Statement II: An increase in the price of butter would generally shift the demand curve for margarine to the right, assuming other factors remain constant. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2108,9 +2108,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If the price of butter increases and consumers shift toward margarine, butter and margarine behave as substitutes. Statement II is true: An increase in the price of butter would generally shift the demand curve for margarine to the right, assuming other factors remain constant. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2121,7 +2121,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-055",
-      "question": "Consider the following statements:\n\nStatement I: A change in tastes and preferences can shift the demand curve.\n\nStatement II: A change in tastes necessarily causes a movement along the existing demand curve.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: A change in tastes and preferences can shift the demand curve. Statement II: A change in tastes necessarily causes a movement along the existing demand curve. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2147,9 +2147,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A change in tastes and preferences can shift the demand curve. Statement II is true: A change in tastes necessarily causes a movement along the existing demand curve. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2160,7 +2160,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-056",
-      "question": "Consider the following statements:\n\nStatement I: If consumers' income falls, demand for every good must fall.\n\nStatement II: Inferior goods may experience an increase in demand when consumer income falls, ceteris paribus.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If consumers' income falls, demand for every good must fall. Statement II: Inferior goods may experience an increase in demand when consumer income falls, ceteris paribus. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2186,9 +2186,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If consumers' income falls, demand for every good must fall. Statement II is true: Inferior goods may experience an increase in demand when consumer income falls, ceteris paribus. Which of the following is correct?. The keyed option is “Statement I is incorrect, but Statement II is correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2199,7 +2199,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-057",
-      "question": "Consider the following statements:\n\nStatement I: The demand for a good can increase even if its own price remains unchanged.\n\nStatement II: An increase in the price of a substitute can be one reason for such an increase.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: The demand for a good can increase even if its own price remains unchanged. Statement II: An increase in the price of a substitute can be one reason for such an increase. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2225,9 +2225,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The demand for a good can increase even if its own price remains unchanged. Statement II is true: An increase in the price of a substitute can be one reason for such an increase. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2238,7 +2238,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-058",
-      "question": "Consider the following statements:\n\nStatement I: If two goods are complements, a fall in the price of one may increase the demand for the other.\n\nStatement II: Complementarity implies that the goods are generally used jointly or together in consumption.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: If two goods are complements, a fall in the price of one may increase the demand for the other. Statement II: Complementarity implies that the goods are generally used jointly or together in consumption. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2264,9 +2264,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If two goods are complements, a fall in the price of one may increase the demand for the other. Statement II is true: Complementarity implies that the goods are generally used jointly or together in consumption. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2277,7 +2277,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-059",
-      "question": "Consider the following statements:\n\nStatement I: The law of demand describes an inverse relationship between own price and quantity demanded, ceteris paribus.\n\nStatement II: The law of demand implies that every change in demand is caused exclusively by a change in own price.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: The law of demand describes an inverse relationship between own price and quantity demanded, ceteris paribus. Statement II: The law of demand implies that every change in demand is caused exclusively by a change in own price. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2303,9 +2303,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The law of demand describes an inverse relationship between own price and quantity demanded, ceteris paribus. Statement II is true: The law of demand implies that every change in demand is caused exclusively by a change in own price. Which of the following is correct?. The keyed option is “Statement I is correct, but Statement II is incorrect.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2316,7 +2316,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-060",
-      "question": "Consider the following statements:\n\nStatement I: When the demand curve shifts to the right, the change represents an increase in demand rather than merely an increase in quantity demanded.\n\nStatement II: A rise in the price of a substitute can be a factor responsible for such a rightward shift.\n\nWhich of the following is correct?",
+      "question": "Consider the following statements: Statement I: When the demand curve shifts to the right, the change represents an increase in demand rather than merely an increase in quantity demanded. Statement II: A rise in the price of a substitute can be a factor responsible for such a rightward shift. Which of the following is correct?",
       "options": [
         {
           "id": "A",
@@ -2342,9 +2342,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: When the demand curve shifts to the right, the change represents an increase in demand rather than merely an increase in quantity demanded. Statement II is true: A rise in the price of a substitute can be a factor responsible for such a rightward shift. Which of the following is correct?. The keyed option is “Both Statement I and Statement II are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2355,7 +2355,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-061",
-      "question": "Consider the following statements regarding the Lender of Last Resort function of the RBI:\n\nStatement I: The RBI may provide liquidity support to banks facing temporary liquidity difficulties.\n\nStatement II: Lender of Last Resort means the RBI guarantees the solvency of every commercial bank.\n\nStatement III: This function can help contain panic and maintain confidence in the banking system.\n\nWhich of the statements given above are correct?",
+      "question": "Consider the following statements regarding the Lender of Last Resort function of the RBI: Statement I: The RBI may provide liquidity support to banks facing temporary liquidity difficulties. Statement II: Lender of Last Resort means the RBI guarantees the solvency of every commercial bank. Statement III: This function can help contain panic and maintain confidence in the banking system. Which of the statements given above are correct?",
       "options": [
         {
           "id": "A",
@@ -2381,9 +2381,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is B. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The RBI may provide liquidity support to banks facing temporary liquidity difficulties. Statement II is false: Lender of Last Resort means the RBI guarantees the solvency of every commercial bank. Statement III is true: This function can help contain panic and maintain confidence in the banking system. Which of the statements given above are correct?. The keyed option is “I and III only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2394,7 +2394,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-062",
-      "question": "Consider the following statements regarding Bank Rate:\n\nStatement I: Bank Rate is one of the traditional monetary policy instruments of the RBI.\n\nStatement II: A rise in the Bank Rate can generally make borrowing from the central bank more expensive.\n\nStatement III: A change in Bank Rate has no possible effect on credit conditions in the economy.",
+      "question": "Consider the following statements regarding Bank Rate: Statement I: Bank Rate is one of the traditional monetary policy instruments of the RBI. Statement II: A rise in the Bank Rate can generally make borrowing from the central bank more expensive. Statement III: A change in Bank Rate has no possible effect on credit conditions in the economy.",
       "options": [
         {
           "id": "A",
@@ -2420,9 +2420,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Bank Rate is one of the traditional monetary policy instruments of the RBI. Statement II is true: A rise in the Bank Rate can generally make borrowing from the central bank more expensive. Statement III is false: A change in Bank Rate has no possible effect on credit conditions in the economy. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2433,7 +2433,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-063",
-      "question": "Consider the following statements regarding Repo Rate:\n\nStatement I: Repo transactions involve the sale of securities with an agreement to repurchase them.\n\nStatement II: The repo rate is an important policy rate used by the RBI for monetary management.\n\nStatement III: An increase in the repo rate generally makes short-term borrowing by banks from the RBI cheaper. A) Iand II only B) Land III only C) I and Il only D) I, 1, and IL",
+      "question": "Consider the following statements regarding Repo Rate: Statement I: Repo transactions involve the sale of securities with an agreement to repurchase them. Statement II: The repo rate is an important policy rate used by the RBI for monetary management. Statement III: An increase in the repo rate generally makes short-term borrowing by banks from the RBI cheaper. A) Iand II only B) Land III only C) I and Il only D) I, 1, and IL",
       "options": [
         {
           "id": "A",
@@ -2459,9 +2459,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Repo rate is the rate at which RBI lends short-term funds to banks against securities.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Repo transactions involve the sale of securities with an agreement to repurchase them. Statement II is true: The repo rate is an important policy rate used by the RBI for monetary management. Statement III is false: An increase in the repo rate generally makes short-term borrowing by banks from the RBI cheaper. A) Iand II only B) Land III only C) I and Il only D) I, 1, and IL. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2472,7 +2472,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-064",
-      "question": "Consider the following statements regarding Reverse Repo:\n\nStatement I: Reverse repo operations can be used by the central bank to absorb liquidity from the banking system.\n\nStatement II: In a reverse repo transaction, banks may park surplus funds with the central bank against eligible securities.\n\nStatement III: Reverse repo operations necessarily inject additional liquidity into commercial banks.",
+      "question": "Consider the following statements regarding Reverse Repo: Statement I: Reverse repo operations can be used by the central bank to absorb liquidity from the banking system. Statement II: In a reverse repo transaction, banks may park surplus funds with the central bank against eligible securities. Statement III: Reverse repo operations necessarily inject additional liquidity into commercial banks.",
       "options": [
         {
           "id": "A",
@@ -2498,9 +2498,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Repo rate is the rate at which RBI lends short-term funds to banks against securities.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Reverse repo operations can be used by the central bank to absorb liquidity from the banking system. Statement II is true: In a reverse repo transaction, banks may park surplus funds with the central bank against eligible securities. Statement III is false: Reverse repo operations necessarily inject additional liquidity into commercial banks. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2511,7 +2511,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-065",
-      "question": "Consider the following statements regarding Cash Reserve Ratio (CRR):\n\nStatement I: Banks are required to maintain a specified proportion of certain liabilities as cash reserves with the RBI.\n\nStatement II: An increase in CRR can reduce the lendable resources of commercial banks, other things remaining constant.\n\nStatement III: CRR is maintained entirely in the form of physical gold with commercial banks.",
+      "question": "Consider the following statements regarding Cash Reserve Ratio (CRR): Statement I: Banks are required to maintain a specified proportion of certain liabilities as cash reserves with the RBI. Statement II: An increase in CRR can reduce the lendable resources of commercial banks, other things remaining constant. Statement III: CRR is maintained entirely in the form of physical gold with commercial banks.",
       "options": [
         {
           "id": "A",
@@ -2537,9 +2537,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "CRR is the share of deposits banks must keep as reserves with the RBI.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Banks are required to maintain a specified proportion of certain liabilities as cash reserves with the RBI. Statement II is true: An increase in CRR can reduce the lendable resources of commercial banks, other things remaining constant. Statement III is false: CRR is maintained entirely in the form of physical gold with commercial banks. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2550,7 +2550,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-066",
-      "question": "Consider the following statements regarding Statutory Liquidity Ratio (SLR):\n\nStatement I: SLR requires banks to maintain a specified proportion of their liabilities in liquid assets.\n\nStatement II: Eligible assets for SLR can include government securities.\n\nStatement III: SLR and CRR are identical because both require banks to keep all reserves exclusively with the RBI.",
+      "question": "Consider the following statements regarding Statutory Liquidity Ratio (SLR): Statement I: SLR requires banks to maintain a specified proportion of their liabilities in liquid assets. Statement II: Eligible assets for SLR can include government securities. Statement III: SLR and CRR are identical because both require banks to keep all reserves exclusively with the RBI.",
       "options": [
         {
           "id": "A",
@@ -2576,9 +2576,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "CRR is the share of deposits banks must keep as reserves with the RBI.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: SLR requires banks to maintain a specified proportion of their liabilities in liquid assets. Statement II is true: Eligible assets for SLR can include government securities. Statement III is false: SLR and CRR are identical because both require banks to keep all reserves exclusively with the RBI. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2589,7 +2589,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-067",
-      "question": "Consider the following statements regarding Open Market Operations (OMO):\n\nStatement I: OMO involves the purchase or sale of government securities by the central bank.\n\nStatement II: Purchase of securities by the RBI can inject liquidity into the banking system.\n\nStatement III: Sale of securities by the RBI can potentially absorb liquidity from the banking system.",
+      "question": "Consider the following statements regarding Open Market Operations (OMO): Statement I: OMO involves the purchase or sale of government securities by the central bank. Statement II: Purchase of securities by the RBI can inject liquidity into the banking system. Statement III: Sale of securities by the RBI can potentially absorb liquidity from the banking system.",
       "options": [
         {
           "id": "A",
@@ -2615,9 +2615,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: OMO involves the purchase or sale of government securities by the central bank. Statement II is true: Purchase of securities by the RBI can inject liquidity into the banking system. Statement III is true: Sale of securities by the RBI can potentially absorb liquidity from the banking system. The keyed option is “I, II, and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2628,7 +2628,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-068",
-      "question": "Consider the following statements regarding Monetary Policy:\n\nStatement I: Monetary policy can influence liquidity, interest rates, and credit conditions. IL One objective of monetary policy is to maintain price stability while keeping growth considerations in view.\n\nStatement III: Monetary policy is concerned exclusively with government taxation and public expenditure.",
+      "question": "Consider the following statements regarding Monetary Policy: Statement I: Monetary policy can influence liquidity, interest rates, and credit conditions. IL One objective of monetary policy is to maintain price stability while keeping growth considerations in view. Statement III: Monetary policy is concerned exclusively with government taxation and public expenditure.",
       "options": [
         {
           "id": "A",
@@ -2654,9 +2654,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Monetary policy can influence liquidity, interest rates, and credit conditions. IL One objective of monetary policy is to maintain price stability while keeping growth considerations in view. Statement III is false: Monetary policy is concerned exclusively with government taxation and public expenditure. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2667,7 +2667,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-069",
-      "question": "Consider the following statements regarding the RBI as a central bank:\n\nStatement I: The RBI acts as the monetary authority of India. IL It performs functions relating to currency management and banking regulation. IIL. It operates primarily as an ordinary profit-maximizing commercial bank competing with private banks.",
+      "question": "Consider the following statements regarding the RBI as a central bank: Statement I: The RBI acts as the monetary authority of India. IL It performs functions relating to currency management and banking regulation. IIL. It operates primarily as an ordinary profit-maximizing commercial bank competing with private banks.",
       "options": [
         {
           "id": "A",
@@ -2693,9 +2693,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key. The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key. The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2706,7 +2706,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-070",
-      "question": "Consider the following statements regarding Bankers' Bank function:\n\nStatement I: Commercial banks maintain certain reserves with the RBI. IL The RBI can provide liquidity assistance to commercial banks under appropriate circumstances. Ii. The Bankers' Bank function means that the RBI accepts deposits from the public exactly like an ordinary commercial bank.",
+      "question": "Consider the following statements regarding Bankers' Bank function: Statement I: Commercial banks maintain certain reserves with the RBI. IL The RBI can provide liquidity assistance to commercial banks under appropriate circumstances. Ii. The Bankers' Bank function means that the RBI accepts deposits from the public exactly like an ordinary commercial bank.",
       "options": [
         {
           "id": "A",
@@ -2732,9 +2732,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key. The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key. The correct choice is “I and II only”. That matches the standard treatment of Banking & Monetary Policy in the Latest pattern paper paper. Discard options that contradict this definition or mix unrelated facts. This pack is unofficial practice, not a published JKSSB answer key.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2745,7 +2745,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-071",
-      "question": "Consider the following statements regarding currency issuance:\n\nStatement I: The RBI has the authority to issue banknotes in India subject to statutory provisions.\n\nStatement II: The ₹1 currency note is issued by the Government of India rather than the RBI.\n\nStatement III: The RBI's currency management role includes maintaining adequate supply of currency.",
+      "question": "Consider the following statements regarding currency issuance: Statement I: The RBI has the authority to issue banknotes in India subject to statutory provisions. Statement II: The ₹1 currency note is issued by the Government of India rather than the RBI. Statement III: The RBI's currency management role includes maintaining adequate supply of currency.",
       "options": [
         {
           "id": "A",
@@ -2771,9 +2771,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The RBI has the authority to issue banknotes in India subject to statutory provisions. Statement II is true: The ₹1 currency note is issued by the Government of India rather than the RBI. Statement III is true: The RBI's currency management role includes maintaining adequate supply of currency. The keyed option is “I, II, and III”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2784,7 +2784,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-072",
-      "question": "Consider the following statements regarding credit control: L. Quantitative monetary instruments can influence the overall availability of credit.\n\nStatement II: Changes in reserve requirements can affect banks' capacity to create credit.\n\nStatement III: Credit control means that the RBI directly determines every individual loan granted by every commercial bank.",
+      "question": "Consider the following statements regarding credit control: L. Quantitative monetary instruments can influence the overall availability of credit. Statement II: Changes in reserve requirements can affect banks' capacity to create credit. Statement III: Credit control means that the RBI directly determines every individual loan granted by every commercial bank.",
       "options": [
         {
           "id": "A",
@@ -2810,9 +2810,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement II is true: Changes in reserve requirements can affect banks' capacity to create credit. Statement III is false: Credit control means that the RBI directly determines every individual loan granted by every commercial bank. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2823,7 +2823,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-073",
-      "question": "Consider the following statements regarding Moral Suasion:\n\nStatement I: Moral suasion is a qualitative method through which the central bank can influence banks' lending behavior.\n\nStatement II: It may involve persuasion, requests, or guidance to financial institutions.\n\nStatement III: Moral suasion always involves legally enforceable penalties for every bank that does not comply.",
+      "question": "Consider the following statements regarding Moral Suasion: Statement I: Moral suasion is a qualitative method through which the central bank can influence banks' lending behavior. Statement II: It may involve persuasion, requests, or guidance to financial institutions. Statement III: Moral suasion always involves legally enforceable penalties for every bank that does not comply.",
       "options": [
         {
           "id": "A",
@@ -2849,9 +2849,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Moral suasion is a qualitative method through which the central bank can influence banks' lending behavior. Statement II is true: It may involve persuasion, requests, or guidance to financial institutions. Statement III is false: Moral suasion always involves legally enforceable penalties for every bank that does not comply. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2862,7 +2862,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-074",
-      "question": "Consider the following statements regarding Selective Credit Control:\n\nStatement I: Selective credit controls can be directed toward particular sectors or uses of credit.\n\nStatement II: They differ from general quantitative measures that affect overall credit conditions.\n\nStatement III: Selective credit control means that the RBI completely eliminates all credit creation by commercial banks.",
+      "question": "Consider the following statements regarding Selective Credit Control: Statement I: Selective credit controls can be directed toward particular sectors or uses of credit. Statement II: They differ from general quantitative measures that affect overall credit conditions. Statement III: Selective credit control means that the RBI completely eliminates all credit creation by commercial banks.",
       "options": [
         {
           "id": "A",
@@ -2888,9 +2888,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Selective credit controls can be directed toward particular sectors or uses of credit. Statement II is true: They differ from general quantitative measures that affect overall credit conditions. Statement III is false: Selective credit control means that the RBI completely eliminates all credit creation by commercial banks. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2901,7 +2901,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-075",
-      "question": "Consider the following statements regarding financial stability:\n\nStatement I: A central bank's lender-of-last-resort function can help address temporary liquidity stress. IL Liquidity support and solvency are conceptually different: a bank may be liquid but insolvent, or temporarily illiquid despite having viable assets.\n\nStatement III: Every insolvent bank can automatically be made solvent merely by providing emergency liquidity.",
+      "question": "Consider the following statements regarding financial stability: Statement I: A central bank's lender-of-last-resort function can help address temporary liquidity stress. IL Liquidity support and solvency are conceptually different: a bank may be liquid but insolvent, or temporarily illiquid despite having viable assets. Statement III: Every insolvent bank can automatically be made solvent merely by providing emergency liquidity.",
       "options": [
         {
           "id": "A",
@@ -2927,9 +2927,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: A central bank's lender-of-last-resort function can help address temporary liquidity stress. IL Liquidity support and solvency are conceptually different: a bank may be liquid but insolvent, or temporarily illiquid despite having viable assets. Statement III is false: Every insolvent bank can automatically be made solvent merely by providing emergency liquidity. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2940,7 +2940,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-076",
-      "question": "Consider the following statements regarding inflation and monetary policy:\n\nStatement I: Tightening monetary conditions can be used to moderate excessive demand pressures. IL Higher policy interest rates can increase borrowing costs, other things remaining constant.\n\nStatement III: Monetary tightening necessarily causes inflation to increase immediately in every situation.",
+      "question": "Consider the following statements regarding inflation and monetary policy: Statement I: Tightening monetary conditions can be used to moderate excessive demand pressures. IL Higher policy interest rates can increase borrowing costs, other things remaining constant. Statement III: Monetary tightening necessarily causes inflation to increase immediately in every situation.",
       "options": [
         {
           "id": "A",
@@ -2966,9 +2966,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Tightening monetary conditions can be used to moderate excessive demand pressures. IL Higher policy interest rates can increase borrowing costs, other things remaining constant. Statement III is false: Monetary tightening necessarily causes inflation to increase immediately in every situation. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -2979,7 +2979,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-077",
-      "question": "Consider the following statements regarding liquidity:\n\nStatement I: Liquidity refers broadly to the ease with which an asset can be converted into cash without substantial loss of value.\n\nStatement II: A bank can face a liquidity problem even when many of its assets are fundamentally sound but cannot be converted into cash quickly enough.\n\nStatement III: A liquidity crisis and a solvency crisis are always exactly the same phenomenon. A) Tand II only B) Land III only C) Hand II only D) 1, 1, and 01",
+      "question": "Consider the following statements regarding liquidity: Statement I: Liquidity refers broadly to the ease with which an asset can be converted into cash without substantial loss of value. Statement II: A bank can face a liquidity problem even when many of its assets are fundamentally sound but cannot be converted into cash quickly enough. Statement III: A liquidity crisis and a solvency crisis are always exactly the same phenomenon. A) Tand II only B) Land III only C) Hand II only D) 1, 1, and 01",
       "options": [
         {
           "id": "A",
@@ -3005,9 +3005,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Liquidity refers broadly to the ease with which an asset can be converted into cash without substantial loss of value. Statement II is true: A bank can face a liquidity problem even when many of its assets are fundamentally sound but cannot be converted into cash quickly enough. Statement III is false: A liquidity crisis and a solvency crisis are always exactly the same phenomenon. A) Tand II only B) Land III only C) Hand II only D) 1, 1, and 01. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3018,7 +3018,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-078",
-      "question": "Consider the following statements regarding RBI's regulatory role: L The RBI regulates and supervises important parts of India's banking system.\n\nStatement II: Regulation and supervision can help protect depositors and maintain financial stability.\n\nStatement III: RBI regulation implies that commercial banks face no possibility of financial loss. A) Tand Il only B) Land III only ©) and Il only D) 1, 0, and Ii",
+      "question": "Consider the following statements regarding RBI's regulatory role: L The RBI regulates and supervises important parts of India's banking system. Statement II: Regulation and supervision can help protect depositors and maintain financial stability. Statement III: RBI regulation implies that commercial banks face no possibility of financial loss. A) Tand Il only B) Land III only ©) and Il only D) 1, 0, and Ii",
       "options": [
         {
           "id": "A",
@@ -3044,9 +3044,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement II is true: Regulation and supervision can help protect depositors and maintain financial stability. Statement III is false: RBI regulation implies that commercial banks face no possibility of financial loss. A) Tand Il only B) Land III only ©) and Il only D) 1, 0, and Ii. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3057,7 +3057,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-079",
-      "question": "Consider the following statements regarding monetary transmission:\n\nStatement I: Changes in policy rates can influence market interest rates.\n\nStatement II: Changes in borrowing costs can affect consumption and investment decisions.\n\nStatement III: Monetary policy transmission guarantees that every change in the policy rate produces an equal and immediate change in inflation. A) Iand II only B) Land III only C) I and Il only D) 1,0, and Ot",
+      "question": "Consider the following statements regarding monetary transmission: Statement I: Changes in policy rates can influence market interest rates. Statement II: Changes in borrowing costs can affect consumption and investment decisions. Statement III: Monetary policy transmission guarantees that every change in the policy rate produces an equal and immediate change in inflation. A) Iand II only B) Land III only C) I and Il only D) 1,0, and Ot",
       "options": [
         {
           "id": "A",
@@ -3083,9 +3083,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Changes in policy rates can influence market interest rates. Statement II is true: Changes in borrowing costs can affect consumption and investment decisions. Statement III is false: Monetary policy transmission guarantees that every change in the policy rate produces an equal and immediate change in inflation. A) Iand II only B) Land III only C) I and Il only D) 1,0, and Ot. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3096,7 +3096,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-080",
-      "question": "Consider the following statements regarding the overall role of the RBI:\n\nStatement I: The RBI performs monetary, regulatory, developmental, and financial-system-related functions.\n\nStatement II: Its functions are aimed at supporting monetary stability and orderly functioning of the financial system.\n\nStatement III: The RBI's role is limited only to printing currency and does not include monetary policy or banking regulation.",
+      "question": "Consider the following statements regarding the overall role of the RBI: Statement I: The RBI performs monetary, regulatory, developmental, and financial-system-related functions. Statement II: Its functions are aimed at supporting monetary stability and orderly functioning of the financial system. Statement III: The RBI's role is limited only to printing currency and does not include monetary policy or banking regulation.",
       "options": [
         {
           "id": "A",
@@ -3122,9 +3122,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: The RBI performs monetary, regulatory, developmental, and financial-system-related functions. Statement II is true: Its functions are aimed at supporting monetary stability and orderly functioning of the financial system. Statement III is false: The RBI's role is limited only to printing currency and does not include monetary policy or banking regulation. The keyed option is “I and II only”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3135,7 +3135,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-081",
-      "question": "Consider the following statements regarding Market Price (MP) and Factor Cost (FC):\n\nStatement I: Market Price includes the impact of net indirect taxes.\n\nStatement II: Factor Cost represents the payments made to factors of production for their contribution to production.\n\nStatement III: Market Price and Factor Cost must always be equal irrespective of taxes and subsidies.\n\nWhich of the following options is correct? :",
+      "question": "Consider the following statements regarding Market Price (MP) and Factor Cost (FC): Statement I: Market Price includes the impact of net indirect taxes. Statement II: Factor Cost represents the payments made to factors of production for their contribution to production. Statement III: Market Price and Factor Cost must always be equal irrespective of taxes and subsidies. Which of the following options is correct? :",
       "options": [
         {
           "id": "A",
@@ -3161,9 +3161,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Market Price includes the impact of net indirect taxes. Statement II is false: Factor Cost represents the payments made to factors of production for their contribution to production. Statement III is false: Market Price and Factor Cost must always be equal irrespective of taxes and subsidies. Which of the following options is correct? :. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3174,7 +3174,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-082",
-      "question": "Consider the following statements regarding Net Indirect Taxes (NIT):\n\nStatement I: Net Indirect Taxes are calculated as indirect taxes minus subsidies,\n\nStatement II: If indirect taxes exceed subsidies, NIT will be positive.\n\nStatement III: If subsidies exceed indirect taxes, NIT will necessarily be zero.",
+      "question": "Consider the following statements regarding Net Indirect Taxes (NIT): Statement I: Net Indirect Taxes are calculated as indirect taxes minus subsidies, Statement II: If indirect taxes exceed subsidies, NIT will be positive. Statement III: If subsidies exceed indirect taxes, NIT will necessarily be zero.",
       "options": [
         {
           "id": "A",
@@ -3200,9 +3200,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Net Indirect Taxes are calculated as indirect taxes minus subsidies,. Statement II is false: If indirect taxes exceed subsidies, NIT will be positive. Statement III is false: If subsidies exceed indirect taxes, NIT will necessarily be zero. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3213,7 +3213,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-083",
-      "question": "Consider the following statements:\n\nStatement I: Market Price can be converted into Factor Cost by subtracting Net Indirect Taxes.\n\nStatement II: Factor Cost can be converted into Market Price by adding Net Indirect Taxes.\n\nStatement III: When NIT is negative, Market Price can be lower than Factor Cost.",
+      "question": "Consider the following statements: Statement I: Market Price can be converted into Factor Cost by subtracting Net Indirect Taxes. Statement II: Factor Cost can be converted into Market Price by adding Net Indirect Taxes. Statement III: When NIT is negative, Market Price can be lower than Factor Cost.",
       "options": [
         {
           "id": "A",
@@ -3239,9 +3239,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Market Price can be converted into Factor Cost by subtracting Net Indirect Taxes. Statement II is true: Factor Cost can be converted into Market Price by adding Net Indirect Taxes. Statement III is true: When NIT is negative, Market Price can be lower than Factor Cost. The keyed option is “All statements 1, 2, and 3 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3252,7 +3252,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-084",
-      "question": "Consider the following statements regarding indirect taxes:\n\nStatement I: GST is an example of an indirect tax.\n\nStatement II: Indirect taxes are generally imposed on goods and services rather than directly on the income of individuals.\n\nStatement III: An indirect tax can never influence the market price paid by consumers.",
+      "question": "Consider the following statements regarding indirect taxes: Statement I: GST is an example of an indirect tax. Statement II: Indirect taxes are generally imposed on goods and services rather than directly on the income of individuals. Statement III: An indirect tax can never influence the market price paid by consumers.",
       "options": [
         {
           "id": "A",
@@ -3278,9 +3278,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "GST in India is destination-based — tax accrues where goods/services are consumed.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: GST is an example of an indirect tax. Statement II is false: Indirect taxes are generally imposed on goods and services rather than directly on the income of individuals. Statement III is false: An indirect tax can never influence the market price paid by consumers. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3291,7 +3291,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-085",
-      "question": "Consider the following statements regarding subsidies:\n\nStatement I: A production subsidy can reduce the effective cost of production for producers.\n\nStatement II: Subsidies are deducted from indirect taxes while calculating Net Indirect Taxes.\n\nStatement III: A subsidy necessarily increases the market price of the subsidized product.",
+      "question": "Consider the following statements regarding subsidies: Statement I: A production subsidy can reduce the effective cost of production for producers. Statement II: Subsidies are deducted from indirect taxes while calculating Net Indirect Taxes. Statement III: A subsidy necessarily increases the market price of the subsidized product.",
       "options": [
         {
           "id": "A",
@@ -3317,9 +3317,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: A production subsidy can reduce the effective cost of production for producers. Statement II is false: Subsidies are deducted from indirect taxes while calculating Net Indirect Taxes. Statement III is false: A subsidy necessarily increases the market price of the subsidized product. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3330,7 +3330,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-086",
-      "question": "Consider the following statements regarding GDP at Market Price:\n\nStatement I: GDP at Market Price measures the value of final goods and services produced within the domestic territory at market prices.\n\nStatement II: GDP at Market Price can be converted into GDP at Factor Cost by subtracting Net Indirect Taxes.\n\nStatement III: GDP at Market Price excludes all government-related economic activity.",
+      "question": "Consider the following statements regarding GDP at Market Price: Statement I: GDP at Market Price measures the value of final goods and services produced within the domestic territory at market prices. Statement II: GDP at Market Price can be converted into GDP at Factor Cost by subtracting Net Indirect Taxes. Statement III: GDP at Market Price excludes all government-related economic activity.",
       "options": [
         {
           "id": "A",
@@ -3356,9 +3356,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: GDP at Market Price measures the value of final goods and services produced within the domestic territory at market prices. Statement II is false: GDP at Market Price can be converted into GDP at Factor Cost by subtracting Net Indirect Taxes. Statement III is false: GDP at Market Price excludes all government-related economic activity. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3369,7 +3369,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-087",
-      "question": "Consider the following statements regarding GDP and GNP:\n\nStatement I: GDP is based on the geographical boundaries of domestic production.\n\nStatement II: GNP adjusts GDP for Net Factor Income from Abroad.\n\nStatement III: GNP is always greater than GDP for every country.",
+      "question": "Consider the following statements regarding GDP and GNP: Statement I: GDP is based on the geographical boundaries of domestic production. Statement II: GNP adjusts GDP for Net Factor Income from Abroad. Statement III: GNP is always greater than GDP for every country.",
       "options": [
         {
           "id": "A",
@@ -3395,9 +3395,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: GDP is based on the geographical boundaries of domestic production. Statement II is false: GNP adjusts GDP for Net Factor Income from Abroad. Statement III is false: GNP is always greater than GDP for every country. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3408,7 +3408,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-088",
-      "question": "Consider the following statements regarding Net Factor Income from Abroad (NFIA):\n\nStatement I: NFIA is the difference between factor income received from abroad and factor income paid to abroad.\n\nStatement II: If factor income paid to foreigners exceeds factor income received from abroad, NFIA becomes negative.\n\nStatement III: A negative NFIA necessarily means that a country's GDP is negative.",
+      "question": "Consider the following statements regarding Net Factor Income from Abroad (NFIA): Statement I: NFIA is the difference between factor income received from abroad and factor income paid to abroad. Statement II: If factor income paid to foreigners exceeds factor income received from abroad, NFIA becomes negative. Statement III: A negative NFIA necessarily means that a country's GDP is negative.",
       "options": [
         {
           "id": "A",
@@ -3434,9 +3434,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: NFIA is the difference between factor income received from abroad and factor income paid to abroad. Statement II is false: If factor income paid to foreigners exceeds factor income received from abroad, NFIA becomes negative. Statement III is false: A negative NFIA necessarily means that a country's GDP is negative. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3447,7 +3447,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-089",
-      "question": "Consider the following statements regarding Gross and Net concepts:\n\nStatement I: Net Domestic Product is obtained by subtracting depreciation from Gross Domestic Product.\n\nStatement II: Depreciation represents the loss in value of fixed capital due to wear and tear and obsolescence.\n\nStatement III: Adding depreciation to NDP gives GDP.",
+      "question": "Consider the following statements regarding Gross and Net concepts: Statement I: Net Domestic Product is obtained by subtracting depreciation from Gross Domestic Product. Statement II: Depreciation represents the loss in value of fixed capital due to wear and tear and obsolescence. Statement III: Adding depreciation to NDP gives GDP.",
       "options": [
         {
           "id": "A",
@@ -3473,9 +3473,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: Net Domestic Product is obtained by subtracting depreciation from Gross Domestic Product. Statement II is true: Depreciation represents the loss in value of fixed capital due to wear and tear and obsolescence. Statement III is true: Adding depreciation to NDP gives GDP. The keyed option is “All statements 1, 2, and 3 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3486,7 +3486,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-090",
-      "question": "Consider the following statements regarding National Income:\n\nStatement I: National Income is conventionally associated with Net National Product at Factor Cost.\n\nStatement II: National Income accounts for income accruing to factors of production.\n\nStatement III: National Income is identical to GDP at Market Price under all circumstances.",
+      "question": "Consider the following statements regarding National Income: Statement I: National Income is conventionally associated with Net National Product at Factor Cost. Statement II: National Income accounts for income accruing to factors of production. Statement III: National Income is identical to GDP at Market Price under all circumstances.",
       "options": [
         {
           "id": "A",
@@ -3512,9 +3512,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: National Income is conventionally associated with Net National Product at Factor Cost. Statement II is false: National Income accounts for income accruing to factors of production. Statement III is false: National Income is identical to GDP at Market Price under all circumstances. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3525,7 +3525,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-091",
-      "question": "Consider the following statements regarding depreciation:\n\nStatement I: Depreciation is also referred to as consumption of fixed capital in national accounting.\n\nStatement II: Deduction of depreciation converts a gross measure into a corresponding net measure.\n\nStatement III: Depreciation is the same as indirect tax because both reduce disposable income.",
+      "question": "Consider the following statements regarding depreciation: Statement I: Depreciation is also referred to as consumption of fixed capital in national accounting. Statement II: Deduction of depreciation converts a gross measure into a corresponding net measure. Statement III: Depreciation is the same as indirect tax because both reduce disposable income.",
       "options": [
         {
           "id": "A",
@@ -3551,9 +3551,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Depreciation is also referred to as consumption of fixed capital in national accounting. Statement II is false: Deduction of depreciation converts a gross measure into a corresponding net measure. Statement III is false: Depreciation is the same as indirect tax because both reduce disposable income. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3564,7 +3564,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-092",
-      "question": "Consider the following statements regarding final and intermediate goods:\n\nStatement I: Final goods are countedin GDP to avoid double counting.\n\nStatement II: The value of intermediate goods is generally incorporated into the value of final goods.\n\nStatement III: Every good is permanently classified as either final or intermediate regardless of its use.",
+      "question": "Consider the following statements regarding final and intermediate goods: Statement I: Final goods are countedin GDP to avoid double counting. Statement II: The value of intermediate goods is generally incorporated into the value of final goods. Statement III: Every good is permanently classified as either final or intermediate regardless of its use.",
       "options": [
         {
           "id": "A",
@@ -3590,9 +3590,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Final goods are countedin GDP to avoid double counting. Statement II is false: The value of intermediate goods is generally incorporated into the value of final goods. Statement III is false: Every good is permanently classified as either final or intermediate regardless of its use. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3603,7 +3603,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-093",
-      "question": "Consider the following statements regarding double counting:\n\nStatement I: Counting the value of intermediate goods separately along with final goods can lead to double counting.\n\nStatement II: The value-added method helps avoid double counting by considering value added at different stages of production.\n\nStatement III: Double counting always causes national income to be underestimated.",
+      "question": "Consider the following statements regarding double counting: Statement I: Counting the value of intermediate goods separately along with final goods can lead to double counting. Statement II: The value-added method helps avoid double counting by considering value added at different stages of production. Statement III: Double counting always causes national income to be underestimated.",
       "options": [
         {
           "id": "A",
@@ -3629,9 +3629,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Counting the value of intermediate goods separately along with final goods can lead to double counting. Statement II is false: The value-added method helps avoid double counting by considering value added at different stages of production. Statement III is false: Double counting always causes national income to be underestimated. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3642,7 +3642,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-094",
-      "question": "Consider the following statements regarding real and nominal GDP:\n\nStatement I: Nominal GDP is measured using current-period prices.\n\nStatement II: Real GDP is adjusted to remove the effect of changes in the general price level.\n\nStatement III: An increase in nominal GDP always means that the physical volume of production has increased.",
+      "question": "Consider the following statements regarding real and nominal GDP: Statement I: Nominal GDP is measured using current-period prices. Statement II: Real GDP is adjusted to remove the effect of changes in the general price level. Statement III: An increase in nominal GDP always means that the physical volume of production has increased.",
       "options": [
         {
           "id": "A",
@@ -3668,9 +3668,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Nominal GDP is measured using current-period prices. Statement II is false: Real GDP is adjusted to remove the effect of changes in the general price level. Statement III is false: An increase in nominal GDP always means that the physical volume of production has increased. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3681,7 +3681,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-095",
-      "question": "Consider the following statements regarding GDP deflator:\n\nStatement I: GDP deflator reflects the price level of domestically produced final goods and services included in GDP.\n\nStatement II: GDP deflator can differ from a consumer price index because their baskets and coverage are different.\n\nStatement III: GDP deflator includes only imported consumer goods.",
+      "question": "Consider the following statements regarding GDP deflator: Statement I: GDP deflator reflects the price level of domestically produced final goods and services included in GDP. Statement II: GDP deflator can differ from a consumer price index because their baskets and coverage are different. Statement III: GDP deflator includes only imported consumer goods.",
       "options": [
         {
           "id": "A",
@@ -3707,9 +3707,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: GDP deflator reflects the price level of domestically produced final goods and services included in GDP. Statement II is false: GDP deflator can differ from a consumer price index because their baskets and coverage are different. Statement III is false: GDP deflator includes only imported consumer goods. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3720,7 +3720,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-096",
-      "question": "Consider the following statements regarding personal income:\n\nStatement I: Personal income refers broadly to income actually received by individuals or households before certain personal taxes.\n\nStatement II: National Income and Personal Income are conceptually identical measures.\n\nStatement III: Certain components of national income may not accrue directly to households as personal income.",
+      "question": "Consider the following statements regarding personal income: Statement I: Personal income refers broadly to income actually received by individuals or households before certain personal taxes. Statement II: National Income and Personal Income are conceptually identical measures. Statement III: Certain components of national income may not accrue directly to households as personal income.",
       "options": [
         {
           "id": "A",
@@ -3746,9 +3746,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is C. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Personal income refers broadly to income actually received by individuals or households before certain personal taxes. Statement II is false: National Income and Personal Income are conceptually identical measures. Statement III is false: Certain components of national income may not accrue directly to households as personal income. The keyed option is “Only Statement 1 and 3 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3759,7 +3759,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-097",
-      "question": "Consider the following statements regarding disposable income:\n\nStatement I: Personal Disposable Income is broadly the income available to households for consumption and saving after personal direct taxes.\n\nStatement II: An increase in personal direct taxes, other things remaining constant, tends to reduce disposable income.\n\nStatement III: Disposable income can never be saved because it must be entirely consumed.",
+      "question": "Consider the following statements regarding disposable income: Statement I: Personal Disposable Income is broadly the income available to households for consumption and saving after personal direct taxes. Statement II: An increase in personal direct taxes, other things remaining constant, tends to reduce disposable income. Statement III: Disposable income can never be saved because it must be entirely consumed.",
       "options": [
         {
           "id": "A",
@@ -3785,9 +3785,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Personal Disposable Income is broadly the income available to households for consumption and saving after personal direct taxes. Statement II is false: An increase in personal direct taxes, other things remaining constant, tends to reduce disposable income. Statement III is false: Disposable income can never be saved because it must be entirely consumed. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3798,7 +3798,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-098",
-      "question": "Consider the following statements regarding domestic income:\n\nStatement I: Domestic income is related to factor incomes generated within the domestic territory.\n\nStatement II: Domestic income is conceptually associated with Net Domestic Product at Factor Cost.\n\nStatement III: Domestic income necessarily includes all factor income earned by residents from abroad.",
+      "question": "Consider the following statements regarding domestic income: Statement I: Domestic income is related to factor incomes generated within the domestic territory. Statement II: Domestic income is conceptually associated with Net Domestic Product at Factor Cost. Statement III: Domestic income necessarily includes all factor income earned by residents from abroad.",
       "options": [
         {
           "id": "A",
@@ -3824,9 +3824,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is A. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is false: Domestic income is related to factor incomes generated within the domestic territory. Statement II is false: Domestic income is conceptually associated with Net Domestic Product at Factor Cost. Statement III is false: Domestic income necessarily includes all factor income earned by residents from abroad. The keyed option is “Only Statement 1 and 2 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3837,7 +3837,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-099",
-      "question": "Consider the following statements regarding Market Price and Factor Cost:\n\nStatement I: If indirect taxes increase while subsidies remain unchanged, Market Price relative to Factor Cost tends to increase\n\nStatement II: If subsidies increase while indirect taxes remain unchanged, Net Indirect Taxes decrease.\n\nStatement III: A sufficiently large increase in subsidies can make Net Indirect Taxes negative.",
+      "question": "Consider the following statements regarding Market Price and Factor Cost: Statement I: If indirect taxes increase while subsidies remain unchanged, Market Price relative to Factor Cost tends to increase Statement II: If subsidies increase while indirect taxes remain unchanged, Net Indirect Taxes decrease. Statement III: A sufficiently large increase in subsidies can make Net Indirect Taxes negative.",
       "options": [
         {
           "id": "A",
@@ -3863,9 +3863,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: If indirect taxes increase while subsidies remain unchanged, Market Price relative to Factor Cost tends to increase. Statement II is true: If subsidies increase while indirect taxes remain unchanged, Net Indirect Taxes decrease. Statement III is true: A sufficiently large increase in subsidies can make Net Indirect Taxes negative. The keyed option is “All statements 1, 2, and 3 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",
@@ -3876,7 +3876,7 @@
     },
     {
       "question_id": "accounts-assistant-finance-100",
-      "question": "Consider the following statements regarding the relationship between GDP, NDP, GNP and National Income:\n\nStatement I: GDP is converted into GNP by adding Net Factor Income from Abroad.\n\nStatement II: GNP is converted into NNP by deducting depreciation.\n\nStatement III: NNP at Factor Cost is conventionally referred to as National Income.",
+      "question": "Consider the following statements regarding the relationship between GDP, NDP, GNP and National Income: Statement I: GDP is converted into GNP by adding Net Factor Income from Abroad. Statement II: GNP is converted into NNP by deducting depreciation. Statement III: NNP at Factor Cost is conventionally referred to as National Income.",
       "options": [
         {
           "id": "A",
@@ -3902,9 +3902,9 @@
       "difficulty": "medium",
       "year": "",
       "exam": "Accounts Assistant (Finance)",
-      "explanation": "Correct option is D. Review the related concept in your syllabus notes.",
-      "verification_status": "verified",
-      "source": "Latest Pattern MCQs for FAA",
+      "explanation": "Statement I is true: GDP is converted into GNP by adding Net Factor Income from Abroad. Statement II is true: GNP is converted into NNP by deducting depreciation. Statement III is true: NNP at Factor Cost is conventionally referred to as National Income. The keyed option is “All statements 1, 2, and 3 are correct.”, matching only the true statements in the FAA economics/GK syllabus sense.",
+      "verification_status": "generated",
+      "source": "Latest-pattern practice pack (unofficial; not a JKSSB answer key)",
       "tags": [
         "post_primary",
         "Finance",

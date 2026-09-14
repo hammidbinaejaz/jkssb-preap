@@ -54,6 +54,7 @@ function runTests() {
       const texts = q.options.map((o) => o.text);
       assertEqual(new Set(texts).size, 4, `duplicate options: ${q.question}`);
       assert(q.options.some((o) => o.id === q.correct_option));
+      assertEqual(q.verification_status, 'generated');
     });
   });
 

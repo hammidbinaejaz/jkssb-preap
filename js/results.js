@@ -143,20 +143,21 @@ function renderMistakes(container, mistakes, base) {
     return;
   }
   mistakes.forEach((m) => {
-    const q = m.question;
+    const view = mistakeReviewModel(m);
+    const q = m.question || {};
     const card = document.createElement('article');
     card.className = 'mistake-card card';
+    const stem = view.stem.length > 280 ? `${view.stem.slice(0, 280)}…` : view.stem;
     card.innerHTML = `
-      <p class="mistake-card__text">${escapeHtml((() => {
-        const text = q.question || '';
-        return text.length > 200 ? `${text.slice(0, 200)}…` : text;
-      })())}</p>
+      <p class="mistake-card__text">${escapeHtml(stem)}</p>
       <div class="mistake-card__answers">
-        <span class="text-danger">Your answer: ${escapeHtml(m.selected)}</span>
-        <span class="text-success">Correct: ${escapeHtml(m.correct)}</span>
+        <span class="text-danger">Your answer: ${escapeHtml(view.selectedLabel)}</span>
+        <span class="text-success">Correct: ${escapeHtml(view.correctLabel)}</span>
       </div>
+      ${view.explanation ? `<p class="mistake-card__explanation">${escapeHtml(view.explanation)}</p>` : '<p class="mistake-card__explanation mistake-card__explanation--muted">No explanation stored for this item.</p>'}
       <div class="mistake-card__meta">
-        <span class="badge badge--muted">${escapeHtml(q.topic || '')}</span>
+        ${view.topic ? `<span class="badge badge--muted">${escapeHtml(view.topic)}</span>` : ''}
+        ${typeof provenanceBadgeHtml === 'function' ? provenanceBadgeHtml(q.verification_status) : ''}
         <a href="${base}pages/practice.html?topic=${encodeURIComponent(q.topic || '')}" class="btn btn--sm btn--secondary">Practice this topic</a>
       </div>`;
     container.appendChild(card);

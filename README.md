@@ -6,9 +6,10 @@ Find → Practice → Understand → Test → Diagnose → Improve.
 
 ## What’s inside
 
-- FAA-only question bank (100 MCQs)
-- Exam hub with syllabus, pattern, duration, and marking
-- Practice with instant feedback, timed mocks, search, progress, bookmarks
+- FAA-only question bank (**4398 MCQs**) across the eight official subjects plus a 100-item latest-pattern pack
+- Provenance on every item (`generated`, `human_reviewed`, `official_pyq`) — generated drills are never labelled verified
+- Exam hub with syllabus, pattern, duration, and marking (Advt. 10 of 2025: 120 Q / 2 hours / −0.25)
+- Practice with source badges, timed mocks that update topic progress, search, bookmarks
 - Zero backend — HTML, CSS, Vanilla JS, JSON, LocalStorage
 - GitHub Pages ready
 
@@ -22,9 +23,9 @@ python3 -m http.server 8080
 ## Structure
 
 ```
-JKSSB/FINANCE/Accounts_Assistant_Finance/   Source bank
+JKSSB/FINANCE/Accounts_Assistant_Finance/   Source notes
 data/catalog.json                           Single-post registry
-data/qbanks/finance/accounts-assistant-finance.json
+data/qbanks/finance/faa/                    Subject banks
 pages/post.html                             Exam hub
 pages/practice|mock|search|results|progress|bookmarks.html
 ```
@@ -38,6 +39,8 @@ node tests/storage.test.js
 node tests/data.test.js
 node tests/product.test.js
 node tests/app.test.js
+node tests/faa.test.js
+node tests/provenance.test.js
 python3 tools/validate_qbanks.py
 ```
 

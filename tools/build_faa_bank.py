@@ -51,7 +51,7 @@ def pack_options(correct, distractors, rng: random.Random):
     return packed, key
 
 
-def item(qid, subject, topic, question, options, key, expl, i, source="JKSSB FAA syllabus (Advt. 10 of 2025)"):
+def item(qid, subject, topic, question, options, key, expl, i, source="Generated syllabus drill (not an official JKSSB key)"):
     return {
         "question_id": qid,
         "question": question,
@@ -64,7 +64,7 @@ def item(qid, subject, topic, question, options, key, expl, i, source="JKSSB FAA
         "year": "2025",
         "exam": "Accounts Assistant (Finance)",
         "explanation": expl,
-        "verification_status": "verified",
+        "verification_status": "generated",
         "source": source,
         "tags": [subject, topic, difficulty(i)],
         "pool_type": "post_primary",
@@ -628,14 +628,14 @@ def fill_gk(n, rng):
     if kind == 0:
         st, dance = dances[n % len(dances)]
         others = [d for s, d in dances if d != dance][:3]
-        return ("Indian Culture, Heritage and Freedom Struggle", f"A classical/folk dance associated with {st} (item {n + 1}) is:", dance, others, f"{dance} is associated with {st}.")
+        return ("Indian Culture, Heritage and Freedom Struggle", f"A classical/folk dance associated with {st} is:", dance, others, f"{dance} is associated with {st}.")
     if kind == 1:
         r, where = rivers[n % len(rivers)]
         others = [w for name, w in rivers if w != where][:3]
-        return ("Important Rivers & Lakes", f"The river {r} is associated with which region/system? (item {n + 1})", where, others, f"{r} — {where}.")
+        return ("Important Rivers & Lakes", f"The river {r} is associated with which region/system?", where, others, f"{r} — {where}.")
     p, fam = parks[n % len(parks)]
     others = [f for name, f in parks if f != fam][:3]
-    return ("Environment, Ecology & Bio-diversity", f"{p} National Park / reserve is famous for (item {n + 1}):", fam, others, f"{p}: {fam}.")
+    return ("Environment, Ecology & Bio-diversity", f"{p} National Park / reserve is famous for:", fam, others, f"{p}: {fam}.")
 
 
 def accountancy_rows():

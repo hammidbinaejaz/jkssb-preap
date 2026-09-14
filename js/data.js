@@ -19,6 +19,29 @@ const DataStore = {
 const SELECTED_POST_KEY = 'jkssb_selected_post';
 const DEFAULT_POST_ID = 'accounts-assistant-finance';
 const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
+const PROVENANCE_STATUSES = {
+  generated: 'Generated syllabus drill',
+  human_reviewed: 'Human reviewed',
+  official_pyq: 'Official PYQ',
+  needs_review: 'Needs review',
+  invalid: 'Invalid',
+};
+const EXAM_READY_STATUSES = new Set(['generated', 'human_reviewed', 'official_pyq']);
+
+/** True when a keyed item may appear in practice or mocks (never treats generated as verified). */
+function isExamReadyQuestion(q) {
+  if (!q || !q.correct_option) return false;
+  return EXAM_READY_STATUSES.has(q.verification_status);
+}
+
+function provenanceMeta(status) {
+  const key = PROVENANCE_STATUSES[status] ? status : '';
+  return {
+    status: key || status || '',
+    label: PROVENANCE_STATUSES[key] || 'Unknown provenance',
+    className: key ? `badge--${key.replace(/_/g, '-')}` : 'badge--muted',
+  };
+}
 
 function uniqueOptionId(rawId, idx, seen) {
   let id = String(rawId || '').trim().toUpperCase();
@@ -90,7 +113,7 @@ function normalizeQuestion(raw, context = {}) {
     year: raw.year || '',
     exam: raw.exam || context.post_name || '',
     explanation: raw.explanation || '',
-    verification_status: raw.verification_status || 'needs_review',
+    verification_status: raw.verification_status || 'generated',
     tags: Array.isArray(raw.tags) ? raw.tags : [],
     duplicate_status: raw.duplicate_status || 'unique',
     pool_type: raw.pool_type || 'post_primary',
@@ -386,9 +409,7 @@ function getPracticeQuestions(filters = {}) {
     : getActiveQuestions();
 
   let pool = source.filter((q) => {
-    if (q.verification_status === 'invalid') return false;
-    if (!q.correct_option) return false;
-    if (q.verification_status !== 'verified' && q.verification_status !== 'needs_review') return false;
+    if (!isExamReadyQuestion(q)) return false;
     if (subject && q.subject !== subject) return false;
     if (!subject && q.subject === 'Latest pattern paper') return false;
     if (topic && q.topic !== topic) return false;
@@ -408,9 +429,7 @@ function getExamConfigForPost(postId) {
   const meta = id ? getPost(id) : null;
   const ds = id ? DataStore.datasets[id] : null;
   const fromFile = id ? getExamById(id) : null;
-  const available = (ds?.questions || []).filter(
-    (q) => q.verification_status === 'verified' && q.correct_option,
-  ).length;
+  const available = (ds?.questions || []).filter(isExamReadyQuestion).length;
   const defaultCount = fromFile?.default_question_count || 30;
   const allowed = (fromFile?.allowed_counts || [10, 20, 30, 50, 100])
     .filter((c) => c <= Math.max(available, c) || available === 0);
@@ -435,9 +454,7 @@ function getMockQuestions(count, examConfig, { sectionId, official } = {}) {
   const datasetId = examConfig?.dataset_id || getSelectedPostId();
   const ds = datasetId ? DataStore.datasets[datasetId] : null;
   let source = ds?.questions || getActiveQuestions();
-  const verifiedAll = source.filter(
-    (q) => q.verification_status === 'verified' && q.correct_option,
-  );
+  const readyAll = source.filter(isExamReadyQuestion);
 
   const useOfficial = Boolean(official) || (
     !sectionId && examConfig?.sections?.length === 8 && Number(count) === 120
@@ -447,7 +464,7 @@ function getMockQuestions(count, examConfig, { sectionId, official } = {}) {
     examConfig.sections.forEach((section) => {
       const n = section.question_count || section.marks || 10;
       const names = new Set((section.subjects || [section.name]).map((s) => String(s).toLowerCase()));
-      const pool = shuffleList(verifiedAll.filter((q) => names.has((q.subject || '').toLowerCase())));
+      const pool = shuffleList(readyAll.filter((q) => names.has((q.subject || '').toLowerCase())));
       paper.push(...pool.slice(0, n));
     });
     return paper;
@@ -457,12 +474,12 @@ function getMockQuestions(count, examConfig, { sectionId, official } = {}) {
     const section = examConfig.sections.find((s) => s.id === sectionId);
     if (section?.subjects?.length) {
       const set = new Set(section.subjects.map((s) => s.toLowerCase()));
-      source = verifiedAll.filter((q) => set.has((q.subject || '').toLowerCase()));
+      source = readyAll.filter((q) => set.has((q.subject || '').toLowerCase()));
     } else {
-      source = verifiedAll;
+      source = readyAll;
     }
   } else {
-    source = verifiedAll;
+    source = readyAll;
   }
   return shuffleList(source).slice(0, Math.min(count, source.length));
 }
@@ -507,7 +524,7 @@ function getRelatedQuestions(question, limit = 4) {
 
 function getDatasetHealth() {
   const qs = DataStore.allQuestions;
-  const statusCounts = { verified: 0, needs_review: 0, invalid: 0 };
+  const statusCounts = { generated: 0, human_reviewed: 0, official_pyq: 0, needs_review: 0, invalid: 0 };
   let duplicates = 0;
   let missingTopic = 0;
   let missingExplanation = 0;
@@ -583,6 +600,10 @@ if (typeof module !== 'undefined' && module.exports) {
     DataStore,
     SELECTED_POST_KEY,
     DEFAULT_POST_ID,
+    PROVENANCE_STATUSES,
+    EXAM_READY_STATUSES,
+    isExamReadyQuestion,
+    provenanceMeta,
     normalizeQuestion,
     getDataBasePath,
     loadCatalog,

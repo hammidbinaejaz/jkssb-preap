@@ -92,6 +92,14 @@ UI.SearchBar = function SearchBar({ placeholder, value = '', onSearch, id = 'sea
   return form;
 };
 
+function provenanceBadgeHtml(status) {
+  const meta = typeof provenanceMeta === 'function'
+    ? provenanceMeta(status)
+    : { label: status || '', className: 'badge--muted' };
+  if (!meta.label) return '';
+  return `<span class="badge ${meta.className}">${escapeHtml(meta.label)}</span>`;
+}
+
 UI.QuestionCard = function QuestionCard(question, { compact = false, showMeta = true, href } = {}) {
   const card = document.createElement('article');
   card.className = `question-card${compact ? ' question-card--compact' : ''}`;
@@ -106,6 +114,7 @@ UI.QuestionCard = function QuestionCard(question, { compact = false, showMeta = 
         <span class="badge">${escapeHtml(question.subject || '')}</span>
         <span class="badge badge--muted">${escapeHtml(question.topic || '')}</span>
         ${question.difficulty ? `<span class="badge badge--outline">${escapeHtml(question.difficulty)}</span>` : ''}
+        ${provenanceBadgeHtml(question.verification_status)}
       </div>` : ''}
     </a>`;
   return card;
@@ -269,5 +278,5 @@ UI.PostItem = function PostItem(post, { href, loadedCount }) {
 };
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { UI, isChosenOption };
+  module.exports = { UI, isChosenOption, provenanceBadgeHtml };
 }

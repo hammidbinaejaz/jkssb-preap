@@ -70,24 +70,60 @@ function loadProgress() {
 }
 
 function recordAttempt(attempt) {
+  return recordAttempts(attempt ? [attempt] : []);
+}
+
+/** Batch-record practice or mock attempts into topic stats (one write). */
+function recordAttempts(attempts) {
+  const list = Array.isArray(attempts) ? attempts : [];
+  if (!list.length) return loadProgress();
   const progress = loadProgress();
   progress.attempts = progress.attempts || [];
-  progress.attempts.push({
-    ...attempt,
-    timestamp: attempt.timestamp || Date.now(),
+  progress.topicStats = progress.topicStats || {};
+  list.forEach((attempt) => {
+    progress.attempts.push({
+      ...attempt,
+      timestamp: attempt.timestamp || Date.now(),
+    });
+    const topic = attempt.topic || 'General';
+    if (!progress.topicStats[topic]) {
+      progress.topicStats[topic] = { correct: 0, total: 0 };
+    }
+    progress.topicStats[topic].total += 1;
+    if (attempt.correct) progress.topicStats[topic].correct += 1;
   });
   if (progress.attempts.length > 5000) {
     progress.attempts = progress.attempts.slice(-5000);
   }
-  const topic = attempt.topic || 'General';
-  if (!progress.topicStats[topic]) {
-    progress.topicStats[topic] = { correct: 0, total: 0 };
-  }
-  progress.topicStats[topic].total += 1;
-  if (attempt.correct) progress.topicStats[topic].correct += 1;
   progress.lastActivity = Date.now();
   saveProgress(progress);
   return progress;
+}
+
+/**
+ * Fold a scored mock into learning progress (attempted questions only).
+ * @param {object} result
+ * @param {Map<string, object>|object} questionsById
+ */
+function recordMockProgress(result, questionsById) {
+  const lookup = questionsById instanceof Map
+    ? (id) => questionsById.get(id)
+    : (id) => (questionsById || {})[id];
+  const batch = [];
+  (result?.questionIds || []).forEach((qid) => {
+    const selected = result.answers ? result.answers[qid] : null;
+    if (!selected) return;
+    const q = lookup(qid) || {};
+    batch.push({
+      questionId: qid,
+      selected,
+      correct: selected === q.correct_option,
+      topic: q.topic || 'General',
+      subject: q.subject || '',
+      mode: 'mock',
+    });
+  });
+  return recordAttempts(batch);
 }
 
 function setContinuePreparation(url, label) {
@@ -269,6 +305,8 @@ if (typeof module !== 'undefined' && module.exports) {
     saveProgress,
     loadProgress,
     recordAttempt,
+    recordAttempts,
+    recordMockProgress,
     setContinuePreparation,
     saveTest,
     loadTest,

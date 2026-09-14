@@ -76,7 +76,7 @@ function runTests() {
           ],
           correct_option: 'A',
           subject: section.name,
-          verification_status: 'verified',
+          verification_status: 'generated',
         }, { post_id: 'accounts-assistant-finance' }));
       }
     });
@@ -118,7 +118,7 @@ function runTests() {
             ],
             correct_option: 'A',
             subject: 'Mathematics',
-            verification_status: 'verified',
+            verification_status: 'generated',
           }, { post_id: 'accounts-assistant-finance' }),
           normalizeQuestion({
             question_id: 'accounts-assistant-finance-001',
@@ -131,7 +131,7 @@ function runTests() {
             ],
             correct_option: 'A',
             subject: 'Latest pattern paper',
-            verification_status: 'verified',
+            verification_status: 'generated',
           }, { post_id: 'accounts-assistant-finance' }),
         ],
       },

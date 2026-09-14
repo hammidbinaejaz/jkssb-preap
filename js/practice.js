@@ -219,6 +219,7 @@ function renderCurrentQuestion(container) {
     <div class="question-panel__header">
       <span class="question-panel__id">${escapeHtml(shortSubjectName(q.subject || ''))}${q.difficulty ? ` · ${escapeHtml(q.difficulty)}` : ''}</span>
       ${q.topic ? `<span class="badge badge--muted">${escapeHtml(q.topic)}</span>` : ''}
+      ${typeof provenanceBadgeHtml === 'function' ? provenanceBadgeHtml(q.verification_status) : ''}
       <button type="button" class="btn btn--icon bookmark-btn" aria-label="${bookmarked ? 'Remove bookmark' : 'Bookmark question'}" aria-pressed="${bookmarked}">
         ${bookmarked ? '★' : '☆'}
       </button>
