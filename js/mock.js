@@ -3,6 +3,13 @@
  */
 
 let mockTimer = null;
+let mockKeyHandler = null;
+
+function endExamChrome() {
+  document.body.classList.remove('exam-mode');
+  if (mockKeyHandler) document.removeEventListener('keydown', mockKeyHandler);
+  mockKeyHandler = null;
+}
 
 async function initMockPage() {
   const main = initPage({ pageTitle: 'Mock Tests', currentNav: 'Mock Tests' });
@@ -32,6 +39,7 @@ async function initMockPage() {
 }
 
 function renderMockSetup(main) {
+  endExamChrome();
   const exam = getExamConfigForPost();
   const selected = getSelectedPostMeta();
   const active = getActiveQuestions().filter(
@@ -168,6 +176,7 @@ function startMockTest(main, exam, count, sectionId = '', official = false) {
 
 function renderActiveTest(main, testState) {
   if (mockTimer) mockTimer.stop();
+  document.body.classList.add('exam-mode');
 
   main.innerHTML = `
     <section class="mock-header">
@@ -179,10 +188,11 @@ function renderActiveTest(main, testState) {
       <div id="mock-question-slot" class="mock-question-slot"></div>
     </div>
     <div class="mock-controls">
-      <button type="button" id="mock-prev" class="btn btn--secondary">Previous</button>
+      <button type="button" id="mock-prev" class="btn btn--ghost">Previous</button>
       <button type="button" id="mock-next" class="btn btn--secondary">Next</button>
-      <button type="button" id="mock-submit" class="btn btn--primary">Submit Test</button>
-    </div>`;
+      <button type="button" id="mock-submit" class="btn btn--primary">Submit</button>
+    </div>
+    <p class="empty-inline">1–4 or A–D to mark · arrows to move · palette on the side</p>`;
 
   const remaining = testState.endsAt
     ? Math.max(0, Math.ceil((testState.endsAt - Date.now()) / 1000))
@@ -233,7 +243,7 @@ function renderActiveTest(main, testState) {
     panel.className = 'question-panel card';
     panel.innerHTML = `
       <div class="question-panel__header">
-        <span class="question-panel__id">Q${testState.currentIndex + 1} · ${escapeHtml(q.question_id)}</span>
+        <span class="question-panel__id">Q${testState.currentIndex + 1} of ${testState.questionIds.length}${q.subject ? ` · ${escapeHtml(q.subject)}` : ''}</span>
       </div>
       <div class="question-panel__text" lang="${detectTextLang(q.question)}">${escapeHtml(q.question).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>')}</div>
       <div class="options-grid" role="radiogroup" aria-label="Select your answer"></div>`;
@@ -283,12 +293,37 @@ function renderActiveTest(main, testState) {
     });
   });
 
+  if (mockKeyHandler) document.removeEventListener('keydown', mockKeyHandler);
+  mockKeyHandler = (e) => {
+    if (e.target.closest('input, select, textarea, .modal')) return;
+    const qid = testState.questionIds[testState.currentIndex];
+    const key = e.key.toLowerCase();
+    const letter = { 1: 'A', 2: 'B', 3: 'C', 4: 'D', a: 'A', b: 'B', c: 'C', d: 'D' }[key];
+    if (letter && qid) {
+      e.preventDefault();
+      testState.answers[qid] = letter;
+      persist();
+      renderQuestion();
+      return;
+    }
+    if (e.key === 'ArrowRight' || e.key === 'Enter') {
+      e.preventDefault();
+      document.getElementById('mock-next')?.click();
+    }
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      document.getElementById('mock-prev')?.click();
+    }
+  };
+  document.addEventListener('keydown', mockKeyHandler);
+
   renderQuestion();
 }
 
 function submitMockTest(main, testState, autoSubmitted) {
   if (!testState || testState.submitted) return;
   testState.submitted = true;
+  endExamChrome();
   if (mockTimer) mockTimer.stop();
   const exam = testState.examConfig || getExamConfigForPost(testState.examId);
   const timeUsed = testState.durationSeconds - (mockTimer ? mockTimer.getRemaining() : 0);
