@@ -2015,3 +2015,91 @@
   color: var(--ink);
   font-family: var(--font-display);
 }
+
+/* ── Site password gate ──────────────────────────────────── */
+
+.site-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background:
+    radial-gradient(circle at top, rgba(52, 211, 153, 0.18), transparent 42%),
+    #052e1f;
+}
+
+.site-gate__card {
+  width: min(100%, 420px);
+  padding: 1.75rem 1.5rem 1.6rem;
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+}
+
+.site-gate__brand {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--lake);
+}
+
+.site-gate__brand em {
+  font-style: normal;
+  color: var(--ink);
+}
+
+.site-gate__title {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--ink);
+}
+
+.site-gate__copy,
+.site-gate__label {
+  color: var(--muted);
+}
+
+.site-gate__copy {
+  margin: 0 0 1.15rem;
+}
+
+.site-gate__form {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.site-gate__label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.site-gate__input {
+  min-height: 44px;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font: inherit;
+  color: var(--text);
+}
+
+.site-gate__input:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.site-gate__error {
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.875rem;
+}
+
+.site-gate__submit {
+  margin-top: 0.35rem;
+  width: 100%;
+}

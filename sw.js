@@ -1,11 +1,12 @@
 /* Offline shell for JKSSB PREP */
-const CACHE = 'jkssb-prep-v7';
+const CACHE = 'jkssb-prep-v8';
 const CORE = [
   './',
   './index.html',
   './css/main.css',
   './css/components.css',
   './css/responsive.css',
+  './js/gate.js',
   './js/app.js',
   './js/data.js',
   './js/storage.js',
@@ -52,6 +53,22 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
+  const accept = req.headers.get('accept') || '';
+  const isPage = req.mode === 'navigate' || accept.includes('text/html');
+  if (isPage) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+          }
+          return res;
+        })
+        .catch(() => caches.match(req)),
+    );
+    return;
+  }
   event.respondWith(
     caches.match(req).then((cached) => {
       const network = fetch(req)

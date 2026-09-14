@@ -73,6 +73,14 @@ body {
   background-attachment: fixed;
 }
 
+html.site-locked:not(.site-unlocked) body {
+  background: #052e1f;
+}
+
+html.site-locked:not(.site-unlocked) body > *:not(#site-gate) {
+  display: none !important;
+}
+
 body::before {
   display: none;
 }

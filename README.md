@@ -41,6 +41,7 @@ node tests/product.test.js
 node tests/app.test.js
 node tests/faa.test.js
 node tests/provenance.test.js
+node tests/gate.test.js
 python3 tools/validate_qbanks.py
 ```
 

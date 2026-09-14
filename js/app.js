@@ -110,6 +110,7 @@ function renderFooter() {
 }
 
 function initPage({ pageTitle, currentNav, mainId = 'main-content' }) {
+  if (typeof mountSiteGate === 'function') mountSiteGate();
   document.title = `${pageTitle} | JKSSB PREP`;
   const base = getBasePath();
   if (!document.querySelector('link[rel="manifest"]')) {
