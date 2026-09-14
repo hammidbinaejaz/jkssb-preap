@@ -49,21 +49,20 @@ function runTests() {
     const index = readJson('data/index.json');
     assertEqual(index.datasets.length, 1);
     assertEqual(index.datasets[0].id, 'accounts-assistant-finance');
+    assertEqual(index.datasets[0].question_count, 4100);
   });
 
-  test('only the FAA qbank file exists under data/qbanks', () => {
-    const root = path.join(__dirname, '..', 'data', 'qbanks');
-    const files = [];
-    function walk(dir) {
-      fs.readdirSync(dir, { withFileTypes: true }).forEach((entry) => {
-        const full = path.join(dir, entry.name);
-        if (entry.isDirectory()) walk(full);
-        else if (entry.name.endsWith('.json')) files.push(path.relative(root, full));
-      });
-    }
-    walk(root);
-    assertEqual(files.length, 1);
-    assertEqual(files[0], path.join('finance', 'accounts-assistant-finance.json'));
+  test('FAA subject banks exist with 500 MCQs each', () => {
+    const exam = readJson('data/exams.json').exams[0];
+    exam.sections.forEach((section) => {
+      const bank = readJson(`data/${section.file}`);
+      assertEqual(bank.questions.length, 500, section.id);
+      assertEqual(bank.subject, section.name);
+      const stems = new Set(bank.questions.map((q) => q.question));
+      assertEqual(stems.size, 500, `${section.id} unique stems`);
+    });
+    const pattern = readJson('data/qbanks/finance/faa/latest-pattern.json');
+    assertEqual(pattern.questions.length, 100);
   });
 
   console.log(`\n${passed} passed`);

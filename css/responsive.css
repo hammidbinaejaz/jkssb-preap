@@ -137,6 +137,10 @@
     width: 100%;
   }
 
+  .subject-grid {
+    grid-template-columns: 1fr;
+  }
+
   .browse-tabs {
     overflow-x: auto;
     flex-wrap: nowrap;

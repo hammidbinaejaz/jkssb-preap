@@ -18,6 +18,26 @@ const DataStore = {
 
 const SELECTED_POST_KEY = 'jkssb_selected_post';
 const DEFAULT_POST_ID = 'accounts-assistant-finance';
+const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
+
+function uniqueOptionId(rawId, idx, seen) {
+  let id = String(rawId || '').trim().toUpperCase();
+  if (!id || seen.has(id)) {
+    id = OPTION_LETTERS.find((letter) => !seen.has(letter)) || `O${idx + 1}`;
+  }
+  seen.add(id);
+  return id;
+}
+
+function shuffleList(arr) {
+  if (typeof shuffle === 'function') return shuffle(arr);
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
 
 /**
  * Map flat qbank question (option_a…correct) or legacy shape → internal model.
@@ -30,15 +50,14 @@ function normalizeQuestion(raw, context = {}) {
 
   let options = raw.options;
   if (!Array.isArray(options) || !options.length) {
-    options = [
-      { id: 'A', text: raw.option_a ?? '' },
-      { id: 'B', text: raw.option_b ?? '' },
-      { id: 'C', text: raw.option_c ?? '' },
-      { id: 'D', text: raw.option_d ?? '' },
-    ].filter((o) => o.text !== '' && o.text != null);
+    options = OPTION_LETTERS.map((id) => ({
+      id,
+      text: raw[`option_${id.toLowerCase()}`] ?? '',
+    })).filter((o) => o.text !== '' && o.text != null);
   } else {
-    options = options.map((o) => ({
-      id: String(o.id || '').toUpperCase(),
+    const seen = new Set();
+    options = options.map((o, idx) => ({
+      id: uniqueOptionId(o.id, idx, seen),
       text: o.text ?? '',
     }));
   }
@@ -150,12 +169,6 @@ async function loadPostDataset(postId) {
   const file = meta.file || `qbanks/${meta.categoryId}/${postId}.json`;
   const raw = await fetchJsonOptional(`${base}data/${file}`);
 
-  const context = {
-    post_id: postId,
-    post_name: meta.name,
-    category: meta.categoryName,
-  };
-
   if (!raw) {
     const empty = {
       post_id: postId,
@@ -169,9 +182,35 @@ async function loadPostDataset(postId) {
     return empty;
   }
 
-  const questions = (raw.questions || [])
-    .map((q) => normalizeQuestion(q, context))
-    .filter(Boolean);
+  const context = {
+    post_id: postId,
+    post_name: meta.name,
+    category: meta.categoryName,
+  };
+
+  const exam = getExamById(postId);
+  const subjectFiles = [
+    ...((raw.subject_files || []).map((f) => f)),
+    ...((exam?.sections || []).map((s) => s.file).filter(Boolean)),
+  ].filter((f, i, arr) => arr.indexOf(f) === i);
+
+  const questions = [];
+  (raw.questions || []).forEach((q) => {
+    const nq = normalizeQuestion(q, context);
+    if (nq) questions.push(nq);
+  });
+
+  if (subjectFiles.length) {
+    const parts = await Promise.all(
+      subjectFiles.map((file) => fetchJsonOptional(`${base}data/${file}`)),
+    );
+    parts.forEach((part) => {
+      (part?.questions || []).forEach((q) => {
+        const nq = normalizeQuestion(q, context);
+        if (nq) questions.push(nq);
+      });
+    });
+  }
 
   const dataset = {
     post_id: raw.post_id || postId,
@@ -180,6 +219,7 @@ async function loadPostDataset(postId) {
     question_count: questions.length,
     questions,
     missing: false,
+    subject_files: subjectFiles,
   };
   DataStore.datasets[postId] = dataset;
   return dataset;
@@ -350,11 +390,12 @@ function getPracticeQuestions(filters = {}) {
     if (!q.correct_option) return false;
     if (q.verification_status !== 'verified' && q.verification_status !== 'needs_review') return false;
     if (subject && q.subject !== subject) return false;
+    if (!subject && q.subject === 'Latest pattern paper') return false;
     if (topic && q.topic !== topic) return false;
     if (difficulty && q.difficulty !== difficulty) return false;
     return true;
   });
-  pool = shuffle(pool).slice(0, count);
+  pool = shuffleList(pool).slice(0, count);
   return pool;
 }
 
@@ -370,43 +411,60 @@ function getExamConfigForPost(postId) {
   const available = (ds?.questions || []).filter(
     (q) => q.verification_status === 'verified' && q.correct_option,
   ).length;
-  const defaultCount = Math.min(
-    fromFile?.default_question_count || 30,
-    available || fromFile?.default_question_count || 30,
-  );
+  const defaultCount = fromFile?.default_question_count || 30;
   const allowed = (fromFile?.allowed_counts || [10, 20, 30, 50, 100])
-    .filter((c) => c <= Math.max(available, 10) || available === 0);
+    .filter((c) => c <= Math.max(available, c) || available === 0);
 
   return {
     id: id || 'general-mock',
     name: meta?.name ? `${meta.name} Mock` : (fromFile?.name || 'General Mock Test'),
     dataset_id: id || null,
     duration_minutes: fromFile?.duration_minutes ?? 30,
-    default_question_count: defaultCount || 30,
+    default_question_count: defaultCount,
     marks_per_question: fromFile?.marks_per_question ?? 1,
     negative_marking: fromFile?.negative_marking ?? 0,
-    allowed_counts: allowed.length ? allowed : [10, 20, 30],
+    allowed_counts: allowed.length ? allowed : [30, 60, 120],
     sections: fromFile?.sections || [],
     pattern: fromFile?.pattern || '',
     syllabus_summary: fromFile?.syllabus_summary || '',
+    notification: fromFile?.notification || '',
   };
 }
 
-function getMockQuestions(count, examConfig, { sectionId } = {}) {
+function getMockQuestions(count, examConfig, { sectionId, official } = {}) {
   const datasetId = examConfig?.dataset_id || getSelectedPostId();
   const ds = datasetId ? DataStore.datasets[datasetId] : null;
   let source = ds?.questions || getActiveQuestions();
+  const verifiedAll = source.filter(
+    (q) => q.verification_status === 'verified' && q.correct_option,
+  );
+
+  const useOfficial = Boolean(official) || (
+    !sectionId && examConfig?.sections?.length === 8 && Number(count) === 120
+  );
+  if (useOfficial && examConfig?.sections?.length) {
+    const paper = [];
+    examConfig.sections.forEach((section) => {
+      const n = section.question_count || section.marks || 10;
+      const names = new Set((section.subjects || [section.name]).map((s) => String(s).toLowerCase()));
+      const pool = shuffleList(verifiedAll.filter((q) => names.has((q.subject || '').toLowerCase())));
+      paper.push(...pool.slice(0, n));
+    });
+    return paper;
+  }
+
   if (sectionId && examConfig?.sections?.length) {
     const section = examConfig.sections.find((s) => s.id === sectionId);
     if (section?.subjects?.length) {
       const set = new Set(section.subjects.map((s) => s.toLowerCase()));
-      source = source.filter((q) => set.has((q.subject || '').toLowerCase()));
+      source = verifiedAll.filter((q) => set.has((q.subject || '').toLowerCase()));
+    } else {
+      source = verifiedAll;
     }
+  } else {
+    source = verifiedAll;
   }
-  const verified = source.filter(
-    (q) => q.verification_status === 'verified' && q.correct_option,
-  );
-  return shuffle(verified).slice(0, Math.min(count, verified.length));
+  return shuffleList(source).slice(0, Math.min(count, source.length));
 }
 
 function getSubjects(questions) {

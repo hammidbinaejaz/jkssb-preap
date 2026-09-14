@@ -1,5 +1,5 @@
 /* Offline shell for JKSSB PREP */
-const CACHE = 'jkssb-prep-v4';
+const CACHE = 'jkssb-prep-v6';
 const CORE = [
   './',
   './index.html',
@@ -13,6 +13,7 @@ const CORE = [
   './js/ui.js',
   './js/browse.js',
   './js/practice.js',
+  './js/numericals.js',
   './js/mock.js',
   './js/search.js',
   './js/results.js',

@@ -87,6 +87,22 @@ function runTests() {
     assertEqual(normalizeQuestion(undefined), null);
   });
 
+  test('normalizeQuestion assigns unique A–D ids when they are missing or duplicated', () => {
+    const q = normalizeQuestion({
+      question_id: 'faa-math-001',
+      question: 'Pick one.',
+      options: [
+        { text: 'One' },
+        { id: 'A', text: 'Two' },
+        { id: 'A', text: 'Three' },
+        { id: 'A', text: 'Four' },
+      ],
+      correct_option: 'B',
+      verification_status: 'verified',
+    }, { post_id: 'accounts-assistant-finance' });
+    assertEqual(q.options.map((o) => o.id).join(''), 'ABCD');
+  });
+
   console.log(`\n${passed} passed`);
 }
 

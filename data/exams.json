@@ -5,54 +5,80 @@
       "name": "Accounts Assistant (Finance)",
       "dataset_id": "accounts-assistant-finance",
       "category_id": "finance",
+      "notification": "Advertisement Notification No. 10 of 2025 dated 24.11.2025",
       "duration_minutes": 120,
-      "default_question_count": 30,
+      "default_question_count": 120,
       "marks_per_question": 1,
-      "negative_marking": 0,
-      "allowed_counts": [
-        10,
-        20,
-        30,
-        50,
-        100
-      ],
+      "negative_marking": 0.25,
+      "allowed_counts": [30, 60, 120],
+      "pattern": "JKSSB Advt. 10 of 2025 · OMR MCQ · 120 questions · 120 marks · 2 hours · −0.25 per wrong answer · English only · no interview",
+      "syllabus_summary": "GK (J&K) 30 · Accountancy 30 · English 10 · Statistics 10 · Mathematics 10 · Economics 10 · Science 10 · Computers 10",
       "sections": [
         {
-          "id": "accounts",
-          "name": "Accounts / Finance",
-          "subjects": [
-            "Accounts",
-            "Economics",
-            "Finance"
-          ]
+          "id": "gk-jk",
+          "name": "General Knowledge with special reference to J&K UT",
+          "marks": 30,
+          "question_count": 30,
+          "file": "qbanks/finance/faa/gk-jk.json",
+          "subjects": ["General Knowledge with special reference to J&K UT"]
         },
         {
-          "id": "ga",
-          "name": "General Awareness",
-          "subjects": [
-            "General Awareness",
-            "J&K GK"
-          ]
+          "id": "accountancy",
+          "name": "Accountancy and Book Keeping",
+          "marks": 30,
+          "question_count": 30,
+          "file": "qbanks/finance/faa/accountancy.json",
+          "subjects": ["Accountancy and Book Keeping"]
         },
         {
           "id": "english",
-          "name": "English",
-          "subjects": [
-            "English"
-          ]
+          "name": "General English",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/english.json",
+          "subjects": ["General English"]
         },
         {
-          "id": "stats",
-          "name": "Numerical / Stats",
-          "subjects": [
-            "Arithmetic",
-            "Statistics",
-            "Reasoning"
-          ]
+          "id": "statistics",
+          "name": "Statistics",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/statistics.json",
+          "subjects": ["Statistics"]
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/mathematics.json",
+          "subjects": ["Mathematics"]
+        },
+        {
+          "id": "economics",
+          "name": "General Economics",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/economics.json",
+          "subjects": ["General Economics"]
+        },
+        {
+          "id": "science",
+          "name": "General Science",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/science.json",
+          "subjects": ["General Science"]
+        },
+        {
+          "id": "computers",
+          "name": "Knowledge of Computers",
+          "marks": 10,
+          "question_count": 10,
+          "file": "qbanks/finance/faa/computers.json",
+          "subjects": ["Knowledge of Computers"]
         }
-      ],
-      "pattern": "OMR MCQ \u00b7 typically 120 questions in FAA pattern papers \u00b7 check latest notification",
-      "syllabus_summary": "Accounts / Finance \u00b7 General Awareness \u00b7 English \u00b7 Numerical / Stats"
+      ]
     }
   ]
 }
