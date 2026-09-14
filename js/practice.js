@@ -2,6 +2,24 @@
  * Practice mode and instant single-question view.
  */
 
+let practiceKeyHandler = null;
+
+function shortSubjectName(name) {
+  const map = {
+    'General Knowledge with special reference to J&K UT': 'GK · J&K',
+    'Accountancy and Book Keeping': 'Accountancy',
+    'General English': 'English',
+    'Statistics': 'Statistics',
+    'Mathematics': 'Mathematics',
+    'General Economics': 'Economics',
+    'General Science': 'Science',
+    'Knowledge of Computers': 'Computers',
+    'Latest pattern paper': 'Latest paper',
+    'Full mix': 'Full mix',
+  };
+  return map[name] || name;
+}
+
 let practiceState = {
   mode: 'setup',
   questions: [],
@@ -37,29 +55,27 @@ function renderPracticeSetup(main) {
   main.innerHTML = `
     <section class="page-header">
       <h1>Practice</h1>
-      <p class="page-header__sub">Pick a subject. A fresh random set is drawn every time — easy, medium, and hard mixed unless you lock a level.</p>
+      <p class="page-header__sub">Tap a subject, then start. A new random set every time.</p>
     </section>
-    <div id="post-context-slot"></div>
     ${!active.length ? `
       <div class="card" style="margin-bottom:1.25rem;">
         <p class="empty-inline" style="margin:0;">Question bank is still loading. Refresh if this stays empty.</p>
       </div>` : ''}
-    <h2 class="section-title">Official subjects (Advt. 10 of 2025)</h2>
     <div class="subject-grid" id="subject-grid"></div>
     <form id="practice-form" class="filter-form card" style="margin-top:1.25rem;">
       <input type="hidden" name="subject" id="filter-subject" value="${escapeHtml(presetSubject)}" />
-      <p class="empty-inline" id="subject-chosen">${presetSubject ? `Selected: <strong>${escapeHtml(presetSubject)}</strong>` : 'Select a subject above, or practise a full mix.'}</p>
+      <p class="empty-inline" id="subject-chosen">${presetSubject ? `Selected: <strong>${escapeHtml(shortSubjectName(presetSubject))}</strong>` : 'Selected: <strong>Full mix</strong>'}</p>
       <div class="form-row">
         <label for="filter-difficulty">Difficulty</label>
         <select id="filter-difficulty" name="difficulty">
-          <option value="">Mixed (easy / medium / hard)</option>
+          <option value="">Mixed</option>
           <option value="easy">Easy</option>
           <option value="medium">Medium</option>
           <option value="hard">Hard</option>
         </select>
       </div>
       <div class="form-row">
-        <label for="filter-count">Question count</label>
+        <label for="filter-count">Questions</label>
         <select id="filter-count" name="count">
           <option value="10">10</option>
           <option value="20" selected>20</option>
@@ -68,14 +84,12 @@ function renderPracticeSetup(main) {
           <option value="100">100</option>
         </select>
       </div>
-      <p class="empty-inline">Unlimited numericals generate a fresh computed set each time (Math, Statistics, Accountancy — or a mix if you pick Full mix).</p>
+      <p class="empty-inline">Keys 1–4 pick A–D. Unlimited numericals are computed on the spot for Maths, Stats, and Accountancy.</p>
       <div class="cta-row">
-        <button type="submit" class="btn btn--primary"${active.length ? '' : ' disabled'}>Start random practice</button>
-        <button type="button" class="btn btn--secondary" id="btn-numerical">Unlimited numericals</button>
+        <button type="submit" class="btn btn--primary"${active.length ? '' : ' disabled'}>Start</button>
+        <button type="button" class="btn btn--ghost" id="btn-numerical">Numericals</button>
       </div>
     </form>`;
-
-  renderPostContext(document.getElementById('post-context-slot'));
 
   const grid = document.getElementById('subject-grid');
   const hidden = document.getElementById('filter-subject');
@@ -84,23 +98,23 @@ function renderPracticeSetup(main) {
   function addCard(name, meta, value) {
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = `post-hub__action${hidden.value === value ? ' post-hub__action--active' : ''}`;
-    btn.innerHTML = `<span class="post-hub__action-title">${escapeHtml(name)}</span>
-      <p class="post-hub__action-desc">${escapeHtml(meta)}</p>`;
+    btn.className = `subject-chip${hidden.value === value ? ' is-active' : ''}`;
+    btn.innerHTML = `<span class="subject-chip__title">${escapeHtml(shortSubjectName(name))}</span>
+      <p class="subject-chip__meta">${escapeHtml(meta)}</p>`;
     btn.addEventListener('click', () => {
       hidden.value = value;
-      chosen.innerHTML = value ? `Selected: <strong>${escapeHtml(name)}</strong>` : 'Full mix across the official paper.';
-      grid.querySelectorAll('.post-hub__action').forEach((el) => el.classList.remove('post-hub__action--active'));
-      btn.classList.add('post-hub__action--active');
+      chosen.innerHTML = `Selected: <strong>${escapeHtml(shortSubjectName(name))}</strong>`;
+      grid.querySelectorAll('.subject-chip').forEach((el) => el.classList.remove('is-active'));
+      btn.classList.add('is-active');
     });
     grid.appendChild(btn);
   }
 
-  addCard('Full mix', 'All eight official units', '');
+  addCard('Full mix', '8 units', '');
   sections.forEach((s) => {
-    addCard(s.name, `${s.marks} marks in the real paper`, s.name);
+    addCard(s.name, `${s.marks} marks`, s.name);
   });
-  addCard('Latest pattern paper', 'The original 100 FAA-pattern MCQs', 'Latest pattern paper');
+  addCard('Latest pattern paper', '100 Q', 'Latest pattern paper');
 
   if (presetTopic) {
     hidden.value = '';
@@ -143,6 +157,27 @@ function renderPracticeSetup(main) {
   });
 }
 
+function bindPracticeKeys(main, container) {
+  if (practiceKeyHandler) document.removeEventListener('keydown', practiceKeyHandler);
+  practiceKeyHandler = (e) => {
+    if (e.target.closest('input, select, textarea')) return;
+    const q = practiceState.questions[practiceState.currentIndex];
+    if (!q) return;
+    const key = e.key.toLowerCase();
+    const letter = { 1: 'A', 2: 'B', 3: 'C', 4: 'D', a: 'A', b: 'B', c: 'C', d: 'D' }[key];
+    if (letter && !practiceState.revealed) {
+      e.preventDefault();
+      selectOption(q, letter, container);
+      return;
+    }
+    if ((e.key === 'Enter' || e.key === 'ArrowRight') && practiceState.revealed) {
+      const next = container.querySelector('.question-panel__actions .btn--primary');
+      if (next) next.click();
+    }
+  };
+  document.addEventListener('keydown', practiceKeyHandler);
+}
+
 function startPracticeSession(main, questions) {
   practiceState = { mode: 'session', questions, currentIndex: 0, revealed: false, selected: null };
   main.innerHTML = `
@@ -150,8 +185,14 @@ function startPracticeSession(main, questions) {
       <div id="practice-progress"></div>
       <button type="button" id="exit-practice" class="btn btn--ghost btn--sm">Exit</button>
     </section>
-    <div id="practice-area" class="practice-area"></div>`;
-  document.getElementById('exit-practice').addEventListener('click', () => renderPracticeSetup(main));
+    <div id="practice-area" class="practice-area"></div>
+    <p class="empty-inline">1–4 or A–D to answer · Enter for next</p>`;
+  document.getElementById('exit-practice').addEventListener('click', () => {
+    if (practiceKeyHandler) document.removeEventListener('keydown', practiceKeyHandler);
+    practiceKeyHandler = null;
+    renderPracticeSetup(main);
+  });
+  bindPracticeKeys(main, document.getElementById('practice-area'));
   renderCurrentQuestion(document.getElementById('practice-area'));
 }
 
@@ -176,8 +217,8 @@ function renderCurrentQuestion(container) {
 
   card.innerHTML = `
     <div class="question-panel__header">
-      <span class="question-panel__id">${escapeHtml(q.question_id)}</span>
-      ${q.pool_type === 'shared_syllabus_pool' ? '<span class="badge badge--muted">Shared syllabus pool</span>' : '<span class="badge">Post bank</span>'}
+      <span class="question-panel__id">${escapeHtml(shortSubjectName(q.subject || ''))}${q.difficulty ? ` · ${escapeHtml(q.difficulty)}` : ''}</span>
+      ${q.topic ? `<span class="badge badge--muted">${escapeHtml(q.topic)}</span>` : ''}
       <button type="button" class="btn btn--icon bookmark-btn" aria-label="${bookmarked ? 'Remove bookmark' : 'Bookmark question'}" aria-pressed="${bookmarked}">
         ${bookmarked ? '★' : '☆'}
       </button>
@@ -222,6 +263,8 @@ function renderCurrentQuestion(container) {
         practiceState.selected = null;
         renderCurrentQuestion(container);
       } else {
+        if (practiceKeyHandler) document.removeEventListener('keydown', practiceKeyHandler);
+        practiceKeyHandler = null;
         setContinuePreparation(rootPagesPath('practice.html'), 'Continue practice');
         UI.Toast.show('Practice session complete!', 'success');
         renderPracticeSetup(document.getElementById('main-content'));

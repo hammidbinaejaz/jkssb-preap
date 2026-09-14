@@ -60,7 +60,8 @@ const NAV_ITEMS = [
 function renderNav(currentPage) {
   const base = getBasePath();
   const desktop = NAV_ITEMS.map((item) => navLink(item.href(base), item.label, currentPage)).join('');
-  const mobile = NAV_ITEMS.map((item) => {
+  const mobileKeys = new Set(['Home', 'Practice', 'Mock Tests', 'Progress']);
+  const mobile = NAV_ITEMS.filter((item) => mobileKeys.has(item.key)).map((item) => {
     const isActive = currentPage === item.label;
     return `<a href="${item.href(base)}" class="bottom-nav__item${isActive ? ' bottom-nav__item--active' : ''}" aria-label="${item.label}"${isActive ? ' aria-current="page"' : ''}>
       <span class="bottom-nav__icon" aria-hidden="true">${navIcon(item.key)}</span>

@@ -69,28 +69,20 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background:
-    radial-gradient(900px 480px at 8% -8%, rgba(52, 211, 153, 0.22), transparent 55%),
-    radial-gradient(700px 420px at 100% 0%, rgba(5, 150, 105, 0.12), transparent 45%),
-    linear-gradient(180deg, #eefaf3 0%, var(--mist) 42%, #f8fbf9 100%);
+  background: #f3f5f2;
   background-attachment: fixed;
 }
 
 body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.4;
-  background-image:
-    linear-gradient(rgba(5, 46, 31, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(5, 46, 31, 0.035) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+  display: none;
 }
 
-body > * { position: relative; z-index: 1; }
+body.exam-mode .site-footer { display: none; }
+body.exam-mode .bottom-nav { display: none !important; }
+body.exam-mode main#main-content,
+body.exam-mode main.container {
+  padding-bottom: 2rem;
+}
 #site-nav { z-index: 300; }
 .site-header { z-index: 300; }
 
