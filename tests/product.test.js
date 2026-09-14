@@ -7,6 +7,8 @@ const {
   normalizeQuestion,
   getExamConfigForPost,
   DataStore,
+  DEFAULT_POST_ID,
+  ensureDefaultPost,
 } = require('../js/data.js');
 const {
   scoreTest,
@@ -166,6 +168,18 @@ function runTests() {
     const exam = getExamConfigForPost('missing-post');
     assertEqual(exam.negative_marking, 0);
     assert(exam.duration_minutes >= 0);
+  });
+
+  test('ensureDefaultPost pins FAA and drops unknown posts', () => {
+    const store = new MockLocalStorage();
+    global.localStorage = store;
+    DataStore.postsById = new Map([
+      [DEFAULT_POST_ID, { id: DEFAULT_POST_ID, name: 'Accounts Assistant (Finance)', categoryId: 'finance' }],
+    ]);
+    store.setItem('jkssb_selected_post', JSON.stringify({ postId: 'junior-assistant' }));
+    assertEqual(ensureDefaultPost(), DEFAULT_POST_ID);
+    const stored = JSON.parse(store.getItem('jkssb_selected_post'));
+    assertEqual(stored.postId, DEFAULT_POST_ID);
   });
 
   test('setContinuePreparation stores root-stable paths', () => {

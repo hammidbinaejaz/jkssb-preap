@@ -96,7 +96,7 @@ function renderProgress(main) {
     <div class="cta-row">
       <a href="${base}pages/bookmarks.html" class="btn btn--secondary">View Bookmarks (${bookmarks.length})</a>
       <a href="${base}pages/practice.html" class="btn btn--primary">Continue Practicing</a>
-      <a href="${base}pages/typing.html" class="btn btn--ghost">Typing drill</a>
+      <a href="${base}pages/mock.html" class="btn btn--ghost">Take a mock</a>
     </div>`;
 
   const queueEl = document.getElementById('weak-queue');
@@ -276,7 +276,7 @@ function renderBookmarks(main) {
 
 async function initPyqsPage() {
   // PYQs page replaced by Browse — soft redirect
-  window.location.replace(pagesHref('browse.html'));
+  window.location.replace(pagesHref('post.html', { id: DEFAULT_POST_ID }));
 }
 
 async function initAdminPage() {

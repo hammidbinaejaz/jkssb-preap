@@ -3,22 +3,22 @@
  */
 
 async function initPostPage() {
-  const main = initPage({ pageTitle: 'Post', currentNav: 'Browse' });
+  const main = initPage({ pageTitle: 'Exam', currentNav: 'Exam' });
   const dataResult = await initAppData({ mode: 'shell' });
   if (!dataResult.ok) {
     showDataError(main, dataResult.error);
     return;
   }
 
-  const postId = getQueryParam('id');
-  const post = postId ? getPost(postId) : null;
+  const postId = getQueryParam('id') || DEFAULT_POST_ID;
+  const post = getPost(postId) || getPost(DEFAULT_POST_ID);
 
   if (!post) {
     main.appendChild(UI.EmptyState({
-      title: postId ? 'Post not found' : 'No post selected',
-      message: 'Choose a post from Browse to continue.',
-      actionLabel: 'Browse posts',
-      actionUrl: pagesHref('browse.html'),
+      title: 'Exam not found',
+      message: 'The Accounts Assistant (Finance) bank could not be loaded.',
+      actionLabel: 'Home',
+      actionUrl: `${getBasePath()}index.html`,
     }));
     return;
   }
@@ -48,9 +48,9 @@ async function initPostPage() {
 
   main.innerHTML = `
     <nav class="crumb" aria-label="Breadcrumb">
-      <a href="${pagesHref('browse.html')}">Browse</a>
+      <a href="${getBasePath()}index.html">Home</a>
       <span aria-hidden="true">/</span>
-      <a href="${pagesHref('browse.html', { category: post.categoryId })}">${escapeHtml(post.categoryName || '')}</a>
+      <span>${escapeHtml(post.categoryName || 'Finance')}</span>
     </nav>
     <section class="page-header page-header--post">
       <p class="eyebrow">${escapeHtml(post.categoryName || '')}</p>
@@ -111,7 +111,7 @@ async function initPostPage() {
     </section>
 
     <div class="cta-row">
-      <a href="${pagesHref('browse.html', { category: post.categoryId })}" class="btn btn--ghost">← Back to browse</a>
+      <a href="${getBasePath()}index.html" class="btn btn--ghost">← Home</a>
     </div>`;
 }
 

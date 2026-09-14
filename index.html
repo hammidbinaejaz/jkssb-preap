@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="JKSSB PREP — Practice, mock tests, and smart review for Finance, Clerical, and Revenue posts." />
+  <meta name="description" content="JKSSB PREP — Practice and mock tests for Accounts Assistant (Finance)." />
   <meta name="theme-color" content="#0b1f2a" />
   <title>JKSSB PREP</title>
   <link rel="icon" href="./assets/logo/logo.svg" type="image/svg+xml" />
@@ -19,12 +19,12 @@
       <div class="site-hero__art" aria-hidden="true"></div>
       <div class="site-hero__inner">
         <p class="site-hero__brand">JKSSB <em>PREP</em></p>
-        <h1 class="site-hero__title">Prepare smarter for JKSSB.</h1>
-        <p class="site-hero__sub">Practice questions. Take realistic tests. Understand your mistakes. Improve where it matters.</p>
+        <h1 class="site-hero__title">Accounts Assistant (Finance).</h1>
+        <p class="site-hero__sub">Practice FAA questions, sit timed mocks, and drill the topics you miss.</p>
         <div class="site-hero__actions">
-          <a class="btn btn--primary" href="./pages/browse.html">Browse posts</a>
-          <a class="btn btn--secondary" href="./pages/practice.html">Start practicing</a>
-          <a class="btn btn--ghost" href="./pages/search.html">Search questions</a>
+          <a class="btn btn--primary" href="./pages/practice.html">Start practicing</a>
+          <a class="btn btn--secondary" href="./pages/mock.html">Take a mock</a>
+          <a class="btn btn--ghost" href="./pages/post.html?id=accounts-assistant-finance">Exam hub</a>
         </div>
       </div>
     </section>
@@ -40,16 +40,16 @@
         <div class="continue-strip">
           <div>
             <p class="continue-strip__label">Continue preparation</p>
-            <p class="continue-strip__title" id="continue-label">Choose a post and begin</p>
+            <p class="continue-strip__title" id="continue-label">Start your FAA prep</p>
           </div>
-          <a href="./pages/browse.html" id="continue-link" class="btn btn--ember">Continue</a>
+          <a href="./pages/practice.html" id="continue-link" class="btn btn--ember">Continue</a>
         </div>
       </section>
 
       <section class="section">
-        <h2 class="section-title">Choose your stream</h2>
-        <p class="section-lead">Finance, Clerical, or Revenue — pick a post, then practice and test.</p>
-        <div id="home-categories" class="category-grid"></div>
+        <h2 class="section-title">This exam</h2>
+        <p class="section-lead">JKSSB Accounts Assistant (Finance) — pattern, marking, and the question bank.</p>
+        <div id="home-categories" class="post-hub__stats" aria-label="Exam configuration"></div>
       </section>
     </div>
   </main>
@@ -71,44 +71,42 @@
         document.getElementById('continue-link').href = resolveAppHref(progress.continueUrl);
         document.getElementById('continue-label').textContent = progress.continueLabel || 'Continue where you left off';
       } else {
-        document.getElementById('continue-link').href = './pages/browse.html';
-        document.getElementById('continue-label').textContent = 'Choose a post and begin';
+        document.getElementById('continue-link').href = './pages/practice.html';
+        document.getElementById('continue-label').textContent = 'Start your FAA prep';
       }
 
       const categoriesEl = document.getElementById('home-categories');
       try {
-        await loadCatalog();
-        const categories = getCategories();
-        if (!categories.length) {
+        const dataResult = await initAppData({ mode: 'shell' });
+        if (!dataResult.ok) {
           categoriesEl.appendChild(UI.EmptyState({
-            title: 'Catalog not loaded',
-            message: 'Categories will appear once data is available.',
+            title: 'Unable to load exam',
+            message: dataResult.error || 'Please refresh the page.',
           }));
-        } else {
-          categories.forEach((cat) => {
-            const postCount = (cat.posts || []).length;
-            const questionCount = (cat.posts || []).reduce((n, p) => n + (p.question_count || 0), 0);
-            if (typeof UI.CategoryTile === 'function') {
-              categoriesEl.appendChild(UI.CategoryTile(cat, {
-                href: pagesHref('browse.html', { category: cat.id }),
-                postCount,
-                questionCount,
-              }));
-            } else {
-              const a = document.createElement('a');
-              a.className = 'category-tile';
-              a.href = pagesHref('browse.html', { category: cat.id });
-              a.innerHTML = `
-                <span class="category-tile__icon">${escapeHtml(categoryIconLabel(cat.icon || cat.id))}</span>
-                <h3 class="category-tile__title">${escapeHtml(cat.name)}</h3>
-                <p class="category-tile__meta">${postCount} posts · ${questionCount} questions</p>`;
-              categoriesEl.appendChild(a);
-            }
-          });
+          return;
         }
+        const exam = getExamConfigForPost();
+        const loaded = getActiveQuestions().length;
+        categoriesEl.innerHTML = `
+          <div class="post-hub__stat">
+            <span class="post-hub__stat-value">${exam.duration_minutes}</span>
+            <span class="post-hub__stat-label">Minutes</span>
+          </div>
+          <div class="post-hub__stat">
+            <span class="post-hub__stat-value">${exam.negative_marking}</span>
+            <span class="post-hub__stat-label">Negative</span>
+          </div>
+          <div class="post-hub__stat">
+            <span class="post-hub__stat-value">${exam.marks_per_question}</span>
+            <span class="post-hub__stat-label">Mark / Q</span>
+          </div>
+          <div class="post-hub__stat">
+            <span class="post-hub__stat-value">${loaded}</span>
+            <span class="post-hub__stat-label">Questions</span>
+          </div>`;
       } catch (err) {
         categoriesEl.appendChild(UI.EmptyState({
-          title: 'Unable to load catalog',
+          title: 'Unable to load exam',
           message: 'Please refresh the page.',
         }));
       }

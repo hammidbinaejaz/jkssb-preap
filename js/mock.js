@@ -25,7 +25,7 @@ async function initMockPage() {
 
   if (!requireSelectedPost(main, {
     title: 'Mock Tests',
-    message: 'Select a post first. Mocks use that post’s marking scheme, duration, and question bank.',
+    message: 'Reload to open the Accounts Assistant (Finance) mock pattern.',
   })) return;
 
   renderMockSetup(main);
@@ -47,8 +47,8 @@ function renderMockSetup(main) {
     main.appendChild(UI.EmptyState({
       title: 'No questions available',
       message: 'Browse a post and load a question bank before starting a mock test.',
-      actionLabel: 'Browse posts',
-      actionUrl: pagesHref('browse.html'),
+      actionLabel: 'Exam hub',
+      actionUrl: pagesHref('post.html', { id: DEFAULT_POST_ID }),
     }));
     return;
   }
@@ -83,7 +83,7 @@ function renderMockSetup(main) {
       <div class="card" style="margin:1rem 0;">
         <p class="empty-inline" style="margin:0;">No verified questions for this selection yet.</p>
         <div class="cta-row">
-          <a href="${pagesHref('browse.html')}" class="btn btn--secondary btn--sm">Browse posts</a>
+          <a href="${pagesHref('post.html', { id: DEFAULT_POST_ID })}" class="btn btn--secondary btn--sm">Exam hub</a>
         </div>
       </div>` : `
     <form id="mock-form" class="filter-form card">

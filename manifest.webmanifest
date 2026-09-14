@@ -1,7 +1,7 @@
 {
-  "name": "JKSSB PREP",
-  "short_name": "JKSSB PREP",
-  "description": "Practice and mock tests for JKSSB exams",
+  "name": "JKSSB PREP — FAA",
+  "short_name": "FAA PREP",
+  "description": "Practice and mock tests for JKSSB Accounts Assistant (Finance)",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f3f6f8",

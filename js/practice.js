@@ -46,10 +46,10 @@ function renderPracticeSetup(main) {
         <p class="empty-inline" style="margin:0;">
           ${selected
             ? 'No questions loaded for this post yet. Choose another post or wait for the question bank.'
-            : 'No questions available. Browse a post to select your exam focus.'}
+            : 'No questions available yet. Reload the exam hub.'}
         </p>
         <div class="cta-row">
-          <a href="${pagesHref('browse.html')}" class="btn btn--secondary btn--sm">Browse posts</a>
+          <a href="${pagesHref('post.html', { id: DEFAULT_POST_ID })}" class="btn btn--secondary btn--sm">Exam hub</a>
         </div>
       </div>` : ''}
     <form id="practice-form" class="filter-form card">
@@ -275,12 +275,12 @@ async function initPracticePage() {
       main.appendChild(UI.EmptyState({
         title: 'Question not found',
         message: `No question with ID "${qid}" exists.`,
-        actionLabel: 'Browse posts',
-        actionUrl: pagesHref('browse.html'),
+        actionLabel: 'Exam hub',
+        actionUrl: pagesHref('post.html', { id: DEFAULT_POST_ID }),
       }));
       return;
     }
-    if (question.post_id) setSelectedPost(question.post_id);
+    if (question.post_id && getPost(question.post_id)) setSelectedPost(question.post_id);
     renderInstantPractice(main, question);
     return;
   }
@@ -289,9 +289,7 @@ async function initPracticePage() {
   const subjectParam = getQueryParam('subject');
   if (!requireSelectedPost(main, {
     title: 'Practice',
-    message: topicParam || subjectParam
-      ? 'Choose your target post first, then we will open this topic drill for that syllabus.'
-      : 'Choose your target post first so practice stays on-syllabus.',
+    message: 'Reload to open the Accounts Assistant (Finance) question bank.',
   })) {
     if (topicParam || subjectParam) {
       setContinuePreparation(

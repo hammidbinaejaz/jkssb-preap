@@ -17,6 +17,7 @@ const DataStore = {
 };
 
 const SELECTED_POST_KEY = 'jkssb_selected_post';
+const DEFAULT_POST_ID = 'accounts-assistant-finance';
 
 /**
  * Map flat qbank question (option_a…correct) or legacy shape → internal model.
@@ -202,14 +203,30 @@ function rebuildQuestionIndex() {
   });
 }
 
+function getDefaultPostId() {
+  if (DataStore.postsById.has(DEFAULT_POST_ID)) return DEFAULT_POST_ID;
+  const first = DataStore.postsById.keys().next().value;
+  return first || DEFAULT_POST_ID;
+}
+
+/** Pin the app to the sole exam post (FAA). Drops stale localStorage post IDs. */
+function ensureDefaultPost() {
+  const current = getSelectedPostId();
+  if (current && DataStore.postsById.has(current)) return current;
+  const id = getDefaultPostId();
+  const meta = getPost(id);
+  setSelectedPost(id, meta?.categoryId);
+  return id;
+}
+
 /**
- * Lightweight boot: catalog + exams + currently selected post only.
+ * Lightweight boot: catalog + exams + the FAA bank.
  */
 async function loadAppShell() {
   DataStore.loadError = null;
   await loadCatalog();
   await loadExams();
-  const selected = getSelectedPostId();
+  const selected = ensureDefaultPost();
   if (selected) {
     await loadPostDataset(selected);
     rebuildQuestionIndex();
@@ -250,10 +267,10 @@ function requireSelectedPost(container, { title, message } = {}) {
     header.innerHTML = `<h1>${escapeHtml(title || 'Choose a post')}</h1>`;
     container.appendChild(header);
     container.appendChild(UI.EmptyState({
-      title: title || 'Select a post first',
-      message: message || 'Pick your target exam post so practice and mocks stay syllabus-accurate.',
-      actionLabel: 'Browse posts',
-      actionUrl: pagesHref('browse.html'),
+      title: title || 'Exam not loaded',
+      message: message || 'Reload to open the Accounts Assistant (Finance) question bank.',
+      actionLabel: 'Open exam hub',
+      actionUrl: pagesHref('post.html', { id: DEFAULT_POST_ID }),
     }));
   }
   return null;
@@ -507,6 +524,7 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     DataStore,
     SELECTED_POST_KEY,
+    DEFAULT_POST_ID,
     normalizeQuestion,
     getDataBasePath,
     loadCatalog,
@@ -516,6 +534,8 @@ if (typeof module !== 'undefined' && module.exports) {
     loadAppShell,
     loadAllData,
     rebuildQuestionIndex,
+    getDefaultPostId,
+    ensureDefaultPost,
     requireSelectedPost,
     getCategories,
     getPost,

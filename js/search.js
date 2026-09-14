@@ -77,18 +77,14 @@ async function initSearchPage() {
 
   const params = new URLSearchParams(window.location.search);
   const initialQuery = params.get('q') || '';
-  let scope = getSelectedPostMeta() ? 'post' : 'all';
+  let scope = 'post';
   let subjectFilter = params.get('subject') || '';
   let yearFilter = params.get('year') || '';
-
-  if (scope === 'all' && !DataStore.allQuestions.length) {
-    await loadAllData();
-  }
 
   main.innerHTML = `
     <section class="page-header">
       <h1>Search Questions</h1>
-      <p class="page-header__sub">Find questions by keyword, topic, subject, or year.</p>
+      <p class="page-header__sub">Find FAA questions by keyword, topic, subject, or year.</p>
     </section>
     <div id="post-context-slot"></div>
     <div id="search-container"></div>
@@ -101,47 +97,17 @@ async function initSearchPage() {
   const filtersEl = document.getElementById('search-filters');
   const resultsEl = document.getElementById('search-results');
 
-  renderPostContext(document.getElementById('post-context-slot'), {
-    allowClear: true,
-    onClear: async () => {
-      scope = 'all';
-      if (!DataStore.allQuestions.length) await loadAllData();
-      cachedIndex = null;
-      renderScope();
-      renderFilters();
-      renderResults(document.getElementById('search-input')?.value || '');
-    },
-  });
+  renderPostContext(document.getElementById('post-context-slot'));
 
   function getSearchPool() {
-    const meta = getSelectedPostMeta();
-    if (scope === 'post' && meta) return getActiveQuestions();
-    return DataStore.allQuestions;
+    return getActiveQuestions().length ? getActiveQuestions() : DataStore.allQuestions;
   }
 
   function renderScope() {
     const meta = getSelectedPostMeta();
-    if (!meta) {
-      scope = 'all';
-      scopeEl.innerHTML = `
-        <span class="search-scope__label">Searching:</span>
-        <button type="button" class="filter-chip filter-chip--active" disabled>All posts</button>`;
-      return;
-    }
     scopeEl.innerHTML = `
       <span class="search-scope__label">Searching:</span>
-      <button type="button" class="filter-chip${scope === 'post' ? ' filter-chip--active' : ''}" data-scope="post">${escapeHtml(meta.name)}</button>
-      <button type="button" class="filter-chip${scope === 'all' ? ' filter-chip--active' : ''}" data-scope="all">All posts</button>`;
-    scopeEl.querySelectorAll('[data-scope]').forEach((btn) => {
-      btn.addEventListener('click', async () => {
-        scope = btn.dataset.scope;
-        if (scope === 'all' && !DataStore.allQuestions.length) await loadAllData();
-        cachedIndex = null;
-        renderScope();
-        renderFilters();
-        renderResults(document.getElementById('search-input')?.value || '');
-      });
-    });
+      <button type="button" class="filter-chip filter-chip--active" disabled>${escapeHtml(meta?.name || 'Accounts Assistant (Finance)')}</button>`;
   }
 
   function renderFilters() {
@@ -203,7 +169,7 @@ async function initSearchPage() {
     if (!results.length) {
       resultsEl.appendChild(UI.EmptyState({
         title: 'No results found',
-        message: 'Try different keywords, clear filters, or switch search scope.',
+        message: 'Try different keywords or clear filters.',
       }));
       return;
     }

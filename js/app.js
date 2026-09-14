@@ -30,7 +30,7 @@ function pagesHref(filename, query = {}) {
  * @returns {string}
  */
 function resolveAppHref(url) {
-  if (!url) return pagesHref('browse.html');
+  if (!url) return pagesHref('post.html', { id: 'accounts-assistant-finance' });
   const raw = String(url).trim();
   if (/^https?:\/\//i.test(raw) || raw.startsWith('/')) return raw;
   const cleaned = raw.replace(/^\.\//, '').replace(/^\.\.\//, '');
@@ -50,7 +50,7 @@ function navLink(href, label, current) {
 
 const NAV_ITEMS = [
   { label: 'Home', href: (b) => `${b}index.html`, key: 'Home' },
-  { label: 'Browse', href: (b) => `${b}pages/browse.html`, key: 'Browse' },
+  { label: 'Exam', href: (b) => `${b}pages/post.html?id=accounts-assistant-finance`, key: 'Exam' },
   { label: 'Search', href: (b) => `${b}pages/search.html`, key: 'Search' },
   { label: 'Practice', href: (b) => `${b}pages/practice.html`, key: 'Practice' },
   { label: 'Mock Tests', href: (b) => `${b}pages/mock.html`, key: 'Mock Tests' },
@@ -84,6 +84,7 @@ function renderNav(currentPage) {
 function navIcon(key) {
   const icons = {
     Home: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5z"/></svg>',
+    Exam: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
     Browse: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
     Practice: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>',
     Search: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
@@ -98,9 +99,9 @@ function renderFooter() {
   return `
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p class="site-footer__text">JKSSB PREP — Practice smarter. Improve faster.</p>
+        <p class="site-footer__text">JKSSB PREP — Accounts Assistant (Finance).</p>
         <div class="site-footer__links">
-          <a href="${base}pages/browse.html">Browse</a>
+          <a href="${base}pages/post.html?id=accounts-assistant-finance">Exam hub</a>
           <a href="${base}admin.html" class="site-footer__admin">Admin</a>
         </div>
       </div>
@@ -152,34 +153,17 @@ function showDataError(container, message) {
  * @param {HTMLElement} container
  * @param {{ allowClear?: boolean }} [opts]
  */
-function renderPostContext(container, opts = {}) {
+function renderPostContext(container) {
   if (!container) return;
   const meta = typeof getSelectedPostMeta === 'function' ? getSelectedPostMeta() : null;
-  if (!meta) {
-    container.innerHTML = `
-      <div class="post-context">
-        <span class="post-context__label">Post</span>
-        <span class="post-context__name">All posts</span>
-        <a href="${pagesHref('browse.html')}" class="btn btn--ghost btn--sm">Choose a post</a>
-      </div>`;
-    return;
-  }
+  const name = meta?.name || 'Accounts Assistant (Finance)';
+  const postId = meta?.id || (typeof DEFAULT_POST_ID !== 'undefined' ? DEFAULT_POST_ID : 'accounts-assistant-finance');
   container.innerHTML = `
     <div class="post-context">
       <span class="post-context__label">Preparing for</span>
-      <span class="post-context__name">${escapeHtml(meta.name)}</span>
-      <a href="${pagesHref('post.html', { id: meta.id })}" class="btn btn--ghost btn--sm">Post hub</a>
-      <a href="${pagesHref('browse.html')}" class="btn btn--ghost btn--sm">Change</a>
-      ${opts.allowClear ? '<button type="button" class="btn btn--ghost btn--sm" id="clear-post-filter">Clear filter</button>' : ''}
+      <span class="post-context__name">${escapeHtml(name)}</span>
+      <a href="${pagesHref('post.html', { id: postId })}" class="btn btn--ghost btn--sm">Exam hub</a>
     </div>`;
-  const clearBtn = container.querySelector('#clear-post-filter');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', () => {
-      clearSelectedPost();
-      renderPostContext(container, opts);
-      if (opts.onClear) opts.onClear();
-    });
-  }
 }
 
 function categoryIconLabel(icon) {
