@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "Mathematics",
-  "question_count": 500,
+  "question_count": 551,
   "schema": [
     "question_id",
     "question",
@@ -19509,6 +19509,1995 @@
         "Mathematics",
         "Vectors",
         "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-501",
+      "question": "A ∪ A equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "empty set"
+        },
+        {
+          "id": "B",
+          "text": "universal set always"
+        },
+        {
+          "id": "C",
+          "text": "A′"
+        },
+        {
+          "id": "D",
+          "text": "A"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Idempotent.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-502",
+      "question": "A ∩ A′ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "A′"
+        },
+        {
+          "id": "C",
+          "text": "empty"
+        },
+        {
+          "id": "D",
+          "text": "U"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Complement.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-503",
+      "question": "De Morgan: (A ∪ B)′ =",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ∩ B"
+        },
+        {
+          "id": "B",
+          "text": "A′ ∪ B′"
+        },
+        {
+          "id": "C",
+          "text": "A ∪ B"
+        },
+        {
+          "id": "D",
+          "text": "A′ ∩ B′"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Complement of union.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-504",
+      "question": "n(A ∪ B) = n(A)+n(B)−n(A ∩ B) is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "inclusion-exclusion for two sets"
+        },
+        {
+          "id": "B",
+          "text": "Bayes formula"
+        },
+        {
+          "id": "C",
+          "text": "combination formula"
+        },
+        {
+          "id": "D",
+          "text": "permutation formula"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Counting.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-505",
+      "question": "A square matrix has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "no entries"
+        },
+        {
+          "id": "B",
+          "text": "one row only always"
+        },
+        {
+          "id": "C",
+          "text": "equal number of rows and columns"
+        },
+        {
+          "id": "D",
+          "text": "one column only always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "n×n.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-506",
+      "question": "The identity matrix has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "all 0s"
+        },
+        {
+          "id": "B",
+          "text": "all 2s"
+        },
+        {
+          "id": "C",
+          "text": "1s on the diagonal and 0s elsewhere"
+        },
+        {
+          "id": "D",
+          "text": "all 1s"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "AI = IA = A.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-507",
+      "question": "A transpose satisfies (Aᵀ)ᵀ =",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "A⁻¹ always"
+        },
+        {
+          "id": "C",
+          "text": "0 always"
+        },
+        {
+          "id": "D",
+          "text": "−A always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Involution.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-508",
+      "question": "det(Aᵀ) equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 always"
+        },
+        {
+          "id": "B",
+          "text": "0 always"
+        },
+        {
+          "id": "C",
+          "text": "det(A)"
+        },
+        {
+          "id": "D",
+          "text": "−det(A) always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Same determinant.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-509",
+      "question": "If det(A)=0, A is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "singular (not invertible)"
+        },
+        {
+          "id": "B",
+          "text": "always invertible"
+        },
+        {
+          "id": "C",
+          "text": "always the identity"
+        },
+        {
+          "id": "D",
+          "text": "always orthogonal"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "No inverse.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-510",
+      "question": "SI is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "independent of P"
+        },
+        {
+          "id": "B",
+          "text": "proportional to P, R and T"
+        },
+        {
+          "id": "C",
+          "text": "independent of T"
+        },
+        {
+          "id": "D",
+          "text": "always equal to CI for 2 years"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "SI = PRT/100.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Simple interest",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-511",
+      "question": "CI for two years at rate R exceeds SI by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "2P always"
+        },
+        {
+          "id": "B",
+          "text": "interest on the first year’s SI (approx./exact for annual compounding)"
+        },
+        {
+          "id": "C",
+          "text": "P always"
+        },
+        {
+          "id": "D",
+          "text": "zero always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Compound interest",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CI − SI = P(R/100)² for 2 years annual.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Compound interest",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-512",
+      "question": "A pair of linear equations with coincident lines has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "exactly three solutions"
+        },
+        {
+          "id": "B",
+          "text": "exactly two solutions"
+        },
+        {
+          "id": "C",
+          "text": "no solution"
+        },
+        {
+          "id": "D",
+          "text": "infinitely many solutions"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dependent system.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Linear equations",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-513",
+      "question": "Parallel distinct lines mean:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite solutions"
+        },
+        {
+          "id": "B",
+          "text": "no solution"
+        },
+        {
+          "id": "C",
+          "text": "unique solution"
+        },
+        {
+          "id": "D",
+          "text": "three solutions"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Inconsistent.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Linear equations",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-514",
+      "question": "n! counts:",
+      "options": [
+        {
+          "id": "A",
+          "text": "subsets of n only as n!"
+        },
+        {
+          "id": "B",
+          "text": "only pairs"
+        },
+        {
+          "id": "C",
+          "text": "combinations of n"
+        },
+        {
+          "id": "D",
+          "text": "permutations of n distinct objects"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Permutations",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Factorial.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Permutations",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-515",
+      "question": "P(n,n) equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "n!"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Permutations",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "All arranged.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Permutations",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-516",
+      "question": "C(n,0) equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "n!"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "n"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Combinations",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Empty selection.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Combinations",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-517",
+      "question": "C(n,n) equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "n!"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Combinations",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Take all.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Combinations",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-518",
+      "question": "C(n,r) = C(n,n−r) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a permutation identity only"
+        },
+        {
+          "id": "B",
+          "text": "true only for r=1"
+        },
+        {
+          "id": "C",
+          "text": "symmetry of combinations"
+        },
+        {
+          "id": "D",
+          "text": "false always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Combinations",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Choosing r is choosing the leftover.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Combinations",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-519",
+      "question": "P(A)+P(A′) =",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.5 always"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Complement.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Probability",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-520",
+      "question": "i, j, k are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "of length 2"
+        },
+        {
+          "id": "B",
+          "text": "parallel always"
+        },
+        {
+          "id": "C",
+          "text": "of length 0"
+        },
+        {
+          "id": "D",
+          "text": "mutually perpendicular unit vectors"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Orthonormal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Vectors",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-521",
+      "question": "A · B = 0 if A and B are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "perpendicular (and non-zero)"
+        },
+        {
+          "id": "B",
+          "text": "parallel always"
+        },
+        {
+          "id": "C",
+          "text": "equal always"
+        },
+        {
+          "id": "D",
+          "text": "opposite always as the only case"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dot product.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Vectors",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-522",
+      "question": "A × B is perpendicular to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the scalar 5"
+        },
+        {
+          "id": "B",
+          "text": "the number 0 only"
+        },
+        {
+          "id": "C",
+          "text": "both A and B"
+        },
+        {
+          "id": "D",
+          "text": "only A never B"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cross product.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Vectors",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-523",
+      "question": "d/dx (constant) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "the constant"
+        },
+        {
+          "id": "C",
+          "text": "x"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Limits & Derivatives",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Slope of horizontal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Limits & Derivatives",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-524",
+      "question": "d/dx (xⁿ) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "xⁿ"
+        },
+        {
+          "id": "B",
+          "text": "n xⁿ"
+        },
+        {
+          "id": "C",
+          "text": "n"
+        },
+        {
+          "id": "D",
+          "text": "n xⁿ⁻¹"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Limits & Derivatives",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Power rule.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Limits & Derivatives",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-525",
+      "question": "A − B =",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ∩ B"
+        },
+        {
+          "id": "B",
+          "text": "A ∪ B"
+        },
+        {
+          "id": "C",
+          "text": "A ∩ B′"
+        },
+        {
+          "id": "D",
+          "text": "B − A always as identity"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Difference.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-526",
+      "question": "Matrix multiplication is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always commutative"
+        },
+        {
+          "id": "B",
+          "text": "always equal to addition"
+        },
+        {
+          "id": "C",
+          "text": "always undefined"
+        },
+        {
+          "id": "D",
+          "text": "not commutative in general"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "AB ≠ BA generally.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-527",
+      "question": "The time in SI formula is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only days never converted"
+        },
+        {
+          "id": "B",
+          "text": "only hours as the only unit in bank SI"
+        },
+        {
+          "id": "C",
+          "text": "years (or converted to years)"
+        },
+        {
+          "id": "D",
+          "text": "only centuries as the only unit"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Match the rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Simple interest",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-528",
+      "question": "If compounding is quarterly, periodic rate is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "R/12 with n periods as quarterly"
+        },
+        {
+          "id": "B",
+          "text": "4R with n periods"
+        },
+        {
+          "id": "C",
+          "text": "R with n periods"
+        },
+        {
+          "id": "D",
+          "text": "R/4 with 4n periods (nominal R% p.a.)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Compound interest",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Standard conversion.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Compound interest",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-529",
+      "question": "The graph of ax+by+c=0 is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "straight line (a,b not both 0)"
+        },
+        {
+          "id": "B",
+          "text": "parabola always"
+        },
+        {
+          "id": "C",
+          "text": "ellipse always"
+        },
+        {
+          "id": "D",
+          "text": "circle"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Linear.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Linear equations",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-530",
+      "question": "A fair coin has P(head) =",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Two faces.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Probability",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-531",
+      "question": "0! is defined as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "undefined in all combinatorics"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "infinity"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Permutations",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Empty product.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Permutations",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-532",
+      "question": "C(n,1) equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "n"
+        },
+        {
+          "id": "D",
+          "text": "n!"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Combinations",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Choose one.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Combinations",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-533",
+      "question": "The magnitude of a unit vector is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "∞"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Normalised.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Vectors",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-534",
+      "question": "The derivative at a point is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "y-intercept only"
+        },
+        {
+          "id": "B",
+          "text": "area under the curve as the only meaning of derivative"
+        },
+        {
+          "id": "C",
+          "text": "x-intercept only"
+        },
+        {
+          "id": "D",
+          "text": "slope of the tangent"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Limits & Derivatives",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Instantaneous rate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Limits & Derivatives",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-535",
+      "question": "The power set of a set with n elements has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "n!"
+        },
+        {
+          "id": "B",
+          "text": "2ⁿ subsets"
+        },
+        {
+          "id": "C",
+          "text": "n subsets"
+        },
+        {
+          "id": "D",
+          "text": "n²"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Set Theory",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Including empty and full.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Set Theory",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-536",
+      "question": "Trace of a square matrix is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "det always"
+        },
+        {
+          "id": "B",
+          "text": "product of all entries"
+        },
+        {
+          "id": "C",
+          "text": "0 always"
+        },
+        {
+          "id": "D",
+          "text": "sum of diagonal entries"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "tr(A).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Matrices & Determinants",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-537",
+      "question": "P(A∪B)+P(A∩B) =",
+      "options": [
+        {
+          "id": "A",
+          "text": "P(A)+P(B)"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "P(A)P(B)"
+        },
+        {
+          "id": "D",
+          "text": "1 always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Rearrange inclusion-exclusion.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Probability",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-538",
+      "question": "If T is doubled and R halved, SI:",
+      "options": [
+        {
+          "id": "A",
+          "text": "halves"
+        },
+        {
+          "id": "B",
+          "text": "doubles"
+        },
+        {
+          "id": "C",
+          "text": "remains the same"
+        },
+        {
+          "id": "D",
+          "text": "becomes zero"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "PRT unchanged.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Simple interest",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-539",
+      "question": "CI is equal to SI when time is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 year (annual compounding, same R)"
+        },
+        {
+          "id": "B",
+          "text": "always for all T"
+        },
+        {
+          "id": "C",
+          "text": "only at T=0 as the only equality besides 1 year"
+        },
+        {
+          "id": "D",
+          "text": "never"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Compound interest",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "No interest-on-interest yet.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Compound interest",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-540",
+      "question": "Unique solution of two lines requires:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a1/a2 = b1/b2 = c1/c2"
+        },
+        {
+          "id": "B",
+          "text": "intersecting lines (a1/a2 ≠ b1/b2)"
+        },
+        {
+          "id": "C",
+          "text": "both coefficients zero"
+        },
+        {
+          "id": "D",
+          "text": "a1/a2 = b1/b2 ≠ c1/c2"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Consistent independent.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Linear equations",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-541",
+      "question": "The number of terms in the expansion of (a+b)^n is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "2n"
+        },
+        {
+          "id": "B",
+          "text": "n−1"
+        },
+        {
+          "id": "C",
+          "text": "n"
+        },
+        {
+          "id": "D",
+          "text": "n+1"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Binomial theorem.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Binomial Theorem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-542",
+      "question": "The middle term(s) of (a+b)^n when n is even: there is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the last term as middle"
+        },
+        {
+          "id": "B",
+          "text": "no middle term"
+        },
+        {
+          "id": "C",
+          "text": "one middle term"
+        },
+        {
+          "id": "D",
+          "text": "n middle terms"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Term T_{(n/2)+1}.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Binomial Theorem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-543",
+      "question": "The general term T_{r+1} in (a+b)^n is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "C(n,r) a^r b^n"
+        },
+        {
+          "id": "B",
+          "text": "n! a b"
+        },
+        {
+          "id": "C",
+          "text": "a^n + b^n always"
+        },
+        {
+          "id": "D",
+          "text": "C(n,r) a^{n−r} b^r"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Binomial general term.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Binomial Theorem",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-544",
+      "question": "A relation from A to B is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "function from B to A always"
+        },
+        {
+          "id": "B",
+          "text": "element of A always"
+        },
+        {
+          "id": "C",
+          "text": "subset of A × B"
+        },
+        {
+          "id": "D",
+          "text": "subset of A ∪ B only as the definition"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Mathematics",
+      "topic": "Relations & Functions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cartesian product.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Relations & Functions",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-545",
+      "question": "A function f: A → B maps each element of A to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "nothing"
+        },
+        {
+          "id": "B",
+          "text": "exactly one element of B"
+        },
+        {
+          "id": "C",
+          "text": "zero or many with no restriction"
+        },
+        {
+          "id": "D",
+          "text": "every element of B many times as a requirement of any function"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Relations & Functions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Well-defined mapping.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Relations & Functions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-546",
+      "question": "An identity relation on A contains:",
+      "options": [
+        {
+          "id": "A",
+          "text": "no pairs"
+        },
+        {
+          "id": "B",
+          "text": "pairs (a,a) for every a in A"
+        },
+        {
+          "id": "C",
+          "text": "A × A minus the diagonal always"
+        },
+        {
+          "id": "D",
+          "text": "only (a,b) with a≠b"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Relations & Functions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Reflexive smallest.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Relations & Functions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-547",
+      "question": "The distance between (x1,y1) and (x2,y2) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "|y2−y1| only"
+        },
+        {
+          "id": "B",
+          "text": "√[(x2−x1)²+(y2−y1)²]"
+        },
+        {
+          "id": "C",
+          "text": "x1+y1"
+        },
+        {
+          "id": "D",
+          "text": "|x2−x1| only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pythagoras.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Coordinate Geometry",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-548",
+      "question": "The midpoint of (x1,y1) and (x2,y2) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "((x1+x2)/2, (y1+y2)/2)"
+        },
+        {
+          "id": "B",
+          "text": "(x1−x2, y1−y2)"
+        },
+        {
+          "id": "C",
+          "text": "(0,0) always"
+        },
+        {
+          "id": "D",
+          "text": "(x1x2, y1y2)"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Section formula 1:1.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Coordinate Geometry",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-549",
+      "question": "The slope of a line through (x1,y1), (x2,y2) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x2−x1)/(y2−y1) always as slope"
+        },
+        {
+          "id": "B",
+          "text": "x1+x2"
+        },
+        {
+          "id": "C",
+          "text": "y1y2"
+        },
+        {
+          "id": "D",
+          "text": "(y2−y1)/(x2−x1) (if x2≠x1)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "m = tan θ.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Coordinate Geometry",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-550",
+      "question": "Direction cosines l, m, n of a line satisfy:",
+      "options": [
+        {
+          "id": "A",
+          "text": "lmn=1 always"
+        },
+        {
+          "id": "B",
+          "text": "l+m+n=0 always"
+        },
+        {
+          "id": "C",
+          "text": "l=m=n=0"
+        },
+        {
+          "id": "D",
+          "text": "l² + m² + n² = 1"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Mathematics",
+      "topic": "3D Geometry",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cosines of angles with axes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "3D Geometry",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-mathematics-551",
+      "question": "A constant term in (x + 1/x)^n exists when n is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "even"
+        },
+        {
+          "id": "B",
+          "text": "never"
+        },
+        {
+          "id": "C",
+          "text": "odd always as the only case"
+        },
+        {
+          "id": "D",
+          "text": "prime always"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Need n − 2r = 0 so r = n/2.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Mathematics",
+        "Binomial Theorem",
+        "easy"
       ],
       "pool_type": "post_primary",
       "post_id": "accounts-assistant-finance"

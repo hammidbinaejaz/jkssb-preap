@@ -4,7 +4,7 @@
   "category": "Finance",
   "category_id": "finance",
   "kind": "multi_subject",
-  "question_count": 4100,
+  "question_count": 4788,
   "subject_files": [
     "qbanks/finance/faa/gk-jk.json",
     "qbanks/finance/faa/accountancy.json",

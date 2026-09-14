@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "General Science",
-  "question_count": 500,
+  "question_count": 591,
   "schema": [
     "question_id",
     "question",
@@ -19509,6 +19509,3555 @@
         "General Science",
         "Newton's Laws of Motion",
         "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-501",
+      "question": "A decomposer example is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fungus / bacterium"
+        },
+        {
+          "id": "B",
+          "text": "tiger as a decomposer"
+        },
+        {
+          "id": "C",
+          "text": "green plant as a decomposer"
+        },
+        {
+          "id": "D",
+          "text": "cow as a primary decomposer"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Break organic matter.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-502",
+      "question": "A food web is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "interconnected food chains"
+        },
+        {
+          "id": "B",
+          "text": "only sunlight"
+        },
+        {
+          "id": "C",
+          "text": "only producers"
+        },
+        {
+          "id": "D",
+          "text": "a single chain only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Many paths of energy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-503",
+      "question": "10% law of energy transfer is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mendel only as ecology"
+        },
+        {
+          "id": "B",
+          "text": "Lindeman"
+        },
+        {
+          "id": "C",
+          "text": "Newton"
+        },
+        {
+          "id": "D",
+          "text": "Ohm"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "About 10% to next trophic level.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-504",
+      "question": "Biomagnification means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "decrease of all toxins always"
+        },
+        {
+          "id": "B",
+          "text": "increase of toxin concentration up the food chain"
+        },
+        {
+          "id": "C",
+          "text": "less CO2 in air always"
+        },
+        {
+          "id": "D",
+          "text": "more sunlight in a cave"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "DDT in fish-eating birds.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-505",
+      "question": "A biome is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "large community of flora and fauna (e.g. tundra, desert)"
+        },
+        {
+          "id": "B",
+          "text": "one mitochondrion"
+        },
+        {
+          "id": "C",
+          "text": "one food vacuole"
+        },
+        {
+          "id": "D",
+          "text": "single cell"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ecological region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-506",
+      "question": "Nitrogen fixation can be done by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "humans as the only fixers"
+        },
+        {
+          "id": "B",
+          "text": "fish as the only fixers"
+        },
+        {
+          "id": "C",
+          "text": "Rhizobium on legume roots"
+        },
+        {
+          "id": "D",
+          "text": "tigers"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "N2 → ammonia.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-507",
+      "question": "The greenhouse gas methane is produced significantly in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "argon lamps"
+        },
+        {
+          "id": "B",
+          "text": "helium balloons"
+        },
+        {
+          "id": "C",
+          "text": "wetlands / ruminants / paddy"
+        },
+        {
+          "id": "D",
+          "text": "pure oxygen cylinders"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CH4.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-508",
+      "question": "Eutrophication of a lake is due to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "excess nutrients (N, P)"
+        },
+        {
+          "id": "B",
+          "text": "too little sunlight always as the definition"
+        },
+        {
+          "id": "C",
+          "text": "too few algae always"
+        },
+        {
+          "id": "D",
+          "text": "too much oxygen always as the definition"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Algal bloom → oxygen crash.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-509",
+      "question": "The Montreal Protocol deals with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cricket"
+        },
+        {
+          "id": "B",
+          "text": "ozone-depleting substances"
+        },
+        {
+          "id": "C",
+          "text": "nuclear tests only"
+        },
+        {
+          "id": "D",
+          "text": "GST"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CFCs.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-510",
+      "question": "The Kyoto / Paris agreements concern:",
+      "options": [
+        {
+          "id": "A",
+          "text": "climate change / greenhouse gases"
+        },
+        {
+          "id": "B",
+          "text": "only local property tax"
+        },
+        {
+          "id": "C",
+          "text": "only stamp duty"
+        },
+        {
+          "id": "D",
+          "text": "only municipal parking"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "UNFCCC family.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-511",
+      "question": "BOD of water measures:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only salt"
+        },
+        {
+          "id": "B",
+          "text": "only colour"
+        },
+        {
+          "id": "C",
+          "text": "only temperature as BOD"
+        },
+        {
+          "id": "D",
+          "text": "organic pollution (oxygen demand of microbes)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Biochemical oxygen demand.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-512",
+      "question": "Resistance of a wire increases if we:",
+      "options": [
+        {
+          "id": "A",
+          "text": "increase length or decrease thickness (same material)"
+        },
+        {
+          "id": "B",
+          "text": "always cool to 0 K as the only classroom case"
+        },
+        {
+          "id": "C",
+          "text": "always decrease length"
+        },
+        {
+          "id": "D",
+          "text": "always use a superconductor at room temp as the only case"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "R = ρl/A.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-513",
+      "question": "In a series circuit, current is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite always"
+        },
+        {
+          "id": "B",
+          "text": "zero always"
+        },
+        {
+          "id": "C",
+          "text": "different in each as in parallel"
+        },
+        {
+          "id": "D",
+          "text": "the same through each component"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "One path.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-514",
+      "question": "In a parallel circuit, voltage across branches is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "infinite"
+        },
+        {
+          "id": "B",
+          "text": "the same"
+        },
+        {
+          "id": "C",
+          "text": "split like series current"
+        },
+        {
+          "id": "D",
+          "text": "zero"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Common PD.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-515",
+      "question": "kWh is the commercial unit of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "resistance only"
+        },
+        {
+          "id": "B",
+          "text": "power only"
+        },
+        {
+          "id": "C",
+          "text": "current only"
+        },
+        {
+          "id": "D",
+          "text": "electrical energy"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "1 kWh = 3.6×10^6 J.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-516",
+      "question": "A fuse wire should have:",
+      "options": [
+        {
+          "id": "A",
+          "text": "very high melting point like tungsten always as a fuse"
+        },
+        {
+          "id": "B",
+          "text": "infinite thickness always"
+        },
+        {
+          "id": "C",
+          "text": "zero resistance always"
+        },
+        {
+          "id": "D",
+          "text": "low melting point"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Safety.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-517",
+      "question": "Earthing of appliances protects against:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cold"
+        },
+        {
+          "id": "B",
+          "text": "noise only"
+        },
+        {
+          "id": "C",
+          "text": "electric shock"
+        },
+        {
+          "id": "D",
+          "text": "hunger"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Leakage to earth.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-518",
+      "question": "Momentum is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "distance / time"
+        },
+        {
+          "id": "B",
+          "text": "mass / velocity"
+        },
+        {
+          "id": "C",
+          "text": "mass × velocity"
+        },
+        {
+          "id": "D",
+          "text": "force × time only as the definition without impulse context"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "p = mv.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-519",
+      "question": "Impulse equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "distance only"
+        },
+        {
+          "id": "B",
+          "text": "mass only"
+        },
+        {
+          "id": "C",
+          "text": "change in momentum"
+        },
+        {
+          "id": "D",
+          "text": "velocity only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "FΔt = Δp.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-520",
+      "question": "Action and reaction:",
+      "options": [
+        {
+          "id": "A",
+          "text": "are equal and opposite on different bodies"
+        },
+        {
+          "id": "B",
+          "text": "act on the same particle always as a third-law pair"
+        },
+        {
+          "id": "C",
+          "text": "are unequal always"
+        },
+        {
+          "id": "D",
+          "text": "cancel on the same body always so nothing can move"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Newton 3.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-521",
+      "question": "SI unit of work is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Joule"
+        },
+        {
+          "id": "B",
+          "text": "Watt as work"
+        },
+        {
+          "id": "C",
+          "text": "Newton"
+        },
+        {
+          "id": "D",
+          "text": "Pascal"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "W = Fs cosθ.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-522",
+      "question": "Power is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "force × time"
+        },
+        {
+          "id": "B",
+          "text": "distance × time"
+        },
+        {
+          "id": "C",
+          "text": "mass × g only"
+        },
+        {
+          "id": "D",
+          "text": "work / time"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Watt.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-523",
+      "question": "Kinetic energy is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "½ mv²"
+        },
+        {
+          "id": "B",
+          "text": "Fd only as the only KE formula"
+        },
+        {
+          "id": "C",
+          "text": "mv"
+        },
+        {
+          "id": "D",
+          "text": "mgh only as KE"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Motion energy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-524",
+      "question": "Potential energy (gravitational, near Earth) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mv"
+        },
+        {
+          "id": "B",
+          "text": "½ mv²"
+        },
+        {
+          "id": "C",
+          "text": "F/A"
+        },
+        {
+          "id": "D",
+          "text": "mgh"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Height energy.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-525",
+      "question": "A displacement reaction example is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "HCl + NaOH → salt + water as displacement only"
+        },
+        {
+          "id": "B",
+          "text": "2H2 + O2 → 2H2O as displacement"
+        },
+        {
+          "id": "C",
+          "text": "CaCO3 → CaO + CO2 as displacement"
+        },
+        {
+          "id": "D",
+          "text": "Zn + CuSO4 → ZnSO4 + Cu"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "More reactive metal displaces.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-526",
+      "question": "Neutralisation is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "metal + oxygen only"
+        },
+        {
+          "id": "B",
+          "text": "acid + base → salt + water"
+        },
+        {
+          "id": "C",
+          "text": "only electrolysis"
+        },
+        {
+          "id": "D",
+          "text": "only rusting"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "H+ and OH−.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-527",
+      "question": "Rusting of iron needs:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only nitrogen"
+        },
+        {
+          "id": "B",
+          "text": "only helium"
+        },
+        {
+          "id": "C",
+          "text": "only argon"
+        },
+        {
+          "id": "D",
+          "text": "air (oxygen) and moisture"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Oxidation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-528",
+      "question": "The most reactive metal in the school series among K, Na, Ca is often:",
+      "options": [
+        {
+          "id": "A",
+          "text": "gold as the most reactive"
+        },
+        {
+          "id": "B",
+          "text": "copper as more reactive than K"
+        },
+        {
+          "id": "C",
+          "text": "platinum as the most reactive"
+        },
+        {
+          "id": "D",
+          "text": "K (potassium) more reactive than Na"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Reactivity series.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-529",
+      "question": "Graphite is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "metal that is always liquid"
+        },
+        {
+          "id": "B",
+          "text": "non-metal that conducts electricity"
+        },
+        {
+          "id": "C",
+          "text": "halogen gas"
+        },
+        {
+          "id": "D",
+          "text": "noble gas"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Carbon allotrope.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-530",
+      "question": "Diamond is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a metal"
+        },
+        {
+          "id": "B",
+          "text": "an allotrope of iron"
+        },
+        {
+          "id": "C",
+          "text": "a salt of NaCl"
+        },
+        {
+          "id": "D",
+          "text": "an allotrope of carbon"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Network solid.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-531",
+      "question": "A solar cell converts:",
+      "options": [
+        {
+          "id": "A",
+          "text": "electricity to light as the definition of a cell"
+        },
+        {
+          "id": "B",
+          "text": "heat to sound only"
+        },
+        {
+          "id": "C",
+          "text": "sound to heat only"
+        },
+        {
+          "id": "D",
+          "text": "light to electricity"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Photovoltaic.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-532",
+      "question": "Wind energy is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a fossil fuel"
+        },
+        {
+          "id": "B",
+          "text": "nuclear fission"
+        },
+        {
+          "id": "C",
+          "text": "renewable"
+        },
+        {
+          "id": "D",
+          "text": "coal tar"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kinetic energy of air.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-533",
+      "question": "CNG is mainly:",
+      "options": [
+        {
+          "id": "A",
+          "text": "pure helium"
+        },
+        {
+          "id": "B",
+          "text": "methane"
+        },
+        {
+          "id": "C",
+          "text": "pure argon"
+        },
+        {
+          "id": "D",
+          "text": "pure oxygen"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Compressed natural gas.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-534",
+      "question": "Autotrophs make food by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbing cooked rice only"
+        },
+        {
+          "id": "B",
+          "text": "drinking milk only"
+        },
+        {
+          "id": "C",
+          "text": "photosynthesis (typically)"
+        },
+        {
+          "id": "D",
+          "text": "eating animals only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Producers.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-535",
+      "question": "Heterotrophs:",
+      "options": [
+        {
+          "id": "A",
+          "text": "make glucose from CO2 as plants do"
+        },
+        {
+          "id": "B",
+          "text": "are only rocks"
+        },
+        {
+          "id": "C",
+          "text": "depend on others for food"
+        },
+        {
+          "id": "D",
+          "text": "are only sunlight"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Consumers.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-536",
+      "question": "Amoeba takes food by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "stomata only"
+        },
+        {
+          "id": "B",
+          "text": "leaves"
+        },
+        {
+          "id": "C",
+          "text": "roots"
+        },
+        {
+          "id": "D",
+          "text": "phagocytosis / pseudopodia"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Holozoic.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-537",
+      "question": "Bile is produced by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "pancreas as the only bile organ"
+        },
+        {
+          "id": "B",
+          "text": "liver"
+        },
+        {
+          "id": "C",
+          "text": "kidney"
+        },
+        {
+          "id": "D",
+          "text": "heart"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Stored in gall bladder.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-538",
+      "question": "Stomata help in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "gas exchange / transpiration"
+        },
+        {
+          "id": "B",
+          "text": "pumping blood"
+        },
+        {
+          "id": "C",
+          "text": "filtering urea as stomata’s job"
+        },
+        {
+          "id": "D",
+          "text": "hearing"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Leaf pores.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-539",
+      "question": "Anaerobic respiration in muscle produces:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only nitrogen"
+        },
+        {
+          "id": "B",
+          "text": "only oxygen"
+        },
+        {
+          "id": "C",
+          "text": "only argon"
+        },
+        {
+          "id": "D",
+          "text": "lactic acid"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Respiration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fatigue.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Respiration",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-540",
+      "question": "Yeast fermentation produces:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only nitrogen"
+        },
+        {
+          "id": "B",
+          "text": "only oxygen"
+        },
+        {
+          "id": "C",
+          "text": "ethanol and CO2"
+        },
+        {
+          "id": "D",
+          "text": "protein as the only product"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Respiration",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Anaerobic.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Respiration",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-541",
+      "question": "The organelle of aerobic respiration is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "chloroplast as the only respiration site in animals"
+        },
+        {
+          "id": "B",
+          "text": "ribosome as ATP factory in the syllabus sense"
+        },
+        {
+          "id": "C",
+          "text": "vacuole"
+        },
+        {
+          "id": "D",
+          "text": "mitochondrion"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Respiration",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Powerhouse.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Respiration",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-542",
+      "question": "Malaria is caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a fungus called Plasmodium always"
+        },
+        {
+          "id": "B",
+          "text": "a bacterium called Plasmodium always"
+        },
+        {
+          "id": "C",
+          "text": "Plasmodium (protozoan) via Anopheles"
+        },
+        {
+          "id": "D",
+          "text": "a virus called Plasmodium"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vector-borne.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-543",
+      "question": "COVID-19 is caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a deficiency of Vitamin C only"
+        },
+        {
+          "id": "B",
+          "text": "a protozoan"
+        },
+        {
+          "id": "C",
+          "text": "a virus (SARS-CoV-2)"
+        },
+        {
+          "id": "D",
+          "text": "a bacterium called SARS as the only cause"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Infectious.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-544",
+      "question": "Diabetes mellitus involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only low blood pressure as the definition"
+        },
+        {
+          "id": "B",
+          "text": "only scurvy"
+        },
+        {
+          "id": "C",
+          "text": "high blood sugar / insulin problem"
+        },
+        {
+          "id": "D",
+          "text": "only goitre"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Metabolic.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-545",
+      "question": "Vitamin K is important for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "scurvy prevention as K’s main role"
+        },
+        {
+          "id": "B",
+          "text": "night vision as K’s main role"
+        },
+        {
+          "id": "C",
+          "text": "beri-beri as K’s main role"
+        },
+        {
+          "id": "D",
+          "text": "blood clotting"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Vitamins",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Coagulation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Vitamins",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-546",
+      "question": "Vitamin B12 deficiency can cause:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rickets as B12’s classic"
+        },
+        {
+          "id": "B",
+          "text": "pernicious / megaloblastic anaemia"
+        },
+        {
+          "id": "C",
+          "text": "goitre as B12’s classic"
+        },
+        {
+          "id": "D",
+          "text": "scurvy"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Vitamins",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cobalamin.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Vitamins",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-547",
+      "question": "ORAL rehydration for diarrhoea replaces:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only iron tablets as ORS"
+        },
+        {
+          "id": "B",
+          "text": "only oil"
+        },
+        {
+          "id": "C",
+          "text": "salts and water"
+        },
+        {
+          "id": "D",
+          "text": "only vitamin K as ORS"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Vitamins",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "ORS.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Vitamins",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-548",
+      "question": "The heating effect of current is used in a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a compass as heating"
+        },
+        {
+          "id": "B",
+          "text": "only a bar magnet as heating"
+        },
+        {
+          "id": "C",
+          "text": "electric iron / heater / fuse"
+        },
+        {
+          "id": "D",
+          "text": "only an electroscope as heating"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "I²Rt.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-549",
+      "question": "An electromagnet needs:",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanent magnetism with zero current always as the definition of electromagnet"
+        },
+        {
+          "id": "B",
+          "text": "only rubber"
+        },
+        {
+          "id": "C",
+          "text": "current in a coil (often with a core)"
+        },
+        {
+          "id": "D",
+          "text": "only wood"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Temporary magnet.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-550",
+      "question": "Uniform circular motion has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero acceleration always"
+        },
+        {
+          "id": "B",
+          "text": "speed changing as the only uniform case"
+        },
+        {
+          "id": "C",
+          "text": "no force"
+        },
+        {
+          "id": "D",
+          "text": "acceleration towards the centre (centripetal)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "v²/r.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-551",
+      "question": "pH < 7 indicates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "neutral only"
+        },
+        {
+          "id": "B",
+          "text": "acidic solution"
+        },
+        {
+          "id": "C",
+          "text": "alkaline"
+        },
+        {
+          "id": "D",
+          "text": "pure water always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hydrogen ion.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-552",
+      "question": "pH 7 is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "strongly basic"
+        },
+        {
+          "id": "B",
+          "text": "strongly acidic"
+        },
+        {
+          "id": "C",
+          "text": "undefined"
+        },
+        {
+          "id": "D",
+          "text": "neutral (at 25 °C for pure water)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Equal H+ and OH−.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-553",
+      "question": "Anodising is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rubber"
+        },
+        {
+          "id": "B",
+          "text": "wood"
+        },
+        {
+          "id": "C",
+          "text": "aluminium"
+        },
+        {
+          "id": "D",
+          "text": "cotton"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Protective oxide.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-554",
+      "question": "Geothermal energy comes from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the moon’s craters as the school definition"
+        },
+        {
+          "id": "B",
+          "text": "Earth’s internal heat"
+        },
+        {
+          "id": "C",
+          "text": "tides only"
+        },
+        {
+          "id": "D",
+          "text": "coal only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hot springs / steam.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-555",
+      "question": "A parasite lives:",
+      "options": [
+        {
+          "id": "A",
+          "text": "as a decomposer always"
+        },
+        {
+          "id": "B",
+          "text": "as a producer always"
+        },
+        {
+          "id": "C",
+          "text": "on or in a host, harming it"
+        },
+        {
+          "id": "D",
+          "text": "as a mutualist always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tapeworm, lice.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-556",
+      "question": "Lichen is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "producer fish"
+        },
+        {
+          "id": "B",
+          "text": "a type of virus only"
+        },
+        {
+          "id": "C",
+          "text": "symbiosis of alga and fungus"
+        },
+        {
+          "id": "D",
+          "text": "parasite of tigers only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pioneer on rocks.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-557",
+      "question": "CFCs damage the ozone layer in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "inner core only"
+        },
+        {
+          "id": "B",
+          "text": "core of the Earth"
+        },
+        {
+          "id": "C",
+          "text": "mantle plumes only"
+        },
+        {
+          "id": "D",
+          "text": "stratosphere"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Chlorine catalysis.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-558",
+      "question": "Haemoglobin carries:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only CO2 as the only gas never oxygen"
+        },
+        {
+          "id": "B",
+          "text": "only urea"
+        },
+        {
+          "id": "C",
+          "text": "only glucose as its only job"
+        },
+        {
+          "id": "D",
+          "text": "oxygen in blood"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "RBC protein.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-559",
+      "question": "Inhaled air has more _____ than exhaled air.",
+      "options": [
+        {
+          "id": "A",
+          "text": "water vapour always less in exhaled"
+        },
+        {
+          "id": "B",
+          "text": "nitrogen disappearing"
+        },
+        {
+          "id": "C",
+          "text": "carbon dioxide as more in inhaled than exhaled"
+        },
+        {
+          "id": "D",
+          "text": "oxygen"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Respiration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gas exchange.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Respiration",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-560",
+      "question": "Vaccines typically provide:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ORS as a vaccine"
+        },
+        {
+          "id": "B",
+          "text": "acquired immunity"
+        },
+        {
+          "id": "C",
+          "text": "insulin as a vaccine"
+        },
+        {
+          "id": "D",
+          "text": "antibiotics as the definition of a vaccine"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Immunisation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-561",
+      "question": "Potential difference is work done per:",
+      "options": [
+        {
+          "id": "A",
+          "text": "unit length"
+        },
+        {
+          "id": "B",
+          "text": "unit charge"
+        },
+        {
+          "id": "C",
+          "text": "unit mass"
+        },
+        {
+          "id": "D",
+          "text": "unit time only as V’s SI base"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Volt.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-562",
+      "question": "A freely falling body (no air) has acceleration:",
+      "options": [
+        {
+          "id": "A",
+          "text": "g, downward, independent of mass"
+        },
+        {
+          "id": "B",
+          "text": "infinite"
+        },
+        {
+          "id": "C",
+          "text": "zero"
+        },
+        {
+          "id": "D",
+          "text": "depending on colour"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Galileo / Newton 2.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-563",
+      "question": "Isotopes have the same:",
+      "options": [
+        {
+          "id": "A",
+          "text": "atomic number, different mass number"
+        },
+        {
+          "id": "B",
+          "text": "only colour"
+        },
+        {
+          "id": "C",
+          "text": "mass number always, different Z"
+        },
+        {
+          "id": "D",
+          "text": "neither Z nor A"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Carbon-12 and 14.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-564",
+      "question": "The largest number of individuals in a stable pyramid is usually:",
+      "options": [
+        {
+          "id": "A",
+          "text": "decomposers as the only peak of numbers always in every pyramid of numbers of a tree"
+        },
+        {
+          "id": "B",
+          "text": "humans only"
+        },
+        {
+          "id": "C",
+          "text": "top carnivores"
+        },
+        {
+          "id": "D",
+          "text": "producers"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pyramid of numbers (grassland).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-565",
+      "question": "Van Mahotsav is related to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "dam busting"
+        },
+        {
+          "id": "B",
+          "text": "tree planting"
+        },
+        {
+          "id": "C",
+          "text": "ozone release of CFCs"
+        },
+        {
+          "id": "D",
+          "text": "mining coal"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Afforestation awareness.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-566",
+      "question": "A thermal power plant typically burns:",
+      "options": [
+        {
+          "id": "A",
+          "text": "coal / gas / oil to make steam"
+        },
+        {
+          "id": "B",
+          "text": "only photovoltaic as thermal"
+        },
+        {
+          "id": "C",
+          "text": "only wind without a turbine as thermal"
+        },
+        {
+          "id": "D",
+          "text": "only geothermal as the only Indian thermal"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Heat → electricity.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-567",
+      "question": "Mercury is a metal that is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "liquid at room temperature"
+        },
+        {
+          "id": "B",
+          "text": "a noble gas"
+        },
+        {
+          "id": "C",
+          "text": "a halogen"
+        },
+        {
+          "id": "D",
+          "text": "a gas"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hg.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-568",
+      "question": "Iodine in salt helps prevent:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rickets as iodine’s classic"
+        },
+        {
+          "id": "B",
+          "text": "goitre"
+        },
+        {
+          "id": "C",
+          "text": "beri-beri as iodine’s classic"
+        },
+        {
+          "id": "D",
+          "text": "scurvy"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Thyroid hormone.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-569",
+      "question": "SI unit of resistance is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ampere as resistance"
+        },
+        {
+          "id": "B",
+          "text": "Ohm"
+        },
+        {
+          "id": "C",
+          "text": "Watt as resistance"
+        },
+        {
+          "id": "D",
+          "text": "Volt as resistance"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ω.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-570",
+      "question": "Friction:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always speeds you up as the only effect"
+        },
+        {
+          "id": "B",
+          "text": "opposes relative motion"
+        },
+        {
+          "id": "C",
+          "text": "is a type of gravity"
+        },
+        {
+          "id": "D",
+          "text": "is a magnetic monopole"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Contact force.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-571",
+      "question": "Carbon cycle involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the water cycle as carbon"
+        },
+        {
+          "id": "B",
+          "text": "photosynthesis and respiration"
+        },
+        {
+          "id": "C",
+          "text": "only the rock cycle with no life"
+        },
+        {
+          "id": "D",
+          "text": "only the nitrogen cycle as carbon"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CO2 exchange.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-572",
+      "question": "Noise is measured in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "pascal as the only noise unit in class 10"
+        },
+        {
+          "id": "B",
+          "text": "decibels"
+        },
+        {
+          "id": "C",
+          "text": "kelvin as noise"
+        },
+        {
+          "id": "D",
+          "text": "candela"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "dB.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-573",
+      "question": "A catalyst:",
+      "options": [
+        {
+          "id": "A",
+          "text": "is always a product"
+        },
+        {
+          "id": "B",
+          "text": "speeds a reaction without being consumed (net)"
+        },
+        {
+          "id": "C",
+          "text": "always stops all reactions"
+        },
+        {
+          "id": "D",
+          "text": "is always used up as a reactant"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Enzymes are biological catalysts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-574",
+      "question": "Blood is oxygenated in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "pancreas as the only oxygenator"
+        },
+        {
+          "id": "B",
+          "text": "liver as the only oxygenator"
+        },
+        {
+          "id": "C",
+          "text": "lungs (pulmonary circulation)"
+        },
+        {
+          "id": "D",
+          "text": "kidney as the only oxygenator"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Respiration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Alveoli.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Respiration",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-575",
+      "question": "Antibiotics act against:",
+      "options": [
+        {
+          "id": "A",
+          "text": "all viruses as the textbook first line"
+        },
+        {
+          "id": "B",
+          "text": "all genetic diseases"
+        },
+        {
+          "id": "C",
+          "text": "bacteria (typically), not viruses"
+        },
+        {
+          "id": "D",
+          "text": "all deficiency diseases"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Antimicrobial.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-576",
+      "question": "Hydropower uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only wind as hydro"
+        },
+        {
+          "id": "B",
+          "text": "only coal"
+        },
+        {
+          "id": "C",
+          "text": "only uranium as hydro"
+        },
+        {
+          "id": "D",
+          "text": "energy of falling / flowing water"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Sources of energy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dams / run-of-river.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Sources of energy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-577",
+      "question": "An endangered species is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the most common species always"
+        },
+        {
+          "id": "B",
+          "text": "at high risk of extinction"
+        },
+        {
+          "id": "C",
+          "text": "a domestic dog always"
+        },
+        {
+          "id": "D",
+          "text": "already extinct"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Ecosystem",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "IUCN categories.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Ecosystem",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-578",
+      "question": "Two resistors in series: equivalent R is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "difference"
+        },
+        {
+          "id": "B",
+          "text": "sum of resistances"
+        },
+        {
+          "id": "C",
+          "text": "zero always"
+        },
+        {
+          "id": "D",
+          "text": "product over sum only (that’s parallel two)"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Rs = R1+R2.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-579",
+      "question": "Two equal resistors R in parallel give:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "2R"
+        },
+        {
+          "id": "C",
+          "text": "R/2"
+        },
+        {
+          "id": "D",
+          "text": "R²"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Electric Current",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Parallel formula.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Electric Current",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-580",
+      "question": "Weight on the Moon is about:",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 times"
+        },
+        {
+          "id": "B",
+          "text": "infinite"
+        },
+        {
+          "id": "C",
+          "text": "zero mass"
+        },
+        {
+          "id": "D",
+          "text": "1/6 of Earth weight (same mass)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Newton's Laws of Motion",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "g_moon ≈ g/6.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Newton's Laws of Motion",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-581",
+      "question": "Proteins are made of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only fatty acids as the only monomers of protein"
+        },
+        {
+          "id": "B",
+          "text": "only glucose"
+        },
+        {
+          "id": "C",
+          "text": "amino acids"
+        },
+        {
+          "id": "D",
+          "text": "only minerals"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Peptide bonds.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-582",
+      "question": "Chipko is remembered for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "mining coal as Chipko"
+        },
+        {
+          "id": "B",
+          "text": "burning forests as Chipko"
+        },
+        {
+          "id": "C",
+          "text": "building dams as Chipko"
+        },
+        {
+          "id": "D",
+          "text": "hugging trees to stop felling"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Uttarakhand Himalaya.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-583",
+      "question": "Xylem in plants mainly transports:",
+      "options": [
+        {
+          "id": "A",
+          "text": "food (sucrose) as xylem’s main job"
+        },
+        {
+          "id": "B",
+          "text": "water and minerals"
+        },
+        {
+          "id": "C",
+          "text": "oxygen as xylem’s main job"
+        },
+        {
+          "id": "D",
+          "text": "pollen as xylem’s main job"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Upward stream.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-584",
+      "question": "Phloem mainly transports:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only soil water as phloem’s only job"
+        },
+        {
+          "id": "B",
+          "text": "only minerals from root as phloem’s only job"
+        },
+        {
+          "id": "C",
+          "text": "only atmospheric nitrogen"
+        },
+        {
+          "id": "D",
+          "text": "food (photosynthates)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Translocation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-585",
+      "question": "Transpiration pull helps:",
+      "options": [
+        {
+          "id": "A",
+          "text": "nitrogen fixation as its only role"
+        },
+        {
+          "id": "B",
+          "text": "ascent of sap"
+        },
+        {
+          "id": "C",
+          "text": "pollination as its only role"
+        },
+        {
+          "id": "D",
+          "text": "photosynthesis of roots as its only role"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Nutrition",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cohesion–tension.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Nutrition",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-586",
+      "question": "Ozone at ground level is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pollutant (photochemical smog component)"
+        },
+        {
+          "id": "B",
+          "text": "always the ‘good ozone’ of the stratosphere by location"
+        },
+        {
+          "id": "C",
+          "text": "a vitamin"
+        },
+        {
+          "id": "D",
+          "text": "a protein"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tropospheric O3.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-587",
+      "question": "The greenhouse effect is due mainly to trapping of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "incoming X-rays only"
+        },
+        {
+          "id": "B",
+          "text": "outgoing long-wave radiation"
+        },
+        {
+          "id": "C",
+          "text": "Earth’s magnetism"
+        },
+        {
+          "id": "D",
+          "text": "ocean tides"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Environment",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "CO2, CH4, water vapour.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Environment",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-588",
+      "question": "Tuberculosis is caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a virus called TB as the only cause"
+        },
+        {
+          "id": "B",
+          "text": "Mycobacterium tuberculosis (bacterium)"
+        },
+        {
+          "id": "C",
+          "text": "a protozoan called TB as the only cause"
+        },
+        {
+          "id": "D",
+          "text": "iodine deficiency"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Air-borne communicable.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-589",
+      "question": "Goitre is linked to deficiency of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "iron as goitre’s classic cause"
+        },
+        {
+          "id": "B",
+          "text": "iodine"
+        },
+        {
+          "id": "C",
+          "text": "vitamin C"
+        },
+        {
+          "id": "D",
+          "text": "vitamin D as goitre’s classic cause"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Science",
+      "topic": "Diseases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Thyroid enlargement.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Diseases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-590",
+      "question": "An endothermic reaction:",
+      "options": [
+        {
+          "id": "A",
+          "text": "never involves energy"
+        },
+        {
+          "id": "B",
+          "text": "always is combustion"
+        },
+        {
+          "id": "C",
+          "text": "absorbs heat"
+        },
+        {
+          "id": "D",
+          "text": "always releases heat"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Science",
+      "topic": "Chemical Equation",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "ΔH positive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Chemical Equation",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-science-591",
+      "question": "Sodium is kept in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "open water as the storage"
+        },
+        {
+          "id": "B",
+          "text": "oxygen cylinders"
+        },
+        {
+          "id": "C",
+          "text": "dilute HCl as storage"
+        },
+        {
+          "id": "D",
+          "text": "kerosene (to avoid air/moisture)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Science",
+      "topic": "Metals, Non-metals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Highly reactive metal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Science",
+        "Metals, Non-metals",
+        "easy"
       ],
       "pool_type": "post_primary",
       "post_id": "accounts-assistant-finance"

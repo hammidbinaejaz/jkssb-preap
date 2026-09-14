@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "General English",
-  "question_count": 500,
+  "question_count": 573,
   "schema": [
     "question_id",
     "question",
@@ -19509,6 +19509,2853 @@
         "General English",
         "Prepositions",
         "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-501",
+      "question": "If he ____ hard, he will pass.",
+      "options": [
+        {
+          "id": "A",
+          "text": "works"
+        },
+        {
+          "id": "B",
+          "text": "worked yesterday as the only correct in this first conditional"
+        },
+        {
+          "id": "C",
+          "text": "work"
+        },
+        {
+          "id": "D",
+          "text": "working"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "First conditional: present in if-clause.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-502",
+      "question": "If I ____ you, I would accept.",
+      "options": [
+        {
+          "id": "A",
+          "text": "was being"
+        },
+        {
+          "id": "B",
+          "text": "been"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "am"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unreal past in second conditional.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-503",
+      "question": "She ____ the letter before he arrived.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have post"
+        },
+        {
+          "id": "B",
+          "text": "posting"
+        },
+        {
+          "id": "C",
+          "text": "had posted"
+        },
+        {
+          "id": "D",
+          "text": "posts"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Past perfect for earlier past.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-504",
+      "question": "He plays ____ sitar.",
+      "options": [
+        {
+          "id": "A",
+          "text": "no article ever with instruments"
+        },
+        {
+          "id": "B",
+          "text": "an"
+        },
+        {
+          "id": "C",
+          "text": "the"
+        },
+        {
+          "id": "D",
+          "text": "a"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Musical instruments take the.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-505",
+      "question": "____ honesty is the best policy.",
+      "options": [
+        {
+          "id": "A",
+          "text": "— (no article) / Honesty"
+        },
+        {
+          "id": "B",
+          "text": "An"
+        },
+        {
+          "id": "C",
+          "text": "A"
+        },
+        {
+          "id": "D",
+          "text": "The always before honesty in this proverb as the only key"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Abstract noun general sense.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-506",
+      "question": "She is afraid ____ dogs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "over"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Afraid of.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-507",
+      "question": "He died ____ cancer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "over into"
+        },
+        {
+          "id": "C",
+          "text": "of"
+        },
+        {
+          "id": "D",
+          "text": "at"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Die of a disease.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-508",
+      "question": "The meeting will start ____ 10 a.m.",
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "in"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "over"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "At a clock time.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-509",
+      "question": "I will see you ____ Monday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "over"
+        },
+        {
+          "id": "D",
+          "text": "on"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "On a day.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-510",
+      "question": "She lives ____ Delhi.",
+      "options": [
+        {
+          "id": "A",
+          "text": "at as the only big-city use never in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "over"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "In a city.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-511",
+      "question": "You ____ not park here. It is forbidden.",
+      "options": [
+        {
+          "id": "A",
+          "text": "might to"
+        },
+        {
+          "id": "B",
+          "text": "must"
+        },
+        {
+          "id": "C",
+          "text": "could have to as the only key"
+        },
+        {
+          "id": "D",
+          "text": "would been"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Prohibition: must not.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-512",
+      "question": "____ you like a cup of tea?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Would"
+        },
+        {
+          "id": "B",
+          "text": "Ought"
+        },
+        {
+          "id": "C",
+          "text": "Must"
+        },
+        {
+          "id": "D",
+          "text": "Shall been"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Polite offer.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-513",
+      "question": "He ____ have missed the bus; he is never late otherwise.",
+      "options": [
+        {
+          "id": "A",
+          "text": "would to"
+        },
+        {
+          "id": "B",
+          "text": "shall been"
+        },
+        {
+          "id": "C",
+          "text": "must"
+        },
+        {
+          "id": "D",
+          "text": "used"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Deduction.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-514",
+      "question": "He said to me, “Are you ready?”",
+      "options": [
+        {
+          "id": "A",
+          "text": "He said me was ready."
+        },
+        {
+          "id": "B",
+          "text": "He asked me if I was ready."
+        },
+        {
+          "id": "C",
+          "text": "He told me that I am ready."
+        },
+        {
+          "id": "D",
+          "text": "He asked that are you ready."
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Narration",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Yes/no question → if/whether.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Narration",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-515",
+      "question": "She said, “Please help me.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said please help she."
+        },
+        {
+          "id": "B",
+          "text": "She requested me to help her."
+        },
+        {
+          "id": "C",
+          "text": "She asked that please."
+        },
+        {
+          "id": "D",
+          "text": "She told that help."
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Narration",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Imperative → to-infinitive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Narration",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-516",
+      "question": "They will finish the work. (passive)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The work will finish them."
+        },
+        {
+          "id": "B",
+          "text": "The work will be finished (by them)."
+        },
+        {
+          "id": "C",
+          "text": "The work finished."
+        },
+        {
+          "id": "D",
+          "text": "The work has finish."
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Active & Passive Voice",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Will be + V3.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Active & Passive Voice",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-517",
+      "question": "The teacher is teaching the class. (passive)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The class was teach."
+        },
+        {
+          "id": "B",
+          "text": "The class has teach."
+        },
+        {
+          "id": "C",
+          "text": "The class taught."
+        },
+        {
+          "id": "D",
+          "text": "The class is being taught by the teacher."
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Active & Passive Voice",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Present continuous passive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Active & Passive Voice",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-518",
+      "question": "Synonym of ‘diligent’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "idle"
+        },
+        {
+          "id": "B",
+          "text": "hardworking"
+        },
+        {
+          "id": "C",
+          "text": "lazy"
+        },
+        {
+          "id": "D",
+          "text": "careless"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Diligent ≈ industrious.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Synonyms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-519",
+      "question": "Synonym of ‘adversity’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "joy"
+        },
+        {
+          "id": "B",
+          "text": "success"
+        },
+        {
+          "id": "C",
+          "text": "luck"
+        },
+        {
+          "id": "D",
+          "text": "misfortune"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Adversity ≈ hardship.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Synonyms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-520",
+      "question": "Antonym of ‘scarce’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "little"
+        },
+        {
+          "id": "B",
+          "text": "plentiful"
+        },
+        {
+          "id": "C",
+          "text": "few"
+        },
+        {
+          "id": "D",
+          "text": "rare"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Antonyms",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Scarce ≠ abundant.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Antonyms",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-521",
+      "question": "Antonym of ‘transparent’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "opaque"
+        },
+        {
+          "id": "B",
+          "text": "clear"
+        },
+        {
+          "id": "C",
+          "text": "crystal"
+        },
+        {
+          "id": "D",
+          "text": "see-through"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Antonyms",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Not allowing light.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Antonyms",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-522",
+      "question": "‘Spill the beans’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "plant seeds"
+        },
+        {
+          "id": "B",
+          "text": "wash clothes"
+        },
+        {
+          "id": "C",
+          "text": "reveal a secret"
+        },
+        {
+          "id": "D",
+          "text": "cook food"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Disclose.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-523",
+      "question": "‘Burn the midnight oil’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "work late into the night"
+        },
+        {
+          "id": "B",
+          "text": "go fishing"
+        },
+        {
+          "id": "C",
+          "text": "sleep early"
+        },
+        {
+          "id": "D",
+          "text": "waste fuel"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Study hard at night.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-524",
+      "question": "‘Let the cat out of the bag’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "adopt a pet"
+        },
+        {
+          "id": "B",
+          "text": "go shopping"
+        },
+        {
+          "id": "C",
+          "text": "play cricket"
+        },
+        {
+          "id": "D",
+          "text": "disclose a secret unintentionally"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Similar to spill the beans.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-525",
+      "question": "The ____ of the story is simple. (moral/morale)",
+      "options": [
+        {
+          "id": "A",
+          "text": "mural"
+        },
+        {
+          "id": "B",
+          "text": "moral"
+        },
+        {
+          "id": "C",
+          "text": "morale"
+        },
+        {
+          "id": "D",
+          "text": "mortal"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Homonyms / homophones",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Moral = lesson.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Homonyms / homophones",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-526",
+      "question": "The team’s ____ was high. (moral/morale)",
+      "options": [
+        {
+          "id": "A",
+          "text": "molar"
+        },
+        {
+          "id": "B",
+          "text": "morale"
+        },
+        {
+          "id": "C",
+          "text": "moral"
+        },
+        {
+          "id": "D",
+          "text": "mural"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Homonyms / homophones",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Morale = spirit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Homonyms / homophones",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-527",
+      "question": "‘Principal’ as a noun often means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "prince"
+        },
+        {
+          "id": "B",
+          "text": "print"
+        },
+        {
+          "id": "C",
+          "text": "principle as ethics only as the spelling"
+        },
+        {
+          "id": "D",
+          "text": "head of an institution / main sum of money"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs principle.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-528",
+      "question": "‘Principle’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the school head as the only sense of principle"
+        },
+        {
+          "id": "B",
+          "text": "a rule or belief"
+        },
+        {
+          "id": "C",
+          "text": "a printout"
+        },
+        {
+          "id": "D",
+          "text": "a prince"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ethical/scientific principle.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-529",
+      "question": "A relative clause often begins with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "who / which / that"
+        },
+        {
+          "id": "B",
+          "text": "although only"
+        },
+        {
+          "id": "C",
+          "text": "if only as the only relative"
+        },
+        {
+          "id": "D",
+          "text": "because only as the only relative"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Clauses",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Adjective clause.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Clauses",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-530",
+      "question": "Arrange: (P) in Srinagar (Q) Dal Lake (R) is",
+      "options": [
+        {
+          "id": "A",
+          "text": "R P Q"
+        },
+        {
+          "id": "B",
+          "text": "P R Q"
+        },
+        {
+          "id": "C",
+          "text": "P Q R"
+        },
+        {
+          "id": "D",
+          "text": "Q R P"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Rearranging of jumbled sentences",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dal Lake is in Srinagar.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Rearranging of jumbled sentences",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-531",
+      "question": "Neither of the answers ____ correct.",
+      "options": [
+        {
+          "id": "A",
+          "text": "are"
+        },
+        {
+          "id": "B",
+          "text": "have"
+        },
+        {
+          "id": "C",
+          "text": "were being"
+        },
+        {
+          "id": "D",
+          "text": "is"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Neither takes singular.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-532",
+      "question": "The news ____ true.",
+      "options": [
+        {
+          "id": "A",
+          "text": "is"
+        },
+        {
+          "id": "B",
+          "text": "are"
+        },
+        {
+          "id": "C",
+          "text": "were many"
+        },
+        {
+          "id": "D",
+          "text": "have"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "News is singular.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-533",
+      "question": "He is ____ MBA.",
+      "options": [
+        {
+          "id": "A",
+          "text": "no article as the only key"
+        },
+        {
+          "id": "B",
+          "text": "the only"
+        },
+        {
+          "id": "C",
+          "text": "an"
+        },
+        {
+          "id": "D",
+          "text": "a"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MBA begins with a vowel sound.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-534",
+      "question": "She congratulated him ____ his success.",
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "over"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "for as the only textbook key never on"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Congratulate on.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-535",
+      "question": "He is junior ____ me.",
+      "options": [
+        {
+          "id": "A",
+          "text": "of"
+        },
+        {
+          "id": "B",
+          "text": "from"
+        },
+        {
+          "id": "C",
+          "text": "than"
+        },
+        {
+          "id": "D",
+          "text": "to"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Junior/senior to.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-536",
+      "question": "We ____ respect our elders. (duty)",
+      "options": [
+        {
+          "id": "A",
+          "text": "used to as duty"
+        },
+        {
+          "id": "B",
+          "text": "ought to / should"
+        },
+        {
+          "id": "C",
+          "text": "might have been the only duty modal"
+        },
+        {
+          "id": "D",
+          "text": "could have as the only duty"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Moral obligation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-537",
+      "question": "Who wrote this book? (passive)",
+      "options": [
+        {
+          "id": "A",
+          "text": "By who this book wrote?"
+        },
+        {
+          "id": "B",
+          "text": "Whom wrote this book by?"
+        },
+        {
+          "id": "C",
+          "text": "By whom was this book written?"
+        },
+        {
+          "id": "D",
+          "text": "Who was this book write?"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Active & Passive Voice",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Interrogative passive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Active & Passive Voice",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-538",
+      "question": "‘A square meal’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a geometric lunch"
+        },
+        {
+          "id": "B",
+          "text": "a tiny snack"
+        },
+        {
+          "id": "C",
+          "text": "a full / substantial meal"
+        },
+        {
+          "id": "D",
+          "text": "a bitter pill"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Idiom.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-539",
+      "question": "Synonym of ‘cease’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "begin"
+        },
+        {
+          "id": "B",
+          "text": "stop"
+        },
+        {
+          "id": "C",
+          "text": "start"
+        },
+        {
+          "id": "D",
+          "text": "continue"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cease = come to an end.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Synonyms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-540",
+      "question": "Antonym of ‘expand’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "widen"
+        },
+        {
+          "id": "B",
+          "text": "enlarge"
+        },
+        {
+          "id": "C",
+          "text": "contract / shrink"
+        },
+        {
+          "id": "D",
+          "text": "increase"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Antonyms",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Opposite of expand.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Antonyms",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-541",
+      "question": "He said, “I can swim.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "He said that I can swim."
+        },
+        {
+          "id": "B",
+          "text": "He said that he could swim."
+        },
+        {
+          "id": "C",
+          "text": "He said he can swam."
+        },
+        {
+          "id": "D",
+          "text": "He told that he can."
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Narration",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Can → could.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Narration",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-542",
+      "question": "Please ____ my apology. (accept/except)",
+      "options": [
+        {
+          "id": "A",
+          "text": "excerpt"
+        },
+        {
+          "id": "B",
+          "text": "except"
+        },
+        {
+          "id": "C",
+          "text": "accept"
+        },
+        {
+          "id": "D",
+          "text": "expect"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Homonyms / homophones",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Accept = receive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Homonyms / homophones",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-543",
+      "question": "‘Advice’ is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "preposition"
+        },
+        {
+          "id": "B",
+          "text": "noun"
+        },
+        {
+          "id": "C",
+          "text": "verb only"
+        },
+        {
+          "id": "D",
+          "text": "conjunction"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Advise is the verb.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-544",
+      "question": "‘Advise’ is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "adjective only"
+        },
+        {
+          "id": "B",
+          "text": "verb"
+        },
+        {
+          "id": "C",
+          "text": "article"
+        },
+        {
+          "id": "D",
+          "text": "noun only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "To advise someone.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-545",
+      "question": "‘Although he was tired, he worked’ — although introduces a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrast / concession clause"
+        },
+        {
+          "id": "B",
+          "text": "relative clause of time only"
+        },
+        {
+          "id": "C",
+          "text": "prepositional phrase without a verb"
+        },
+        {
+          "id": "D",
+          "text": "noun clause of name only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Clauses",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Subordinating conjunction.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Clauses",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-546",
+      "question": "It is high time we ____ home.",
+      "options": [
+        {
+          "id": "A",
+          "text": "going"
+        },
+        {
+          "id": "B",
+          "text": "gone"
+        },
+        {
+          "id": "C",
+          "text": "go always as the only literary key"
+        },
+        {
+          "id": "D",
+          "text": "went / should go"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "High time + unreal past.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-547",
+      "question": "____ European tourist arrived.",
+      "options": [
+        {
+          "id": "A",
+          "text": "No article as the only key"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "An"
+        },
+        {
+          "id": "D",
+          "text": "The only as the only key"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "European begins with ‘y’ sound.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-548",
+      "question": "He is good ____ English but weak ____ mathematics.",
+      "options": [
+        {
+          "id": "A",
+          "text": "over ; over"
+        },
+        {
+          "id": "B",
+          "text": "on ; on"
+        },
+        {
+          "id": "C",
+          "text": "into ; into"
+        },
+        {
+          "id": "D",
+          "text": "at ; in (or at)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Good at; weak in.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-549",
+      "question": "‘In hot water’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "swimming"
+        },
+        {
+          "id": "B",
+          "text": "cooking"
+        },
+        {
+          "id": "C",
+          "text": "in trouble"
+        },
+        {
+          "id": "D",
+          "text": "bathing"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Difficulty.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-550",
+      "question": "Synonym of ‘ancient’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fresh"
+        },
+        {
+          "id": "B",
+          "text": "old / antique"
+        },
+        {
+          "id": "C",
+          "text": "new"
+        },
+        {
+          "id": "D",
+          "text": "modern"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ancient ≈ very old.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Synonyms",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-551",
+      "question": "People believe that he is honest. (passive start)",
+      "options": [
+        {
+          "id": "A",
+          "text": "He is believe honest."
+        },
+        {
+          "id": "B",
+          "text": "Honest is he believe."
+        },
+        {
+          "id": "C",
+          "text": "He believes people honest."
+        },
+        {
+          "id": "D",
+          "text": "He is believed to be honest."
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Active & Passive Voice",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Complex passive.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Active & Passive Voice",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-552",
+      "question": "The teacher said, “The Earth is round.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "The teacher said that Earth been round."
+        },
+        {
+          "id": "B",
+          "text": "The teacher said the Earth was being round yesterday as the only key"
+        },
+        {
+          "id": "C",
+          "text": "The teacher said Earth were round."
+        },
+        {
+          "id": "D",
+          "text": "The teacher said that the Earth is round."
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Narration",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Universal truth may keep present.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Narration",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-553",
+      "question": "Candidates ____ answer all questions. (paper instruction)",
+      "options": [
+        {
+          "id": "A",
+          "text": "could have been as the only instruction"
+        },
+        {
+          "id": "B",
+          "text": "used to"
+        },
+        {
+          "id": "C",
+          "text": "might have"
+        },
+        {
+          "id": "D",
+          "text": "must / shall"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Requirement.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-554",
+      "question": "Arrange: (P) the summer capital of J&K UT (Q) Srinagar is (R) considered",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q R P"
+        },
+        {
+          "id": "B",
+          "text": "P Q R"
+        },
+        {
+          "id": "C",
+          "text": "R P Q"
+        },
+        {
+          "id": "D",
+          "text": "P R Q"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Rearranging of jumbled sentences",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Srinagar is considered the summer capital of J&K UT.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Rearranging of jumbled sentences",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-555",
+      "question": "One of my friends ____ in Jammu.",
+      "options": [
+        {
+          "id": "A",
+          "text": "living"
+        },
+        {
+          "id": "B",
+          "text": "have live"
+        },
+        {
+          "id": "C",
+          "text": "lives"
+        },
+        {
+          "id": "D",
+          "text": "live"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "One of + plural noun + singular verb.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-556",
+      "question": "She is ____ tallest girl in the class.",
+      "options": [
+        {
+          "id": "A",
+          "text": "the"
+        },
+        {
+          "id": "B",
+          "text": "a"
+        },
+        {
+          "id": "C",
+          "text": "an"
+        },
+        {
+          "id": "D",
+          "text": "no article"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Superlative takes the.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-557",
+      "question": "This is a matter ____ great importance.",
+      "options": [
+        {
+          "id": "A",
+          "text": "at"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "of"
+        },
+        {
+          "id": "D",
+          "text": "over"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Matter of.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-558",
+      "question": "‘At daggers drawn’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "friendly"
+        },
+        {
+          "id": "B",
+          "text": "cooking"
+        },
+        {
+          "id": "C",
+          "text": "in bitter enmity"
+        },
+        {
+          "id": "D",
+          "text": "gardening"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hostile.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-559",
+      "question": "Antonym of ‘permanent’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "enduring"
+        },
+        {
+          "id": "B",
+          "text": "temporary"
+        },
+        {
+          "id": "C",
+          "text": "lasting"
+        },
+        {
+          "id": "D",
+          "text": "eternal"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Antonyms",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Not permanent.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Antonyms",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-560",
+      "question": "The ____ is calm today. (sea/see)",
+      "options": [
+        {
+          "id": "A",
+          "text": "she"
+        },
+        {
+          "id": "B",
+          "text": "si"
+        },
+        {
+          "id": "C",
+          "text": "see"
+        },
+        {
+          "id": "D",
+          "text": "sea"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Homonyms / homophones",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sea = ocean.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Homonyms / homophones",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-561",
+      "question": "‘Complement’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "praise (compliment)"
+        },
+        {
+          "id": "B",
+          "text": "a compiler"
+        },
+        {
+          "id": "C",
+          "text": "a complaint"
+        },
+        {
+          "id": "D",
+          "text": "that which completes"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs compliment.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-562",
+      "question": "A noun clause can act as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only an article"
+        },
+        {
+          "id": "B",
+          "text": "only a preposition"
+        },
+        {
+          "id": "C",
+          "text": "subject or object"
+        },
+        {
+          "id": "D",
+          "text": "only an interjection"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Clauses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "That he won surprised us.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Clauses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-563",
+      "question": "By 2030, many students ____ FAA.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appearing 2010"
+        },
+        {
+          "id": "B",
+          "text": "appear yesterday"
+        },
+        {
+          "id": "C",
+          "text": "will have appeared for / will have taken"
+        },
+        {
+          "id": "D",
+          "text": "appeared 1991 as the only future perfect"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Future perfect.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-564",
+      "question": "Don’t touch the wires. (passive)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Don’t wires touched."
+        },
+        {
+          "id": "B",
+          "text": "Wires don’t touching."
+        },
+        {
+          "id": "C",
+          "text": "Wires not touch."
+        },
+        {
+          "id": "D",
+          "text": "Let the wires not be touched. / The wires should not be touched."
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Active & Passive Voice",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Negative imperative.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Active & Passive Voice",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-565",
+      "question": "Synonym of ‘precise’ is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "rough"
+        },
+        {
+          "id": "B",
+          "text": "exact"
+        },
+        {
+          "id": "C",
+          "text": "loose"
+        },
+        {
+          "id": "D",
+          "text": "vague"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Precise ≈ accurate.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Synonyms",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-566",
+      "question": "He ____ play the santoor when he was young.",
+      "options": [
+        {
+          "id": "A",
+          "text": "shall been"
+        },
+        {
+          "id": "B",
+          "text": "could / used to"
+        },
+        {
+          "id": "C",
+          "text": "ought been"
+        },
+        {
+          "id": "D",
+          "text": "must to"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Modals",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Past ability / habit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Modals",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-567",
+      "question": "We walked ____ the river bank.",
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "along"
+        },
+        {
+          "id": "C",
+          "text": "at as the only key"
+        },
+        {
+          "id": "D",
+          "text": "over into"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General English",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Along a line.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Prepositions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-568",
+      "question": "____ more you practise, ____ better you become.",
+      "options": [
+        {
+          "id": "A",
+          "text": "An ; an"
+        },
+        {
+          "id": "B",
+          "text": "A ; a"
+        },
+        {
+          "id": "C",
+          "text": "No ; no"
+        },
+        {
+          "id": "D",
+          "text": "The ; the"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General English",
+      "topic": "Articles",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "The + comparative, the + comparative.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Articles",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-569",
+      "question": "‘To make both ends meet’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "to cook"
+        },
+        {
+          "id": "B",
+          "text": "to sew clothes only"
+        },
+        {
+          "id": "C",
+          "text": "to live within one’s income"
+        },
+        {
+          "id": "D",
+          "text": "to travel"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Idioms and phrases",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Manage financially.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Idioms and phrases",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-570",
+      "question": "She said, “I may come.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said she may came."
+        },
+        {
+          "id": "B",
+          "text": "She told may come."
+        },
+        {
+          "id": "C",
+          "text": "She said that she might come."
+        },
+        {
+          "id": "D",
+          "text": "She said I may come."
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Narration",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "May → might.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Narration",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-571",
+      "question": "Each of the candidates ____ given a form.",
+      "options": [
+        {
+          "id": "A",
+          "text": "was / is"
+        },
+        {
+          "id": "B",
+          "text": "are being many"
+        },
+        {
+          "id": "C",
+          "text": "have"
+        },
+        {
+          "id": "D",
+          "text": "were as the only modern key"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Tenses",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Each is singular.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Tenses",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-572",
+      "question": "‘Stationary’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "not moving"
+        },
+        {
+          "id": "B",
+          "text": "a statue only"
+        },
+        {
+          "id": "C",
+          "text": "paper (stationery)"
+        },
+        {
+          "id": "D",
+          "text": "a station master"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Vs stationery.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-english-573",
+      "question": "‘Stationery’ means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "not moving"
+        },
+        {
+          "id": "B",
+          "text": "a bus station"
+        },
+        {
+          "id": "C",
+          "text": "writing materials"
+        },
+        {
+          "id": "D",
+          "text": "a statue"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General English",
+      "topic": "Pairs of words",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pens, paper.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General English",
+        "Pairs of words",
+        "medium"
       ],
       "pool_type": "post_primary",
       "post_id": "accounts-assistant-finance"

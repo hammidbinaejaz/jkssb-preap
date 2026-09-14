@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "Accountancy and Book Keeping",
-  "question_count": 500,
+  "question_count": 604,
   "schema": [
     "question_id",
     "question",
@@ -19509,6 +19509,4062 @@
         "Accountancy and Book Keeping",
         "Trial Balance",
         "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-501",
+      "question": "A cheque deposited but not yet credited by the bank is added to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sales returns only"
+        },
+        {
+          "id": "B",
+          "text": "drawings permanently"
+        },
+        {
+          "id": "C",
+          "text": "capital account"
+        },
+        {
+          "id": "D",
+          "text": "an uncredited deposit (add when starting from the pass book)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Bank Reconciliation Statement",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Timing difference: uncredited deposits.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Bank Reconciliation Statement",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-502",
+      "question": "Direct deposit by a customer in the bank, not yet in cash book, is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a fictitious asset"
+        },
+        {
+          "id": "B",
+          "text": "a contingent liability always"
+        },
+        {
+          "id": "C",
+          "text": "added when reconciling from the cash-book balance"
+        },
+        {
+          "id": "D",
+          "text": "drawings"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Bank Reconciliation Statement",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Bank already has the money.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Bank Reconciliation Statement",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-503",
+      "question": "Bank charges not recorded in the cash book are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "added to sales"
+        },
+        {
+          "id": "B",
+          "text": "credited to capital mandatorily"
+        },
+        {
+          "id": "C",
+          "text": "ignored forever"
+        },
+        {
+          "id": "D",
+          "text": "deducted from the cash-book balance in BRS (when starting from cash book)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Bank Reconciliation Statement",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pass book is lower.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Bank Reconciliation Statement",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-504",
+      "question": "Interest allowed by the bank, not in cash book, is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prepaid expense"
+        },
+        {
+          "id": "B",
+          "text": "added to the cash-book balance in BRS"
+        },
+        {
+          "id": "C",
+          "text": "drawings"
+        },
+        {
+          "id": "D",
+          "text": "always a liability"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Bank Reconciliation Statement",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Income in pass book first.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Bank Reconciliation Statement",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-505",
+      "question": "A debit voucher is generally used when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "capital is introduced as cash receipt only"
+        },
+        {
+          "id": "B",
+          "text": "cash/bank is paid"
+        },
+        {
+          "id": "C",
+          "text": "goods are sold on credit only as the only use"
+        },
+        {
+          "id": "D",
+          "text": "a sales invoice is raised only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Voucher Approach",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Payment voucher.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Voucher Approach",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-506",
+      "question": "A credit voucher typically records:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only depreciation"
+        },
+        {
+          "id": "B",
+          "text": "only outstanding rent as the sole use"
+        },
+        {
+          "id": "C",
+          "text": "only a closing stock journal"
+        },
+        {
+          "id": "D",
+          "text": "receipt of cash/bank"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Voucher Approach",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Receipt voucher.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Voucher Approach",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-507",
+      "question": "A journal voucher is used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "non-cash adjustments (depreciation, outstanding, transfers)"
+        },
+        {
+          "id": "B",
+          "text": "only bearer cheques as the sole use"
+        },
+        {
+          "id": "C",
+          "text": "only petty cash coins"
+        },
+        {
+          "id": "D",
+          "text": "only GST portal login"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Voucher Approach",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Non-cash day book.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Voucher Approach",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-508",
+      "question": "A triple-column cash book has columns for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only Depreciation, Goodwill, Patents"
+        },
+        {
+          "id": "B",
+          "text": "only PFMS, GST, TDS"
+        },
+        {
+          "id": "C",
+          "text": "Cash, Bank and Discount"
+        },
+        {
+          "id": "D",
+          "text": "only Capital, Drawings, Stock"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Discount allowed/received.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cash Book",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-509",
+      "question": "Contra entry in a cash book is marked:",
+      "options": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "TB"
+        },
+        {
+          "id": "C",
+          "text": "BS"
+        },
+        {
+          "id": "D",
+          "text": "P&L"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cash ↔ bank.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cash Book",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-510",
+      "question": "Imprest system is used in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "forfeiture of shares only"
+        },
+        {
+          "id": "B",
+          "text": "petty cash"
+        },
+        {
+          "id": "C",
+          "text": "share capital issue"
+        },
+        {
+          "id": "D",
+          "text": "bonus issue"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fixed float replenished.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cash Book",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-511",
+      "question": "A ledger folio (L.F.) in the journal indicates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GSTIN"
+        },
+        {
+          "id": "B",
+          "text": "IFSC"
+        },
+        {
+          "id": "C",
+          "text": "the page of the ledger where posted"
+        },
+        {
+          "id": "D",
+          "text": "PAN"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Ledger",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cross-reference.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Ledger",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-512",
+      "question": "The balancing figure of a personal account is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "amount receivable or payable"
+        },
+        {
+          "id": "B",
+          "text": "always capital"
+        },
+        {
+          "id": "C",
+          "text": "always net profit"
+        },
+        {
+          "id": "D",
+          "text": "always closing stock"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Ledger",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Debtor or creditor balance.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Ledger",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-513",
+      "question": "An error of omission (complete) ",
+      "options": [
+        {
+          "id": "A",
+          "text": "always increases cash"
+        },
+        {
+          "id": "B",
+          "text": "does not affect the trial balance agreement"
+        },
+        {
+          "id": "C",
+          "text": "always creates goodwill"
+        },
+        {
+          "id": "D",
+          "text": "always doubles the TB difference"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trial Balance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Both debit and credit omitted.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trial Balance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-514",
+      "question": "Posting to the wrong account of the same side is an error of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "omission of a complete transaction always"
+        },
+        {
+          "id": "B",
+          "text": "commission"
+        },
+        {
+          "id": "C",
+          "text": "casting only"
+        },
+        {
+          "id": "D",
+          "text": "principle"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trial Balance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Wrong account, right side.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trial Balance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-515",
+      "question": "Treating a capital expense as revenue is an error of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "casting only"
+        },
+        {
+          "id": "B",
+          "text": "compensating only"
+        },
+        {
+          "id": "C",
+          "text": "principle"
+        },
+        {
+          "id": "D",
+          "text": "omission only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trial Balance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Wrong accounting principle.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trial Balance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-516",
+      "question": "A suspense account is used when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST is zero"
+        },
+        {
+          "id": "B",
+          "text": "there is no bank"
+        },
+        {
+          "id": "C",
+          "text": "the business is always profitable"
+        },
+        {
+          "id": "D",
+          "text": "trial balance does not agree and the error is not yet located"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trial Balance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Temporary parking.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trial Balance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-517",
+      "question": "Closing stock, if given, appears on the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash book only"
+        },
+        {
+          "id": "B",
+          "text": "credit of trading account and as an asset in the balance sheet"
+        },
+        {
+          "id": "C",
+          "text": "debit of P&L only and nowhere else"
+        },
+        {
+          "id": "D",
+          "text": "liability side only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trading Account",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unsold goods.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trading Account",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-518",
+      "question": "Carriage inwards is charged to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "drawings only"
+        },
+        {
+          "id": "B",
+          "text": "Trading account"
+        },
+        {
+          "id": "C",
+          "text": "capital only"
+        },
+        {
+          "id": "D",
+          "text": "P&L appropriation only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trading Account",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cost of bringing goods.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trading Account",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-519",
+      "question": "Carriage outwards is charged to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "balance sheet as an asset always"
+        },
+        {
+          "id": "B",
+          "text": "cash book as capital"
+        },
+        {
+          "id": "C",
+          "text": "Profit and Loss account"
+        },
+        {
+          "id": "D",
+          "text": "Trading account as purchases"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trading Account",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Selling expense.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trading Account",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-520",
+      "question": "Gross profit is transferred from trading account to the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "debit of cash book as drawings"
+        },
+        {
+          "id": "B",
+          "text": "liability for GST always"
+        },
+        {
+          "id": "C",
+          "text": "credit of P&L"
+        },
+        {
+          "id": "D",
+          "text": "share capital"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Profit and Loss Account",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "GP credit; GL debit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Profit and Loss Account",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-521",
+      "question": "Net loss reduces:",
+      "options": [
+        {
+          "id": "A",
+          "text": "capital"
+        },
+        {
+          "id": "B",
+          "text": "only cash mandatorily"
+        },
+        {
+          "id": "C",
+          "text": "liabilities always to zero"
+        },
+        {
+          "id": "D",
+          "text": "only bank OD mandatorily"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Profit and Loss Account",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Loss is debited to capital.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Profit and Loss Account",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-522",
+      "question": "Accrued income is shown as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fictitious capital"
+        },
+        {
+          "id": "B",
+          "text": "drawings"
+        },
+        {
+          "id": "C",
+          "text": "a liability"
+        },
+        {
+          "id": "D",
+          "text": "an asset"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Earned but not received.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Balance Sheet",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-523",
+      "question": "Unearned income / income received in advance is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "an asset"
+        },
+        {
+          "id": "B",
+          "text": "drawings"
+        },
+        {
+          "id": "C",
+          "text": "a liability"
+        },
+        {
+          "id": "D",
+          "text": "closing stock"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Obligation to serve.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Balance Sheet",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-524",
+      "question": "Provision for doubtful debts is deducted from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sundry debtors"
+        },
+        {
+          "id": "B",
+          "text": "cash"
+        },
+        {
+          "id": "C",
+          "text": "land"
+        },
+        {
+          "id": "D",
+          "text": "capital always as the only treatment"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Net realisable debtors.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Balance Sheet",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-525",
+      "question": "In the absence of a deed, interest on drawings is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always 12%"
+        },
+        {
+          "id": "B",
+          "text": "always bank rate"
+        },
+        {
+          "id": "C",
+          "text": "not charged"
+        },
+        {
+          "id": "D",
+          "text": "always 6%"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Partnership Act defaults.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-526",
+      "question": "In the absence of a deed, salary to a partner is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "always ₹10,000"
+        },
+        {
+          "id": "B",
+          "text": "always equal to capital"
+        },
+        {
+          "id": "C",
+          "text": "always 10% of NP"
+        },
+        {
+          "id": "D",
+          "text": "not allowed"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "No salary unless agreed.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-527",
+      "question": "In the absence of a deed, interest on loan by a partner is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "not allowed"
+        },
+        {
+          "id": "B",
+          "text": "allowed at 6% p.a."
+        },
+        {
+          "id": "C",
+          "text": "18%"
+        },
+        {
+          "id": "D",
+          "text": "12%"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Section 13, Indian Partnership Act.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-528",
+      "question": "Current accounts of partners are used when capitals are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixed"
+        },
+        {
+          "id": "B",
+          "text": "zero always"
+        },
+        {
+          "id": "C",
+          "text": "equal to drawings always"
+        },
+        {
+          "id": "D",
+          "text": "fluctuating only as the only system"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fixed capital method.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-529",
+      "question": "Goodwill brought in cash by a new partner is credited to old partners in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sacrificing ratio"
+        },
+        {
+          "id": "B",
+          "text": "capital ratio always ignoring the deed"
+        },
+        {
+          "id": "C",
+          "text": "gaining ratio of the new partner only"
+        },
+        {
+          "id": "D",
+          "text": "equal ratio always even if deed says otherwise and law forbids deeds"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Compensation for sacrifice.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-530",
+      "question": "Gaining ratio is used on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only PFMS login"
+        },
+        {
+          "id": "B",
+          "text": "retirement / death of a partner (goodwill)"
+        },
+        {
+          "id": "C",
+          "text": "only GST filing"
+        },
+        {
+          "id": "D",
+          "text": "only BRS of a sole trader with no partners"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Remaining partners gain.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-531",
+      "question": "The dual aspect concept means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "profit is cash"
+        },
+        {
+          "id": "B",
+          "text": "every transaction has two effects"
+        },
+        {
+          "id": "C",
+          "text": "stock is never recorded"
+        },
+        {
+          "id": "D",
+          "text": "cash is the only asset"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Double entry",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Accounting equation stays in balance.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Double entry",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-532",
+      "question": "The going concern concept assumes the business will:",
+      "options": [
+        {
+          "id": "A",
+          "text": "continue for the foreseeable future"
+        },
+        {
+          "id": "B",
+          "text": "never earn profit"
+        },
+        {
+          "id": "C",
+          "text": "close tomorrow mandatorily"
+        },
+        {
+          "id": "D",
+          "text": "never buy assets"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Basis of depreciation / classification.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-533",
+      "question": "The matching concept matches:",
+      "options": [
+        {
+          "id": "A",
+          "text": "assets with drawings only"
+        },
+        {
+          "id": "B",
+          "text": "cash with capital only"
+        },
+        {
+          "id": "C",
+          "text": "expenses with related revenues of the period"
+        },
+        {
+          "id": "D",
+          "text": "GST with PAN only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Accrual P&L.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-534",
+      "question": "Money measurement concept records only:",
+      "options": [
+        {
+          "id": "A",
+          "text": "employee morale as a rupee journal always"
+        },
+        {
+          "id": "B",
+          "text": "facts expressible in money"
+        },
+        {
+          "id": "C",
+          "text": "quality of management as a ledger always"
+        },
+        {
+          "id": "D",
+          "text": "customer loyalty as cash always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Limitation of accounts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-535",
+      "question": "Conservatism (prudence) means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "anticipate no profit, provide for all possible losses"
+        },
+        {
+          "id": "B",
+          "text": "ignore liabilities"
+        },
+        {
+          "id": "C",
+          "text": "overstate assets always"
+        },
+        {
+          "id": "D",
+          "text": "record only cash"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Provision for doubtful debts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-536",
+      "question": "Consistency concept requires:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash basis only forever"
+        },
+        {
+          "id": "B",
+          "text": "no books"
+        },
+        {
+          "id": "C",
+          "text": "changing depreciation method every week mandatorily"
+        },
+        {
+          "id": "D",
+          "text": "same methods period to period unless change disclosed"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Comparability.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-537",
+      "question": "An internal auditor is appointed by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "RBI for every kirana"
+        },
+        {
+          "id": "B",
+          "text": "the management / owners"
+        },
+        {
+          "id": "C",
+          "text": "CAG only in every private shop"
+        },
+        {
+          "id": "D",
+          "text": "WHO"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial Audit",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Internal control.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial Audit",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-538",
+      "question": "A statutory audit of companies is done by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the receptionist"
+        },
+        {
+          "id": "B",
+          "text": "the cashier"
+        },
+        {
+          "id": "C",
+          "text": "a chartered accountant appointed as auditor"
+        },
+        {
+          "id": "D",
+          "text": "the storekeeper"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial Audit",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Companies Act framework.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial Audit",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-539",
+      "question": "Vouching means examining:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the office tea bill as the sole audit"
+        },
+        {
+          "id": "B",
+          "text": "documentary evidence of transactions"
+        },
+        {
+          "id": "C",
+          "text": "only the font of Excel"
+        },
+        {
+          "id": "D",
+          "text": "only the colour of the ledger"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial Audit",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Basic audit technique.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial Audit",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-540",
+      "question": "Social audit in government programmes seeks to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "verify outcomes with public participation"
+        },
+        {
+          "id": "B",
+          "text": "print more currency"
+        },
+        {
+          "id": "C",
+          "text": "hide expenditure"
+        },
+        {
+          "id": "D",
+          "text": "increase GST slabs automatically"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Social Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Transparency tool.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Social Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-541",
+      "question": "PFMS is used by government to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "design logos only"
+        },
+        {
+          "id": "B",
+          "text": "track and make programme payments digitally"
+        },
+        {
+          "id": "C",
+          "text": "play videos"
+        },
+        {
+          "id": "D",
+          "text": "issue passports only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "PFMS",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Public Financial Management System.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "PFMS",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-542",
+      "question": "Direct Benefit Transfer (DBT) is often routed using:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aadhaar-linked bank accounts / PFMS architecture"
+        },
+        {
+          "id": "B",
+          "text": "bearer cash only as the only legal mode"
+        },
+        {
+          "id": "C",
+          "text": "barter only"
+        },
+        {
+          "id": "D",
+          "text": "hawala only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "PFMS",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Subsidy reform.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "PFMS",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-543",
+      "question": "The annual Financial Statement of the Union is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gazetteer only"
+        },
+        {
+          "id": "B",
+          "text": "Economic Survey only"
+        },
+        {
+          "id": "C",
+          "text": "Budget (Article 112)"
+        },
+        {
+          "id": "D",
+          "text": "Census only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Laid in Parliament.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-544",
+      "question": "A Money Bill can be introduced only in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lok Sabha"
+        },
+        {
+          "id": "B",
+          "text": "a Gram Sabha only"
+        },
+        {
+          "id": "C",
+          "text": "a Municipal ward only"
+        },
+        {
+          "id": "D",
+          "text": "Rajya Sabha only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Article 110.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-545",
+      "question": "The CAG submits audit reports to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "WTO DG only"
+        },
+        {
+          "id": "B",
+          "text": "RBI Governor only"
+        },
+        {
+          "id": "C",
+          "text": "the President / Governor to be laid in the legislature"
+        },
+        {
+          "id": "D",
+          "text": "SEBI Chairman only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Public audit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-546",
+      "question": "CGST is levied by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "RBI on every cheque"
+        },
+        {
+          "id": "B",
+          "text": "the Supreme Court as a tax authority"
+        },
+        {
+          "id": "C",
+          "text": "Centre on intra-state supplies"
+        },
+        {
+          "id": "D",
+          "text": "a foreign embassy on Indian GST as the only collector"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dual GST.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-547",
+      "question": "SGST is levied by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "UNESCO"
+        },
+        {
+          "id": "B",
+          "text": "IMF"
+        },
+        {
+          "id": "C",
+          "text": "State / UT on intra-state supplies"
+        },
+        {
+          "id": "D",
+          "text": "World Bank"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "State GST.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-548",
+      "question": "IGST applies to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "inter-state supplies (and specified imports/supplies)"
+        },
+        {
+          "id": "B",
+          "text": "only agricultural wages"
+        },
+        {
+          "id": "C",
+          "text": "only a village haat cash sale with no invoice ever as the only case"
+        },
+        {
+          "id": "D",
+          "text": "only gifts of love with no supply"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Integrated GST.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-549",
+      "question": "TDS stands for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Total Depreciation Schedule"
+        },
+        {
+          "id": "B",
+          "text": "Trade Discount Slip"
+        },
+        {
+          "id": "C",
+          "text": "Tax Deducted at Source"
+        },
+        {
+          "id": "D",
+          "text": "Trial Debit Sum"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Deduction from payments.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-550",
+      "question": "A tax invoice under GST is issued by a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a foreign tourist without GSTIN always"
+        },
+        {
+          "id": "B",
+          "text": "registered taxable person making a taxable supply"
+        },
+        {
+          "id": "C",
+          "text": "RBI as a grocer"
+        },
+        {
+          "id": "D",
+          "text": "unregistered hobby gardener always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Section 31, CGST Act (framework).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-551",
+      "question": "Input tax credit is the GST paid on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "dividends as goods"
+        },
+        {
+          "id": "B",
+          "text": "inward supplies used in business (subject to conditions)"
+        },
+        {
+          "id": "C",
+          "text": "personal wedding jewellery always without restriction"
+        },
+        {
+          "id": "D",
+          "text": "salary of employees as goods"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "ITC chain.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-552",
+      "question": "Factory overheads are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "indirect factory costs"
+        },
+        {
+          "id": "B",
+          "text": "direct wages only"
+        },
+        {
+          "id": "C",
+          "text": "office salaries only as the definition of factory OH"
+        },
+        {
+          "id": "D",
+          "text": "direct material only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Rent of factory, indirect labour.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-553",
+      "question": "Works cost =",
+      "options": [
+        {
+          "id": "A",
+          "text": "only office overheads"
+        },
+        {
+          "id": "B",
+          "text": "only financial charges"
+        },
+        {
+          "id": "C",
+          "text": "Prime cost + factory overheads"
+        },
+        {
+          "id": "D",
+          "text": "only selling overheads"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Manufacturing cost.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-554",
+      "question": "Cost of production =",
+      "options": [
+        {
+          "id": "A",
+          "text": "only prime cost"
+        },
+        {
+          "id": "B",
+          "text": "only selling cost"
+        },
+        {
+          "id": "C",
+          "text": "only interest on capital always"
+        },
+        {
+          "id": "D",
+          "text": "Works cost + office & administrative overheads (as per many costing statements)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Before selling & distribution.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-555",
+      "question": "A cost sheet is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "memorandum of association"
+        },
+        {
+          "id": "B",
+          "text": "balance sheet"
+        },
+        {
+          "id": "C",
+          "text": "statement showing cost build-up per unit / period"
+        },
+        {
+          "id": "D",
+          "text": "cash book"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Unit costing.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-556",
+      "question": "EOQ is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expense of Quality"
+        },
+        {
+          "id": "B",
+          "text": "Economic Order Quantity"
+        },
+        {
+          "id": "C",
+          "text": "Export Order Quote"
+        },
+        {
+          "id": "D",
+          "text": "Equal Opportunity Quota"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Inventory lot size.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-557",
+      "question": "A flexible budget recognises:",
+      "options": [
+        {
+          "id": "A",
+          "text": "no sales"
+        },
+        {
+          "id": "B",
+          "text": "only one impossible output level forever"
+        },
+        {
+          "id": "C",
+          "text": "different activity levels"
+        },
+        {
+          "id": "D",
+          "text": "no costs"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Budgetary control",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cost behaviour.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Budgetary control",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-558",
+      "question": "Zero-based budgeting starts from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the cash book balance only"
+        },
+        {
+          "id": "B",
+          "text": "a random number"
+        },
+        {
+          "id": "C",
+          "text": "justifying every item from zero"
+        },
+        {
+          "id": "D",
+          "text": "last year’s figure plus 10% always without review"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Budgetary control",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "ZBB.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Budgetary control",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-559",
+      "question": "A cash budget estimates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only issued share capital"
+        },
+        {
+          "id": "B",
+          "text": "cash receipts and payments"
+        },
+        {
+          "id": "C",
+          "text": "only depreciation"
+        },
+        {
+          "id": "D",
+          "text": "only goodwill"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Budgetary control",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Liquidity plan.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Budgetary control",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-560",
+      "question": "IFRS are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interest-Free Rural Schemes"
+        },
+        {
+          "id": "B",
+          "text": "International Financial Reporting Standards"
+        },
+        {
+          "id": "C",
+          "text": "Internal Factory Register Sheets"
+        },
+        {
+          "id": "D",
+          "text": "Indian Forest Range Services"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Developments in Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Global accounting standards.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Developments in Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-561",
+      "question": "Ind AS are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indian Accounting Standards converged with IFRS"
+        },
+        {
+          "id": "B",
+          "text": "income-tax slabs"
+        },
+        {
+          "id": "C",
+          "text": "GST codes"
+        },
+        {
+          "id": "D",
+          "text": "railway time tables"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Developments in Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "MCA / ICAI framework.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Developments in Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-562",
+      "question": "ERP in accounting refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "integrated enterprise software including finance modules"
+        },
+        {
+          "id": "B",
+          "text": "a physical ledger binding"
+        },
+        {
+          "id": "C",
+          "text": "a type of petty cash tin"
+        },
+        {
+          "id": "D",
+          "text": "a rubber stamp"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Developments in Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "SAP / TallyPrime class systems.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Developments in Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-563",
+      "question": "Statement of affairs is used in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "single-entry / incomplete records to find capital"
+        },
+        {
+          "id": "B",
+          "text": "GST annual return as its only name"
+        },
+        {
+          "id": "C",
+          "text": "double-entry trial balance as the only statement of affairs"
+        },
+        {
+          "id": "D",
+          "text": "cash book as its only name"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Single entry",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Opening and closing capital.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Single entry",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-564",
+      "question": "Net profit under single entry can be found by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only counting cash notes"
+        },
+        {
+          "id": "B",
+          "text": "comparing capitals after adjusting drawings and additional capital"
+        },
+        {
+          "id": "C",
+          "text": "ignoring all assets"
+        },
+        {
+          "id": "D",
+          "text": "ignoring all liabilities"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Single entry",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Increase in capital method.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Single entry",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-565",
+      "question": "Written-down value method charges depreciation on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "original cost every year without reducing (SLM does that)"
+        },
+        {
+          "id": "B",
+          "text": "scrap only"
+        },
+        {
+          "id": "C",
+          "text": "book value after previous depreciation"
+        },
+        {
+          "id": "D",
+          "text": "market cap of a listed company always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Depreciation (related)",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "WDV / reducing balance.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Depreciation (related)",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-566",
+      "question": "Straight-line method charges:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a constant annual amount (if cost, scrap, life fixed)"
+        },
+        {
+          "id": "B",
+          "text": "zero always"
+        },
+        {
+          "id": "C",
+          "text": "an increasing infinite amount always"
+        },
+        {
+          "id": "D",
+          "text": "only in leap years"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Depreciation (related)",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "SLM.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Depreciation (related)",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-567",
+      "question": "Purchase of machinery for cash is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drawings Dr"
+        },
+        {
+          "id": "B",
+          "text": "Purchases A/c Dr always for a fixed asset"
+        },
+        {
+          "id": "C",
+          "text": "Machinery A/c Dr ; Cash/Bank Cr"
+        },
+        {
+          "id": "D",
+          "text": "Sales Cr"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Capital expenditure.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Journal",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-568",
+      "question": "Goods taken by the owner for personal use are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drawings (or Purchases Cr / Drawings Dr as per method)"
+        },
+        {
+          "id": "B",
+          "text": "an asset called ‘owner’"
+        },
+        {
+          "id": "C",
+          "text": "sales to a customer"
+        },
+        {
+          "id": "D",
+          "text": "capital introduced"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Reduction of capital / stock.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Journal",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-569",
+      "question": "Outstanding salary at year end is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cash Dr"
+        },
+        {
+          "id": "B",
+          "text": "Capital Dr as the only entry"
+        },
+        {
+          "id": "C",
+          "text": "Salary A/c Dr ; Outstanding salary Cr"
+        },
+        {
+          "id": "D",
+          "text": "Bank Dr as the only entry"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Accrual.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Journal",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-570",
+      "question": "Depreciation entry is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bank Dr"
+        },
+        {
+          "id": "B",
+          "text": "Cash Dr"
+        },
+        {
+          "id": "C",
+          "text": "Depreciation A/c Dr ; Asset (or provision) Cr"
+        },
+        {
+          "id": "D",
+          "text": "Sales Dr"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Non-cash expense.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Journal",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-571",
+      "question": "Marshalling of assets can be in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "order of the owner’s birthday"
+        },
+        {
+          "id": "B",
+          "text": "order of liquidity or permanence"
+        },
+        {
+          "id": "C",
+          "text": "GSTIN order"
+        },
+        {
+          "id": "D",
+          "text": "PIN code order only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial statements",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Presentation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial statements",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-572",
+      "question": "Contingent liability is shown:",
+      "options": [
+        {
+          "id": "A",
+          "text": "as a note (not as a balance-sheet liability until crystallised)"
+        },
+        {
+          "id": "B",
+          "text": "as drawings"
+        },
+        {
+          "id": "C",
+          "text": "as cash"
+        },
+        {
+          "id": "D",
+          "text": "as closing stock"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial statements",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Guarantees, disputed claims.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial statements",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-573",
+      "question": "Revaluation account is prepared on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only when cash is deposited"
+        },
+        {
+          "id": "B",
+          "text": "change in partnership (admission/retirement) for assets/liabilities"
+        },
+        {
+          "id": "C",
+          "text": "every Monday mandatorily in a sole trade"
+        },
+        {
+          "id": "D",
+          "text": "GST filing day only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Restate to current values.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-574",
+      "question": "A dishonoured cheque previously deposited is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignored forever"
+        },
+        {
+          "id": "B",
+          "text": "treated as closing stock"
+        },
+        {
+          "id": "C",
+          "text": "credited to sales always"
+        },
+        {
+          "id": "D",
+          "text": "debited in the cash book (bank column reversed) / adjusted in BRS until recorded"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cash Book",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Restore the debtor.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cash Book",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-575",
+      "question": "A drawing and disbursing officer in government accounting is concerned with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "incurring and accounting for expenditure of a unit"
+        },
+        {
+          "id": "B",
+          "text": "only designing websites"
+        },
+        {
+          "id": "C",
+          "text": "only issuing passports as DDO’s only job"
+        },
+        {
+          "id": "D",
+          "text": "only umpiring cricket"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "PFMS",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "DDO role.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "PFMS",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-576",
+      "question": "A direct tax cannot be:",
+      "options": [
+        {
+          "id": "A",
+          "text": "paid to government"
+        },
+        {
+          "id": "B",
+          "text": "notified in a Finance Act"
+        },
+        {
+          "id": "C",
+          "text": "assessed"
+        },
+        {
+          "id": "D",
+          "text": "shifted easily to another person (incidence and impact on same person)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Income tax vs GST.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-577",
+      "question": "Capital of a sole trader equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assets × Liabilities"
+        },
+        {
+          "id": "B",
+          "text": "Cash only"
+        },
+        {
+          "id": "C",
+          "text": "Assets + Liabilities"
+        },
+        {
+          "id": "D",
+          "text": "Assets − Liabilities"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Accounting equation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-578",
+      "question": "Bank overdraft is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "fictitious asset"
+        },
+        {
+          "id": "B",
+          "text": "current liability"
+        },
+        {
+          "id": "C",
+          "text": "contingent asset always"
+        },
+        {
+          "id": "D",
+          "text": "current asset"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Credit balance in bank column.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Balance Sheet",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-579",
+      "question": "Wages of factory workers manufacturing goods are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "trading / manufacturing cost (direct labour)"
+        },
+        {
+          "id": "B",
+          "text": "drawings"
+        },
+        {
+          "id": "C",
+          "text": "share capital"
+        },
+        {
+          "id": "D",
+          "text": "P&L appropriation"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Trading Account",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Prime cost.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Trading Account",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-580",
+      "question": "Sunk cost is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "already incurred and not relevant to a future decision"
+        },
+        {
+          "id": "B",
+          "text": "opportunity cost always"
+        },
+        {
+          "id": "C",
+          "text": "marginal cost always"
+        },
+        {
+          "id": "D",
+          "text": "the next best alternative"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Decision-making.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-581",
+      "question": "A master budget is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the summary of all functional budgets"
+        },
+        {
+          "id": "B",
+          "text": "a petty cash voucher"
+        },
+        {
+          "id": "C",
+          "text": "a debit note only"
+        },
+        {
+          "id": "D",
+          "text": "a cancelled cheque"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Budgetary control",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Overall plan.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Budgetary control",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-582",
+      "question": "Human resource accounting tries to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ban training"
+        },
+        {
+          "id": "B",
+          "text": "record only machines"
+        },
+        {
+          "id": "C",
+          "text": "measure the value of people to the organisation"
+        },
+        {
+          "id": "D",
+          "text": "ignore employees"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Developments in Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Modern development.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Developments in Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-583",
+      "question": "Test checking in audit means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "weighing the ledger"
+        },
+        {
+          "id": "B",
+          "text": "checking only the cover page"
+        },
+        {
+          "id": "C",
+          "text": "examining a sample, not 100% of items"
+        },
+        {
+          "id": "D",
+          "text": "checking nothing"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial Audit",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Risk-based audit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial Audit",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-584",
+      "question": "Real accounts are balanced and carried to the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "journal proper as a balance"
+        },
+        {
+          "id": "B",
+          "text": "drawings"
+        },
+        {
+          "id": "C",
+          "text": "P&L as the only destination of a machine account"
+        },
+        {
+          "id": "D",
+          "text": "balance sheet"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Ledger",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Assets.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Ledger",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-585",
+      "question": "Nominal accounts are closed to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash book as cash always"
+        },
+        {
+          "id": "B",
+          "text": "capital as a debtor always"
+        },
+        {
+          "id": "C",
+          "text": "P&L"
+        },
+        {
+          "id": "D",
+          "text": "balance sheet as assets always"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Expenses and incomes.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-586",
+      "question": "Compound journal entry has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only GST"
+        },
+        {
+          "id": "B",
+          "text": "no narration ever as a definition"
+        },
+        {
+          "id": "C",
+          "text": "more than one debit or more than one credit"
+        },
+        {
+          "id": "D",
+          "text": "only cash"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Journal",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Several accounts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Journal",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-587",
+      "question": "A BRS is not a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "timing-difference explainer"
+        },
+        {
+          "id": "B",
+          "text": "management tool"
+        },
+        {
+          "id": "C",
+          "text": "part of the double-entry ledger itself"
+        },
+        {
+          "id": "D",
+          "text": "reconciliation statement"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Bank Reconciliation Statement",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "It is a statement, not an account in the books (usually).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Bank Reconciliation Statement",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-588",
+      "question": "PAN is used in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "naming peaks"
+        },
+        {
+          "id": "B",
+          "text": "income-tax identification"
+        },
+        {
+          "id": "C",
+          "text": "counting hangul"
+        },
+        {
+          "id": "D",
+          "text": "measuring lake water"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Permanent Account Number.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-589",
+      "question": "TAN is used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "TDS administration"
+        },
+        {
+          "id": "B",
+          "text": "Aadhaar of a lake"
+        },
+        {
+          "id": "C",
+          "text": "IFSC of a glacier"
+        },
+        {
+          "id": "D",
+          "text": "GSTIN of a mountain"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tax Deduction Account Number.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-590",
+      "question": "EAT module in PFMS refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Export–Aviation–Tourism as the PFMS meaning"
+        },
+        {
+          "id": "B",
+          "text": "Excel–Access–Tally as the official expansion"
+        },
+        {
+          "id": "C",
+          "text": "Eat as in food subsidy only as the expansion"
+        },
+        {
+          "id": "D",
+          "text": "Expenditure–Advance–Transfer tracking of implementing agencies"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "PFMS",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Government scheme monitoring.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "PFMS",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-591",
+      "question": "Appropriation Act gives legal authority to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "print newspapers"
+        },
+        {
+          "id": "B",
+          "text": "withdraw money from the Consolidated Fund as voted/charged"
+        },
+        {
+          "id": "C",
+          "text": "license cinema"
+        },
+        {
+          "id": "D",
+          "text": "appoint umpires"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Budget implementation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-592",
+      "question": "Idle time wages in a factory are generally:",
+      "options": [
+        {
+          "id": "A",
+          "text": "factory overhead (if normal) / charged suitably"
+        },
+        {
+          "id": "B",
+          "text": "direct material"
+        },
+        {
+          "id": "C",
+          "text": "selling commission"
+        },
+        {
+          "id": "D",
+          "text": "share capital"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cost classification.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-593",
+      "question": "Fluctuating capital method means all adjustments go to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash book only"
+        },
+        {
+          "id": "B",
+          "text": "the capital account itself"
+        },
+        {
+          "id": "C",
+          "text": "P&L appropriation never"
+        },
+        {
+          "id": "D",
+          "text": "a separate current account only as the only method name"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "No current account.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-594",
+      "question": "Fictitious assets include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash"
+        },
+        {
+          "id": "B",
+          "text": "debtors"
+        },
+        {
+          "id": "C",
+          "text": "land"
+        },
+        {
+          "id": "D",
+          "text": "deferred expenditure not yet written off (e.g. discount on issue)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Balance Sheet",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Not realisable in the usual sense.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Balance Sheet",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-595",
+      "question": "The business entity concept treats the owner as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a customer only"
+        },
+        {
+          "id": "B",
+          "text": "the same cash box with no drawings concept"
+        },
+        {
+          "id": "C",
+          "text": "a government department always"
+        },
+        {
+          "id": "D",
+          "text": "separate from the business"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Drawings vs capital.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-596",
+      "question": "The Consolidated Fund of India is mentioned in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "the GST Act only"
+        },
+        {
+          "id": "B",
+          "text": "Article 266"
+        },
+        {
+          "id": "C",
+          "text": "Article 370 only"
+        },
+        {
+          "id": "D",
+          "text": "the Companies Act only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "All revenues of the Union.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-597",
+      "question": "The Contingency Fund of India is placed at the disposal of the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "NITI Aayog CEO"
+        },
+        {
+          "id": "B",
+          "text": "President of India"
+        },
+        {
+          "id": "C",
+          "text": "SEBI Chairperson"
+        },
+        {
+          "id": "D",
+          "text": "RBI Governor as owner of the Fund"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Indian Financial Management System",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Article 267; advances pending authorisation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Indian Financial Management System",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-598",
+      "question": "Cash basis recognises income when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a quotation is sent"
+        },
+        {
+          "id": "B",
+          "text": "goods are ordered"
+        },
+        {
+          "id": "C",
+          "text": "it is earned even if unpaid (that is accrual)"
+        },
+        {
+          "id": "D",
+          "text": "cash is received"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Government accounts are often cash-based.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-599",
+      "question": "Accrual basis recognises income when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only GST is filed"
+        },
+        {
+          "id": "B",
+          "text": "only a cheque bounces"
+        },
+        {
+          "id": "C",
+          "text": "it is earned (whether or not cash is received)"
+        },
+        {
+          "id": "D",
+          "text": "only cash arrives"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Introduction to Financial Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Matching concept.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Introduction to Financial Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-600",
+      "question": "Government accounts in India have traditionally been kept largely on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "cash basis"
+        },
+        {
+          "id": "B",
+          "text": "inflation accounting only"
+        },
+        {
+          "id": "C",
+          "text": "human-resource accounting only"
+        },
+        {
+          "id": "D",
+          "text": "pure IFRS for every gram panchayat as the only rule"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Social Accounting",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Contrast with accrual in commercial accounts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Social Accounting",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-601",
+      "question": "A partnership firm’s maximum partners (Companies Act / Rules, typical exam figure) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "unlimited always"
+        },
+        {
+          "id": "B",
+          "text": "50"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2 only as a maximum"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Partnership Accounts",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Rule 10, Companies (Miscellaneous) Rules — exam staple.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Partnership Accounts",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-602",
+      "question": "Income tax in India is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "direct tax"
+        },
+        {
+          "id": "B",
+          "text": "GST-type indirect tax on every grocery as its only nature"
+        },
+        {
+          "id": "C",
+          "text": "stamp duty only"
+        },
+        {
+          "id": "D",
+          "text": "customs only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Taxation",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Incidence on the person who pays.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Taxation",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-603",
+      "question": "Marginal cost is approximately:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sunk cost always"
+        },
+        {
+          "id": "B",
+          "text": "variable cost of one more unit"
+        },
+        {
+          "id": "C",
+          "text": "total fixed cost always"
+        },
+        {
+          "id": "D",
+          "text": "historical cost of land always"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Cost Accounting",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Decision-making.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Cost Accounting",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-accountancy-604",
+      "question": "A balance sheet shows the financial position as on a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "particular date"
+        },
+        {
+          "id": "B",
+          "text": "period of a year only as the heading ‘as on’ never used"
+        },
+        {
+          "id": "C",
+          "text": "week of Diwali only"
+        },
+        {
+          "id": "D",
+          "text": "moment of GST filing only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "Accountancy and Book Keeping",
+      "topic": "Financial statements",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Stock statement of assets and liabilities.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "Accountancy and Book Keeping",
+        "Financial statements",
+        "medium"
       ],
       "pool_type": "post_primary",
       "post_id": "accounts-assistant-finance"

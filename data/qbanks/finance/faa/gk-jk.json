@@ -1,7 +1,7 @@
 {
   "post_id": "accounts-assistant-finance",
   "subject": "General Knowledge with special reference to J&K UT",
-  "question_count": 500,
+  "question_count": 630,
   "schema": [
     "question_id",
     "question",
@@ -19508,6 +19508,5076 @@
       "tags": [
         "General Knowledge with special reference to J&K UT",
         "Important Rivers & Lakes",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-501",
+      "question": "Ladakh UT does not have a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "High Court arrangement with J&K"
+        },
+        {
+          "id": "B",
+          "text": "Districts"
+        },
+        {
+          "id": "C",
+          "text": "Lieutenant Governor"
+        },
+        {
+          "id": "D",
+          "text": "Legislative Assembly (as constituted in 2019)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K Reorganisation Act, 2019",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "J&K UT was given a legislature; Ladakh was not.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K Reorganisation Act, 2019",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-502",
+      "question": "The High Court of Jammu & Kashmir also serves as the High Court for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "Delhi"
+        },
+        {
+          "id": "C",
+          "text": "Punjab only"
+        },
+        {
+          "id": "D",
+          "text": "Himachal Pradesh"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K Reorganisation Act, 2019",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Common High Court after reorganisation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K Reorganisation Act, 2019",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-503",
+      "question": "How many districts does J&K UT currently have?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "28"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Twenty districts remain in J&K UT; Leh and Kargil are in Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-504",
+      "question": "Kargil and Leh are districts of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "J&K UT only"
+        },
+        {
+          "id": "B",
+          "text": "Himachal Pradesh"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh UT"
+        },
+        {
+          "id": "D",
+          "text": "Punjab"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Ladakh UT has two districts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-505",
+      "question": "Mansar and Surinsar lakes are in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punjab plains"
+        },
+        {
+          "id": "B",
+          "text": "Kerala backwaters"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh cold desert only"
+        },
+        {
+          "id": "D",
+          "text": "Jammu region"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Twin lakes of Jammu.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-506",
+      "question": "Pangong Tso lies mainly in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu city"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar city"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh"
+        },
+        {
+          "id": "D",
+          "text": "Kathua"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "High-altitude lake on the India–China frontier region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-507",
+      "question": "The Hangul (Kashmir stag) is conserved especially in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kaziranga"
+        },
+        {
+          "id": "B",
+          "text": "Gir Forest"
+        },
+        {
+          "id": "C",
+          "text": "Dachigam National Park"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "State animal of J&K; Dachigam near Srinagar.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-508",
+      "question": "Hemis National Park is known for the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Snow leopard"
+        },
+        {
+          "id": "B",
+          "text": "Penguin"
+        },
+        {
+          "id": "C",
+          "text": "Lion"
+        },
+        {
+          "id": "D",
+          "text": "One-horned rhino"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Largest national park in India, in Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-509",
+      "question": "Shalimar and Nishat Bagh are Mughal gardens in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Katra"
+        },
+        {
+          "id": "D",
+          "text": "Udhampur"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "On Dal Lake / Zabarwan foothills.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-510",
+      "question": "Martand Sun Temple ruins are near:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Samba"
+        },
+        {
+          "id": "B",
+          "text": "Katra"
+        },
+        {
+          "id": "C",
+          "text": "Anantnag / Mattan"
+        },
+        {
+          "id": "D",
+          "text": "Leh market"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Karkota-period temple associated with Lalitaditya.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-511",
+      "question": "Hari Singh was associated with the Dogra dynasty that ruled:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Awadh"
+        },
+        {
+          "id": "B",
+          "text": "Jammu and Kashmir"
+        },
+        {
+          "id": "C",
+          "text": "Mysore"
+        },
+        {
+          "id": "D",
+          "text": "Travancore"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Last ruling Maharaja of J&K.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-512",
+      "question": "The Treaty of Amritsar (1846) transferred Kashmir to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Afghanistan"
+        },
+        {
+          "id": "B",
+          "text": "the British Crown as a colony only"
+        },
+        {
+          "id": "C",
+          "text": "Gulab Singh (Dogra)"
+        },
+        {
+          "id": "D",
+          "text": "Nepal"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dogra rule over Kashmir followed 1846.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-513",
+      "question": "Lalitaditya Muktapida belonged to the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Karkota dynasty of Kashmir"
+        },
+        {
+          "id": "B",
+          "text": "Gupta court of Pataliputra"
+        },
+        {
+          "id": "C",
+          "text": "Maurya dynasty of Magadha"
+        },
+        {
+          "id": "D",
+          "text": "Chola navy of Tamilakam"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "8th-century Kashmir ruler.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-514",
+      "question": "Kalhana’s Rajatarangini is a chronicle of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maratha Peshwas"
+        },
+        {
+          "id": "B",
+          "text": "Vijayanagara"
+        },
+        {
+          "id": "C",
+          "text": "Mughal Delhi only"
+        },
+        {
+          "id": "D",
+          "text": "Kings of Kashmir"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sanskrit historical poem.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-515",
+      "question": "Sheikh Mohammad Abdullah is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the Chipko movement"
+        },
+        {
+          "id": "B",
+          "text": "only the Khalistan movement"
+        },
+        {
+          "id": "C",
+          "text": "only the Indian National Army in Singapore"
+        },
+        {
+          "id": "D",
+          "text": "National Conference / Kashmir politics"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lion of Kashmir; pre- and post-1947 politics.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-516",
+      "question": "The Darbar Move traditionally shifted offices between:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar and Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Leh and Kargil"
+        },
+        {
+          "id": "C",
+          "text": "Delhi and Mumbai"
+        },
+        {
+          "id": "D",
+          "text": "Katra and Poonch"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Summer and winter capitals.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-517",
+      "question": "Mughal Road connects Poonch–Rajouri side with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shopian / Kashmir"
+        },
+        {
+          "id": "B",
+          "text": "Leh"
+        },
+        {
+          "id": "C",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "D",
+          "text": "Kolkata"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Historic Mughal route across Pir Panjal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-518",
+      "question": "Zojila pass links Kashmir valley with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punjab plains"
+        },
+        {
+          "id": "B",
+          "text": "Goa"
+        },
+        {
+          "id": "C",
+          "text": "Rajasthan"
+        },
+        {
+          "id": "D",
+          "text": "Ladakh (Drass–Kargil axis)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "High Himalayan pass on NH towards Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-519",
+      "question": "Banihal Pass / Jawahar Tunnel historically linked Jammu with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sundarbans"
+        },
+        {
+          "id": "B",
+          "text": "Kutch"
+        },
+        {
+          "id": "C",
+          "text": "Kashmir valley"
+        },
+        {
+          "id": "D",
+          "text": "Leh desert"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pir Panjal crossing.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-520",
+      "question": "The Chenab railway bridge (Anji / Chenab) is associated with the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kolkata Metro"
+        },
+        {
+          "id": "B",
+          "text": "USBRL project (Udhampur–Srinagar–Baramulla)"
+        },
+        {
+          "id": "C",
+          "text": "Konkan Railway only"
+        },
+        {
+          "id": "D",
+          "text": "Delhi–Mumbai Expressway only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "World-class Himalayan rail link.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-521",
+      "question": "Cat. III / Chenab Bridge is often cited as one of the world’s highest:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sea ports"
+        },
+        {
+          "id": "B",
+          "text": "Airports"
+        },
+        {
+          "id": "C",
+          "text": "Railway arch bridges"
+        },
+        {
+          "id": "D",
+          "text": "Dams in Kerala"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Reasi district, USBRL.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-522",
+      "question": "Tulip Garden (Indira Gandhi Memorial) is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Srinagar (Siraj Bagh / foothills of Zabarwan)"
+        },
+        {
+          "id": "B",
+          "text": "Jammu Tawi bank only"
+        },
+        {
+          "id": "C",
+          "text": "Kargil town"
+        },
+        {
+          "id": "D",
+          "text": "Kathua"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Asia’s large tulip garden.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-523",
+      "question": "Yusmarg and Doodhpathri are tourist meadows in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kashmir"
+        },
+        {
+          "id": "B",
+          "text": "Thar desert"
+        },
+        {
+          "id": "C",
+          "text": "Nilgiris tea belt only"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Budgam / adjoining highland meadows.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-524",
+      "question": "Patnitop is a hill station in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Udhampur district (Jammu region)"
+        },
+        {
+          "id": "B",
+          "text": "Leh"
+        },
+        {
+          "id": "C",
+          "text": "Samba plains only"
+        },
+        {
+          "id": "D",
+          "text": "Kupwara town centre"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "On the National Highway towards Kashmir.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-525",
+      "question": "Bhaderwah is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kargil"
+        },
+        {
+          "id": "B",
+          "text": "Doda district"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Bandipora town only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Mini Kashmir of Jammu region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-526",
+      "question": "Kishtwar National Park is known for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marine turtles of Odisha"
+        },
+        {
+          "id": "B",
+          "text": "Hangul / Himalayan fauna in Chenab catchment"
+        },
+        {
+          "id": "C",
+          "text": "Gir lions"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans tigers as the only fauna"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "High-altitude protected area.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-527",
+      "question": "The Tawi joins the Chenab after flowing past:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leh"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Pahalgam"
+        },
+        {
+          "id": "D",
+          "text": "Jammu"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tawi is Jammu’s river.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-528",
+      "question": "Wular Lake is fed mainly by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kaveri"
+        },
+        {
+          "id": "B",
+          "text": "Jhelum"
+        },
+        {
+          "id": "C",
+          "text": "Narmada"
+        },
+        {
+          "id": "D",
+          "text": "Mahanadi"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Largest freshwater lake of the valley.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-529",
+      "question": "Manasbal Lake is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ganderbal district (Kashmir)"
+        },
+        {
+          "id": "B",
+          "text": "Kutch"
+        },
+        {
+          "id": "C",
+          "text": "Pulicat"
+        },
+        {
+          "id": "D",
+          "text": "Chilika"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Deep lake of Kashmir.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-530",
+      "question": "Gangabal Lake lies below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mount Harmukh"
+        },
+        {
+          "id": "B",
+          "text": "Nanga Parbat as a city lake"
+        },
+        {
+          "id": "C",
+          "text": "Everest base in Nepal"
+        },
+        {
+          "id": "D",
+          "text": "Abu in Rajasthan"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Alpine lake, Ganderbal / high Kashmir.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-531",
+      "question": "The official language set of J&K UT (2020 Act) does NOT include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urdu"
+        },
+        {
+          "id": "B",
+          "text": "French"
+        },
+        {
+          "id": "C",
+          "text": "Kashmiri"
+        },
+        {
+          "id": "D",
+          "text": "Dogri"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kashmiri, Dogri, Hindi, English, Urdu.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-532",
+      "question": "Dogri is primarily associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu region"
+        },
+        {
+          "id": "B",
+          "text": "Assam"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh Bhoti only"
+        },
+        {
+          "id": "D",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Indo-Aryan language of the Dogras.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-533",
+      "question": "Kashmiri (Koshur) is written today mainly in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only Hieroglyphs"
+        },
+        {
+          "id": "B",
+          "text": "only Cyrillic"
+        },
+        {
+          "id": "C",
+          "text": "only Ogham"
+        },
+        {
+          "id": "D",
+          "text": "Perso-Arabic (Nastaliq) script in official use, also Devanagari"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Standard modern practice.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-534",
+      "question": "Bhoti / Ladakhi is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goa beaches"
+        },
+        {
+          "id": "B",
+          "text": "Kerala coast"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tibetic language of Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-535",
+      "question": "SEHAT in J&K is primarily a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Forest logging permit"
+        },
+        {
+          "id": "B",
+          "text": "Highway construction code"
+        },
+        {
+          "id": "C",
+          "text": "Health insurance / cashless treatment scheme"
+        },
+        {
+          "id": "D",
+          "text": "Sports league"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Social Endeavour for Health and Telemedicine; linked with PM-JAY coverage.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-536",
+      "question": "SEHAT coverage commonly cited per family per year is about:",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹5 crore as the only slab"
+        },
+        {
+          "id": "B",
+          "text": "₹5 lakh"
+        },
+        {
+          "id": "C",
+          "text": "₹500"
+        },
+        {
+          "id": "D",
+          "text": "Nil"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Aligned with Ayushman Bharat PM-JAY family cover.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-537",
+      "question": "Mission Youth, J&K is aimed at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Youth livelihood, skills and entrepreneurship"
+        },
+        {
+          "id": "B",
+          "text": "Only foreign tourism visas"
+        },
+        {
+          "id": "C",
+          "text": "Only forest fires"
+        },
+        {
+          "id": "D",
+          "text": "Only senior-citizen pensions"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Umbrella for youth schemes such as Mumkin, Tejaswini.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-538",
+      "question": "Mumkin under Mission Youth is mainly a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stamp duty Act"
+        },
+        {
+          "id": "B",
+          "text": "Livelihood / self-employment support scheme for youth"
+        },
+        {
+          "id": "C",
+          "text": "High Court rule"
+        },
+        {
+          "id": "D",
+          "text": "Wildlife census"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Transport/livelihood generation for young people.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-539",
+      "question": "Tejaswini (Mission Youth) especially targets:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only foreign tourists"
+        },
+        {
+          "id": "B",
+          "text": "Only retired officers"
+        },
+        {
+          "id": "C",
+          "text": "Only mining corporates"
+        },
+        {
+          "id": "D",
+          "text": "Young women entrepreneurs"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Financial assistance for women-led ventures.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-540",
+      "question": "Mission YUVA (Yuva Udyami Vikas Abhiyan) in J&K focuses on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abolishing banks"
+        },
+        {
+          "id": "B",
+          "text": "Ending skill training"
+        },
+        {
+          "id": "C",
+          "text": "Banning start-ups"
+        },
+        {
+          "id": "D",
+          "text": "Enterprise creation and youth entrepreneurship"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "UT entrepreneurship mission (enterprises, credit, skilling).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-541",
+      "question": "Aatmanirbhar Bharat / central MSME credit schemes are implemented in J&K through:",
+      "options": [
+        {
+          "id": "A",
+          "text": "NASA only"
+        },
+        {
+          "id": "B",
+          "text": "FIFA only"
+        },
+        {
+          "id": "C",
+          "text": "Banks and UT industry/labour departments in convergence"
+        },
+        {
+          "id": "D",
+          "text": "WHO only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "National schemes operate in the UT via banks.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-542",
+      "question": "Horticulture (apple, walnut, saffron) is a backbone of the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kashmir valley economy"
+        },
+        {
+          "id": "B",
+          "text": "Thar desert economy"
+        },
+        {
+          "id": "C",
+          "text": "Kerala spices as the only crop of J&K"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans fishing only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Shopian, Pulwama, Kulgam belts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-543",
+      "question": "Basmati rice of R.S. Pura is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kargil desert"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar Dal houseboats only"
+        },
+        {
+          "id": "C",
+          "text": "Jammu plains"
+        },
+        {
+          "id": "D",
+          "text": "Ladakh glaciers"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Jammu’s agricultural brand.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-544",
+      "question": "Pashmina is traditionally linked with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kerala coir only"
+        },
+        {
+          "id": "B",
+          "text": "Ladakh / Kashmir wool craft"
+        },
+        {
+          "id": "C",
+          "text": "Punjab wheat only"
+        },
+        {
+          "id": "D",
+          "text": "Goa fish only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Fine wool of Changthangi goat.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-545",
+      "question": "The Chenab valley’s hydropower potential is important for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mumbai port trust only"
+        },
+        {
+          "id": "B",
+          "text": "J&K’s power sector"
+        },
+        {
+          "id": "C",
+          "text": "ISRO rockets only"
+        },
+        {
+          "id": "D",
+          "text": "Desert solar of Rajasthan only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Salal, Dulhasti, Baglihar etc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-546",
+      "question": "Amarnath and Vaishno Devi are major drivers of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "IT parks of Bengaluru as J&K’s only GDP"
+        },
+        {
+          "id": "B",
+          "text": "Offshore oil of Mumbai High"
+        },
+        {
+          "id": "C",
+          "text": "Pilgrim tourism"
+        },
+        {
+          "id": "D",
+          "text": "Coffee of Kodagu"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Religious tourism circuits.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-547",
+      "question": "NITI Aayog replaced:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Election Commission"
+        },
+        {
+          "id": "B",
+          "text": "CAG"
+        },
+        {
+          "id": "C",
+          "text": "Planning Commission"
+        },
+        {
+          "id": "D",
+          "text": "Supreme Court"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "2015.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-548",
+      "question": "GST was rolled out in India in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1991"
+        },
+        {
+          "id": "B",
+          "text": "2017"
+        },
+        {
+          "id": "C",
+          "text": "1947"
+        },
+        {
+          "id": "D",
+          "text": "2019"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "1 July 2017.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-549",
+      "question": "The Finance Commission is constituted under:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 19 only"
+        },
+        {
+          "id": "B",
+          "text": "Article 280"
+        },
+        {
+          "id": "C",
+          "text": "Article 21 only"
+        },
+        {
+          "id": "D",
+          "text": "Article 370"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "To recommend Centre–State financial transfers.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-550",
+      "question": "CAG of India audits:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only FIFA"
+        },
+        {
+          "id": "B",
+          "text": "Only cinema"
+        },
+        {
+          "id": "C",
+          "text": "Only private kirana shops"
+        },
+        {
+          "id": "D",
+          "text": "Government accounts"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Comptroller and Auditor General.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-551",
+      "question": "The slogan ‘Do or Die’ is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Swadeshi 1905 only"
+        },
+        {
+          "id": "B",
+          "text": "1857 Meerut only"
+        },
+        {
+          "id": "C",
+          "text": "Non-cooperation 1920 only"
+        },
+        {
+          "id": "D",
+          "text": "Quit India, 1942"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gandhi, August 1942.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-552",
+      "question": "Bhagat Singh was executed in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1947"
+        },
+        {
+          "id": "B",
+          "text": "1857"
+        },
+        {
+          "id": "C",
+          "text": "1919"
+        },
+        {
+          "id": "D",
+          "text": "1931"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lahore, March 1931.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-553",
+      "question": "The Partition of Bengal (1905) was associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Swadeshi movement"
+        },
+        {
+          "id": "B",
+          "text": "Green Revolution"
+        },
+        {
+          "id": "C",
+          "text": "GST 2017"
+        },
+        {
+          "id": "D",
+          "text": "LPG 1991"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Curzon; later annulled.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-554",
+      "question": "Subhas Chandra Bose is associated with the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only GST Council"
+        },
+        {
+          "id": "B",
+          "text": "INA / Azad Hind"
+        },
+        {
+          "id": "C",
+          "text": "only the Planning Commission of 2015"
+        },
+        {
+          "id": "D",
+          "text": "only NITI Aayog"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Indian National Army.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-555",
+      "question": "The Tropic of Cancer passes through how many Indian states (commonly listed)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "28"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Political & Physical divisions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gujarat to Mizoram belt.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Political & Physical divisions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-556",
+      "question": "India’s standard meridian for IST is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "23°30′ N"
+        },
+        {
+          "id": "B",
+          "text": "82°30′ E"
+        },
+        {
+          "id": "C",
+          "text": "180°"
+        },
+        {
+          "id": "D",
+          "text": "0°"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Political & Physical divisions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Near Mirzapur; IST = UTC+5:30.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Political & Physical divisions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-557",
+      "question": "The Indus originates near:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tibet / Mansarovar region"
+        },
+        {
+          "id": "B",
+          "text": "Nilgiris"
+        },
+        {
+          "id": "C",
+          "text": "Western Ghats of Goa"
+        },
+        {
+          "id": "D",
+          "text": "Aravallis of Ajmer"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Important Rivers & Lakes",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Enters India in Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Important Rivers & Lakes",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-558",
+      "question": "Kishanganga is a tributary in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kaveri delta"
+        },
+        {
+          "id": "B",
+          "text": "Jhelum / Indus system of Kashmir"
+        },
+        {
+          "id": "C",
+          "text": "Mahanadi delta"
+        },
+        {
+          "id": "D",
+          "text": "Narmada rift only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Important Rivers & Lakes",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Gurez / Neelum.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Important Rivers & Lakes",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-559",
+      "question": "The State Animal of J&K is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elephant of Kerala as J&K’s animal"
+        },
+        {
+          "id": "B",
+          "text": "Lion"
+        },
+        {
+          "id": "C",
+          "text": "Rhino"
+        },
+        {
+          "id": "D",
+          "text": "Hangul"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kashmir stag.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-560",
+      "question": "Changthang Wildlife Sanctuary is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goa"
+        },
+        {
+          "id": "B",
+          "text": "Kerala"
+        },
+        {
+          "id": "C",
+          "text": "Punjab"
+        },
+        {
+          "id": "D",
+          "text": "Ladakh"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "High-altitude plateau fauna.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-561",
+      "question": "Saffron requires a climate typical of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Equatorial rainforest of Kerala only"
+        },
+        {
+          "id": "B",
+          "text": "Sundarbans mangrove"
+        },
+        {
+          "id": "C",
+          "text": "Hot Thar without winter"
+        },
+        {
+          "id": "D",
+          "text": "Temperate Kashmir karewas (Pampore)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Weather, Climate, Crops",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Crocus sativus, Karewa soils.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Weather, Climate, Crops",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-562",
+      "question": "Western Disturbances bring winter precipitation useful for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only Tamil Nadu’s north-east monsoon as the sole source in J&K"
+        },
+        {
+          "id": "B",
+          "text": "Rabi wheat in north-west India / J&K"
+        },
+        {
+          "id": "C",
+          "text": "Amazon flood"
+        },
+        {
+          "id": "D",
+          "text": "Sahara dune"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Weather, Climate, Crops",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Mediterranean-origin cyclones.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Weather, Climate, Crops",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-563",
+      "question": "A Union Territory is administered by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a hereditary Nawab only"
+        },
+        {
+          "id": "B",
+          "text": "President through an Administrator / LG"
+        },
+        {
+          "id": "C",
+          "text": "the UN Secretary-General"
+        },
+        {
+          "id": "D",
+          "text": "RBI Governor only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Demography-Census",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Article 239 framework.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Demography-Census",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-564",
+      "question": "The national waterway concept is administered under:",
+      "options": [
+        {
+          "id": "A",
+          "text": "FIFA"
+        },
+        {
+          "id": "B",
+          "text": "Inland Waterways Authority of India"
+        },
+        {
+          "id": "C",
+          "text": "ICC"
+        },
+        {
+          "id": "D",
+          "text": "ISRO"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Transport & Communication",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "IWAI.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Transport & Communication",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-565",
+      "question": "The University of Kashmir is located in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Katra"
+        },
+        {
+          "id": "B",
+          "text": "Leh"
+        },
+        {
+          "id": "C",
+          "text": "Srinagar (Hazratbal)"
+        },
+        {
+          "id": "D",
+          "text": "Jammu Tawi only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hazratbal campus.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-566",
+      "question": "The University of Jammu is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Kargil"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Kupwara"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Public university of the winter capital region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-567",
+      "question": "SKIMS is a medical institute in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kathua town clinic only"
+        },
+        {
+          "id": "B",
+          "text": "Katra"
+        },
+        {
+          "id": "C",
+          "text": "Srinagar"
+        },
+        {
+          "id": "D",
+          "text": "Samba"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sher-i-Kashmir Institute of Medical Sciences.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-568",
+      "question": "AIIMS in the Jammu region has been developed at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marina Beach Chennai"
+        },
+        {
+          "id": "B",
+          "text": "Marine drive Mumbai"
+        },
+        {
+          "id": "C",
+          "text": "Vijaypur (Samba) area"
+        },
+        {
+          "id": "D",
+          "text": "Connaught Place Delhi as the J&K AIIMS"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "National institute in Jammu division.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-569",
+      "question": "The famous silk / papier-mâché crafts are traditional to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kashmir"
+        },
+        {
+          "id": "B",
+          "text": "Kerala coir only"
+        },
+        {
+          "id": "C",
+          "text": "Punjab tractors only"
+        },
+        {
+          "id": "D",
+          "text": "Kutch salt only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Srinagar crafts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-570",
+      "question": "Basholi paintings are associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu hills / Kathua–Basohli"
+        },
+        {
+          "id": "B",
+          "text": "Warli of Maharashtra as J&K’s school"
+        },
+        {
+          "id": "C",
+          "text": "Madhubani of Bihar as the only school in J&K"
+        },
+        {
+          "id": "D",
+          "text": "Kalighat of Kolkata as J&K’s school"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pahari miniature tradition.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-571",
+      "question": "The Hemis Festival is a Buddhist masked dance festival of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punjab Lohri as the same"
+        },
+        {
+          "id": "B",
+          "text": "Kerala Onam as the same festival"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh"
+        },
+        {
+          "id": "D",
+          "text": "Tamil Pongal as the same"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Hemis Monastery.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-572",
+      "question": "Sindhu Darshan / Sindhu festival celebrates the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kaveri at Talakaveri only"
+        },
+        {
+          "id": "B",
+          "text": "Indus in Ladakh"
+        },
+        {
+          "id": "C",
+          "text": "Ganga at Varanasi only"
+        },
+        {
+          "id": "D",
+          "text": "Narmada at Amarkantak only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "River festival of Leh region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-573",
+      "question": "Drass is often cited among India’s:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hottest Thar towns"
+        },
+        {
+          "id": "B",
+          "text": "Largest seaports"
+        },
+        {
+          "id": "C",
+          "text": "Coldest inhabited places"
+        },
+        {
+          "id": "D",
+          "text": "Wettest Cherapunji clones in J&K"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kargil district, Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-574",
+      "question": "The 1999 Kargil conflict was fought in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rann of Kutch only"
+        },
+        {
+          "id": "B",
+          "text": "Nicobar"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh (Kargil–Drass sector)"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Operation Vijay.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-575",
+      "question": "The WTO deals with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "International trade rules"
+        },
+        {
+          "id": "B",
+          "text": "Olympic medals only"
+        },
+        {
+          "id": "C",
+          "text": "Space stations only"
+        },
+        {
+          "id": "D",
+          "text": "Local property tax of a municipality only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "World Trade Organization.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-576",
+      "question": "The IMF is primarily concerned with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Football rankings"
+        },
+        {
+          "id": "B",
+          "text": "Global monetary cooperation / BOP support"
+        },
+        {
+          "id": "C",
+          "text": "Film awards"
+        },
+        {
+          "id": "D",
+          "text": "Zoo management"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "International Monetary Fund.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-577",
+      "question": "CITES is an international treaty on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Olympic doping only"
+        },
+        {
+          "id": "B",
+          "text": "Internet domain names"
+        },
+        {
+          "id": "C",
+          "text": "Tariffs on steel only"
+        },
+        {
+          "id": "D",
+          "text": "Trade in endangered species"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Convention on International Trade in Endangered Species.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-578",
+      "question": "The Directive Principles of State Policy are in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Part III only as justiciable rights exclusively"
+        },
+        {
+          "id": "B",
+          "text": "Part IV of the Constitution"
+        },
+        {
+          "id": "C",
+          "text": "the Eighth Schedule only"
+        },
+        {
+          "id": "D",
+          "text": "the Preamble only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Non-justiciable goals, including welfare.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-579",
+      "question": "Fundamental Rights are mainly in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "GST Act only"
+        },
+        {
+          "id": "B",
+          "text": "Part IV only"
+        },
+        {
+          "id": "C",
+          "text": "the Tenth Schedule only"
+        },
+        {
+          "id": "D",
+          "text": "Part III"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Justiciable rights.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-580",
+      "question": "The Indian Union’s residuary powers of legislation lie with the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Union Parliament"
+        },
+        {
+          "id": "B",
+          "text": "RBI Board only"
+        },
+        {
+          "id": "C",
+          "text": "UNGA"
+        },
+        {
+          "id": "D",
+          "text": "Gram Sabha only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Political & Physical divisions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Seventh Schedule; Union list / residuary.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Political & Physical divisions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-581",
+      "question": "Panchayati Raj in J&K after 2019 follows the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only the 1901 Land Code of Britain"
+        },
+        {
+          "id": "B",
+          "text": "73rd Constitutional Amendment framework as extended"
+        },
+        {
+          "id": "C",
+          "text": "only East India Company rules"
+        },
+        {
+          "id": "D",
+          "text": "only UN trusteeship"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Local bodies elections under Indian Constitution.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-582",
+      "question": "PM-KISAN is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cricket league"
+        },
+        {
+          "id": "B",
+          "text": "an airport code"
+        },
+        {
+          "id": "C",
+          "text": "J&K-only lake-cleaning club"
+        },
+        {
+          "id": "D",
+          "text": "Central income-support scheme for landholding farmer families"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "₹6,000 per year in instalments (as designed).",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-583",
+      "question": "MGNREGA guarantees rural wage employment of up to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 day"
+        },
+        {
+          "id": "B",
+          "text": "36500 days"
+        },
+        {
+          "id": "C",
+          "text": "100 days per household (as the statutory design)"
+        },
+        {
+          "id": "D",
+          "text": "zero days"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Demand-driven rural works.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-584",
+      "question": "The Indus Waters Treaty (1960) allocates the eastern rivers to India; Jhelum and Chenab are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "African rift rivers"
+        },
+        {
+          "id": "B",
+          "text": "Australian rivers"
+        },
+        {
+          "id": "C",
+          "text": "Amazon tributaries"
+        },
+        {
+          "id": "D",
+          "text": "Western rivers with specified Indian uses"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Treaty with Pakistan; hydropower allowed with constraints.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-585",
+      "question": "Ravi, Beas and Sutlej are the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only Brahmaputra north-bank in Arunachal"
+        },
+        {
+          "id": "B",
+          "text": "only peninsular east-flowing rivers of Tamil Nadu"
+        },
+        {
+          "id": "C",
+          "text": "only Ganga right-bank in Bihar"
+        },
+        {
+          "id": "D",
+          "text": "Eastern rivers of the Indus system allotted to India under IWT"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Important Rivers & Lakes",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Indus Waters Treaty.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Important Rivers & Lakes",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-586",
+      "question": "Gulmarg’s Gondola is among Asia’s:",
+      "options": [
+        {
+          "id": "A",
+          "text": "seaports"
+        },
+        {
+          "id": "B",
+          "text": "High-altitude cable cars"
+        },
+        {
+          "id": "C",
+          "text": "desert pipelines"
+        },
+        {
+          "id": "D",
+          "text": "nuclear plants"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Tourism / skiing.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-587",
+      "question": "Sonamarg lies on the way to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Puri"
+        },
+        {
+          "id": "B",
+          "text": "Zojila / Ladakh axis"
+        },
+        {
+          "id": "C",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "D",
+          "text": "Dwarka"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Sind valley, Ganderbal.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-588",
+      "question": "Gurez valley is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tawang as a J&K district"
+        },
+        {
+          "id": "B",
+          "text": "Bandipora district"
+        },
+        {
+          "id": "C",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "D",
+          "text": "Jaisalmer"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Kishanganga / Neelum landscape.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-589",
+      "question": "The Pir Panjal range separates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thar from Aravalli as the Pir Panjal"
+        },
+        {
+          "id": "B",
+          "text": "Sundarbans from the Bay as a J&K range"
+        },
+        {
+          "id": "C",
+          "text": "Andaman from Nicobar as a J&K range"
+        },
+        {
+          "id": "D",
+          "text": "Kashmir valley from the Jammu hills / outer Himalaya"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Greater Himalayan branch.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-590",
+      "question": "Karakoram in the Indian territory is mainly in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kerala"
+        },
+        {
+          "id": "B",
+          "text": "Goa"
+        },
+        {
+          "id": "C",
+          "text": "Ladakh"
+        },
+        {
+          "id": "D",
+          "text": "Meghalaya"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Siachen / Nubra region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-591",
+      "question": "Hangul is listed as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Least concern like a house sparrow worldwide"
+        },
+        {
+          "id": "B",
+          "text": "Extinct in 1800"
+        },
+        {
+          "id": "C",
+          "text": "A fish of Chilika"
+        },
+        {
+          "id": "D",
+          "text": "Critically endangered (IUCN)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Cervus hanglu.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-592",
+      "question": "The Jammu and Kashmir Bank is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "central bank of India"
+        },
+        {
+          "id": "B",
+          "text": "a university"
+        },
+        {
+          "id": "C",
+          "text": "UT / former state-associated scheduled commercial bank"
+        },
+        {
+          "id": "D",
+          "text": "a cricket board"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Major banker in the region.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-593",
+      "question": "Handicrafts (carpets, shawls, wood carving) are an important:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Export-oriented cottage sector of Kashmir"
+        },
+        {
+          "id": "B",
+          "text": "only shipping of Mumbai mislabelled"
+        },
+        {
+          "id": "C",
+          "text": "only IT of Bengaluru mislabelled"
+        },
+        {
+          "id": "D",
+          "text": "only mining of Jharkhand mislabelled"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "GI-tagged crafts exist for several products.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-594",
+      "question": "The Election Commission of India is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "department of RBI only"
+        },
+        {
+          "id": "B",
+          "text": "UN organ seated in J&K"
+        },
+        {
+          "id": "C",
+          "text": "private company"
+        },
+        {
+          "id": "D",
+          "text": "Constitutional body"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Article 324.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-595",
+      "question": "The Eighth Schedule of the Constitution lists:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Official languages of the Union (scheduled languages)"
+        },
+        {
+          "id": "B",
+          "text": "national parks only"
+        },
+        {
+          "id": "C",
+          "text": "railway zones"
+        },
+        {
+          "id": "D",
+          "text": "GST rates"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Includes Kashmiri, Dogri, Urdu, Hindi etc.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-596",
+      "question": "Dogri and Kashmiri are in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tenth Schedule (anti-defection) only"
+        },
+        {
+          "id": "B",
+          "text": "Eighth Schedule"
+        },
+        {
+          "id": "C",
+          "text": "GST schedule"
+        },
+        {
+          "id": "D",
+          "text": "Railway timetable"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Scheduled languages.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-597",
+      "question": "A Union Territory with a legislature (among the following) is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu and Kashmir (as provided in 2019)"
+        },
+        {
+          "id": "B",
+          "text": "Chandigarh"
+        },
+        {
+          "id": "C",
+          "text": "Andaman and Nicobar (no Assembly)"
+        },
+        {
+          "id": "D",
+          "text": "Lakshadweep"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Political & Physical divisions",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "J&K UT has a Legislative Assembly under the Reorganisation Act.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Political & Physical divisions",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-598",
+      "question": "The Legislative Assembly of J&K UT, as provided, is to have members from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Territorial constituencies of J&K UT"
+        },
+        {
+          "id": "B",
+          "text": "only overseas Indians"
+        },
+        {
+          "id": "C",
+          "text": "only Ladakh"
+        },
+        {
+          "id": "D",
+          "text": "only Rajya Sabha seats of Kerala"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K Reorganisation Act, 2019",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Assembly for the J&K UT.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K Reorganisation Act, 2019",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-599",
+      "question": "Rajouri and Poonch lie towards the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sundarbans"
+        },
+        {
+          "id": "B",
+          "text": "Coromandel coast"
+        },
+        {
+          "id": "C",
+          "text": "Konkan coast"
+        },
+        {
+          "id": "D",
+          "text": "Line of Control / western Jammu hills"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Border districts.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-600",
+      "question": "Kupwara district is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vidarbha"
+        },
+        {
+          "id": "B",
+          "text": "Saurashtra"
+        },
+        {
+          "id": "C",
+          "text": "South Tamil Nadu"
+        },
+        {
+          "id": "D",
+          "text": "North Kashmir"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Frontier district.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-601",
+      "question": "Kathua is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ladakh desert"
+        },
+        {
+          "id": "B",
+          "text": "Jammu division"
+        },
+        {
+          "id": "C",
+          "text": "Kargil town"
+        },
+        {
+          "id": "D",
+          "text": "Kashmir’s Gurez only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Eastern Jammu plains/hills.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-602",
+      "question": "Udhampur is an important:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rail / army / regional hub on the Jammu–Srinagar axis"
+        },
+        {
+          "id": "B",
+          "text": "nuclear plant of Tarapur as its only identity"
+        },
+        {
+          "id": "C",
+          "text": "major seaport of Gujarat"
+        },
+        {
+          "id": "D",
+          "text": "international airport of Mumbai"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Transport & Communication",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "USBRL starting section.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Transport & Communication",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-603",
+      "question": "Ayushman Bharat PM-JAY in J&K works together with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a metro in Kochi"
+        },
+        {
+          "id": "B",
+          "text": "only a sports academy"
+        },
+        {
+          "id": "C",
+          "text": "only a painting contest"
+        },
+        {
+          "id": "D",
+          "text": "SEHAT to widen hospitalisation cover"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Health assurance architecture.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-604",
+      "question": "The Civil Secretariat functions from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nairobi"
+        },
+        {
+          "id": "B",
+          "text": "Jammu or Srinagar according to Darbar Move / notified arrangement"
+        },
+        {
+          "id": "C",
+          "text": "Geneva"
+        },
+        {
+          "id": "D",
+          "text": "New York"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "UT administration.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-605",
+      "question": "The RBI was established in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1947 as the first date"
+        },
+        {
+          "id": "B",
+          "text": "1991"
+        },
+        {
+          "id": "C",
+          "text": "2017"
+        },
+        {
+          "id": "D",
+          "text": "1935"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Reserve Bank of India Act, 1934; started 1935.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-606",
+      "question": "Mahatma Gandhi was assassinated in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1947 January 1 as the only date"
+        },
+        {
+          "id": "B",
+          "text": "1950"
+        },
+        {
+          "id": "C",
+          "text": "1962"
+        },
+        {
+          "id": "D",
+          "text": "1948"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "30 January 1948, New Delhi.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-607",
+      "question": "Project Snow Leopard concerns the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "High Himalaya including Ladakh"
+        },
+        {
+          "id": "B",
+          "text": "Sundarbans mangrove only"
+        },
+        {
+          "id": "C",
+          "text": "Thar desert only"
+        },
+        {
+          "id": "D",
+          "text": "Western Ghats rainforest only as the sole habitat"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Flagship species of the cold desert.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-608",
+      "question": "Changpa pastoralists of Ladakh are associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goa carnival as their only identity"
+        },
+        {
+          "id": "B",
+          "text": "Punjab bhangra as their only identity"
+        },
+        {
+          "id": "C",
+          "text": "Kerala snake-boat races as their only identity"
+        },
+        {
+          "id": "D",
+          "text": "Pashmina goats / high-altitude herding"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Nomadic herders of Changthang.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-609",
+      "question": "The National Flag is hoisted at Srinagar’s Clock Tower / Lal Chowk historically as a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Republic / Independence civic site"
+        },
+        {
+          "id": "B",
+          "text": "only a desert fort in Jaisalmer"
+        },
+        {
+          "id": "C",
+          "text": "only a cricket stadium in Mohali"
+        },
+        {
+          "id": "D",
+          "text": "only a port in Kochi"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "City centre of Srinagar.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-610",
+      "question": "Temperate fruits (apple, pear, cherry) in Kashmir need:",
+      "options": [
+        {
+          "id": "A",
+          "text": "tidal mangrove water"
+        },
+        {
+          "id": "B",
+          "text": "equatorial heat with no winter"
+        },
+        {
+          "id": "C",
+          "text": "Chilling hours / winter cold"
+        },
+        {
+          "id": "D",
+          "text": "hot desert sand only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Weather, Climate, Crops",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Horticultural ecology.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Weather, Climate, Crops",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-611",
+      "question": "Walnut of Kashmir is an important:",
+      "options": [
+        {
+          "id": "A",
+          "text": "tea of Assam mislabelled as J&K’s only crop"
+        },
+        {
+          "id": "B",
+          "text": "iron ore of Odisha mislabelled"
+        },
+        {
+          "id": "C",
+          "text": "Dry-fruit horticulture product"
+        },
+        {
+          "id": "D",
+          "text": "petroleum crude"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K economy",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Export and domestic dry fruit.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K economy",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-612",
+      "question": "Dal Lake’s floating gardens are called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "kayals of Kerala as the Srinagar name"
+        },
+        {
+          "id": "B",
+          "text": "polders of the Netherlands as the local name in Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "terai of UP as the local name"
+        },
+        {
+          "id": "D",
+          "text": "Radh / floating vegetable gardens (locally known gardens on the lake)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Important Rivers & Lakes",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Lake agriculture / tourism.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Important Rivers & Lakes",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-613",
+      "question": "Hazratbal shrine on Dal is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a Buddhist stupa of Sanchi"
+        },
+        {
+          "id": "B",
+          "text": "only a church of Goa"
+        },
+        {
+          "id": "C",
+          "text": "a relic of Prophet Muhammad (as believed by devotees)"
+        },
+        {
+          "id": "D",
+          "text": "only a Jain temple of Palitana"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Important Kashmir shrine.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-614",
+      "question": "Raghunath Temple complex is a landmark of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kargil bazaar only"
+        },
+        {
+          "id": "B",
+          "text": "Leh bazaar only"
+        },
+        {
+          "id": "C",
+          "text": "Pahalgam market only"
+        },
+        {
+          "id": "D",
+          "text": "Jammu city"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "19th-century Dogra temple.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-615",
+      "question": "Baharana / Mubarak Mandi heritage is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jammu"
+        },
+        {
+          "id": "B",
+          "text": "Kargil"
+        },
+        {
+          "id": "C",
+          "text": "Leh"
+        },
+        {
+          "id": "D",
+          "text": "Gurez"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Dogra palaces.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-616",
+      "question": "The longest rail tunnel on USBRL includes the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Konkan’s only tunnel as USBRL"
+        },
+        {
+          "id": "B",
+          "text": "Chennai MRTS as USBRL"
+        },
+        {
+          "id": "C",
+          "text": "T-50 / Banihal–Qazigund related Himalayan tunnels (USBRL)"
+        },
+        {
+          "id": "D",
+          "text": "Kolkata Metro as USBRL"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Transport & Communication",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Pir Panjal rail tunnels.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Transport & Communication",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-617",
+      "question": "Qazigund is the gateway of the Kashmir valley from the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wagah only as Qazigund"
+        },
+        {
+          "id": "B",
+          "text": "Banihal / Jammu side"
+        },
+        {
+          "id": "C",
+          "text": "Attari only as Qazigund"
+        },
+        {
+          "id": "D",
+          "text": "Kanyakumari"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Anantnag district.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-618",
+      "question": "SAARC’s secretariat is in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kathmandu"
+        },
+        {
+          "id": "B",
+          "text": "Colombo only as the only seat"
+        },
+        {
+          "id": "C",
+          "text": "New Delhi only as the only seat"
+        },
+        {
+          "id": "D",
+          "text": "Islamabad only as the only seat"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Current Events of National and International importance",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "South Asian Association for Regional Cooperation.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Current Events of National and International importance",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-619",
+      "question": "J&K shares an international border / LoC with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Brazil"
+        },
+        {
+          "id": "B",
+          "text": "Spain"
+        },
+        {
+          "id": "C",
+          "text": "Nigeria"
+        },
+        {
+          "id": "D",
+          "text": "Pakistan (and China on the LAC in the Ladakh sector)"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Geostrategic location.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-620",
+      "question": "The Union Territory of Ladakh was created by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "India Independence Act only"
+        },
+        {
+          "id": "B",
+          "text": "J&K Reorganisation Act, 2019"
+        },
+        {
+          "id": "C",
+          "text": "GST Act"
+        },
+        {
+          "id": "D",
+          "text": "States Reorganisation Act, 1956 only"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Political & Physical divisions",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "1 UT of J&K + 1 UT of Ladakh.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Political & Physical divisions",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-621",
+      "question": "Himayat in J&K is mainly a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cricket league"
+        },
+        {
+          "id": "B",
+          "text": "skill development and placement scheme for youth"
+        },
+        {
+          "id": "C",
+          "text": "stamp duty waiver for palaces only"
+        },
+        {
+          "id": "D",
+          "text": "wildlife census"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Employment-oriented skilling for J&K youth.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-622",
+      "question": "UMEED (JKSRLM) is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "women’s self-help groups and rural livelihoods"
+        },
+        {
+          "id": "B",
+          "text": "only army recruitment"
+        },
+        {
+          "id": "C",
+          "text": "only airport construction"
+        },
+        {
+          "id": "D",
+          "text": "only film festivals"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "J&K State Rural Livelihoods Mission branding.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-623",
+      "question": "Back to Village (B2V) in J&K is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "outreach programme taking administration to panchayats"
+        },
+        {
+          "id": "B",
+          "text": "an RBI repo tool"
+        },
+        {
+          "id": "C",
+          "text": "a GST slab"
+        },
+        {
+          "id": "D",
+          "text": "a foreign tour package"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Governance at village level.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-624",
+      "question": "My Town My Pride is the urban counterpart of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "only a film award"
+        },
+        {
+          "id": "B",
+          "text": "only a private mall campaign"
+        },
+        {
+          "id": "C",
+          "text": "citizen outreach similar to Back to Village, for towns"
+        },
+        {
+          "id": "D",
+          "text": "only a sports league"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Urban local body outreach.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-625",
+      "question": "Kissan Khidmat Ghars are meant to provide:",
+      "options": [
+        {
+          "id": "A",
+          "text": "farmer-centric services at the local level"
+        },
+        {
+          "id": "B",
+          "text": "only passport seva as their only job"
+        },
+        {
+          "id": "C",
+          "text": "only urban metro tickets"
+        },
+        {
+          "id": "D",
+          "text": "only cinema halls"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Schemes of J&K",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Agriculture service centres in J&K.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Schemes of J&K",
+        "hard"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-626",
+      "question": "The Jhelum leaves the Kashmir valley near:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Baramulla / Uri axis"
+        },
+        {
+          "id": "B",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "C",
+          "text": "Kutch"
+        },
+        {
+          "id": "D",
+          "text": "Sundarbans"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Westward course towards Pakistan.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-627",
+      "question": "Lidder river is associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leh market"
+        },
+        {
+          "id": "B",
+          "text": "Kathua town only"
+        },
+        {
+          "id": "C",
+          "text": "Pahalgam / Anantnag"
+        },
+        {
+          "id": "D",
+          "text": "Jammu Tawi bank only"
+        }
+      ],
+      "correct_option": "C",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "easy",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "A Jhelum tributary of the Lidder valley.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "easy"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-628",
+      "question": "Shankaracharya Temple stands on a hill in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Udhampur town centre"
+        },
+        {
+          "id": "B",
+          "text": "Srinagar"
+        },
+        {
+          "id": "C",
+          "text": "Samba"
+        },
+        {
+          "id": "D",
+          "text": "Katra"
+        }
+      ],
+      "correct_option": "B",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "J&K UT",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Takht-e-Suleiman hill.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "J&K UT",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-629",
+      "question": "The Jallianwala Bagh massacre took place in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1919, Amritsar"
+        },
+        {
+          "id": "B",
+          "text": "1857 Meerut"
+        },
+        {
+          "id": "C",
+          "text": "1930 Dandi as the massacre site"
+        },
+        {
+          "id": "D",
+          "text": "1942 Mumbai only"
+        }
+      ],
+      "correct_option": "A",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Indian Culture, Heritage and Freedom Struggle",
+      "subtopic": "",
+      "difficulty": "medium",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "13 April 1919.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Indian Culture, Heritage and Freedom Struggle",
+        "medium"
+      ],
+      "pool_type": "post_primary",
+      "post_id": "accounts-assistant-finance"
+    },
+    {
+      "question_id": "faa-gk-630",
+      "question": "Kaziranga is famous for the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hangul as Kaziranga’s only animal"
+        },
+        {
+          "id": "B",
+          "text": "lion of Gir as Kaziranga’s animal"
+        },
+        {
+          "id": "C",
+          "text": "snow leopard as Kaziranga’s plains animal"
+        },
+        {
+          "id": "D",
+          "text": "one-horned rhinoceros"
+        }
+      ],
+      "correct_option": "D",
+      "subject": "General Knowledge with special reference to J&K UT",
+      "topic": "Environment, Ecology & Bio-diversity",
+      "subtopic": "",
+      "difficulty": "hard",
+      "year": "2025",
+      "exam": "Accounts Assistant (Finance)",
+      "explanation": "Assam; contrast with Dachigam’s hangul.",
+      "verification_status": "verified",
+      "source": "JKSSB FAA syllabus (Advt. 10 of 2025)",
+      "tags": [
+        "General Knowledge with special reference to J&K UT",
+        "Environment, Ecology & Bio-diversity",
         "hard"
       ],
       "pool_type": "post_primary",
