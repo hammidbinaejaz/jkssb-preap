@@ -125,10 +125,11 @@ function siteGateMarkup() {
         <input
           id="site-gate-password"
           class="site-gate__input"
-          type="password"
+          type="text"
           name="password"
-          autocomplete="current-password"
+          autocomplete="off"
           inputmode="numeric"
+          placeholder="Enter access code"
           required
         />
         <p id="site-gate-error" class="site-gate__error" hidden>That code is not correct.</p>

@@ -1,5 +1,5 @@
 /* Offline shell for JKSSB PREP */
-const CACHE = 'jkssb-prep-v8';
+const CACHE = 'jkssb-prep-v9';
 const CORE = [
   './',
   './index.html',

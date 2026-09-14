@@ -108,7 +108,7 @@ function runTests() {
     }))
     .then(() => test('service worker caches the gate script', () => {
       const sw = fs.readFileSync(path.join(__dirname, '..', 'sw.js'), 'utf8');
-      assert(/jkssb-prep-v8/.test(sw), 'cache name must bump so old pages are dropped');
+      assert(/jkssb-prep-v9/.test(sw), 'cache name must bump so old pages are dropped');
       assert(/\.\/js\/gate\.js/.test(sw), 'offline cache must include gate.js');
       assert(/isPage/.test(sw), 'HTML navigations must prefer the network');
     }))
